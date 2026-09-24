@@ -1,5 +1,5656 @@
 [
  {
+  "repo": "themartiano/luz",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "matsuoka-601/particles4all",
+  "categories": [
+   "rendering",
+   "motion"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "tchauffi/rust-raytracer",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "sebbbi/nographicsapi",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "twenmod/volumarcher",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "a-sumo/opal-pathtracer",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "layoutitstudio/polycss",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "bring-shrubbery/ml-sharp-web",
+  "categories": [
+   "3d",
+   "ai-ml"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "jamestkiernan/webgpu-voxel-raymarching",
+  "categories": [
+   "3d",
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "justiny7/pigs",
+  "categories": [
+   "3d",
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "adam-cad/cadam",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "albertaz1992/every-qrcode",
+  "categories": [
+   "3d",
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "maloyan/manim-web",
+  "categories": [
+   "motion",
+   "explainers",
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "xenova/infinite-block-illusion",
+  "categories": [
+   "motion",
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "xloveee/jiggle-physics",
+  "categories": [
+   "motion"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "btahir/react-kino",
+  "categories": [
+   "motion",
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "lumberjacque/loadersz-core",
+  "categories": [
+   "motion"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "posecode-dev/posecode",
+  "categories": [
+   "motion",
+   "3d"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "momciloo/fun-with-clip-path",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "vorpus/performativeUI",
+  "categories": [
+   "interaction",
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "killedbyapixel/gatelessgate",
+  "categories": [
+   "interaction",
+   "3d"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "willmeyers/window-art",
+  "categories": [
+   "interaction",
+   "motion",
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "1etu/nos4",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "akashtdev/iphone-duo-animation",
+  "categories": [
+   "interaction",
+   "motion"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "carpdiem/ember",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "loretta1982/xenia",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "alain00/blobatar",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "alphapixel/slughorn",
+  "categories": [
+   "design",
+   "rendering"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "yapstudios/sfsym",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "unable12/codebase-posters",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "nicholas-l-johnson/flip-card",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "minimaxir/ballin",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "narciscalin/galaxy-engine",
+  "categories": [
+   "simulation",
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "matsuoka-601/splash",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "kromtec/vivarium",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "smoothyy3/tardigrade",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "world-grow/worldgrow",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "davismk3/plate-local-river-generation",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "josefalbers/zigon",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "mooss/noisy",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "lpmitchell/advancedterrainerosion",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "killedbyapixel/sp13ktra",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "aatishb/patterncollider",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "bntre/curvedspaceshader",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "sekqies/complex-plotter",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "xcontcom/billiard-fractals",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "runevision/dither3d",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "edobrb/mandelbrot",
+  "categories": [
+   "math"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "kvsankar/moon-mission",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "anwoy/mycudaproject",
+  "categories": [
+   "science",
+   "simulation"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "xingyzt/fire",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "darkstar1982/orbidium",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "david-oconnor/daedalus",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "vangelov/modern-speck",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "open-energy-transition/grid2poster",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "s-macke/test-drive-3-maps",
+  "categories": [
+   "maps",
+   "retro",
+   "security"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "h2337/connmap",
+  "categories": [
+   "maps",
+   "networks",
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "originalankur/maptoposter",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "llopisdon/skies-adsb",
+  "categories": [
+   "maps",
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "me93-ghb/worldburn",
+  "categories": [
+   "maps",
+   "science"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "KaijuEngine/kaiju",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ViciousSquid/Fio",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ArcadeMakerSources/ArcadeMaker",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "mystralengine/mystralnative",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "BlackMATov/evolved.lua",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "mlange-42/ark",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "Kuberwastaken/backdooms",
+  "categories": [
+   "games",
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "maciej-trebacz/tower-of-time-game",
+  "categories": [
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "thelowsunoverthemoon/NeuroPriest",
+  "categories": [
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "Kalcode/spaceprojectsim",
+  "categories": [
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "vkazanov/elcity",
+  "categories": [
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ricott1/rebels-in-the-sky",
+  "categories": [
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "datavorous/sameshi",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "google-deepmind/searchless_chess",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "koogle/mlx-playground",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "rvitorper/go-bt",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "mavdol/npc-neural-affect-matrix",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "adenta/fire_red_agent",
+  "categories": [
+   "game-ai"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "danalec/DMMSY-SSSP",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "NikolayS/PGSimCity",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ross39/new_bloom_filter_repo",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "lewj85/jessesort",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "nickponline/shreg",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "e-dant/salmagundi",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "igorlira/dirplayer-rs",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "AndreRenaud/gore",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "libsm64/libsm64",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "danterolle/tilf",
+  "categories": [
+   "retro",
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "katiahayati/lucasartsifier",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "kessler/gemma-gem",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "nathan-barry/tiny-diffusion",
+  "categories": [
+   "ai-ml",
+   "explainers"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "KittenML/KittenTTS",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "teamchong/turboquant-wasm",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "nikhilunni/demucs-rs",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ChartGPU/ChartGPU",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "reflex-dev/xy",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "BigBodyCobain/Shadowbroker",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "franktisellano/datatype",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "19-84/redd-archiver",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "patonw/leaves",
+  "categories": [
+   "dataviz",
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "lets-all-be-stupid-forever/circuit-artist",
+  "categories": [
+   "explainers",
+   "games"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "bntre/visual-lambda",
+  "categories": [
+   "explainers"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "andrewosh/cellarium",
+  "categories": [
+   "explainers"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "sql-hkr/tiny8",
+  "categories": [
+   "explainers"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "afska/emudevz",
+  "categories": [
+   "explainers"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "Dancode-188/synckit",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "vignesh07/babyshark",
+  "categories": [
+   "networks",
+   "devtools",
+   "security"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "pion/handoff",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "sambigeara/pollen",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "tailscale/tailcat",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "Maxteabag/sqlit",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "RohanAdwankar/oxdraw",
+  "categories": [
+   "devtools",
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "flamestro/deff",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "seeyebe/gmap",
+  "categories": [
+   "devtools",
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ramonvermeulen/whosthere",
+  "categories": [
+   "devtools",
+   "networks"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "hauntsaninja/git_bayesect",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "nullpxl/banrays",
+  "categories": [
+   "security",
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "adversis/tailsnitch",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "kageroumado/phosphene",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "bethington/ghidra-mcp",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "roscopeco/anos",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "dvir-biton/myraos",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "imtomt/ymawky",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "valdanylchuk/xcc700",
+  "categories": [
+   "systems",
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "luke8086/gentleos32",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "pandax381/xv6-riscv-net",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "arnegiacomo/fugleramme",
+  "categories": [
+   "hardware",
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "valdanylchuk/breezydemo",
+  "categories": [
+   "hardware",
+   "systems"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "francescopace/espectre",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "mafik/keyer",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "pegork/f32",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "kaipereira/overglade-badges",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "weeblabs/dspi",
+  "categories": [
+   "audio",
+   "hardware"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "ericlewis/libpo32",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "lfnoise/sapf",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "danja/dogalog",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "minimaxir/miditui",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "gpasquero/voog",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "steffest/dpaint-js",
+  "categories": [
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "groverburger/grobpaint",
+  "categories": [
+   "creative-tools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "useautumn/autumn",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "capsoftware/cap",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "frigadehq/trench",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "simstudioai/sim",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "colanode/colanode",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "abhinavxd/libredesk",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "vinceanalytics/vince",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "brightbeanxyz/brightbean-studio",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "polaroi8d/cactoide",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "harshit-dhanwalkar/asciicam",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "subatomicplanets/hellobinary",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "aravpanwar/half-life-templeos",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "neilblaze/url-dinogame",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "itsbryanman/albumfs",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "iluaii/fwm",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "adopi/wlgblock",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "rmichaelthomas/liminate",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "hunterirving/pico-crossing",
+  "categories": [
+   "random"
+  ],
+  "sources": [
+   "seed",
+   "social"
+  ]
+ },
+ {
+  "repo": "volotat/mini-AGI",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:Show HN",
+   "social:Lobsters",
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "carloslfu/slotstream",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "elyosh/OpenTIE",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "gioblu/NPC-Forge",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "experientiallabs/experiential",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "jeffhajewski/latticedb",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Sadpainy/Stuxnet",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "callbacked/kinesis",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "swimmingbrain/texbrain",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "marsbos/mador",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "gbin/defragger",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "godot-pty/gpty",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Tombert/office365_flake",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "trycua/cua",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "timgordontg/engrim",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "kelviq/tare",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "JamesRyanATX/fcbnerd",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "paradise-runner/toast",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "scastiel/kado",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "mirza-rizvi/ResolveHQ",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "ZSvirt/zsvirt",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "aru-labs/lossless-memory",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "antoineleclair/is-it-greg",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "hsfzxjy/npunlock",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:Show HN",
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "leodeim/vpsmon",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "pizza-bot-app/pizza-bot",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "ordewell/ordewell",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "greentfrapp/panel",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "karmanyaahm/budget-tools",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "ahmadpiran/restoredrill",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "OtoDock/oto-dock",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Atomburstofficial/geiger",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "openlayer-ai/jevals",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "zachsaw/graphify-csharp",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "naw103/foremerge",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "opslane/opslane",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "issacnitin/RealDiff",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "AlgorithmicResearchGroup/fnscribe",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "patriceckhart/hrdx",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "logimaxx/wg-admin",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "kvist-lang/kvist",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "AniketWathore/bolnee-chat",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "galaxy-io/filament",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "k7cfo/remove-your-data",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Tackx/c8-ass",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:Show HN",
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "themartiano/try-omarchy",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "mezmo/aura",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Alurith/jeff",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "General-Instinct/InstinctFlash",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "0xAX/BootLife",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "scaleninja/drivesync",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "behdad/gdocs-me-up",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "glukicov/slideops",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Ibtisam-Mohammad/Fly.exe",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "IndexFlowing/IndexFlow-core",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "sseshachala/conductai",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "SWUFE-DB-Group/TexLite",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "demeyer1/Autobot",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "Field-Logic-Ltd/ClaudeStatsBar",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "lovablelabs/oj",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "alpbahadur/49-IDE",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "theguysudo/ENZO",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "egma-ai/egma",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "sqliteai/warp",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "agamrossen/VolAnti",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "stachon/hc2html",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "thissayantan/frost-icon-theme",
+  "categories": [],
+  "sources": [
+   "social:Show HN"
+  ]
+ },
+ {
+  "repo": "zedeus/nitter",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "audacity/audacity",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "SenteLabsAI/OpenExecutive",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "ankidroid/Anki-Android",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "asciimoo/hister",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "ayghri/i-have-adhd",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "jaredpalmer/kev",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "iczelia/bzip3",
+  "categories": [
+   "algorithms"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "Lakr233/vphone-cli",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "jemalloc/jemalloc",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "GrapheneOS/Messaging",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "PhiloLabs/fable51-worlds",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "argonautlabsai/deltafin",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "stemdeckapp/stemdeck",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "xCuri0/ReBarUEFI",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "WordPress/wordpress-develop",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "f/jev-leftpad",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "astral-sh/uv",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "rh1tech/frank-386",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "enactic/OpenArm",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "cloudflare/security-audit-skill",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "anthropics/claude-code",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "openai/openai-python",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "kingroryg/turbokv",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "GraafHenk/numberwang",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "kennethwolters/litelm",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "Speedstu/CUDA-for-AMD-Windows",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "kyle-pena-nlp/jevchat",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "fordnox/e592d0f68b543fd044be8e6d040863a0",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "vinnylarouge/jevlike",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "fregacmols/RotaryCell",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "browserbase/stagehand",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "joshenders/c4960cec9c63a7b7d68ffa9543356c43",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "anthropics/fermats-last-theorem",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "anuj0456/OpenArch",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "adonis-singh/re4",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "nestrilabs/virtio-nvgpu",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "pydantic/httpx2",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "mindbox77/zxdesk",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "KodeMunkie/sm750hdmifb",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "geastack/examples",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "TauricResearch/TradingAgents",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "Foadsf/vintage-latex",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "runetes/maiao",
+  "categories": [],
+  "sources": [
+   "social:Hacker News",
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "lfarroco/ogre-battle-64-recomp",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "calmrocks/ai-engineer-notebooks",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "gauravapiscean/agentic-kv-cache",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "vllm-project/vllm",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "iczelia/balrogg",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "Amal-David/awesome-jev",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "browser-use/jev-ultrafast",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "stoix-dev/sefaz-webservices-postman",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "nefarius/vd_agent",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "ashemag/human-atlas",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:Hacker News",
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "awlevin/typesafe-computer-use",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "okf-memory/okf-agent-memory",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "FeralFirmware/TailTalk",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "trailofbits/coop",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "hawshemi/lg-c5-webos25-region-change",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "mk6i/open-oscar-server",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "Newspicel/sdrminusminus",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "WerWolv/riscv-emulator",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "rapiddweller/datamimic",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "mnh-jansson/open-battery-information",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "fugue-labs/monty-go",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "aardappel/goose",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "paveluv/e",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "openai/PrimeGaps186",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "Hebbian-Robotics/hflow",
+  "categories": [],
+  "sources": [
+   "social:Hacker News"
+  ]
+ },
+ {
+  "repo": "dtonon/squalk",
+  "categories": [],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "sorvi-platform/dekoodaaja",
+  "categories": [],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "triglav-os/gem",
+  "categories": [
+   "retro",
+   "systems"
+  ],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "BrettHallen/Radix_FW60",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "anderspitman/awesome-tunneling",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "ipython/xkcd-font",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "social:Lobsters"
+  ]
+ },
+ {
+  "repo": "cotera2024/Creepy-Face",
+  "categories": [
+   "interaction"
+  ],
+  "sources": [
+   "social:r/creativecoding"
+  ]
+ },
+ {
+  "repo": "beastreader/Genetic-DaVinci-",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "social:r/generative"
+  ]
+ },
+ {
+  "repo": "pablostanley/vackrooms",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "social:r/proceduralgeneration"
+  ]
+ },
+ {
+  "repo": "nicolasloizeau/loom",
+  "categories": [
+   "procgen",
+   "simulation"
+  ],
+  "sources": [
+   "social:r/proceduralgeneration",
+   "social:r/cellular_automata"
+  ]
+ },
+ {
+  "repo": "GeoCodeCrafter/Cave",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "social:r/proceduralgeneration"
+  ]
+ },
+ {
+  "repo": "whoashish115/space-colonization-algorithm",
+  "categories": [
+   "procgen"
+  ],
+  "sources": [
+   "social:r/proceduralgeneration"
+  ]
+ },
+ {
+  "repo": "Open-Source-Chandigarh/pyre",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "mikejernil/volumetric-render-engine",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "AgusDropOut/ShatterVox",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "1etu/MeltGL",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "KilledByAPixel/Golf13K",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "con2222/Dawn-Boids-3D",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "collateraris/VulkanLearn2",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "yatagai-mm/pcs",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "nelarius/vxray",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "TamasPetii/SynapseEngine",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "topaz1008/winray",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "topaz1008/win-ray",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "maxkemal/RayTrophi",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "toomuchvoltage/HighOmega-public",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "xRumi/yanGameEngine",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "whoashish115/hypertracer",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "floooh/sokol",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "KaruroChori/kd3",
+  "categories": [
+   "rendering"
+  ],
+  "sources": [
+   "social:r/GraphicsProgramming"
+  ]
+ },
+ {
+  "repo": "doldecomp/melee",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "deivid11/smash-web",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "jasonsturges/three-low-poly",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "tallslab/threeforge",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "AlbertKovtoun/Aero-Viz",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "WilliamLiu-1997/Gaussian-Splat-Lite",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "ctx-o1/toroidal-maze",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "wormholeportal/Makone",
+  "categories": [
+   "3d"
+  ],
+  "sources": [
+   "social:r/threejs"
+  ]
+ },
+ {
+  "repo": "aeuludag/CellularSwarm",
+  "categories": [
+   "simulation"
+  ],
+  "sources": [
+   "social:r/cellular_automata"
+  ]
+ },
+ {
+  "repo": "DasDarki/grit",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "social:r/godot"
+  ]
+ },
+ {
+  "repo": "tessarakkt/godot4-oceanfft",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "social:r/godot"
+  ]
+ },
+ {
+  "repo": "Rogotch/PlanetConstructor",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "social:r/godot"
+  ]
+ },
+ {
+  "repo": "Mantimestwo/Light-sprite-renderer",
+  "categories": [
+   "game-engines"
+  ],
+  "sources": [
+   "social:r/godot"
+  ]
+ },
+ {
+  "repo": "karlskarlsonatkarldotcom/Terra-Mira-Public",
+  "categories": [
+   "games",
+   "procgen"
+  ],
+  "sources": [
+   "social:r/roguelikedev"
+  ]
+ },
+ {
+  "repo": "zdiemer/vxp",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "jgemu/jgbuilds",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "KytyPS5/KytyPS5",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "emu-russia/pureikyubu",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "davidmonterocrespo24/qemu-ipod-classic",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "mattias800/prosper",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "florinp93/hells-gate-recomp",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "florinp93/xmd-recompiled",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/emulation"
+  ]
+ },
+ {
+  "repo": "bcc2528/quakegeneric-Win31",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/retrogamedev"
+  ]
+ },
+ {
+  "repo": "warrior-rockk/timmy-time-adventure",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/retrogamedev"
+  ]
+ },
+ {
+  "repo": "eaglesoftware777/neogeosdk",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/retrogamedev"
+  ]
+ },
+ {
+  "repo": "troyedwardsjr/z2rs",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "pwnedbygary/mupen64plus-ae-turnip",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "vgrichina/wine-assembly",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "luser-dr00g/8086",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "vjroba/portal",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "vjroba/portal_nes",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "coolbho3k/emibios",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "Cult-of-GBA/BIOS",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "hbofz/NeSLE",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "ysissoko/gb",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "ysissoko/gb_emu_esp32",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "hyperwilliam/chip8",
+  "categories": [
+   "retro"
+  ],
+  "sources": [
+   "social:r/EmuDev"
+  ]
+ },
+ {
+  "repo": "Loophole-LLC/Jayce",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "programasweights/programasweights-python",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning",
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "programasweights/compile-by-training",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "gyr0byte/ML-Foundations",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "RolandGao/gobench",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "pfekin/LARA",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "QLNI/SHADOW-50M-Instruct",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "roodriigoooo/drawing-machine",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "ivanmikhnenkov/tinydit",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "arnsri33/embedflow",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "SEBADA321/BadAppleRNN",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "optuna/rustuna",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "ra4ster/deepity",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "dronefreak/clearview",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "dronefreak/yolo26-rgb",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "xll0328/NIPS26-",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "aadya940/scikit-verify",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/MachineLearning"
+  ]
+ },
+ {
+  "repo": "bladedevoff/stuntd",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "tonyd2wild/MiMo-V2.6-Flash-DGX-Spark-Recipe",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "ggml-org/llama.cpp",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "lennartschoch/opencode-cache-compact",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "Random-Simulation/Dynamic-Quantiser",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "FlashML-org/FreeToken",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "anon761/freetoken",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "OpenEuroLLM/ComplexKDA",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "lordx64/phantom-kv",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "officialgr/agent-artificium",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "Micha0827/snapjudge",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "npanj/splash",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "npanj/splash-plus",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "incoai/splash",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "huggingface/diffusers",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "leDissolution/gewell",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "zai-org/ZCode",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "VakeDomen/DIY-Jev",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "theroyallab/tabbyAPI",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "ciprianveg/gb10-vllm",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "syv-ai/HyperQwen",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "lkarlslund/laya.cpp",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "n4ze3m/hmm",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "edwardyoon/focus-llama",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "QwenLM/Qwen-Image-2.1",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "peonist-ai/halogen-flash-server",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "thecarsonford-dotcom/deadgrid",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "wfzyx/von",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "Danmoreng/qwen3-8-27b-iq3-xxs-vs-bonsai",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "MiniMax-AI/minimax-code",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "noonghunna/club-3090",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "9r4n4y/ProjectsorSkills",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "on-panda/on-panda",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "KomputeProject/kompute",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "npanj/llama.cpp",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "clduab11/the-array",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "inclusionAI/Realtime-Venus",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "PrismML-Eng/Bonsai-demo",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "razorback16/openjev",
+  "categories": [
+   "ai-ml"
+  ],
+  "sources": [
+   "social:r/LocalLLaMA"
+  ]
+ },
+ {
+  "repo": "martj42/international_results",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "social:r/dataisbeautiful"
+  ]
+ },
+ {
+  "repo": "martj42/womens-international-results",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "social:r/dataisbeautiful"
+  ]
+ },
+ {
+  "repo": "cnc8/fifa-world-ranking",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "social:r/dataisbeautiful"
+  ]
+ },
+ {
+  "repo": "tryopendata/openchart",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "social:r/dataisbeautiful"
+  ]
+ },
+ {
+  "repo": "SammaVaco/us-recessions-vs-presidents",
+  "categories": [
+   "dataviz"
+  ],
+  "sources": [
+   "social:r/dataisbeautiful"
+  ]
+ },
+ {
+  "repo": "Ahordal/nyc-dashboard",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "social:r/gis"
+  ]
+ },
+ {
+  "repo": "GISBoost/easy-R5",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "social:r/gis"
+  ]
+ },
+ {
+  "repo": "mfcallahan/maps-region-switcher",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "social:r/gis"
+  ]
+ },
+ {
+  "repo": "geojupyter/jupytergis",
+  "categories": [
+   "maps"
+  ],
+  "sources": [
+   "social:r/gis"
+  ]
+ },
+ {
+  "repo": "lounge/sol",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "social:r/Physics"
+  ]
+ },
+ {
+  "repo": "lounge/sol_sim",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "social:r/Physics"
+  ]
+ },
+ {
+  "repo": "Gleyn-debug/quantum",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "social:r/Physics"
+  ]
+ },
+ {
+  "repo": "Gleyn-debug/quantum_atom_simulation",
+  "categories": [
+   "science"
+  ],
+  "sources": [
+   "social:r/Physics"
+  ]
+ },
+ {
+  "repo": "MG1937/ASC",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "vladtrc/iw4L",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "moio9/NFS-Online-Server",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "doctormord/Philips-PM-5139-5138A-5136-Firmware-Project",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "chillee151/SleepBuds2Revival",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "mein-0/KasperMeow",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "karolak6612/open-grn",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "nicologiuliani6/cavium-cn6640-snic10e-octeon-ii-nic",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "andrezaiats/zamphenom",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "gcarmix/hexwalk",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "ioallocate/imMapper",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "pedrocatalao/skyroads-mac",
+  "categories": [
+   "security"
+  ],
+  "sources": [
+   "social:r/ReverseEngineering"
+  ]
+ },
+ {
+  "repo": "CTRL-F-0rg3/TrangorgeOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "robstat7/Raam",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "jrmenzel/qtracy",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "jrmenzel/vimix",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "jrmenzel/vimix_os",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "openrfs-org/OpenRFS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "brian-card/NanoOs",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "cpplover0/Orange",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "sasdallas/Ethereal",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "red-mutt/lytlnyblOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "mathewnd/astral",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "NtinosTheGamer2324/ModuOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "Mazin-O3/cpm-neo",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "thosdv63/RustyOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "ahmedbarakat207/LiteBSD",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "ahmedbarakat207/c-lite",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "outofsyncsh/fastfetchlinux",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "Randozart/OuroborOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "ArTicZera/NovaOS",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/osdev"
+  ]
+ },
+ {
+  "repo": "obabec/rust-mqtt",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "zk4x/zyx",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "tomtomwombat/cold-string",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "pgdogdev/pg",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "pgdogdev/pg_raw_parse",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "eclipse-iceoryx/iceoryx2",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "artemtsitronov/ravioli",
+  "categories": [
+   "systems",
+   "devtools"
+  ],
+  "sources": [
+   "social:r/rust",
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "rustcoreutils/posixutils-rs",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "roeeshoshani/tokio_rcu",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "open-telemetry/opentelemetry-rust-contrib",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "open-telemetry/otel-arrow",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "vortex-data/vortex",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "zdragg/rotomdex",
+  "categories": [
+   "systems",
+   "devtools"
+  ],
+  "sources": [
+   "social:r/rust",
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "subamanis/mezura",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "AlDanial/cloc",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "XAMPPRocky/tokei",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "boyter/scc",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "loc-conformance/linebench",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "mathematic-inc/confset",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "kb019/sprout",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "programmersd21/mew",
+  "categories": [
+   "systems",
+   "devtools"
+  ],
+  "sources": [
+   "social:r/rust",
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "ExtraBinoss/argui",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "Auto-Explore/GitComet",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "Viterkim/er",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "rust-lang/cargo",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "asny/three-d",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "pryty26/rust-pt",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "castlesp5/blur",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "MarcVivas/fluid-simulation",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "rust-lang/rust",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "Fluggs/whalemail",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "osanshouo/latex2mathml",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "tmke8/math-core",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "Abhijeet-Gautam5702/femto",
+  "categories": [
+   "systems"
+  ],
+  "sources": [
+   "social:r/rust"
+  ]
+ },
+ {
+  "repo": "thebanri/limoni",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "kanakOS01/gravitype",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "jaidaken/ferrosonic",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "acmagn/ratune",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "codesoap/rmp",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "damicrez/logfine",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "ynqa/vy",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "ynqa/jnv",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "01mf02/jaq",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "ynqa/promkit",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "padovanl/portop",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "capocasa/viking",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "mkhamat/gopherttype",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "Veitangie/spinq",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "pelazas/p2pmux",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "MaheshBhushan/yt-music-cli",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "gbkorr/clouds.c",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "StrayFeral/tuiweathergirl",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "opmr0/zeitx",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "skammer/somars",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "skammer/somars-remote",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "IvelOt/hal-9001",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "roosta/fif",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "BurntSushi/ripgrep",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/commandline"
+  ]
+ },
+ {
+  "repo": "beehive-lab/TornadoVM",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "social:r/programming"
+  ]
+ },
+ {
+  "repo": "jdan/98.css",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "social:r/webdev"
+  ]
+ },
+ {
+  "repo": "flyfish-dev/file-viewer",
+  "categories": [
+   "design"
+  ],
+  "sources": [
+   "social:r/webdev"
+  ]
+ },
+ {
+  "repo": "JD-Xi-apps/Tutorials",
+  "categories": [
+   "audio"
+  ],
+  "sources": [
+   "social:r/synthesizers"
+  ]
+ },
+ {
+  "repo": "boramerts/zarmatik-dnd-dice-roller",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "DaveBben/esp32-llm",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino",
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "slvDev/esp32-ai",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino",
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "iamankushpandit/esp",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino",
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "iamankushpandit/esp_ai",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino",
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "iamankushpandit/Gume",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "Fenish/decky",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino",
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "ampixa/sanoTTS",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "WesG1/Instrument-Panel",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "Crimsonov/Quadruped-Expie",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "TechTronicsEngineering/AutoPlex7",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "TechTronicsEngineering/AutoPlex14",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "JimHeaney/ESP-Config",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "one-for-all/four-legged",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "Ishu1519/TWS-A2DP-Mode",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "captainchapster/Entropy32",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/arduino"
+  ]
+ },
+ {
+  "repo": "FaiyuetCik/mini-game-console-snake",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "PartiallyFrozen/tilt-a-tron",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "cubecoders/jet",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "alexkid77/openlara",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "alexkid77/openlara_esp32p4",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "albanpetit/paperflux",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "sutharsan-gahm/project-savi",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "ubopod/ubo",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "ubopod/ubo_app",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "fabkury/p64",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "openinfrared/database",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Twotoz/C5VRX",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "avionicharshit-byte/tinycue",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "FaiyuetCik/XIAO_147_Voice_Assistant",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "aedile/DIABLITO",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "mathiaskoefoed/step-feeder",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "deiu/nibble",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "webzf/esp32-touchscreen-selector",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "icu6t6/DevilsLAB",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "fcavalcantirj/droidputter",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "arthurlawson/self-balancing-robot-v2",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "khlebobul/esp",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "khlebobul/esp_pomodoro_timer",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mi-Bee-Studio/ai-thinker-esp32-cam",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mi-Bee-Studio/seeed-esp32s3-cam",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mi-Bee-Studio/esp32s3-n16r8-cam",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mi-Bee-Studio/luatos-esp32s3-a10-camera",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "BruteSource/YAMA",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "nasbarok/desknode",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mraanderson/esp32-poe-lldp",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "fcavalcantirj/aa6e87338ff86e5e9eefee0d3da5fa77",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "fcavalcantirj/62df410d58526d3973c42b0d50119d7c",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "CircuitGhost/drosophila-connectome-esp32",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Mejolov24/ESP32CompositeVideoPlus",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "marciot/ESP32CompositeColorVideo",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "rossumur/esp",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "rossumur/esp_8_bit",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "lepczynski-cloud/ESP32-PC-Control-Deck",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "mickraa/table-map",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "griches/smart-remote-plus-cyd",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "CircuitGhost/skydesk",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "ajaz-anadiyan/Project-LOKI",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "panshaogui/L2C",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "BruteSource/oregontrail-s3",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "Maxwolf/OregonTrail",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "GalusPeres/HomeTiles",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "thetopnach/cielotrack-receiver",
+  "categories": [
+   "hardware"
+  ],
+  "sources": [
+   "social:r/esp32"
+  ]
+ },
+ {
+  "repo": "jaydeepappas/homelab",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/homelab"
+  ]
+ },
+ {
+  "repo": "matthart1983/netwatch",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/homelab",
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "KeremKalyoncu/maritime-watch",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/homelab"
+  ]
+ },
+ {
+  "repo": "mulgadc/spinifex",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "Gimanh/taskview-community",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "MODSetter/SurfSense",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "TraceApps/lifttrace",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "omnibus-library/omnibus",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "DialmasterOrg/Youtarr",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "warp-tech/warpgate",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "relaticle/relaticle",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "jo-duchan/tapflow",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "m4rkw/l0destar",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "hunter-read/grimoire",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "Dispatcharr/Dispatcharr",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "fosrl/pangolin",
+  "categories": [
+   "networks"
+  ],
+  "sources": [
+   "social:r/selfhosted"
+  ]
+ },
+ {
+  "repo": "sysrpl/pianoroll",
+  "categories": [],
+  "sources": [
+   "social:r/opensource"
+  ]
+ },
+ {
+  "repo": "metalsharp/MetalSharp",
+  "categories": [],
+  "sources": [
+   "social:r/opensource"
+  ]
+ },
+ {
+  "repo": "filedcom/opentax",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "karpathy/autoresearch",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "milanofthe/sanity",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "LISK819129/GitComment",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "pxdritz1/BrainShake",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "merijjeyn/jive.",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "Sev7eNup/NodePilot",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "slate20/percolate",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "farshed/wu",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "aviaryan/awesome-ai-games",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "carlosplanchon/enodia",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "stffnb/edentext",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "doctorFrankinshtane/life",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "doctorFrankinshtane/life_quests",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "egofree71/via-helvetica",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "SethRobinson/Patchy",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "robert-dean/deadair",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "Sadsnake1/cursor-smith",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "jotalac/git-writer",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "alithw/YTSpoofingStream",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "itskie/friday",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "clegginabox/salience-macos",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "Yoosseph/pc-anatomy",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "AbdoKnbGit/tau",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "avdept/JellyBoxPlayer",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "wmahfoudh/oryx",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "TautvydasDerzinskas/Thingport",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "F-kItShipIt/wngmn",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "Drakonis96/nodus",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "Derssa/Torollo",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "wundercorp/loki",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "MakdumIbrohim/commit-brick-breaker",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "DuarteSantos8/openGym",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
+  "repo": "NousResearch/hermes-agent",
+  "categories": [],
+  "sources": [
+   "social:r/coolgithubprojects"
+  ]
+ },
+ {
   "repo": "evidentlyai/evidently",
   "categories": [
    "ai-ml"
@@ -697,16 +6348,6 @@
   ]
  },
  {
-  "repo": "Maxteabag/sqlit",
-  "categories": [
-   "devtools"
-  ],
-  "sources": [
-   "awesome:rothgar/awesome-tuis",
-   "topic:tui"
-  ]
- },
- {
   "repo": "jonas/tig",
   "categories": [
    "devtools"
@@ -953,7 +6594,8 @@
   ],
   "sources": [
    "awesome:rothgar/awesome-tuis",
-   "topic:cli"
+   "topic:cli",
+   "social:r/commandline"
   ]
  },
  {
@@ -5113,17 +10755,6 @@
   ]
  },
  {
-  "repo": "NarcisCalin/Galaxy-Engine",
-  "categories": [
-   "interaction",
-   "science"
-  ],
-  "sources": [
-   "topic:interactive",
-   "topic:space"
-  ]
- },
- {
   "repo": "tidalcycles/strudel",
   "categories": [
    "audio"
@@ -5751,17 +11382,6 @@
   "sources": [
    "topic:cad",
    "starred-by:amandaghassaei"
-  ]
- },
- {
-  "repo": "Adam-CAD/CADAM",
-  "categories": [
-   "3d",
-   "hardware"
-  ],
-  "sources": [
-   "topic:cad",
-   "topic:robotics"
   ]
  },
  {
@@ -6990,17 +12610,6 @@
   "sources": [
    "topic:maps",
    "topic:gis"
-  ]
- },
- {
-  "repo": "BigBodyCobain/Shadowbroker",
-  "categories": [
-   "maps",
-   "security"
-  ],
-  "sources": [
-   "topic:gis",
-   "topic:osint"
   ]
  },
  {
@@ -8559,17 +14168,6 @@
   ]
  },
  {
-  "repo": "datavorous/sameshi",
-  "categories": [
-   "retro",
-   "game-ai"
-  ],
-  "sources": [
-   "topic:demoscene",
-   "query:chess engine stars:>300"
-  ]
- },
- {
   "repo": "pixicoder/PS",
   "categories": [
    "retro",
@@ -8812,7 +14410,8 @@
   ],
   "sources": [
    "topic:terminal",
-   "topic:cli"
+   "topic:cli",
+   "social:r/commandline"
   ]
  },
  {
@@ -13180,16 +18779,6 @@
  },
  {
   "repo": "guinetik/penrose-js",
-  "categories": [
-   "procgen",
-   "simulation"
-  ],
-  "sources": [
-   "awesome:jasonwebb/morphogenesis-resources"
-  ]
- },
- {
-  "repo": "aatishb/patterncollider",
   "categories": [
    "procgen",
    "simulation"
@@ -29490,7 +35079,8 @@
    "devtools"
   ],
   "sources": [
-   "awesome:rothgar/awesome-tuis"
+   "awesome:rothgar/awesome-tuis",
+   "social:Hacker News"
   ]
  },
  {
@@ -30899,15 +36489,6 @@
  },
  {
   "repo": "lxgr-linux/pokete",
-  "categories": [
-   "devtools"
-  ],
-  "sources": [
-   "awesome:rothgar/awesome-tuis"
-  ]
- },
- {
-  "repo": "ricott1/rebels-in-the-sky",
   "categories": [
    "devtools"
   ],
@@ -33045,7 +38626,8 @@
    "devtools"
   ],
   "sources": [
-   "awesome:rothgar/awesome-tuis"
+   "awesome:rothgar/awesome-tuis",
+   "social:r/commandline"
   ]
  },
  {
@@ -34711,7 +40293,8 @@
    "rendering"
   ],
   "sources": [
-   "topic:webgpu"
+   "topic:webgpu",
+   "social:Hacker News"
   ]
  },
  {
@@ -34761,15 +40344,6 @@
  },
  {
   "repo": "0hq/WebGPT",
-  "categories": [
-   "rendering"
-  ],
-  "sources": [
-   "topic:webgpu"
-  ]
- },
- {
-  "repo": "ChartGPU/ChartGPU",
   "categories": [
    "rendering"
   ],
@@ -38919,15 +44493,6 @@
  },
  {
   "repo": "k-ye/PbfVs",
-  "categories": [
-   "simulation"
-  ],
-  "sources": [
-   "topic:fluid-simulation"
-  ]
- },
- {
-  "repo": "matsuoka-601/Particles4All",
   "categories": [
    "simulation"
   ],

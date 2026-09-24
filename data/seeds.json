@@ -2948,6 +2948,3521 @@
    "language": "C",
    "licence_recorded": "unknown",
    "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "themartiano/luz",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Zero-dependency C++ path tracer",
+   "note": "Clean from-scratch C++20 path tracer with GI, BVH and adaptive sampling; big r/GraphicsProgramming hit.",
+   "technique": "Monte Carlo path tracing with BVH acceleration and adaptive sampling",
+   "demo": null,
+   "wow": 2,
+   "stars": 417,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1u79ryw/",
+    "points": 998,
+    "date": "2026-06-16"
+   }
+  },
+  {
+   "repo": "matsuoka-601/particles4all",
+   "categories": [
+    "rendering",
+    "motion"
+   ],
+   "idea": "WebGPU fluid + rigid bodies",
+   "note": "Real-time unified fluid and rigid-body particle sim running in the browser.",
+   "technique": "Position Based Dynamics unified particle solver in WebGPU compute shaders",
+   "demo": "https://particles4all.netlify.app/",
+   "wow": 2,
+   "stars": 99,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1vvbqng/",
+    "points": 373,
+    "date": "2026-08-22"
+   }
+  },
+  {
+   "repo": "tchauffi/rust-raytracer",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Rust path tracer on any GPU",
+   "note": "One path tracer with CPU, GPU and real-time interactive back ends, runnable in the browser.",
+   "technique": "Path tracing on the GPU via compute so it runs natively and on the web",
+   "demo": "https://tchauffi.github.io/rust-raytracer/",
+   "wow": 2,
+   "stars": 88,
+   "language": "Rust",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45798871",
+    "points": 95,
+    "date": "2025-11-03"
+   }
+  },
+  {
+   "repo": "sebbbi/nographicsapi",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "No Graphics API",
+   "note": "Sebastian Aaltonen's reference for a radically simplified bindless GPU API.",
+   "technique": "Vulkan 1.4 bindless rendering driven by raw GPU pointers with minimal pipeline state",
+   "demo": "https://www.sebastianaaltonen.com/blog/no-graphics-api",
+   "wow": 2,
+   "stars": 1500,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1w8ydc3/",
+    "points": 186,
+    "date": "2026-09-06"
+   }
+  },
+  {
+   "repo": "twenmod/volumarcher",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Nubis-style cloud renderer",
+   "note": "Volumetric cloud renderer with an accompanying write-up of how it was built.",
+   "technique": "Raymarched volumetric clouds after Guerrilla's Nubis, in DirectX 12 MiniEngine",
+   "demo": "https://www.jacktollenaar.top/articles/clouds.html",
+   "wow": 2,
+   "stars": 34,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qb4qh0/",
+    "points": 223,
+    "date": "2026-01-12"
+   }
+  },
+  {
+   "repo": "a-sumo/opal-pathtracer",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Opal path tracer",
+   "note": "Browser path tracer that renders the structural colour play of opals.",
+   "technique": "Spectral-sampling WebGL path tracing of structural colour",
+   "demo": "https://nano-optics-opal-pathtracer.pages.dev/",
+   "wow": 2,
+   "stars": 4,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1tjgf1l/",
+    "points": 325,
+    "date": "2026-05-21"
+   }
+  },
+  {
+   "repo": "layoutitstudio/polycss",
+   "categories": [
+    "3d"
+   ],
+   "idea": "CSS 3D engine (ex-VoxCSS)",
+   "note": "Renders polygon meshes and voxels as plain DOM elements, no WebGL.",
+   "technique": "Per-polygon HTML elements positioned with CSS matrix3d transforms",
+   "demo": "https://polycss.com",
+   "wow": 2,
+   "stars": 753,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48356946",
+    "points": 80,
+    "date": "2026-06-01"
+   }
+  },
+  {
+   "repo": "bring-shrubbery/ml-sharp-web",
+   "categories": [
+    "3d",
+    "ai-ml"
+   ],
+   "idea": "Image to Gaussian splat in the browser",
+   "note": "Runs Apple's SHARP single-image-to-splat model entirely client side.",
+   "technique": "ONNX Runtime Web inference producing 3D Gaussian splats from one photo",
+   "demo": "https://ml-sharp-web.vercel.app/",
+   "wow": 2,
+   "stars": 297,
+   "language": "TypeScript",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47995037",
+    "points": 185,
+    "date": "2026-05-03"
+   }
+  },
+  {
+   "repo": "jamestkiernan/webgpu-voxel-raymarching",
+   "categories": [
+    "3d",
+    "rendering"
+   ],
+   "idea": "WebGPU voxel raymarcher",
+   "note": "Small, readable voxel raymarcher that runs in the browser.",
+   "technique": "Voxel ray marching over a dense octree in WebGPU",
+   "demo": "https://webgpu-voxel-raymarching.vercel.app/",
+   "wow": 2,
+   "stars": 9,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1tx0c03/",
+    "points": 153,
+    "date": "2026-06-04"
+   }
+  },
+  {
+   "repo": "justiny7/pigs",
+   "categories": [
+    "3d",
+    "rendering"
+   ],
+   "idea": "Gaussian splats on a Pi Zero",
+   "note": "Near-real-time Gaussian splat rendering on a Raspberry Pi Zero W, bare metal.",
+   "technique": "Bare-metal splat rasterisation using VideoCore IV QPU assembly",
+   "demo": null,
+   "wow": 2,
+   "stars": 5,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1tzg38b/",
+    "points": 62,
+    "date": "2026-06-07"
+   }
+  },
+  {
+   "repo": "adam-cad/cadam",
+   "categories": [
+    "3d"
+   ],
+   "idea": "Text-to-CAD web app",
+   "note": "Open-source text/image to parametric 3D model app with live preview.",
+   "technique": "LLM-generated parametric CAD code rendered in a browser 3D viewer",
+   "demo": "https://adam.new/cadam",
+   "wow": 2,
+   "stars": 5200,
+   "language": "TypeScript",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45140921",
+    "points": 179,
+    "date": "2025-09-05"
+   }
+  },
+  {
+   "repo": "albertaz1992/every-qrcode",
+   "categories": [
+    "3d",
+    "design"
+   ],
+   "idea": "Every QR code grows a 3D world",
+   "note": "Deterministic 3D tree and terrain sculptures grown from any URL's QR code.",
+   "technique": "Seeded procedural geometry from QR modules, rendered with WebGPU",
+   "demo": "https://every-qrcode.com/",
+   "wow": 2,
+   "stars": 27,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/creativecoding",
+    "url": "https://www.reddit.com/r/creativecoding/comments/1w32pls/",
+    "points": 149,
+    "date": "2026-08-31"
+   }
+  },
+  {
+   "repo": "maloyan/manim-web",
+   "categories": [
+    "motion",
+    "explainers",
+    "creative-tools"
+   ],
+   "idea": "Manim in TypeScript",
+   "note": "3Blue1Brown-style maths animations running natively in the browser.",
+   "technique": "TypeScript port of Manim's scene/mobject animation model",
+   "demo": "https://maloyan.github.io/manim-web/",
+   "wow": 2,
+   "stars": 481,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47155375",
+    "points": 140,
+    "date": "2026-02-25"
+   }
+  },
+  {
+   "repo": "xenova/infinite-block-illusion",
+   "categories": [
+    "motion",
+    "rendering"
+   ],
+   "idea": "Infinite rolling block illusion",
+   "note": "Hypnotic endless loop of rolling cubes; tiny, study-sized.",
+   "technique": "Seamless recursive loop animation in Three.js with the WebGPU renderer",
+   "demo": "https://xenova-infinite-block-illusion.static.hf.space/",
+   "wow": 2,
+   "stars": 15,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/threejs",
+    "url": "https://www.reddit.com/r/threejs/comments/1w0tj0t/",
+    "points": 173,
+    "date": "2026-08-28"
+   }
+  },
+  {
+   "repo": "xloveee/jiggle-physics",
+   "categories": [
+    "motion"
+   ],
+   "idea": "Soft-body jiggle physics",
+   "note": "Open reference for secondary-motion jiggle with an interactive demo.",
+   "technique": "Weight-painted regions driving damped spring bones",
+   "demo": "https://xloveee.github.io/jiggle-physics/",
+   "wow": 2,
+   "stars": 40,
+   "language": "JavaScript",
+   "licence_recorded": "BSD-3-Clause",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48362115",
+    "points": 52,
+    "date": "2026-06-01"
+   }
+  },
+  {
+   "repo": "btahir/react-kino",
+   "categories": [
+    "motion",
+    "interaction"
+   ],
+   "idea": "Cinematic scroll storytelling",
+   "note": "Scroll-driven scenes for React with a sub-1KB core.",
+   "technique": "Scroll progress mapped to pinned scenes and timeline animations",
+   "demo": "https://react-kino.dev",
+   "wow": 2,
+   "stars": 218,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47204570",
+    "points": 19,
+    "date": "2026-03-01"
+   }
+  },
+  {
+   "repo": "lumberjacque/loadersz-core",
+   "categories": [
+    "motion"
+   ],
+   "idea": "160 canvas loaders",
+   "note": "Big library of canvas loading animations as one web component.",
+   "technique": "Canvas 2D procedural loaders packaged as a dependency-free Web Component",
+   "demo": "https://loadersz.vercel.app/",
+   "wow": 2,
+   "stars": 146,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1w06zao/",
+    "points": 32,
+    "date": "2026-08-27"
+   }
+  },
+  {
+   "repo": "posecode-dev/posecode",
+   "categories": [
+    "motion",
+    "3d"
+   ],
+   "idea": "A language for human movement",
+   "note": "Write body movement as text and see it performed by a 3D figure.",
+   "technique": "Text DSL parsed and validated into poses, rendered with Three.js",
+   "demo": "https://www.posecode.org/",
+   "wow": 2,
+   "stars": 115,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0 / AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/creativecoding",
+    "url": "https://www.reddit.com/r/creativecoding/comments/1ux54ph/",
+    "points": 84,
+    "date": "2026-07-15"
+   }
+  },
+  {
+   "repo": "momciloo/fun-with-clip-path",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Clip-path menu reveal",
+   "note": "Tiny HTML+CSS recreation of a slick navigation reveal; easy to study.",
+   "technique": "Animated CSS clip-path shapes for a menu reveal transition",
+   "demo": "https://fun-with-clip-path.vercel.app",
+   "wow": 2,
+   "stars": 178,
+   "language": "CSS",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46925811",
+    "points": 141,
+    "date": "2026-02-07"
+   }
+  },
+  {
+   "repo": "vorpus/performativeUI",
+   "categories": [
+    "interaction",
+    "design"
+   ],
+   "idea": "Performative-UI",
+   "note": "Satirical React kit of every startup design trope; a big HN hit.",
+   "technique": "Copy-paste React components parodying fashionable UI patterns",
+   "demo": "https://performative-ui.vercel.app",
+   "wow": 2,
+   "stars": 900,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48445554",
+    "points": 1181,
+    "date": "2026-06-08"
+   }
+  },
+  {
+   "repo": "killedbyapixel/gatelessgate",
+   "categories": [
+    "interaction",
+    "3d"
+   ],
+   "idea": "Gateless Gate in 3D",
+   "note": "Interactive 3D edition of a Zen koan book with generative dioramas.",
+   "technique": "Three.js generative dioramas paired with narration and a meditation timer",
+   "demo": "https://killedbyapixel.github.io/GatelessGate/",
+   "wow": 2,
+   "stars": 28,
+   "language": "JavaScript",
+   "licence_recorded": "CC BY-NC-ND 4.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/threejs",
+    "url": "https://www.reddit.com/r/threejs/comments/1vqiahc/",
+    "points": 211,
+    "date": "2026-08-17"
+   }
+  },
+  {
+   "repo": "willmeyers/window-art",
+   "categories": [
+    "interaction",
+    "motion",
+    "creative-tools"
+   ],
+   "idea": "Art with desktop windows",
+   "note": "Live-code visual scenes out of real OS windows.",
+   "technique": "Python library that moves, sizes and colours native desktop windows as pixels",
+   "demo": "https://willmeyers.github.io/window-art/",
+   "wow": 2,
+   "stars": 72,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46683858",
+    "points": 37,
+    "date": "2026-01-19"
+   }
+  },
+  {
+   "repo": "1etu/nos4",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "iOS 4 in the browser",
+   "note": "Detailed skeuomorphic iOS 4 recreation with 23 working apps.",
+   "technique": "SolidJS recreation of iOS 4 UI, gestures and apps",
+   "demo": "https://nos4.fun",
+   "wow": 2,
+   "stars": 41,
+   "language": "TypeScript",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/webdev",
+    "url": "https://www.reddit.com/r/webdev/comments/1w7oa77/",
+    "points": 226,
+    "date": "2026-09-05"
+   }
+  },
+  {
+   "repo": "akashtdev/iphone-duo-animation",
+   "categories": [
+    "interaction",
+    "motion"
+   ],
+   "idea": "Book-fold phone open/close",
+   "note": "Interactive WebGL recreation of Apple's foldable phone reveal.",
+   "technique": "Three.js hinge animation driven by user input",
+   "demo": "https://akashtdev.github.io/iphone-duo-animation/?clear=1",
+   "wow": 2,
+   "stars": 11,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/threejs",
+    "url": "https://www.reddit.com/r/threejs/comments/1wg5nhe/",
+    "points": 64,
+    "date": "2026-09-14"
+   }
+  },
+  {
+   "repo": "carpdiem/ember",
+   "categories": [
+    "design"
+   ],
+   "idea": "Redshift-safe colour palettes",
+   "note": "Terminal, categorical and sequential palettes designed to stay legible under night-shift displays.",
+   "technique": "Palette generation constrained to survive blue-light filtering",
+   "demo": "https://www.usuallypragmatic.com/ember/",
+   "wow": 2,
+   "stars": 151,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49232870",
+    "points": 114,
+    "date": "2026-08-09"
+   }
+  },
+  {
+   "repo": "loretta1982/xenia",
+   "categories": [
+    "design"
+   ],
+   "idea": "Xenia monospace font",
+   "note": "A monospace typeface built by a custom procedural font engine.",
+   "technique": "Glyphs generated programmatically with a Python font engine",
+   "demo": null,
+   "wow": 2,
+   "stars": 169,
+   "language": "Python",
+   "licence_recorded": "Custom (free personal/educational/OSS; commercial licence)",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46666661",
+    "points": 74,
+    "date": "2026-01-18"
+   }
+  },
+  {
+   "repo": "alain00/blobatar",
+   "categories": [
+    "design"
+   ],
+   "idea": "Blobatar",
+   "note": "Deterministic geometric blob avatars from any string in ~4KB.",
+   "technique": "String hash seeding procedural SVG blob shapes and colours",
+   "demo": "https://blobatar.dev",
+   "wow": 2,
+   "stars": 1300,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vqauim/",
+    "points": 194,
+    "date": "2026-08-16"
+   }
+  },
+  {
+   "repo": "alphapixel/slughorn",
+   "categories": [
+    "design",
+    "rendering"
+   ],
+   "idea": "Slughorn GPU text",
+   "note": "Makes the Slug GPU glyph-rendering approach easy to drop into projects.",
+   "technique": "Resolution-independent glyph rendering from curves in the pixel shader",
+   "demo": "https://slughorn.io",
+   "wow": 2,
+   "stars": 155,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1uj24o5/",
+    "points": 128,
+    "date": "2026-06-29"
+   }
+  },
+  {
+   "repo": "yapstudios/sfsym",
+   "categories": [
+    "design"
+   ],
+   "idea": "SF Symbols exporter",
+   "note": "Exports Apple SF Symbols to SVG/PDF/PNG straight from the system renderer.",
+   "technique": "Swift CLI that pulls vector paths from macOS's symbol renderer",
+   "demo": null,
+   "wow": 2,
+   "stars": 81,
+   "language": "Swift",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47812964",
+    "points": 29,
+    "date": "2026-04-18"
+   }
+  },
+  {
+   "repo": "unable12/codebase-posters",
+   "categories": [
+    "design"
+   ],
+   "idea": "Codebase posters",
+   "note": "Turns any git repo's history into generative poster art.",
+   "technique": "Commit history mapped to generative layout and colour",
+   "demo": null,
+   "wow": 2,
+   "stars": 130,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48885500",
+    "points": 29,
+    "date": "2026-07-12"
+   }
+  },
+  {
+   "repo": "nicholas-l-johnson/flip-card",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Business card that runs a fluid sim",
+   "note": "A PCB business card with a tiny screen running a live FLIP fluid you slosh by tilting it",
+   "technique": "FLIP (fluid-implicit-particle) solver after Matthias Müller's demos, in Rust firmware on an RP2350",
+   "demo": null,
+   "wow": 2,
+   "stars": 1900,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=44835879",
+    "points": 1135,
+    "date": "2025-08-08"
+   }
+  },
+  {
+   "repo": "minimaxir/ballin",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Thousands of physics balls in the terminal",
+   "note": "Shows how far a terminal can go as a canvas: interactive rigid-body physics at 120+ FPS",
+   "technique": "Rapier 2D rigid-body physics drawn with Braille Unicode sub-cell dots in a Rust TUI",
+   "demo": null,
+   "wow": 2,
+   "stars": 100,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46682115",
+    "points": 75,
+    "date": "2026-01-19"
+   }
+  },
+  {
+   "repo": "narciscalin/galaxy-engine",
+   "categories": [
+    "simulation",
+    "science"
+   ],
+   "idea": "Galaxy Engine particle sandbox",
+   "note": "Very active r/Simulated favourite: moon formation, gravity-field view and a 3D mode, hundreds of thousands of particles",
+   "technique": "Barnes-Hut gravitational n-body combined with SPH fluid, C++ with raylib",
+   "demo": "https://store.steampowered.com/app/3762210/Galaxy_Engine/",
+   "wow": 2,
+   "stars": 337,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/Simulated",
+    "url": "https://www.reddit.com/r/Simulated/comments/1r0ue05/i_simulated_the_moon_formation_with_my_own/",
+    "points": null,
+    "date": "2026-02-10"
+   }
+  },
+  {
+   "repo": "matsuoka-601/splash",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Splash: WebGPU 3D fluid",
+   "note": "Smooth real-time 3D liquid in the browser that looks good and runs fast",
+   "technique": "MLS-MPM simulation with screen-space fluid rendering, a narrow-range depth filter and ray-marched shadows",
+   "demo": "https://splash-fluid.netlify.app/",
+   "wow": 2,
+   "stars": 193,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/Simulated",
+    "url": "https://www.reddit.com/r/Simulated/comments/1rgfllr/ocean_water/",
+    "points": null,
+    "date": "2026-02-27"
+   }
+  },
+  {
+   "repo": "kromtec/vivarium",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Vivarium evolving ecosystem",
+   "note": "Artificial life where agents evolve survival strategies without hard-coded behaviour",
+   "technique": "Each agent's genome encodes a recurrent neural network; selection happens in a resource ecosystem",
+   "demo": "https://kromtec.github.io/Vivarium/docs/",
+   "wow": 2,
+   "stars": 44,
+   "language": "C#",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/Simulated",
+    "url": "https://www.reddit.com/r/Simulated/comments/1rh0ogo/vivarium_an_open_source_evolutionary_simulation/",
+    "points": null,
+    "date": "2026-02-28"
+   }
+  },
+  {
+   "repo": "smoothyy3/tardigrade",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Self-healing neural CA creature",
+   "note": "A creature grown from one cell that regrows when you damage it, living in your terminal",
+   "technique": "Neural cellular automaton: one learned 24k-parameter conv+MLP rule per cell that converges to a stable shape",
+   "demo": null,
+   "wow": 2,
+   "stars": 34,
+   "language": "Go",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1warpmo/creatures_grown_from_a_single_cell_by_a_learned/",
+    "points": null,
+    "date": "2026-09-08"
+   }
+  },
+  {
+   "repo": "world-grow/worldgrow",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "WorldGrow: infinite 3D worlds",
+   "note": "Research code for growing endless walkable 3D scenes block by block",
+   "technique": "Hierarchical block-wise 3D synthesis with coarse-to-fine refinement, extending out from seed blocks",
+   "demo": "https://world-grow.github.io/",
+   "wow": 2,
+   "stars": 499,
+   "language": "Python",
+   "licence_recorded": "TBD (per README)",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=45718908",
+    "points": 87,
+    "date": "2025-10-27"
+   }
+  },
+  {
+   "repo": "davismk3/plate-local-river-generation",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Rivers that always flow downhill",
+   "note": "Generates rivers per continent on demand, so you never have to build the whole world first",
+   "technique": "Lazy per-continent river geometry from pointwise terrain evaluation, deterministic from a seed",
+   "demo": "https://youtu.be/4Ai_13znvgg",
+   "wow": 2,
+   "stars": 53,
+   "language": "C++",
+   "licence_recorded": "CC-BY-4.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1tw3bkg/locally_generated_procedural_rivers_that_always/",
+    "points": null,
+    "date": "2026-06-03"
+   }
+  },
+  {
+   "repo": "josefalbers/zigon",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Zigon (TerrainZigger) terrain + dungeons",
+   "note": "Small Zig/raylib generator for terrain and dungeons that builds natively, as a Python library or as WASM",
+   "technique": "fBm noise terrain plus Wave Function Collapse dungeons, exposed through Python ctypes",
+   "demo": "https://josefalbers.github.io/Zigon/",
+   "wow": 2,
+   "stars": 56,
+   "language": "Zig",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1qnr8wo/github_josefalbersterrainzigger_terrainzigger_a/",
+    "points": null,
+    "date": "2026-01-26"
+   }
+  },
+  {
+   "repo": "mooss/noisy",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Noisy terrain sandbox",
+   "note": "Browser sandbox for tweaking noise layers and walking the terrain they make",
+   "technique": "Layered Perlin-style noise into chunked, infinite heightmap terrain rendered in WebGL",
+   "demo": "https://mooss.github.io/noisy/dandelion",
+   "wow": 2,
+   "stars": 17,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1pujor1/browserbased_procedural_terrain_and_texture_editor/",
+    "points": null,
+    "date": "2025-12-24"
+   }
+  },
+  {
+   "repo": "lpmitchell/advancedterrainerosion",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Fast erosion filter port for Unity",
+   "note": "Brings Runevision's much-shared 'fast and gorgeous' erosion filter onto the CPU in Unity",
+   "technique": "Shader-style analytic erosion (gully noise on terrain gradients) ported to Burst-compiled C#",
+   "demo": "https://blog.runevision.com/2026/03/fast-and-gorgeous-erosion-filter.html",
+   "wow": 2,
+   "stars": 25,
+   "language": "C#",
+   "licence_recorded": "MPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1sasjgy/implementation_of_rune_skovbo_johansens_advanced/",
+    "points": null,
+    "date": "2026-04-02"
+   }
+  },
+  {
+   "repo": "killedbyapixel/sp13ktra",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "SP13KTRA: a 13 KB generated racer",
+   "note": "A JS13K racing game where the tracks, visuals and music are all generated from code",
+   "technique": "Seeded procedural track layout, WebGL 3D and algorithmic music under a 13 KB budget",
+   "demo": "https://killedbyapixel.github.io/SP13KTRA/",
+   "wow": 2,
+   "stars": 13,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1wi57pj/everything_in_my_13k_futuristic_racing_game_is/",
+    "points": null,
+    "date": "2026-09-16"
+   }
+  },
+  {
+   "repo": "aatishb/patterncollider",
+   "categories": [
+    "math"
+   ],
+   "idea": "Pattern Collider quasiperiodic tilings",
+   "note": "Beautiful interactive explorer for Penrose-like tilings, and every pattern gets a shareable URL",
+   "technique": "De Bruijn multigrid method: intersections of line grids turn into rhombus tiles",
+   "demo": "https://aatishb.com/patterncollider/",
+   "wow": 2,
+   "stars": 418,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=48800930",
+    "points": 74,
+    "date": "2026-07-06"
+   }
+  },
+  {
+   "repo": "bntre/curvedspaceshader",
+   "categories": [
+    "math"
+   ],
+   "idea": "Curved space shader",
+   "note": "Lets you look at ordinary 3D scenes as if space were a 3-sphere",
+   "technique": "Project onto a 4D unit sphere, rotate in 4D, then stereographic projection back to 3D in a Three.js vertex shader",
+   "demo": "https://bntre.github.io/CurvedSpaceShader/",
+   "wow": 2,
+   "stars": 66,
+   "language": "JavaScript",
+   "licence_recorded": "CC0-1.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44060772",
+    "points": 68,
+    "date": "2025-05-22"
+   }
+  },
+  {
+   "repo": "sekqies/complex-plotter",
+   "categories": [
+    "math"
+   ],
+   "idea": "GPU complex function plotter",
+   "note": "Fast, pretty domain-colouring plots of complex functions in 2D and 3D",
+   "technique": "Domain colouring for argument plus a height map for modulus, rendered on the GPU",
+   "demo": "https://sekqies.github.io/complex-plotter/",
+   "wow": 2,
+   "stars": 25,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/math",
+    "url": "https://www.reddit.com/r/math/comments/1r1j8po/i_made_a_complex_function_plotter/",
+    "points": null,
+    "date": "2026-02-11"
+   }
+  },
+  {
+   "repo": "xcontcom/billiard-fractals",
+   "categories": [
+    "math"
+   ],
+   "idea": "Billiard fractals",
+   "note": "Simple billiard paths on squared paper turn into recursive fractal patterns, with a written explainer",
+   "technique": "Reduce 2D billiard trajectories to 1D binary sequences using floor functions of irrational multiples mod 2",
+   "demo": "https://xcontcom.github.io/billiard-fractals/docs/article.html",
+   "wow": 2,
+   "stars": 167,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/generative",
+    "url": "https://www.reddit.com/r/generative/comments/1p8kkla/billiard_fractal_patterns_slowly_emerging_on/",
+    "points": null,
+    "date": "2025-11-28"
+   }
+  },
+  {
+   "repo": "runevision/dither3d",
+   "categories": [
+    "math"
+   ],
+   "idea": "Surface-stable fractal dithering",
+   "note": "A clever dithering method where dots stick to 3D surfaces yet stay the same size on screen",
+   "technique": "Uses the self-similarity of Bayer matrices so dots only get added when you zoom in and only removed when you zoom out",
+   "demo": null,
+   "wow": 2,
+   "stars": 1600,
+   "language": "HLSL",
+   "licence_recorded": "MPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=42808889",
+    "points": 182,
+    "date": "2025-01-23"
+   }
+  },
+  {
+   "repo": "edobrb/mandelbrot",
+   "categories": [
+    "math"
+   ],
+   "idea": "WebGPU deep-zoom Mandelbrot",
+   "note": "Deep Mandelbrot zooms in the browser without having to do arbitrary-precision maths on the GPU",
+   "technique": "Perturbation theory: one high-precision reference orbit, with per-pixel deltas computed in WebGPU",
+   "demo": "https://edobrb.github.io/mandelbrot/",
+   "wow": 2,
+   "stars": 8,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/proceduralgeneration",
+    "url": "https://www.reddit.com/r/proceduralgeneration/comments/1sglk4v/mandelbrot_set_explorer_that_runs_entirely_in/",
+    "points": null,
+    "date": "2026-04-09"
+   }
+  },
+  {
+   "repo": "kvsankar/moon-mission",
+   "categories": [
+    "science"
+   ],
+   "idea": "Artemis II / lunar mission visualizer",
+   "note": "Accurate interactive 2D/3D animations of Moon missions built from real JPL data",
+   "technique": "JPL HORIZONS ephemerides fitted with Chebyshev polynomials; Three.js and D3 views in Earth, Moon and relative frames",
+   "demo": "https://sankara.net/astro/lunar-missions/",
+   "wow": 2,
+   "stars": 11,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/space",
+    "url": "https://www.reddit.com/r/space/comments/1sahlxl/artemis_ii_interactive_3d_animation/",
+    "points": null,
+    "date": "2026-04-02"
+   }
+  },
+  {
+   "repo": "anwoy/mycudaproject",
+   "categories": [
+    "science",
+    "simulation"
+   ],
+   "idea": "Relativistic black hole ray tracer",
+   "note": "From-scratch CUDA render of what flying near a Schwarzschild black hole would look like",
+   "technique": "RK4 integration of null geodesics for millions of rays in parallel CUDA kernels",
+   "demo": "https://youtu.be/BUqQJPbZieQ",
+   "wow": 2,
+   "stars": 19,
+   "language": "C++/CUDA",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/space",
+    "url": "https://www.reddit.com/r/space/comments/1r3zvgs/oc_i_wrote_my_own_relativistic_ray_tracer_to_see/",
+    "points": null,
+    "date": "2026-02-13"
+   }
+  },
+  {
+   "repo": "xingyzt/fire",
+   "categories": [
+    "science"
+   ],
+   "idea": "LA wildfire satellite analysis",
+   "note": "Citizen-science tracking of the January 2025 LA fires from geostationary thermal imagery",
+   "technique": "GOES-16/18 infrared hotspot detection with a 12-hour persistence filter to measure fire growth",
+   "demo": null,
+   "wow": 2,
+   "stars": 86,
+   "language": "Jupyter Notebook",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=42641530",
+    "points": 117,
+    "date": "2025-01-09"
+   }
+  },
+  {
+   "repo": "darkstar1982/orbidium",
+   "categories": [
+    "science"
+   ],
+   "idea": "Orbidium: every asteroid visualized",
+   "note": "Plots the orbits of the whole known asteroid population in one view",
+   "technique": "Parses the Minor Planet Center orbit database and renders Keplerian orbits in 2D",
+   "demo": null,
+   "wow": 2,
+   "stars": 93,
+   "language": "Python",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=41804127",
+    "points": 117,
+    "date": "2024-10-10"
+   }
+  },
+  {
+   "repo": "david-oconnor/daedalus",
+   "categories": [
+    "science"
+   ],
+   "idea": "Daedalus protein and molecule viewer",
+   "note": "Native Rust molecule viewer and editor with molecular dynamics built in",
+   "technique": "Amber force-field molecular dynamics on CUDA with a CPU fallback, plus 3D rendering of proteins and ligands",
+   "demo": "https://www.athanorlab.com/molchanica",
+   "wow": 2,
+   "stars": 150,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44072929",
+    "points": 32,
+    "date": "2025-05-23"
+   }
+  },
+  {
+   "repo": "vangelov/modern-speck",
+   "categories": [
+    "science"
+   ],
+   "idea": "Modern Speck molecule renderer",
+   "note": "A tidy WebGL2 rewrite of the well-known Speck ambient-occlusion molecule renderer",
+   "technique": "Instanced atom and bond impostors, multiple render targets, and ping-pong ambient occlusion with FXAA",
+   "demo": "https://vangelov.github.io/modern-speck/",
+   "wow": 2,
+   "stars": 21,
+   "language": "TypeScript",
+   "licence_recorded": "Unlicense",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47110049",
+    "points": 25,
+    "date": "2026-02-22"
+   }
+  },
+  {
+   "repo": "open-energy-transition/grid2poster",
+   "categories": [
+    "maps"
+   ],
+   "idea": "Grid2Poster: power grid posters",
+   "note": "Print-ready posters of any country's electricity transmission network, shared on HN and r/dataisbeautiful",
+   "technique": "OSMnx/GeoPandas pull of OpenStreetMap power=line features, styled with themed Matplotlib",
+   "demo": "https://open-energy-transition.github.io/grid2poster/",
+   "wow": 2,
+   "stars": 267,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=48173849",
+    "points": 98,
+    "date": "2026-05-17"
+   }
+  },
+  {
+   "repo": "s-macke/test-drive-3-maps",
+   "categories": [
+    "maps",
+    "retro",
+    "security"
+   ],
+   "idea": "Test Drive III world maps",
+   "note": "A 1990 DOS game's 3D road maps reverse-engineered and made explorable in the browser",
+   "technique": "Decoded the proprietary 16-bit mesh format into OBJ, then viewed it in Three.js",
+   "demo": "https://s-macke.github.io/Test-Drive-3-Maps/",
+   "wow": 2,
+   "stars": 69,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48344327",
+    "points": 215,
+    "date": "2026-05-31"
+   }
+  },
+  {
+   "repo": "h2337/connmap",
+   "categories": [
+    "maps",
+    "networks",
+    "dataviz"
+   ],
+   "idea": "connmap: network peers on a world map",
+   "note": "Desktop widget that shows where your live network connections go, in real time",
+   "technique": "GeoLite2 IP geolocation of active sockets, drawn on an X11 world-map overlay",
+   "demo": null,
+   "wow": 2,
+   "stars": 583,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44630648",
+    "points": 205,
+    "date": "2025-07-21"
+   }
+  },
+  {
+   "repo": "originalankur/maptoposter",
+   "categories": [
+    "maps"
+   ],
+   "idea": "MapToPoster city art",
+   "note": "Very popular: minimalist city map posters from OSM data with themes",
+   "technique": "OSMnx fetches streets and water from OpenStreetMap; Matplotlib renders them with themes and multi-script type",
+   "demo": null,
+   "wow": 2,
+   "stars": 14100,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN story",
+    "url": "https://news.ycombinator.com/item?id=46656834",
+    "points": 296,
+    "date": "2026-01-17"
+   }
+  },
+  {
+   "repo": "llopisdon/skies-adsb",
+   "categories": [
+    "maps",
+    "science"
+   ],
+   "idea": "skies-adsb 3D air traffic",
+   "note": "Your own live 3D sky of nearby planes from a $30 radio and a Raspberry Pi",
+   "technique": "RTL-SDR ADS-B decoding fed through a Flask backend into Three.js 3D map layers",
+   "demo": null,
+   "wow": 2,
+   "stars": 263,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=43022603",
+    "points": 59,
+    "date": "2025-02-12"
+   }
+  },
+  {
+   "repo": "me93-ghb/worldburn",
+   "categories": [
+    "maps",
+    "science"
+   ],
+   "idea": "Worldburn fire globe",
+   "note": "A 3D globe of the last 24h of NASA satellite fire detections, updated every 30 minutes",
+   "technique": "NASA FIRMS feed on a Three.js globe with sprite markers, classed as persistent or brief burns",
+   "demo": null,
+   "wow": 2,
+   "stars": 5,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/dataisbeautiful",
+    "url": "https://www.reddit.com/r/dataisbeautiful/comments/1vd1s0l/oc_24_hours_of_active_fire_detections_from_nasa/",
+    "points": null,
+    "date": "2026-08-01"
+   }
+  },
+  {
+   "repo": "KaijuEngine/kaiju",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Go + Vulkan engine with editor",
+   "note": "A full 3D/2D engine and editor written in Go, rare outside C++/C# land",
+   "technique": "Go engine code driving a Vulkan renderer, with a built-in editor",
+   "demo": "https://kaijuengine.com/",
+   "wow": 2,
+   "stars": 4709,
+   "language": "Go",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=46205519",
+    "points": 222,
+    "date": "2025-12-09"
+   }
+  },
+  {
+   "repo": "ViciousSquid/Fio",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Radiant/Hammer-style world editor",
+   "note": "Brush-based level editor where editing and play share one live world state",
+   "technique": "Convex-polyhedra brush/CSG editing with an OpenGL 3.3 renderer, no bake step",
+   "demo": "https://github.com/ViciousSquid/Fio/releases",
+   "wow": 2,
+   "stars": 144,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47535626",
+    "points": 96,
+    "date": "2026-03-26"
+   }
+  },
+  {
+   "repo": "ArcadeMakerSources/ArcadeMaker",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "2D engine with its own language and IDE",
+   "note": "Complete engine, scripting language and IDE in one small C# codebase",
+   "technique": "Custom scripting language and IDE layered on a cross-platform C# 2D engine",
+   "demo": null,
+   "wow": 2,
+   "stars": 129,
+   "language": "C#",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49258085",
+    "points": 118,
+    "date": "2026-08-11"
+   }
+  },
+  {
+   "repo": "mystralengine/mystralnative",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "WebGPU JS games without a browser",
+   "note": "Runs browser-style WebGPU JavaScript games as native apps",
+   "technique": "Embedded JS runtime exposing WebGPU on top of SDL3",
+   "demo": "https://mystralengine.github.io/mystralnative/",
+   "wow": 2,
+   "stars": 406,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46784221",
+    "points": 50,
+    "date": "2026-01-27"
+   }
+  },
+  {
+   "repo": "BlackMATov/evolved.lua",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Evolved ECS for Lua",
+   "note": "Performance-minded ECS design in pure Lua, readable end to end",
+   "technique": "Entity-component storage and queries implemented in pure Lua",
+   "demo": null,
+   "wow": 2,
+   "stars": 223,
+   "language": "Lua",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44052738",
+    "points": 55,
+    "date": "2025-05-21"
+   }
+  },
+  {
+   "repo": "mlange-42/ark",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Archetype ECS for Go",
+   "note": "Clean reference for archetype ECS design in Go",
+   "technique": "Archetype-based component tables with typed generic queries",
+   "demo": "https://mlange-42.github.io/ark/",
+   "wow": 2,
+   "stars": 300,
+   "language": "Go",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45198322",
+    "points": 16,
+    "date": "2025-09-10"
+   }
+  },
+  {
+   "repo": "Kuberwastaken/backdooms",
+   "categories": [
+    "games",
+    "random"
+   ],
+   "idea": "Doom-like game in a QR code",
+   "note": "An entire procedurally generated Backrooms shooter squeezed into one QR code",
+   "technique": "Minified self-contained HTML/JS with procedural level generation, compressed into QR payload",
+   "demo": "http://kuber.studio/backdooms/",
+   "wow": 2,
+   "stars": 641,
+   "language": "HTML",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=43729683",
+    "points": 531,
+    "date": "2025-04-18"
+   }
+  },
+  {
+   "repo": "maciej-trebacz/tower-of-time-game",
+   "categories": [
+    "games"
+   ],
+   "idea": "AI-coded tower defense",
+   "note": "Finished game-jam tower defense with the whole AI-assisted process documented",
+   "technique": "Phaser 3 + TypeScript tower defense with a time-rewind mechanic, built with LLM coding agents",
+   "demo": null,
+   "wow": 2,
+   "stars": 372,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44463967",
+    "points": 319,
+    "date": "2025-07-04"
+   }
+  },
+  {
+   "repo": "thelowsunoverthemoon/NeuroPriest",
+   "categories": [
+    "games"
+   ],
+   "idea": "Roguelike inside Notepad++",
+   "note": "A complete rogue-lite that lives inside a text editor plugin",
+   "technique": "Turn-based game rendered into the Notepad++ text buffer via a C# plugin",
+   "demo": null,
+   "wow": 2,
+   "stars": 90,
+   "language": "C#",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45088427",
+    "points": 155,
+    "date": "2025-09-01"
+   }
+  },
+  {
+   "repo": "Kalcode/spaceprojectsim",
+   "categories": [
+    "games"
+   ],
+   "idea": "Self-running space economy",
+   "note": "Unscripted space economy where ships trade, refuel and explore on their own",
+   "technique": "Bevy ECS sim with GOAP-style forward planner scoring goals per ship",
+   "demo": "https://github.com/Kalcode/spaceprojectsim/releases",
+   "wow": 2,
+   "stars": 192,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48996187",
+    "points": 110,
+    "date": "2026-07-21"
+   }
+  },
+  {
+   "repo": "vkazanov/elcity",
+   "categories": [
+    "games"
+   ],
+   "idea": "SimCity clone in Emacs Lisp",
+   "note": "Playable Micropolis-style city builder inside Emacs",
+   "technique": "Grid-based city simulation (zones, power, traffic) rendered as Emacs buffer text",
+   "demo": null,
+   "wow": 2,
+   "stars": 131,
+   "language": "Emacs Lisp",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46897332",
+    "points": 176,
+    "date": "2026-02-05"
+   }
+  },
+  {
+   "repo": "ricott1/rebels-in-the-sky",
+   "categories": [
+    "games"
+   ],
+   "idea": "Space-pirate basketball in the terminal",
+   "note": "Finished P2P terminal game with crews, planets and simulated basketball",
+   "technique": "Ratatui TUI with libp2p networking and a simulated match engine",
+   "demo": "https://crates.io/crates/rebels",
+   "wow": 2,
+   "stars": 741,
+   "language": "Rust",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=42212071",
+    "points": 242,
+    "date": "2024-11-22"
+   }
+  },
+  {
+   "repo": "datavorous/sameshi",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "2KB chess engine",
+   "note": "~1200 Elo chess engine small enough to read in one sitting",
+   "technique": "Negamax with alpha-beta pruning, captures-first ordering, material-only eval",
+   "demo": "https://www.youtube.com/watch?v=OkoIb1OAheE",
+   "wow": 2,
+   "stars": 201,
+   "language": "C",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47014500",
+    "points": 230,
+    "date": "2026-02-14"
+   }
+  },
+  {
+   "repo": "google-deepmind/searchless_chess",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Grandmaster chess without search",
+   "note": "Shows a transformer can play GM-level chess with no tree search at all",
+   "technique": "Large transformer trained on Stockfish-annotated positions predicting action values",
+   "demo": null,
+   "wow": 2,
+   "stars": 657,
+   "language": "Python",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=41872813",
+    "points": 365,
+    "date": "2024-10-17"
+   }
+  },
+  {
+   "repo": "koogle/mlx-playground",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "AlphaZero chess in MLX",
+   "note": "Compact AlphaZero implementation on Apple Silicon",
+   "technique": "Self-play MCTS guided by a policy/value network, trained with MLX",
+   "demo": null,
+   "wow": 2,
+   "stars": 41,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44125462",
+    "points": 71,
+    "date": "2025-05-29"
+   }
+  },
+  {
+   "repo": "rvitorper/go-bt",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Minimalist behaviour trees for Go",
+   "note": "Tiny behaviour-tree library that is easy to read in full",
+   "technique": "Nodes return 1/0/-1 (success/running/failure) for cooperative, non-blocking ticking",
+   "demo": null,
+   "wow": 2,
+   "stars": 102,
+   "language": "Go",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47690797",
+    "points": 62,
+    "date": "2026-04-08"
+   }
+  },
+  {
+   "repo": "mavdol/npc-neural-affect-matrix",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Emotion model for NPCs",
+   "note": "Gives NPCs persistent emotional state that shapes their reactions",
+   "technique": "Maps NPC emotions onto Russell's valence-arousal circumplex, updated by a neural classifier",
+   "demo": "https://valence-arousal-visualizer.vercel.app/",
+   "wow": 2,
+   "stars": 74,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45413208",
+    "points": 48,
+    "date": "2025-09-29"
+   }
+  },
+  {
+   "repo": "adenta/fire_red_agent",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "LLM plays Pokemon FireRed",
+   "note": "Early open-source 'LLM plays Pokemon' agent with a memory system",
+   "technique": "Screenshots + OCR + RetroArch memory reads fed to GPT-4o, inputs sent back to the emulator",
+   "demo": "https://f005.backblazeb2.com/file/fire-red-agent/FIRE_RED_PROMO.mp4",
+   "wow": 2,
+   "stars": 165,
+   "language": "Ruby",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=43187231",
+    "points": 186,
+    "date": "2025-02-26"
+   }
+  },
+  {
+   "repo": "danalec/DMMSY-SSSP",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Breaking the Dijkstra sorting barrier",
+   "note": "C99 implementation of the STOC 2025 O(m log^(2/3) n) shortest-path algorithm",
+   "technique": "C99 version of the Duan et al. STOC 2025 SSSP algorithm that avoids a full Dijkstra-style sort",
+   "demo": null,
+   "wow": 2,
+   "stars": 88,
+   "language": "C",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47124325",
+    "points": 111,
+    "date": "2026-02-23"
+   }
+  },
+  {
+   "repo": "NikolayS/PGSimCity",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Postgres as an explorable 3D city",
+   "note": "Visual, explorable model of how a database engine works internally",
+   "technique": "three.js/WebGL2 city mapping Postgres connections, buffer pool, WAL, vacuum and replication to districts",
+   "demo": "https://nikolays.github.io/PGSimCity/",
+   "wow": 2,
+   "stars": 755,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49061947",
+    "points": 38,
+    "date": "2026-07-26"
+   }
+  },
+  {
+   "repo": "ross39/new_bloom_filter_repo",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Lossless video via Bloom filters",
+   "note": "Unusual use of a probabilistic data structure for exact compression",
+   "technique": "Rational Bloom filters (non-integer hash counts) encode sparse inter-frame difference maps",
+   "demo": null,
+   "wow": 2,
+   "stars": 249,
+   "language": "Python",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=44100179",
+    "points": 346,
+    "date": "2025-05-26"
+   }
+  },
+  {
+   "repo": "lewj85/jessesort",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "JesseSort: two games of Solitaire",
+   "note": "New sorting algorithm benchmarked against Python's default sort",
+   "technique": "Dual Patience sort (ascending and descending piles) followed by a merge",
+   "demo": null,
+   "wow": 2,
+   "stars": 118,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=43040869",
+    "points": 98,
+    "date": "2025-02-13"
+   }
+  },
+  {
+   "repo": "nickponline/shreg",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Shape regularization algorithms",
+   "note": "Illustrated collection of algorithms that snap noisy outlines to clean shapes",
+   "technique": "Quadratic-programming regularization of segment angles and offsets",
+   "demo": null,
+   "wow": 2,
+   "stars": 92,
+   "language": "Python",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46549333",
+    "points": 78,
+    "date": "2026-01-09"
+   }
+  },
+  {
+   "repo": "e-dant/salmagundi",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Portable linear-probing hash map",
+   "note": "Small, readable hash map in C that shows open addressing done carefully",
+   "technique": "Open addressing with linear probing in a single portable C implementation",
+   "demo": null,
+   "wow": 2,
+   "stars": 145,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=42359949",
+    "points": 176,
+    "date": "2024-12-08"
+   }
+  },
+  {
+   "repo": "igorlira/dirplayer-rs",
+   "categories": [
+    "retro"
+   ],
+   "idea": "Shockwave player emulator",
+   "note": "Brings early-2000s Shockwave web games back in a modern browser",
+   "technique": "Rust reimplementation of the Director/Lingo runtime compiled to WebAssembly",
+   "demo": "http://dirplayer-rs.s3-website-us-west-2.amazonaws.com/",
+   "wow": 2,
+   "stars": 404,
+   "language": "Rust",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47297544",
+    "points": 16,
+    "date": "2026-03-08"
+   }
+  },
+  {
+   "repo": "AndreRenaud/gore",
+   "categories": [
+    "retro"
+   ],
+   "idea": "Doom in pure Go",
+   "note": "Minimal Doom port with no C dependencies",
+   "technique": "Doom engine reimplemented in pure Go (WAD loading, software renderer)",
+   "demo": null,
+   "wow": 2,
+   "stars": 373,
+   "language": "Go",
+   "licence_recorded": "GPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44882441",
+    "points": 148,
+    "date": "2025-08-12"
+   }
+  },
+  {
+   "repo": "libsm64/libsm64",
+   "categories": [
+    "retro"
+   ],
+   "idea": "Mario 64 as a library",
+   "note": "Lets any engine embed SM64's Mario movement and physics",
+   "technique": "Decompiled SM64 code wrapped as a C library; loads a user-supplied ROM at runtime for Mario's assets",
+   "demo": null,
+   "wow": 2,
+   "stars": 942,
+   "language": "C",
+   "licence_recorded": "CC0-1.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49067352",
+    "points": 196,
+    "date": "2026-07-27"
+   }
+  },
+  {
+   "repo": "danterolle/tilf",
+   "categories": [
+    "retro",
+    "creative-tools"
+   ],
+   "idea": "Tilf pixel-art editor",
+   "note": "Simple offline desktop pixel-art editor worth studying",
+   "technique": "PySide6 (Qt) desktop canvas for pixel-grid editing and export",
+   "demo": null,
+   "wow": 2,
+   "stars": 471,
+   "language": "Python",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44870137",
+    "points": 214,
+    "date": "2025-08-11"
+   }
+  },
+  {
+   "repo": "katiahayati/lucasartsifier",
+   "categories": [
+    "retro"
+   ],
+   "idea": "Patch walking-dead states in Sierra games",
+   "note": "Finds and fixes softlocks in classic Sierra adventures automatically",
+   "technique": "Abstract interpretation of decompiled SCI scripts into a game graph, then injected guards",
+   "demo": null,
+   "wow": 2,
+   "stars": 51,
+   "language": "Python",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49355607",
+    "points": 161,
+    "date": "2026-08-19"
+   }
+  },
+  {
+   "repo": "kessler/gemma-gem",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "Gemma 4 living inside a browser extension",
+   "note": "On-device LLM assistant that can read and act on the page, no API keys",
+   "technique": "WebGPU inference in an offscreen document wired to service worker and content script",
+   "demo": null,
+   "wow": 2,
+   "stars": 969,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47655367",
+    "points": 156,
+    "date": "2026-04-06"
+   }
+  },
+  {
+   "repo": "nathan-barry/tiny-diffusion",
+   "categories": [
+    "ai-ml",
+    "explainers"
+   ],
+   "idea": "Text diffusion model in 365 lines",
+   "note": "Tiny, readable character-level diffusion LM with an animation of tokens unmasking in parallel",
+   "technique": "Bidirectional attention plus confidence-based parallel unmasking instead of autoregressive decoding",
+   "demo": null,
+   "wow": 2,
+   "stars": 929,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45876742",
+    "points": 172,
+    "date": "2025-11-10"
+   }
+  },
+  {
+   "repo": "KittenML/KittenTTS",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "Sub-25MB text-to-speech",
+   "note": "State-of-the-art-ish TTS small enough to run on CPU anywhere; big response",
+   "technique": "Compact 15M-80M parameter models served through ONNX CPU inference",
+   "demo": "https://huggingface.co/spaces/KittenML/KittenTTS-Demo",
+   "wow": 2,
+   "stars": 15500,
+   "language": "Python",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47441546",
+    "points": 561,
+    "date": "2026-03-19"
+   }
+  },
+  {
+   "repo": "teamchong/turboquant-wasm",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "Vector quantization in the browser",
+   "note": "Google's TurboQuant compressing embeddings to ~4.5 bits/dim with a live browser demo",
+   "technique": "Zig to WASM with relaxed SIMD; polar transform plus QJL rotation, dot products on compressed vectors",
+   "demo": "https://teamchong.github.io/turboquant-wasm/",
+   "wow": 2,
+   "stars": 322,
+   "language": "Zig",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47639567",
+    "points": 165,
+    "date": "2026-04-04"
+   }
+  },
+  {
+   "repo": "nikhilunni/demucs-rs",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "Music stem splitter in Rust and WebGPU",
+   "note": "HTDemucs v4 reimplemented natively; separates drums/bass/vocals even in a browser tab",
+   "technique": "Transformer inference on the Burn framework targeting Metal, Vulkan and WebGPU",
+   "demo": "https://nikhilunni.github.io/demucs-rs/",
+   "wow": 2,
+   "stars": 144,
+   "language": "Rust",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47234566",
+    "points": 19,
+    "date": "2026-03-03"
+   }
+  },
+  {
+   "repo": "ChartGPU/ChartGPU",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "WebGPU charting at 1M points",
+   "note": "Charting library that skips Canvas/WebGL entirely; 1M points at 60fps with streaming",
+   "technique": "GPU-accelerated rendering pipeline on WebGPU for dense and streaming series",
+   "demo": "https://chartgpu.io",
+   "wow": 2,
+   "stars": 3200,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46706528",
+    "points": 670,
+    "date": "2026-01-21"
+   }
+  },
+  {
+   "repo": "reflex-dev/xy",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Python charts with a Rust LOD engine",
+   "note": "Fast interactive plotting that ships binary buffers instead of JSON to the browser",
+   "technique": "Rust core computes level-of-detail from a Python column store and streams typed buffers",
+   "demo": "https://reflex.dev/docs/xy/",
+   "wow": 2,
+   "stars": 1900,
+   "language": "Rust",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49085798",
+    "points": 136,
+    "date": "2026-07-28"
+   }
+  },
+  {
+   "repo": "BigBodyCobain/Shadowbroker",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Real-time OSINT world map",
+   "note": "Dozens of live feeds (ADS-B, AIS, satellites) layered on one map; a standout collection dashboard",
+   "technique": "Server-side aggregation and proxying of public telemetry feeds into toggleable map layers",
+   "demo": null,
+   "wow": 2,
+   "stars": 11200,
+   "language": "Python",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47300102",
+    "points": 312,
+    "date": "2026-03-08"
+   }
+  },
+  {
+   "repo": "franktisellano/datatype",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "A font that draws charts",
+   "note": "Variable font turns inline text like {b:30,70,50,90} into sparkline and bar glyphs, no JS",
+   "technique": "OpenType ligature substitution plus variable axes generating chart glyphs",
+   "demo": "https://franktisellano.github.io/datatype/",
+   "wow": 2,
+   "stars": 1500,
+   "language": null,
+   "licence_recorded": "OFL-1.1",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "lobsters",
+    "where": "lobste.rs visualization",
+    "url": "https://lobste.rs/s/cebwpi",
+    "points": 38,
+    "date": "2026-06-09"
+   }
+  },
+  {
+   "repo": "19-84/redd-archiver",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Self-hosted Reddit archive",
+   "note": "Turns multi-billion-post data dumps into browsable offline archives",
+   "technique": "Stream compressed dumps into PostgreSQL via COPY, then render static HTML or serve with Flask",
+   "demo": "https://online-archives.github.io/redd-archiver-example/",
+   "wow": 2,
+   "stars": 344,
+   "language": "Python",
+   "licence_recorded": "Unlicense",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46602324",
+    "points": 286,
+    "date": "2026-01-13"
+   }
+  },
+  {
+   "repo": "patonw/leaves",
+   "categories": [
+    "dataviz",
+    "devtools"
+   ],
+   "idea": "Terminal disk-usage treemap",
+   "note": "Squarified treemap drawn in text mode, a nice study in terminal dataviz",
+   "technique": "Nested rectangles sized by disk usage laid out in a TUI",
+   "demo": null,
+   "wow": 2,
+   "stars": 400,
+   "language": "Rust",
+   "licence_recorded": "MPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48936389",
+    "points": 93,
+    "date": "2026-07-16"
+   }
+  },
+  {
+   "repo": "lets-all-be-stupid-forever/circuit-artist",
+   "categories": [
+    "explainers",
+    "games"
+   ],
+   "idea": "Paint circuits with pixels",
+   "note": "Digital logic you draw like pixel art, with visible signal propagation and rewind",
+   "technique": "Event-driven variable-delay simulation using Elmore delay over wire topology, shader rendered",
+   "demo": "https://store.steampowered.com/app/3139580/Circuit_Artist",
+   "wow": 2,
+   "stars": 478,
+   "language": "C",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46445412",
+    "points": 135,
+    "date": "2025-12-31"
+   }
+  },
+  {
+   "repo": "bntre/visual-lambda",
+   "categories": [
+    "explainers"
+   ],
+   "idea": "Lambda calculus as bubbles",
+   "note": "Revived thesis project that animates beta-reduction as colorful 2D structures",
+   "technique": "Bubble Notation: lambda terms drawn as nested trees with animated reductions",
+   "demo": "https://bntre.github.io/visual-lambda/",
+   "wow": 2,
+   "stars": 79,
+   "language": "Python",
+   "licence_recorded": "LGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47191052",
+    "points": 49,
+    "date": "2026-02-28"
+   }
+  },
+  {
+   "repo": "andrewosh/cellarium",
+   "categories": [
+    "explainers"
+   ],
+   "idea": "Cellular automata playground on the GPU",
+   "note": "Write cell rules in Rust and watch them run as shaders",
+   "technique": "Proc macro cross-compiles a Rust subset to WGSL; double-buffered wgpu render passes",
+   "demo": null,
+   "wow": 2,
+   "stars": 42,
+   "language": "Rust",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47096186",
+    "points": 41,
+    "date": "2026-02-21"
+   }
+  },
+  {
+   "repo": "sql-hkr/tiny8",
+   "categories": [
+    "explainers"
+   ],
+   "idea": "Visual 8-bit CPU simulator",
+   "note": "Educational AVR-style CPU with step-by-step register and memory visualisation",
+   "technique": "Instruction-level interpreter with live state visualisation of registers and memory",
+   "demo": "https://sql-hkr.github.io/tiny8/",
+   "wow": 2,
+   "stars": 1400,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45694272",
+    "points": 72,
+    "date": "2025-10-24"
+   }
+  },
+  {
+   "repo": "afska/emudevz",
+   "categories": [
+    "explainers"
+   ],
+   "idea": "A game about building emulators",
+   "note": "Teaches NES emulation by having you implement CPU, PPU and APU with tests and a debugger",
+   "technique": "Guided game with unit-tested milestones and built-in 6502 debugger",
+   "demo": "https://afska.github.io/emudevz",
+   "wow": 2,
+   "stars": 307,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "lobsters",
+    "where": "lobste.rs education",
+    "url": "https://lobste.rs/s/m4hkml",
+    "points": 5,
+    "date": "2026-01-21"
+   }
+  },
+  {
+   "repo": "Dancode-188/synckit",
+   "categories": [
+    "networks"
+   ],
+   "idea": "Local-first sync with rich-text CRDTs",
+   "note": "Batteries-included collaboration SDK: rich text, cursors, presence, undo",
+   "technique": "Fugue and Peritext CRDTs in Rust/WASM with TypeScript bindings",
+   "demo": "https://localwrite-demo.fly.dev",
+   "wow": 2,
+   "stars": 667,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46069598",
+    "points": 87,
+    "date": "2025-11-27"
+   }
+  },
+  {
+   "repo": "vignesh07/babyshark",
+   "categories": [
+    "networks",
+    "devtools",
+    "security"
+   ],
+   "idea": "Wireshark made easy, in a TUI",
+   "note": "Flows-first packet capture explorer with timelines and anomaly detectors",
+   "technique": "Group PCAP traffic into flows and drill down from summaries to packets in a terminal UI",
+   "demo": null,
+   "wow": 2,
+   "stars": 567,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47128535",
+    "points": 151,
+    "date": "2026-02-23"
+   }
+  },
+  {
+   "repo": "pion/handoff",
+   "categories": [
+    "networks"
+   ],
+   "idea": "Start WebRTC in browser, run it elsewhere",
+   "note": "Clever trick for moving a live WebRTC session out of the browser into Go",
+   "technique": "Mock the browser WebRTC API and forward signaling to a backend that owns the PeerConnection",
+   "demo": null,
+   "wow": 2,
+   "stars": 188,
+   "language": "Go",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47673880",
+    "points": 101,
+    "date": "2026-04-07"
+   }
+  },
+  {
+   "repo": "sambigeara/pollen",
+   "categories": [
+    "networks"
+   ],
+   "idea": "Leaderless WASM mesh",
+   "note": "Workloads place themselves across a zero-trust mesh with no control plane",
+   "technique": "Gossiped CRDT state drives deterministic local scheduling decisions on each node",
+   "demo": "https://pln.sh",
+   "wow": 2,
+   "stars": 377,
+   "language": "Go",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47961935",
+    "points": 137,
+    "date": "2026-04-30"
+   }
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "categories": [
+    "networks"
+   ],
+   "idea": "netcat over Tailscale's data plane",
+   "note": "Shows NAT traversal and WireGuard without a coordination server; has a WASM browser demo",
+   "technique": "WireGuard + magicsock NAT traversal + gVisor userspace TCP/IP + DERP fallback, metadata swapped out-of-band",
+   "demo": "https://tailscale.github.io/tailcat/",
+   "wow": 2,
+   "stars": 7700,
+   "language": "Go",
+   "licence_recorded": "BSD-3-Clause",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "lobsters",
+    "where": "lobste.rs networking",
+    "url": "https://lobste.rs/s/pdvxvf",
+    "points": 54,
+    "date": "2026-08-27"
+   }
+  },
+  {
+   "repo": "Maxteabag/sqlit",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "lazygit-style TUI for SQL",
+   "note": "Polished Textual TUI covering 25+ databases",
+   "technique": "Textual-based panes for connections, schema browsing and queries",
+   "demo": null,
+   "wow": 2,
+   "stars": 4900,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46276002",
+    "points": 190,
+    "date": "2025-12-15"
+   }
+  },
+  {
+   "repo": "RohanAdwankar/oxdraw",
+   "categories": [
+    "devtools",
+    "creative-tools"
+   ],
+   "idea": "Diagram-as-code with drag editing",
+   "note": "Mermaid diagrams you can drag around, with edits written back to source",
+   "technique": "Web editor that persists visual layout tweaks into the Mermaid text file",
+   "demo": "https://rohanadwankar.github.io/oxdraw/",
+   "wow": 2,
+   "stars": 2300,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45706792",
+    "points": 266,
+    "date": "2025-10-25"
+   }
+  },
+  {
+   "repo": "flamestro/deff",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Side-by-side git diff in the terminal",
+   "note": "Clean review UI for diffs with syntax highlighting and per-file navigation",
+   "technique": "Synchronized side-by-side panes with independent scrolling over git diff output",
+   "demo": null,
+   "wow": 2,
+   "stars": 587,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47169518",
+    "points": 120,
+    "date": "2026-02-26"
+   }
+  },
+  {
+   "repo": "seeyebe/gmap",
+   "categories": [
+    "devtools",
+    "dataviz"
+   ],
+   "idea": "Git activity heatmaps in a TUI",
+   "note": "Churn and activity heatmaps for a repo from the CLI (archived Feb 2026)",
+   "technique": "Local SQLite cache of diff stats feeding heatmap and churn views",
+   "demo": null,
+   "wow": 2,
+   "stars": 213,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44752897",
+    "points": 26,
+    "date": "2025-08-01"
+   }
+  },
+  {
+   "repo": "ramonvermeulen/whosthere",
+   "categories": [
+    "devtools",
+    "networks"
+   ],
+   "idea": "LAN discovery TUI",
+   "note": "Friendly interactive map of devices on your local network",
+   "technique": "Unprivileged mDNS/SSDP scans plus subnet sweep to populate and parse the ARP cache",
+   "demo": null,
+   "wow": 2,
+   "stars": 2400,
+   "language": "Go",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46731432",
+    "points": 278,
+    "date": "2026-01-23"
+   }
+  },
+  {
+   "repo": "hauntsaninja/git_bayesect",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Bayesian git bisect",
+   "note": "Finds the commit where a flaky test got flakier",
+   "technique": "Beta-Bernoulli posterior over commits with greedy entropy-minimising commit selection",
+   "demo": "https://hauntsaninja.github.io/git_bayesect.html",
+   "wow": 2,
+   "stars": 457,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47557921",
+    "points": 337,
+    "date": "2026-03-28"
+   }
+  },
+  {
+   "repo": "nullpxl/banrays",
+   "categories": [
+    "security",
+    "hardware"
+   ],
+   "idea": "Ban-Rays: glasses that detect camera smart-glasses",
+   "note": "Counter-surveillance wearable that spots Meta Ray-Bans in the room",
+   "technique": "IR retroreflection of camera lenses plus BLE manufacturer-data/UUID fingerprinting",
+   "demo": null,
+   "wow": 2,
+   "stars": 319,
+   "language": "Python",
+   "licence_recorded": "CC-BY-NC-SA-4.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46075882",
+    "points": 509,
+    "date": "2025-11-28"
+   }
+  },
+  {
+   "repo": "adversis/tailsnitch",
+   "categories": [
+    "security"
+   ],
+   "idea": "Tailsnitch: Tailscale security auditor",
+   "note": "Defensive audit of a tailnet's ACLs and settings against 57 best-practice checks",
+   "technique": "API-driven config scanning with JSON/CSV reports and remediation hints",
+   "demo": null,
+   "wow": 2,
+   "stars": 1100,
+   "language": "Go",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46501137",
+    "points": 280,
+    "date": "2026-01-05"
+   }
+  },
+  {
+   "repo": "kageroumado/phosphene",
+   "categories": [
+    "security"
+   ],
+   "idea": "Phosphene: reverse-engineered Apple video wallpapers",
+   "note": "Readable case study of reversing a private macOS framework to plug into a system UI",
+   "technique": "Runtime-loads private WallpaperExtensionKit, reflection to wire in custom videos, gapless looping via timestamp offsets",
+   "demo": "https://kagerou.glass/phosphene/",
+   "wow": 2,
+   "stars": 861,
+   "language": "Swift",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48215979",
+    "points": 428,
+    "date": "2026-05-20"
+   }
+  },
+  {
+   "repo": "bethington/ghidra-mcp",
+   "categories": [
+    "security"
+   ],
+   "idea": "Ghidra MCP server",
+   "note": "Bridges Ghidra's RE engine to AI agents with hundreds of analysis tools",
+   "technique": "HTTP-to-MCP layer over Ghidra: decompilation, P-code emulation, function-hash matching across binaries",
+   "demo": null,
+   "wow": 2,
+   "stars": 4000,
+   "language": "Java",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46882389",
+    "points": 298,
+    "date": "2026-02-04"
+   }
+  },
+  {
+   "repo": "roscopeco/anos",
+   "categories": [
+    "systems"
+   ],
+   "idea": "Anos: ~100KiB microkernel",
+   "note": "Hand-written capability-based microkernel booting on x86-64 and RISC-V real hardware",
+   "technique": "Capability-delegated syscalls, zero-copy IPC, user-mode drivers and supervision",
+   "demo": null,
+   "wow": 2,
+   "stars": 112,
+   "language": "C",
+   "licence_recorded": "GPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47636579",
+    "points": 115,
+    "date": "2026-04-04"
+   }
+  },
+  {
+   "repo": "dvir-biton/myraos",
+   "categories": [
+    "systems"
+   ],
+   "idea": "MyraOS: 32-bit OS from scratch",
+   "note": "Student-built Unix-like x86 OS with compositor that runs Doom",
+   "technique": "Protected mode (GDT/IDT), paging, user/kernel split, ELF loader, filesystem",
+   "demo": null,
+   "wow": 2,
+   "stars": 288,
+   "language": "C",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45715055",
+    "points": 247,
+    "date": "2025-10-26"
+   }
+  },
+  {
+   "repo": "imtomt/ymawky",
+   "categories": [
+    "systems"
+   ],
+   "idea": "ymawky: web server in ARM64 assembly",
+   "note": "A complete HTTP server with no libc, a great read on raw syscalls",
+   "technique": "Fork-per-connection server using direct macOS svc syscalls, CGI and range requests",
+   "demo": null,
+   "wow": 2,
+   "stars": 582,
+   "language": "Assembly",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=48080587",
+    "points": 430,
+    "date": "2026-05-10"
+   }
+  },
+  {
+   "repo": "valdanylchuk/xcc700",
+   "categories": [
+    "systems",
+    "hardware"
+   ],
+   "idea": "xcc700: self-hosting C compiler for ESP32",
+   "note": "A 700-line C compiler that compiles itself on a microcontroller",
+   "technique": "Single-pass stack-based code emission for Xtensa with ELF output and relocations",
+   "demo": null,
+   "wow": 2,
+   "stars": 248,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46392736",
+    "points": 154,
+    "date": "2025-12-26"
+   }
+  },
+  {
+   "repo": "luke8086/gentleos32",
+   "categories": [
+    "systems"
+   ],
+   "idea": "GentleOS: hobby OS for vintage PCs",
+   "note": "Pair of small bare-metal OSes with a GUI for real 32/16-bit retro hardware",
+   "technique": "x86 bootloader + kernel, VGA GUI framework, initrd-loaded assets",
+   "demo": "https://luke8086.dev/gentleos32",
+   "wow": 2,
+   "stars": 938,
+   "language": "C",
+   "licence_recorded": "GPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "lobsters",
+    "where": "lobste.rs osdev/show",
+    "url": "https://lobste.rs/s/1umrbv",
+    "points": 59,
+    "date": "2026-06-08"
+   }
+  },
+  {
+   "repo": "pandax381/xv6-riscv-net",
+   "categories": [
+    "systems"
+   ],
+   "idea": "TCP/IP stack inside xv6",
+   "note": "Shows how a from-scratch network stack slots into a teaching kernel",
+   "technique": "Kernel-space port of microps with virtio-net driver and socket syscalls",
+   "demo": null,
+   "wow": 2,
+   "stars": 134,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45022931",
+    "points": 147,
+    "date": "2025-08-26"
+   }
+  },
+  {
+   "repo": "arnegiacomo/fugleramme",
+   "categories": [
+    "hardware",
+    "audio"
+   ],
+   "idea": "Fugleramme: e-ink bird frame",
+   "note": "Raspberry Pi frame that hears birds and shows 1800s illustrations of them",
+   "technique": "BirdNET-Go audio classification mapped to curated plates, selective e-ink redraw",
+   "demo": "https://fugleramme.arnegiacomo.dev",
+   "wow": 2,
+   "stars": 3300,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49711544",
+    "points": 2390,
+    "date": "2026-09-15"
+   }
+  },
+  {
+   "repo": "valdanylchuk/breezydemo",
+   "categories": [
+    "hardware",
+    "systems"
+   ],
+   "idea": "BreezyBox: shell, vi and cc on ESP32-S3",
+   "note": "Makes an ESP32-S3 feel like a tiny self-contained PC, no Linux",
+   "technique": "ESP-IDF elf_loader dynamic linking + virtual terminal + BusyBox-style userland on FreeRTOS",
+   "demo": "https://youtu.be/wlDsaQgWCaI",
+   "wow": 2,
+   "stars": 261,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46918429",
+    "points": 327,
+    "date": "2026-02-06"
+   }
+  },
+  {
+   "repo": "francescopace/espectre",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "ESPectre: Wi-Fi motion sensing",
+   "note": "Camera-free presence detection from an ESP32's Wi-Fi signal",
+   "technique": "Wi-Fi Channel State Information (CSI) variance analysis for motion detection",
+   "demo": "https://espectre.dev/",
+   "wow": 2,
+   "stars": 9400,
+   "language": "C++",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45953977",
+    "points": 215,
+    "date": "2025-11-17"
+   }
+  },
+  {
+   "repo": "mafik/keyer",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "Keyer: one-handed chorded keyboard",
+   "note": "Full build guide plus firmware for a hand-held chord keyboard",
+   "technique": "Ant-colony optimisation to search chord-to-character layouts",
+   "demo": "https://mafik.github.io/keyer/",
+   "wow": 2,
+   "stars": 400,
+   "language": "C++",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45529393",
+    "points": 411,
+    "date": "2025-10-09"
+   }
+  },
+  {
+   "repo": "pegork/f32",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "F32: tiny ESP32 board",
+   "note": "An ESP32 board small enough to sit behind a USB-C port",
+   "technique": "Extreme miniaturisation with 01005 parts, hand assembly, captive-portal demo firmware",
+   "demo": null,
+   "wow": 2,
+   "stars": 640,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45984461",
+    "points": 302,
+    "date": "2025-11-19"
+   }
+  },
+  {
+   "repo": "kaipereira/overglade-badges",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "Zero-power PCB hackathon badges",
+   "note": "Open hardware badges that work with no battery via NFC tap and e-ink",
+   "technique": "RP2040 + passive NFC energy harvesting driving an e-ink display, PCB art",
+   "demo": "https://overglade.hackclub.com/",
+   "wow": 2,
+   "stars": 124,
+   "language": "Python",
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47639303",
+    "points": 158,
+    "date": "2026-04-04"
+   }
+  },
+  {
+   "repo": "weeblabs/dspi",
+   "categories": [
+    "audio",
+    "hardware"
+   ],
+   "idea": "DSPi: audio DSP firmware for the Pico",
+   "note": "Turns a $4 RP2040/RP2350 into a USB sound card with room correction and crossovers",
+   "technique": "Dual-core fixed/float DSP pipeline, PIO S/PDIF output, delta-sigma PDM for subs",
+   "demo": null,
+   "wow": 2,
+   "stars": 1200,
+   "language": "C",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN",
+    "url": "https://news.ycombinator.com/item?id=47901433",
+    "points": 329,
+    "date": "2026-04-25"
+   }
+  },
+  {
+   "repo": "ericlewis/libpo32",
+   "categories": [
+    "audio"
+   ],
+   "idea": "libpo32: PO-32 acoustic modem and synth",
+   "note": "Clean-room C99 of Teenage Engineering's sound-based data transfer and drum voice",
+   "technique": "DPSK acoustic modem encode/decode plus 21-parameter drum synthesis, no deps",
+   "demo": null,
+   "wow": 2,
+   "stars": 205,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN",
+    "url": "https://news.ycombinator.com/item?id=47550433",
+    "points": 148,
+    "date": "2026-03-28"
+   }
+  },
+  {
+   "repo": "lfnoise/sapf",
+   "categories": [
+    "audio"
+   ],
+   "idea": "SAPF: Sound As Pure Form",
+   "note": "Music language from SuperCollider's author mixing Forth, APL and lazy lists",
+   "technique": "Stack-based postfix interpreter with lazy sequences and auto-mapping over audio streams",
+   "demo": null,
+   "wow": 2,
+   "stars": 971,
+   "language": null,
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN",
+    "url": "https://news.ycombinator.com/item?id=44342731",
+    "points": 190,
+    "date": "2025-06-22"
+   }
+  },
+  {
+   "repo": "danja/dogalog",
+   "categories": [
+    "audio"
+   ],
+   "idea": "Dogalog: Prolog livecoding music",
+   "note": "Write logic rules and hear the rhythms they imply, live in the browser",
+   "technique": "SLD-resolution Prolog engine on ES6 generators driving WebAudio synthesis",
+   "demo": "https://danja.github.io/dogalog",
+   "wow": 2,
+   "stars": 180,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN",
+    "url": "https://news.ycombinator.com/item?id=46262031",
+    "points": 82,
+    "date": "2025-12-14"
+   }
+  },
+  {
+   "repo": "minimaxir/miditui",
+   "categories": [
+    "audio"
+   ],
+   "idea": "miditui: MIDI DAW in the terminal",
+   "note": "Piano-roll composing, mixing and playback entirely in a TUI",
+   "technique": "rustysynth SoundFont synthesis at 44.1kHz with mouse-driven terminal UI",
+   "demo": null,
+   "wow": 2,
+   "stars": 250,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46543359",
+    "points": 66,
+    "date": "2026-01-08"
+   }
+  },
+  {
+   "repo": "gpasquero/voog",
+   "categories": [
+    "audio"
+   ],
+   "idea": "VOOG: Moog-style synth in Python",
+   "note": "Readable virtual-analog polysynth with a Subsequent-37-style GUI",
+   "technique": "Huovilainen ladder filter model, dual ADSR, 8-voice multitimbral polyphony, MIDI in",
+   "demo": null,
+   "wow": 2,
+   "stars": 141,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47026768",
+    "points": 96,
+    "date": "2026-02-15"
+   }
+  },
+  {
+   "repo": "steffest/dpaint-js",
+   "categories": [
+    "creative-tools"
+   ],
+   "idea": "DPaint.js: Deluxe Paint in the browser",
+   "note": "Faithful web homage to Deluxe Paint with Amiga formats and colour cycling",
+   "technique": "Canvas pixel editor with dithering/colour reduction and IFF ILBM/Amiga icon I/O",
+   "demo": "https://dpaint.app",
+   "wow": 2,
+   "stars": 1000,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "HN",
+    "url": "https://news.ycombinator.com/item?id=46753708",
+    "points": 250,
+    "date": "2026-01-25"
+   }
+  },
+  {
+   "repo": "groverburger/grobpaint",
+   "categories": [
+    "creative-tools"
+   ],
+   "idea": "GrobPaint",
+   "note": "Layers and blend modes somewhere between MS Paint and Paint.NET, in vanilla JS",
+   "technique": "Vanilla JS compositing engine, swap-based undo history, pywebview wrapper, PWA",
+   "demo": "https://groverburger.github.io/grobpaint/",
+   "wow": 2,
+   "stars": 153,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=47382072",
+    "points": 54,
+    "date": "2026-03-14"
+   }
+  },
+  {
+   "repo": "useautumn/autumn",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Autumn: pricing & billing layer over Stripe",
+   "note": "Sells the thing every SaaS needs (plans, credits, usage billing); self-host free, cloud Free tier then Pro $375/month (per pricing page).",
+   "technique": "Declarative pricing model + entitlement checks sitting between app and Stripe, embedded with a few SDK calls",
+   "demo": "https://useautumn.com",
+   "wow": 2,
+   "stars": 2700,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44365620",
+    "points": 141,
+    "date": "2025-06-24"
+   }
+  },
+  {
+   "repo": "capsoftware/cap",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Cap: open-source Loom alternative",
+   "note": "Textbook open-core app: free local recording, Desktop License $29/yr (or $58 once), Cap Pro $12/user/month for cloud sharing + AI.",
+   "technique": "Tauri/Rust desktop screen recorder with a Next.js web app for hosted shareable links",
+   "demo": "https://cap.so",
+   "wow": 2,
+   "stars": 22800,
+   "language": "TypeScript",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=41741422",
+    "points": 57,
+    "date": "2024-10-04"
+   }
+  },
+  {
+   "repo": "frigadehq/trench",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Trench: event-tracking analytics infra",
+   "note": "Self-hosted MIT version plus paid managed Trench Cloud; built by Frigade from their own pipeline.",
+   "technique": "Segment-style event API ingesting into Kafka then ClickHouse for real-time queries",
+   "demo": "https://demo.trench.dev",
+   "wow": 2,
+   "stars": 1700,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=41945458",
+    "points": 155,
+    "date": "2024-10-25"
+   }
+  },
+  {
+   "repo": "simstudioai/sim",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Sim: visual AI-agent workflow builder (n8n alternative)",
+   "note": "Big exception on stars; clear open-core business: hosted Pro $25/user/month, Max $100/user/month, self-host free.",
+   "technique": "Canvas-based workflow editor that compiles blocks into executable agent/LLM pipelines",
+   "demo": "https://www.sim.ai",
+   "wow": 2,
+   "stars": 29700,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=46234186",
+    "points": 240,
+    "date": "2025-12-11"
+   }
+  },
+  {
+   "repo": "colanode/colanode",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Colanode: local-first Slack + Notion alternative",
+   "note": "Free cloud beta now with pricing 'to be announced' on hosted servers; self-host via Docker/K8s.",
+   "technique": "Local-first client with SQLite + CRDT sync to a self-hostable server",
+   "demo": "https://app.colanode.com",
+   "wow": 2,
+   "stars": 5200,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=43780176",
+    "points": 147,
+    "date": "2025-04-24"
+   }
+  },
+  {
+   "repo": "abhinavxd/libredesk",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Libredesk: single-binary customer support desk",
+   "note": "Helpdesk is a proven paid category (Zendesk/Intercom); no hosted plan seen yet, so a study in a monetisable product shape.",
+   "technique": "Go single binary + Vue 3 frontend unifying live chat and email into shared inboxes",
+   "demo": "https://demo.libredesk.io/",
+   "wow": 2,
+   "stars": 3000,
+   "language": "Go",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=43158166",
+    "points": 376,
+    "date": "2025-02-24"
+   }
+  },
+  {
+   "repo": "vinceanalytics/vince",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Vince: zero-dependency Google Analytics alternative",
+   "note": "Plausible-style analytics in one binary; no hosted offer (README says so), so a monetisable niche left open.",
+   "technique": "Single Go binary with embedded storage and bitmap-indexed event queries, no external DB",
+   "demo": "https://demo.vinceanalytics.com/v1/share/vinceanalytics.com?auth=Ls9tV4pzqOn7BJ7-&demo=true",
+   "wow": 2,
+   "stars": 2000,
+   "language": "Go",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=42270389",
+    "points": 283,
+    "date": "2024-11-29"
+   }
+  },
+  {
+   "repo": "brightbeanxyz/brightbean-studio",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "BrightBean Studio: self-hosted social media scheduler",
+   "note": "Open Buffer/Sendible alternative; currently no paid tier (free hosted version), but a clearly monetisable category.",
+   "technique": "Django app with per-platform publishing integrations and a scheduling queue, one-click deploys",
+   "demo": "https://brightbean.xyz/studio/",
+   "wow": 2,
+   "stars": 2400,
+   "language": "Python",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1sk4pg6/opensource_selfhostable_social_media_management/",
+    "points": 29,
+    "date": "2026-04-13"
+   }
+  },
+  {
+   "repo": "polaroi8d/cactoide",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Cactoide: federated RSVP / events app",
+   "note": "Small Meetup/Eventbrite/Partiful alternative; sponsor-funded so far, event tooling is a paid category.",
+   "technique": "Mobile-first SvelteKit app with federation between instances",
+   "demo": "https://cactoide.org",
+   "wow": 2,
+   "stars": 396,
+   "language": "TypeScript",
+   "licence_recorded": "AGPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=45045116",
+    "points": 117,
+    "date": "2025-08-27"
+   }
+  },
+  {
+   "repo": "harshit-dhanwalkar/asciicam",
+   "categories": [
+    "random"
+   ],
+   "idea": "AsciiCam: live webcam as terminal ASCII",
+   "note": "Pure C, zero deps, with Braille/block modes, edge filters and hot-reloaded plugins.",
+   "technique": "SSE2 YUYV-to-grayscale conversion mapped to glyph ramps, Floyd-Steinberg dithering, inotify plugin reload",
+   "demo": null,
+   "wow": 2,
+   "stars": 42,
+   "language": "C",
+   "licence_recorded": "PolyForm-Noncommercial-1.0.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1ts35ei/realtime_ascii_webcam_renderer_in_pure_c_with/",
+    "points": 328,
+    "date": "2026-05-30"
+   }
+  },
+  {
+   "repo": "subatomicplanets/hellobinary",
+   "categories": [
+    "random"
+   ],
+   "idea": "HelloBinary: a Windows .exe typed by hand in 0s and 1s",
+   "note": "No compiler, assembler or linker; a lesson in PE headers and x86-64 encoding.",
+   "technique": "Hand-written binary text converted to bytes by a tiny Python script, with manually computed displacements",
+   "demo": null,
+   "wow": 2,
+   "stars": 36,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1vebtmk/i_did_it_i_made_a_working_exe_by_manually_typing/",
+    "points": 213,
+    "date": "2026-08-03"
+   }
+  },
+  {
+   "repo": "aravpanwar/half-life-templeos",
+   "categories": [
+    "random"
+   ],
+   "idea": "TempleOS running on Half-Life 1 monitors",
+   "note": "A live, interactive TempleOS VM on in-game CRTs; gloriously pointless.",
+   "technique": "Headless QEMU + minimal RFB/VNC client streaming frames to an OpenGL quad with a CRT shader",
+   "demo": null,
+   "wow": 2,
+   "stars": 15,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1vug5o6/halflifetempleos_a_halflife_1_mod_that_runs_a/",
+    "points": 98,
+    "date": "2026-08-21"
+   }
+  },
+  {
+   "repo": "neilblaze/url-dinogame",
+   "categories": [
+    "random"
+   ],
+   "idea": "Chrome Dino game in the URL bar (multiplayer)",
+   "note": "Plays entirely in the address bar, with WebRTC multiplayer.",
+   "technique": "Game frames drawn as Unicode characters in the address bar, PeerJS host-authoritative netcode",
+   "demo": "https://neilblaze.github.io/URL-Dinogame/",
+   "wow": 2,
+   "stars": 50,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1t19fob/i_remade_chromes_dino_game_but_it_runs_in_the_url/",
+    "points": 122,
+    "date": "2026-05-01"
+   }
+  },
+  {
+   "repo": "itsbryanman/albumfs",
+   "categories": [
+    "random"
+   ],
+   "idea": "AlbumFS: a filesystem hidden in your photo album",
+   "note": "Mount a folder of pictures as a drive; bytes live in invisible pixel bits.",
+   "technique": "Steganography (PNG LSB, JPEG DCT) under an ext2-like block/inode layer exposed via FUSE",
+   "demo": null,
+   "wow": 2,
+   "stars": 10,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1vtw8ga/albumfsa_filesystem_that_stores_its_data_inside/",
+    "points": 28,
+    "date": "2026-08-20"
+   }
+  },
+  {
+   "repo": "iluaii/fwm",
+   "categories": [
+    "random"
+   ],
+   "idea": "fwm: window manager where windows have physics",
+   "note": "Throw, bounce and stack windows with gravity modes, yet still a usable tiling desktop.",
+   "technique": "Wayland compositor driving window positions from Box2D v3 rigid-body simulation",
+   "demo": "https://fwm-website.vercel.app",
+   "wow": 2,
+   "stars": 172,
+   "language": "C",
+   "licence_recorded": "GPL-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1v0ls9k/fwm_x11wayland_window_manager_with_real_physics/",
+    "points": 35,
+    "date": "2026-07-19"
+   }
+  },
+  {
+   "repo": "adopi/wlgblock",
+   "categories": [
+    "random"
+   ],
+   "idea": "Play Pokémon to unlock your Wayland session",
+   "note": "A lock screen that is a patched Pokémon Crystal puzzle.",
+   "technique": "ext-session-lock-v1 locker embedding the GBCC emulator and watching a RAM address for the unlock value",
+   "demo": null,
+   "wow": 2,
+   "stars": 175,
+   "language": "C",
+   "licence_recorded": "MIT / GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44854686",
+    "points": 124,
+    "date": "2025-08-10"
+   }
+  },
+  {
+   "repo": "rmichaelthomas/liminate",
+   "categories": [
+    "random"
+   ],
+   "idea": "Liminate: plain English sentences as code",
+   "note": "An esoteric-ish language where the sentence is the program, no LLM involved.",
+   "technique": "Deterministic lexer/reorderer/parser over a 61-word reserved vocabulary, with canonical re-rendering",
+   "demo": "https://liminate.dev",
+   "wow": 2,
+   "stars": 16,
+   "language": "Python",
+   "licence_recorded": "Apache-2.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://reddit.com/r/coolgithubprojects/comments/1ty1nxz/liminate_a_proseassyntax_language_where_plain/",
+    "points": 24,
+    "date": "2026-06-05"
+   }
+  },
+  {
+   "repo": "hunterirving/pico-crossing",
+   "categories": [
+    "random"
+   ],
+   "idea": "Pi Pico that speedruns Animal Crossing chores",
+   "note": "Hardware hack typing, drawing patterns and importing images into GameCube Animal Crossing.",
+   "technique": "Raspberry Pi Pico speaking the GameCube Joybus protocol as a keyboard controller",
+   "demo": "https://youtu.be/Yw8Alf_lolA",
+   "wow": 2,
+   "stars": 71,
+   "language": "C++",
+   "licence_recorded": "GPL-3.0",
+   "source": "social-2026-09-24",
+   "buzz": {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=44257655",
+    "points": 159,
+    "date": "2025-06-12"
+   }
   }
  ]
 }

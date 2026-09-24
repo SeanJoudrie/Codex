@@ -62,12 +62,23 @@ figures; keep the page's disclaimer, and update ranges when you learn real compe
 
 ## Pipeline
 
-`discover → enrich → capture → tag → rank → build`. Runs daily at 09:00 UTC via
-`.github/workflows/weekly.yml` (named "Refresh"). Discovery rebuilds the queue on Mondays.
-Each run enriches up to 250 queued repos and screenshots them.
+`discover → social → enrich → capture → tag → rank → build`. Runs daily at 09:00 UTC via
+`.github/workflows/weekly.yml` (named "Refresh"). Discovery rebuilds the queue on Mondays (or when
+the run is started with "Rebuild the search queue" ticked). Each run enriches up to 250 queued
+repos and screenshots them.
+
+`scripts/social.mjs` runs every day and finds public repos people are sharing: Hacker News (Algolia
+API), Lobsters (JSON feeds) and Reddit (the Arctic Shift archive; Reddit blocks cloud machines, so
+its own JSON/RSS is only a fallback). Subreddits and Lobsters tags map to categories in
+`data/sources.json → social`. Every mention goes into `data/buzz.json` (never deleted); `rank.mjs`
+copies the newest three onto each repo as `buzz`, and `trend()` in `site/match.js` adds up to 14
+points for recent posts. A solid showing (e.g. 30–800 HN points) counts more than a viral hit, on
+purpose: the owner wants "trendy, not super trendy". Repos found without a category are placed by
+their GitHub topics.
 
 - `data/seeds.json`: hand-picked and scout-found repos (always included)
 - `data/sources.json`: awesome-lists, topics, queries, people, random draws
+- `data/buzz.json`: where each repo was posted (site, link, points, date)
 - `data/candidates.json`: queue of found-but-not-yet-enriched repos (never truncated)
 - `prompts/scout.md`: prompt for finding new repos; `prompts/idea.md`: the idea workflow for other assistants
 

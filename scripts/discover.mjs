@@ -92,7 +92,8 @@ for (const q of queued) for (const src of q.sources) add(q.repo, q.categories, s
 const candidates = [...found.values()].map((e) => ({
   repo: e.repo, categories: [...e.categories], sources: [...e.sources],
 }));
-// Repos surfaced by several sources are the strongest signal — process them first.
-candidates.sort((a, b) => (b.sources.includes('seed') - a.sources.includes('seed')) || b.sources.length - a.sources.length);
+// Seeds first, then repos people are talking about (they go stale), then repos several sources found.
+const social = (c) => c.sources.some((s) => s.startsWith('social:'));
+candidates.sort((a, b) => (b.sources.includes('seed') - a.sources.includes('seed')) || (social(b) - social(a)) || b.sources.length - a.sources.length);
 await writeJSON('candidates.json', candidates);
 console.log(`discover: ${candidates.length} repos queued`);

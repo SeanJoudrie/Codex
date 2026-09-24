@@ -57,7 +57,7 @@ export function repoFromUrl(href) {
   const m = /github\.com\/([\w.-]+)\/([\w.-]+)/i.exec(href);
   if (!m) return null;
   const repo = m[2].replace(/\.git$/, '');
-  if (['topics', 'orgs', 'sponsors', 'apps', 'features', 'marketplace'].includes(m[1])) return null;
+  if (['topics', 'orgs', 'sponsors', 'apps', 'features', 'marketplace', 'users', 'settings', 'login', 'collections', 'explore', 'search', 'notifications', 'pricing', 'site', 'about', 'security', 'enterprise', 'readme', 'user-attachments'].includes(m[1])) return null;
   return `${m[1]}/${repo}`;
 }
 

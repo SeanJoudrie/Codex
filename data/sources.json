@@ -511,5 +511,195 @@
     "window_days": 30,
     "earliest": "2010-01-01",
     "min_stars": 150
+  },
+  "social": {
+    "_about": "Where people share public repos. scripts/social.mjs reads these daily: Hacker News (Algolia API), Lobsters, and Reddit via the Arctic Shift archive (Reddit blocks most cloud machines). Any site that fails is skipped.",
+    "window_days": 30,
+    "hn": {
+      "pages": 3
+    },
+    "lobsters": {
+      "tags": {
+        "show": [],
+        "graphics": [
+          "rendering"
+        ],
+        "games": [
+          "games"
+        ],
+        "audio": [
+          "audio"
+        ],
+        "security": [
+          "security"
+        ],
+        "hardware": [
+          "hardware"
+        ],
+        "retrocomputing": [
+          "retro"
+        ],
+        "visualization": [
+          "dataviz"
+        ],
+        "math": [
+          "math"
+        ],
+        "ai": [
+          "ai-ml"
+        ],
+        "compsci": [
+          "algorithms"
+        ],
+        "osdev": [
+          "systems"
+        ],
+        "networking": [
+          "networks"
+        ],
+        "design": [
+          "design"
+        ]
+      }
+    },
+    "reddit": {
+      "period": "week",
+      "pages": 6,
+      "delay_ms": 1000,
+      "subs": {
+        "creativecoding": [
+          "interaction"
+        ],
+        "generative": [
+          "procgen"
+        ],
+        "proceduralgeneration": [
+          "procgen"
+        ],
+        "GraphicsProgramming": [
+          "rendering"
+        ],
+        "threejs": [
+          "3d"
+        ],
+        "webgl": [
+          "rendering"
+        ],
+        "shaders": [
+          "rendering"
+        ],
+        "Simulated": [
+          "simulation"
+        ],
+        "cellular_automata": [
+          "simulation"
+        ],
+        "gamedev": [
+          "game-engines"
+        ],
+        "godot": [
+          "game-engines"
+        ],
+        "IndieDev": [
+          "games"
+        ],
+        "roguelikedev": [
+          "games",
+          "procgen"
+        ],
+        "WebGames": [
+          "games"
+        ],
+        "emulation": [
+          "retro"
+        ],
+        "retrogamedev": [
+          "retro"
+        ],
+        "EmuDev": [
+          "retro"
+        ],
+        "algorithms": [
+          "algorithms"
+        ],
+        "compsci": [
+          "algorithms"
+        ],
+        "MachineLearning": [
+          "ai-ml"
+        ],
+        "LocalLLaMA": [
+          "ai-ml"
+        ],
+        "dataisbeautiful": [
+          "dataviz"
+        ],
+        "gis": [
+          "maps"
+        ],
+        "Physics": [
+          "science"
+        ],
+        "math": [
+          "math"
+        ],
+        "netsec": [
+          "security"
+        ],
+        "ReverseEngineering": [
+          "security"
+        ],
+        "osdev": [
+          "systems"
+        ],
+        "rust": [
+          "systems"
+        ],
+        "commandline": [
+          "devtools"
+        ],
+        "programming": [
+          "devtools"
+        ],
+        "webdev": [
+          "design"
+        ],
+        "Frontend": [
+          "motion"
+        ],
+        "web_design": [
+          "design"
+        ],
+        "synthesizers": [
+          "audio"
+        ],
+        "WeAreTheMusicMakers": [
+          "audio"
+        ],
+        "arduino": [
+          "hardware"
+        ],
+        "esp32": [
+          "hardware"
+        ],
+        "homelab": [
+          "networks"
+        ],
+        "selfhosted": [
+          "networks"
+        ],
+        "opensource": [],
+        "SideProject": [],
+        "coolgithubprojects": [],
+        "InternetIsBeautiful": [
+          "random"
+        ]
+      }
+    },
+    "min_points": {
+      "hn": 15,
+      "reddit": 15,
+      "lobsters": 3
+    }
   }
 }

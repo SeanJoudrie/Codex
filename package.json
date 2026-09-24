@@ -5,11 +5,12 @@
   "description": "A personal, self-refreshing visual index of interesting GitHub repos.",
   "scripts": {
     "discover": "node scripts/discover.mjs",
+    "social": "node scripts/social.mjs",
     "enrich": "node scripts/enrich.mjs",
     "capture": "node scripts/capture.mjs",
     "tag": "node scripts/tag.mjs",
     "build": "node scripts/build.mjs",
-    "refresh": "npm run discover && npm run enrich && npm run capture && npm run tag && npm run rank && npm run build",
+    "refresh": "npm run discover && npm run social && npm run enrich && npm run capture && npm run tag && npm run rank && npm run build",
     "serve": "npm run build && npx --yes serve dist",
     "rank": "node scripts/rank.mjs",
     "ideas": "node scripts/ideas.mjs"

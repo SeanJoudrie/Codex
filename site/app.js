@@ -1,5 +1,5 @@
 // Codex — static client. Reads data/index.json + data/categories.json.
-import { matchIdea } from './match.js';
+import { matchIdea, trend } from './match.js';
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -30,7 +30,7 @@ const repos = index.repos;
 const catLabel = Object.fromEntries(categories.map((c) => [c.id, c.label]));
 const favs = new Set(store.get('favs', []));
 const state = { q: '', cat: store.get('cat', 'all'), favOnly: false, sort: store.get('sort', 'best') };
-if (state.cat !== 'new' && !categories.some((c) => c.id === state.cat)) state.cat = 'all';
+if (!['new', 'buzz'].includes(state.cat) && !categories.some((c) => c.id === state.cat)) state.cat = 'all';
 
 function isoDaysAgo(n) { return new Date(Date.now() - n * 864e5).toISOString().slice(0, 10); }
 const fmtStars = (n) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n ?? 0));
@@ -42,6 +42,7 @@ function renderChips() {
   const counts = {};
   repos.forEach((r) => r.categories.forEach((c) => (counts[c] = (counts[c] ?? 0) + 1)));
   const items = [{ id: 'all', label: 'All', n: repos.length }, { id: 'new', label: 'New this week', n: repos.filter(isNew).length, cls: 'new' },
+    { id: 'buzz', label: 'Talked about', n: repos.filter(talked).length, cls: 'new', hint: 'Shared on Hacker News, Reddit or Lobsters in the last four months' },
     ...categories.map((c) => ({ ...c, n: counts[c.id] ?? 0 }))];
   $('#chips').innerHTML = items.filter((c) => c.id === 'all' || c.n)
     .map((c) => `<button class="chip${c.cls ? ` ${c.cls}` : ''}" type="button" data-cat="${c.id}" aria-pressed="${state.cat === c.id}" title="${esc(c.hint ?? '')}">${esc(c.label)}<span class="n">${c.n}</span></button>`).join('');
@@ -54,7 +55,8 @@ function thumb(r) {
 
 function card(r) {
   const [owner, name] = r.repo.split('/');
-  const rankHere = state.cat !== 'all' && r.rank?.[state.cat];
+  const rankHere = r.rank?.[state.cat];
+  const t = trend(r);
   return `<article class="card" data-repo="${esc(r.repo)}" tabindex="0" aria-label="${esc(r.repo)}">
     ${thumb(r)}
     <div class="body">
@@ -64,6 +66,7 @@ function card(r) {
         ${rankHere ? `<span class="tag">#${rankHere}</span>` : ''}
         ${r.stub && !r.stars ? '<span>details pending</span>' : `<span>${fmtStars(r.stars)} ${r.stars === 1 ? 'star' : 'stars'}</span>`}
         ${r.language && r.language !== 'unknown' ? `<span>${esc(r.language)}</span>` : ''}
+        ${t.rising ? `<span class="tag" title="${esc(t.recent.map((b) => b.where).join(', '))}">talked about</span>` : ''}
         ${r.list ? '<span class="tag">link list</span>' : ''}
         <button class="fav" type="button" data-fav="${esc(r.repo)}" aria-pressed="${favs.has(r.repo)}" aria-label="Save ${esc(r.repo)}">${BOOKMARK}</button>
       </div>
@@ -72,10 +75,14 @@ function card(r) {
 }
 
 // Found in the last 7 days by the robot (not the original hand-picked seed list).
+// Posted about recently on Hacker News, Reddit or Lobsters.
+function talked(r) { return trend(r).bonus > 0; }
+
 function isNew(r) { return r.first_seen >= isoDaysAgo(7) && !r.sources?.every((s) => s === 'seed'); }
 
 function matches(r) {
   if (state.cat === 'new') { if (!isNew(r)) return false; }
+  else if (state.cat === 'buzz') { if (!talked(r)) return false; }
   else if (state.cat !== 'all' && !r.categories.includes(state.cat)) return false;
   if (state.favOnly && !favs.has(r.repo)) return false;
   return true;
@@ -88,13 +95,15 @@ const sorters = {
   new: (a, b) => (b.first_seen ?? '').localeCompare(a.first_seen ?? '') || (b.score ?? 0) - (a.score ?? 0),
   stars: (a, b) => (b.stars ?? 0) - (a.stars ?? 0),
   gem: (a, b) => gemScore(b) - gemScore(a),
+  // Talked about, with a solid showing ranked above viral hits (see trend() in match.js).
+  trending: (a, b) => trend(b).bonus - trend(a).bonus || (b.buzz?.[0]?.date ?? '').localeCompare(a.buzz?.[0]?.date ?? '') || (b.score ?? 0) - (a.score ?? 0),
   visual: (a, b) => shotRank(b) - shotRank(a) || (b.score ?? 0) - (a.score ?? 0),
 };
 
 function render() {
   // A typed query is treated as an idea: ranked by relevance, then usefulness.
   const pool = repos.filter(matches);
-  const list = state.q ? matchIdea(pool, state.q, catLabel).map((x) => x.r) : pool.sort(sorters[state.sort]);
+  const list = state.q ? matchIdea(pool, state.q, catLabel).map((x) => x.r) : pool.sort(sorters[state.cat === 'buzz' ? 'trending' : state.sort] ?? sorters.best);
   $('#ideaNote').hidden = !state.q;
   $('#ideaNote').textContent = state.q ? `${list.length} ${list.length === 1 ? 'reference' : 'references'} for “${state.q}”, closest first` : '';
   $('#grid').innerHTML = list.map(card).join('');
@@ -103,14 +112,15 @@ function render() {
   $('#empty').textContent = state.q
     ? 'Nothing in the archive matches that idea yet. Try describing the effect or the technique instead.'
     : state.favOnly ? 'Nothing saved yet. Use the bookmark on any card to save it.'
-    : state.cat === 'new' ? 'Nothing new in the last 7 days. The robot searches for new projects every Monday.' : 'No projects in this category yet.';
+    : state.cat === 'new' ? 'Nothing new in the last 7 days. The robot searches for new projects every Monday.'
+    : state.cat === 'buzz' ? 'Nothing has been talked about recently. The robot checks Hacker News, Reddit and Lobsters every day.' : 'No projects in this category yet.';
 }
 
 // "topic:webgl" → "GitHub topic “webgl”" etc.
 function source(s) {
   const [kind, ...rest] = s.split(':'); const v = rest.join(':').replace(/"/g, '');
   return ({ seed: 'Hand-picked', scout: 'Scout search', random: 'Random draw', topic: `Topic “${v}”`, query: `Search “${v}”`,
-    awesome: `Listed in ${v}`, by: `Made by ${v}`, 'starred-by': `Starred by ${v}` })[kind] ?? s;
+    awesome: `Listed in ${v}`, by: `Made by ${v}`, 'starred-by': `Starred by ${v}`, social: `Shared on ${v}` })[kind] ?? s;
 }
 
 function open(repo) {
@@ -127,6 +137,7 @@ function open(repo) {
         ${r.technique ? `<dt>Technique</dt><dd>${esc(r.technique)}</dd>` : ''}
         <dt>Ranking</dt><dd>${ranks || '—'}${r.score != null ? ` · usefulness ${r.score}/100` : ''}</dd>
         <dt>Details</dt><dd>${(r.stars ?? 0).toLocaleString()} stars${r.language && r.language !== 'unknown' ? ` · ${esc(r.language)}` : ''}${r.pushed ? ` · last updated ${esc(r.pushed)}` : ''}</dd>
+        ${r.buzz?.length ? `<dt>Talked about</dt><dd>${r.buzz.map((b) => `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.where)}</a>${b.points != null ? `, ${b.points.toLocaleString()} points` : ''}, ${esc(b.date)}`).join('<br>')}</dd>` : ''}
         <dt>Licence</dt><dd>${esc(r.licence ?? 'unknown')}</dd>
         <dt>Found</dt><dd>${esc((r.sources ?? []).slice(0, 4).map(source).join(' · '))}${r.first_seen ? ` · ${esc(r.first_seen)}` : ''}</dd>
       </dl>

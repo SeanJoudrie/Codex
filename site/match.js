@@ -13,9 +13,30 @@ export function usefulness(r, now = Date.now()) {
   s += age < 365 ? 8 : age < 3 * 365 ? 4 : 0;                      // still alive
   s += Math.min(9, 3 * Math.max(0, (r.sources?.length ?? 1) - 1)); // found by several sources
   if (r.technique || r.note) s += 4;
+  s += trend(r, now).bonus;                                       // people are talking about it
   if (r.list) s -= 30;                                             // link collections: kept, but last
   if (r.archived) s -= 8;
   return Math.max(0, Math.min(100, Math.round(s)));
+}
+
+// ---- Trend: recent posts on Hacker News, Reddit or Lobsters. ----
+// The owner wants "trendy, not super trendy": a solid showing beats a viral hit,
+// which is everywhere already. Points below `good` are a whisper; above `viral`, a flood.
+const TIERS = { hn: [30, 800], reddit: [40, 3000], lobsters: [8, 60] };
+export function trend(r, now = Date.now()) {
+  let bonus = 0, rising = false, viral = false;
+  const recent = (r.buzz ?? []).filter((b) => b.date && now - Date.parse(b.date) < 120 * 864e5);
+  for (const b of recent) {
+    const [good, flood] = TIERS[b.source] ?? [20, 1000];
+    const fresh = now - Date.parse(b.date) < 45 * 864e5 ? 1 : 0.5;
+    const size = b.points == null ? 7 : b.points >= flood ? 5 : b.points >= good ? 10 : 3; // no count = top of its subreddit's week
+    if (b.points == null || (b.points >= good && b.points < flood)) rising = true;
+    if (b.points >= flood) viral = true;
+    bonus = Math.max(bonus, size * fresh);
+  }
+  const places = new Set(recent.map((b) => b.where)).size;
+  if (bonus) bonus += Math.min(4, 2 * (places - 1));               // shared in more than one place
+  return { bonus: Math.round(Math.min(14, bonus)), rising, viral, recent };
 }
 
 // ---- Idea matching — "a game with a smart CPU opponent" → ranked references. ----
