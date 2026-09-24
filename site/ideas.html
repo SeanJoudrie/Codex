@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idea generator — Codex</title>
+<meta name="description" content="Pick what you want to make and get project ideas that combine 2 to 10 open-source building blocks from the Codex archive, each with references and a plan to make it your own.">
+<meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Codex idea generator">
+<meta property="og:description" content="Combine 2 to 10 open-source building blocks into a project that's yours.">
+<meta property="og:url" content="https://seanjoudrie.github.io/Codex/ideas.html">
+<meta property="og:image" content="https://seanjoudrie.github.io/Codex/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Codex</h1>
+      <nav class="tabs" aria-label="Sections"><a href="./">Archive</a><a href="ideas.html" aria-current="page">Idea generator</a></nav>
+      <p class="tagline">Combine open-source building blocks into something that's yours.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap gen">
+  <form class="gen-form" id="form" novalidate>
+    <h2>What are you making?</h2>
+    <p class="intro">Answer as much or as little as you like. Each idea combines existing projects from the archive; the part that makes it yours is up to you.</p>
+    <div class="field">
+      <label for="kind">Type</label>
+      <select id="kind">
+        <option value="game">A game</option>
+        <option value="render">An interactive art piece</option>
+        <option value="app">An app</option>
+        <option value="portfolio">A portfolio piece</option>
+        <option value="website">A website</option>
+        <option value="tool">A tool</option>
+      </select>
+    </div>
+    <div id="steps" class="gen-steps"></div>
+    <div class="field">
+      <label for="count">Building blocks <output id="countOut">5</output></label>
+      <input type="range" id="count" min="2" max="10" step="1" value="5">
+    </div>
+    <div class="actions">
+      <button class="btn" type="submit" id="generate">Generate</button>
+      <button class="btn ghost" type="button" id="surprise">Surprise me</button>
+    </div>
+    <p class="gen-note" id="status" aria-live="polite">Loading the archive…</p>
+  </form>
+
+  <section class="ideas" id="ideas" aria-label="Ideas" aria-busy="true">
+    <div class="idea skeleton" aria-hidden="true"><div class="line w60"></div><div class="line w90"></div><div class="line w90"></div><div class="line w40"></div></div>
+    <div class="idea skeleton" aria-hidden="true"><div class="line w60"></div><div class="line w90"></div><div class="line w90"></div><div class="line w40"></div></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>Ideas are assembled from the archive's building blocks. Each referenced project belongs to its authors; check its licence before reusing code.</span>
+    <a href="https://github.com/SeanJoudrie/Codex">Source on GitHub</a>
+  </div>
+</footer>
+
+<script src="ideas.js" type="module"></script>
+</body>
+</html>

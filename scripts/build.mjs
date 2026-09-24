@@ -7,6 +7,6 @@ const dist = new URL('dist/', root);
 await rm(dist, { recursive: true, force: true });
 await mkdir(new URL('data/', dist), { recursive: true });
 await cp(new URL('site/', root), dist, { recursive: true });
-for (const f of ['index.json', 'categories.json']) await cp(new URL(`data/${f}`, root), new URL(`data/${f}`, dist));
+for (const f of ['index.json', 'categories.json', 'features.json']) await cp(new URL(`data/${f}`, root), new URL(`data/${f}`, dist));
 if (existsSync(new URL('media/', root))) await cp(new URL('media/', root), new URL('media/', dist), { recursive: true });
 console.log('build: dist/ ready');

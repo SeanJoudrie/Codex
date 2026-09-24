@@ -24,6 +24,13 @@ This is the main thing to help with. Pull references *before* giving advice:
 Licence doesn't filter the archive, but when you recommend *using code*, name the licence.
 GPL means their project becomes GPL; no licence means all rights reserved.
 
+## Idea generator
+
+`site/ideas.html` + `site/ideas.js` combine building blocks from `data/features.json` into ideas.
+When the user wants new kinds of blocks, add entries there: `kinds` (game, render, app, portfolio,
+website, tool), `tags` matching the generator's answer values, pinned `repos` that exist in
+`data/index.json`, and a `query` for live archive matches. Keep `hook` phrased to fit "…, where <hook>".
+
 ## Archive rules
 
 - **Never delete a repo** from `data/index.json` or `data/seeds.json`. Weak entries rank last; they don't leave.

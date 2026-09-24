@@ -1,0 +1,2156 @@
+{
+ "_about": "Building blocks for the idea generator. Each feature names what it adds, which kinds of project it suits, tags that match generator answers, pinned archive repos, and a search query so newer archive repos surface too. Add freely.",
+ "features": [
+  {
+   "id": "three",
+   "name": "Three.js scene",
+   "adds": "A 3D rendering foundation that runs in any browser",
+   "hook": "everything renders live in the browser in full 3D",
+   "noun": "Engine",
+   "role": "foundation",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio",
+    "website"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "browser",
+    "3d",
+    "graphics",
+    "web"
+   ],
+   "repos": [
+    "mrdoob/three.js",
+    "BabylonJS/Babylon.js",
+    "playcanvas/engine"
+   ],
+   "query": "Three.js scene"
+  },
+  {
+   "id": "raylib",
+   "name": "raylib native core",
+   "adds": "A tiny C game loop with input, audio and windowing, built as a real download",
+   "hook": "it ships as a small native game you download",
+   "noun": "Engine",
+   "role": "foundation",
+   "kinds": [
+    "game",
+    "portfolio"
+   ],
+   "tags": [
+    "download",
+    "desktop",
+    "systems"
+   ],
+   "repos": [
+    "raysan5/raylib",
+    "kitao/pyxel"
+   ],
+   "query": "raylib native core"
+  },
+  {
+   "id": "littlejs",
+   "name": "LittleJS 2D engine",
+   "adds": "Sprites, particles, sound and input for 2D browser games",
+   "hook": "it runs instantly in the browser as a crisp 2D game",
+   "noun": "Engine",
+   "role": "foundation",
+   "kinds": [
+    "game",
+    "portfolio"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "browser",
+    "2d",
+    "mobile"
+   ],
+   "repos": [
+    "KilledByAPixel/LittleJS"
+   ],
+   "query": "LittleJS 2D engine"
+  },
+  {
+   "id": "fantasy-console",
+   "name": "Fantasy console",
+   "adds": "The whole thing runs inside its own made-up retro console",
+   "hook": "it runs inside its own fantasy console",
+   "noun": "Cartridge",
+   "role": "foundation",
+   "kinds": [
+    "game",
+    "portfolio"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "retro",
+    "cozy",
+    "2d"
+   ],
+   "repos": [
+    "nesbox/TIC-80",
+    "binji/binjgb",
+    "floooh/chips"
+   ],
+   "query": "Fantasy console"
+  },
+  {
+   "id": "ecs",
+   "name": "Entity-component system",
+   "adds": "An architecture that keeps thousands of things running at once",
+   "hook": "thousands of independent things act at once",
+   "noun": "Swarm",
+   "role": "foundation",
+   "kinds": [
+    "game",
+    "tool",
+    "portfolio"
+   ],
+   "tags": [
+    "strategy",
+    "systems",
+    "chaotic"
+   ],
+   "repos": [
+    "SanderMertens/flecs"
+   ],
+   "query": "Entity-component system"
+  },
+  {
+   "id": "voxel",
+   "name": "Voxel world",
+   "adds": "A block world you can break, build and save",
+   "hook": "the world is made of blocks you can break and build",
+   "noun": "Blocks",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "sandbox",
+    "cozy",
+    "3d"
+   ],
+   "repos": [
+    "fogleman/Craft",
+    "MovingBlocks/Terasology",
+    "nimadez/voxel-builder"
+   ],
+   "query": "Voxel world"
+  },
+  {
+   "id": "webxr",
+   "name": "Step inside in VR",
+   "adds": "Headset support so people can stand inside it",
+   "hook": "you can step inside it with a VR headset",
+   "noun": "Headset",
+   "role": "interface",
+   "kinds": [
+    "game",
+    "render",
+    "website",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "3d",
+    "graphics",
+    "realistic"
+   ],
+   "repos": [
+    "aframevr/aframe"
+   ],
+   "query": "Step inside in VR"
+  },
+  {
+   "id": "tui",
+   "name": "Terminal interface",
+   "adds": "A polished interface that lives entirely in the terminal",
+   "hook": "the whole thing lives in the terminal",
+   "noun": "Terminal",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "tool",
+    "game"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "cli",
+    "developers",
+    "focus",
+    "minimal",
+    "notes",
+    "retro",
+    "systems",
+    "tasks"
+   ],
+   "repos": [
+    "Textualize/textual",
+    "charmbracelet/vhs"
+   ],
+   "query": "Terminal interface"
+  },
+  {
+   "id": "slime",
+   "name": "Slime-mold growth",
+   "adds": "Living veins that spread across surfaces and pool in grooves",
+   "hook": "living slime slowly spreads across every surface",
+   "noun": "Veins",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "nature",
+    "eerie",
+    "body",
+    "horror",
+    "creative",
+    "graphics"
+   ],
+   "repos": [
+    "nicoptere/physarum",
+    "fogleman/physarum"
+   ],
+   "query": "physarum slime mold"
+  },
+  {
+   "id": "fluid",
+   "name": "Pushable fluid",
+   "adds": "Smoke and dye that swirl as you move",
+   "hook": "every movement stirs a swirl of fluid",
+   "noun": "Current",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "portfolio",
+    "website",
+    "tool"
+   ],
+   "tags": [
+    "abstract",
+    "brand",
+    "calm",
+    "cursor",
+    "graphics",
+    "meditation",
+    "ocean",
+    "playful",
+    "visualizer"
+   ],
+   "repos": [
+    "PavelDoGreat/WebGL-Fluid-Simulation",
+    "sandydoo/flux"
+   ],
+   "query": "fluid simulation"
+  },
+  {
+   "id": "ocean",
+   "name": "3D liquid",
+   "adds": "A real 3D liquid that sloshes and splashes",
+   "hook": "a real 3D liquid sloshes whenever something moves",
+   "noun": "Tide",
+   "role": "physics",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "ocean",
+    "realistic",
+    "graphics"
+   ],
+   "repos": [
+    "matsuoka-601/WebGPU-Ocean",
+    "evanw/webgl-water",
+    "yuanming-hu/taichi_mpm"
+   ],
+   "query": "ocean water fluid 3d"
+  },
+  {
+   "id": "sand",
+   "name": "Falling-sand chemistry",
+   "adds": "Every pixel is a material that burns, melts, grows or flows",
+   "hook": "every grain is a material that burns, melts or grows",
+   "noun": "Alchemy",
+   "role": "physics",
+   "kinds": [
+    "game",
+    "render",
+    "app"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "sandbox",
+    "chaotic",
+    "creative",
+    "playful"
+   ],
+   "repos": [
+    "MaxBittker/sandspiel",
+    "PieKing1215/FallingSandEngine"
+   ],
+   "query": "falling sand"
+  },
+  {
+   "id": "rigid",
+   "name": "Rigid-body physics",
+   "adds": "Real weight, collisions and stacking",
+   "hook": "everything has weight and can be knocked over",
+   "noun": "Impact",
+   "role": "physics",
+   "kinds": [
+    "game",
+    "website",
+    "app",
+    "portfolio"
+   ],
+   "tags": [
+    "chaotic",
+    "responsive",
+    "shooter",
+    "playful",
+    "racing",
+    "systems"
+   ],
+   "repos": [
+    "jrouwe/JoltPhysics",
+    "liabru/matter-js",
+    "kripken/ammo.js"
+   ],
+   "query": "physics engine rigid body"
+  },
+  {
+   "id": "cloth",
+   "name": "Cloth and soft bodies",
+   "adds": "Fabric that tears and soft things that wobble",
+   "hook": "fabric tears and soft things stretch and wobble",
+   "noun": "Thread",
+   "role": "physics",
+   "kinds": [
+    "game",
+    "render",
+    "website",
+    "app"
+   ],
+   "tags": [
+    "fashion",
+    "lookbook",
+    "tryon",
+    "playful",
+    "body"
+   ],
+   "repos": [
+    "Habrador/Ten-Minute-Physics-Unity",
+    "diwi/PixelFlow",
+    "sam007961/FastMassSpring"
+   ],
+   "query": "cloth soft body"
+  },
+  {
+   "id": "boids",
+   "name": "Flocking crowds",
+   "adds": "Birds, fish or crowds that move as a group",
+   "hook": "flocks and crowds move as one living group",
+   "noun": "Flock",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render",
+    "website"
+   ],
+   "tags": [
+    "nature",
+    "calm",
+    "strategy",
+    "ocean"
+   ],
+   "repos": [
+    "SebLague/Boids",
+    "ercang/boids-js",
+    "cubedhuang/boids"
+   ],
+   "query": "boids flocking"
+  },
+  {
+   "id": "particle-life",
+   "name": "Particle life",
+   "adds": "Simple rules that make particles behave like creatures",
+   "hook": "tiny particles form creatures that chase and eat each other",
+   "noun": "Organisms",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "portfolio"
+   ],
+   "tags": [
+    "abstract",
+    "nature",
+    "creative",
+    "scifi",
+    "graphics"
+   ],
+   "repos": [
+    "hunar4321/particle-life",
+    "Chakazul/Lenia"
+   ],
+   "query": "particle life artificial life"
+  },
+  {
+   "id": "reaction",
+   "name": "Reaction-diffusion patterns",
+   "adds": "Coral, zebra and fingerprint patterns that grow on their own",
+   "hook": "surfaces grow coral and animal-skin patterns",
+   "noun": "Pattern",
+   "role": "look",
+   "kinds": [
+    "render",
+    "app",
+    "website",
+    "game"
+   ],
+   "tags": [
+    "body",
+    "calm",
+    "creative",
+    "fashion",
+    "journal",
+    "nature"
+   ],
+   "repos": [
+    "piellardj/reaction-diffusion-webgl",
+    "colejd/Reaction-Diffusion-ThreeJS"
+   ],
+   "query": "reaction diffusion"
+  },
+  {
+   "id": "gravity",
+   "name": "Gravity and orbits",
+   "adds": "Real n-body gravity, orbits and collisions",
+   "hook": "everything orbits and pulls on everything else",
+   "noun": "Orbit",
+   "role": "physics",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio"
+   ],
+   "tags": [
+    "space",
+    "scifi",
+    "calm"
+   ],
+   "repos": [
+    "SebLague/Solar-System",
+    "Hsin-Hung/N-body-simulation",
+    "alvinng4/grav_sim"
+   ],
+   "query": "gravity n-body orbit"
+  },
+  {
+   "id": "erosion",
+   "name": "Erosion and rivers",
+   "adds": "Terrain that rain carves into rivers and valleys over time",
+   "hook": "rain carves real rivers and valleys over time",
+   "noun": "Rivers",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "nature",
+    "realistic",
+    "strategy"
+   ],
+   "repos": [
+    "weigert/SimpleHydrology",
+    "LanLou123/Webgl-Erosion",
+    "SebLague/Hydraulic-Erosion"
+   ],
+   "query": "erosion terrain hydrology"
+  },
+  {
+   "id": "ants",
+   "name": "Ant-colony trails",
+   "adds": "Agents that lay scent trails and find the shortest paths",
+   "hook": "colonies lay scent trails and find the shortest paths",
+   "noun": "Colony",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render",
+    "app"
+   ],
+   "tags": [
+    "strategy",
+    "nature"
+   ],
+   "repos": [
+    "Nikorasu/PyNAnts",
+    "nilsgollub/AntSim_V2"
+   ],
+   "query": "ant colony pheromone"
+  },
+  {
+   "id": "frost",
+   "name": "Frost and crystal growth",
+   "adds": "Branching crystals that grow over anything",
+   "hook": "frost and crystals branch across anything cold",
+   "noun": "Frost",
+   "role": "look",
+   "kinds": [
+    "render",
+    "game",
+    "website",
+    "app"
+   ],
+   "tags": [
+    "calm",
+    "eerie",
+    "meditation",
+    "nature",
+    "sleep"
+   ],
+   "repos": [
+    "fogleman/dlaf",
+    "BrutPitt/DLAf-optimized"
+   ],
+   "query": "diffusion limited aggregation"
+  },
+  {
+   "id": "traffic",
+   "name": "Traffic simulation",
+   "adds": "Cars, lanes and jams that emerge on their own",
+   "hook": "traffic flows and jams on its own",
+   "noun": "Gridlock",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "tool"
+   ],
+   "tags": [
+    "strategy",
+    "realistic",
+    "data",
+    "racing"
+   ],
+   "repos": [
+    "volkhin/RoadTrafficSimulator",
+    "toruseo/UXsim",
+    "cityflow-project/CityFlow"
+   ],
+   "query": "traffic simulation"
+  },
+  {
+   "id": "ecosystem",
+   "name": "Predator and prey",
+   "adds": "Creatures that hunt, breed and swing in population",
+   "hook": "creatures hunt, breed and die off in cycles",
+   "noun": "Wilds",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render"
+   ],
+   "tags": [
+    "nature",
+    "strategy",
+    "sandbox"
+   ],
+   "repos": [
+    "connor-brooks/ecosim"
+   ],
+   "query": "ecosystem evolution simulation"
+  },
+  {
+   "id": "automata",
+   "name": "Cellular automata",
+   "adds": "A world that updates by a few simple local rules",
+   "hook": "the world updates by simple cellular rules",
+   "noun": "Cells",
+   "role": "life",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "tool"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "abstract",
+    "retro",
+    "puzzle",
+    "minimal"
+   ],
+   "repos": [
+    "copy/life",
+    "Nikorasu/NantArray"
+   ],
+   "query": "cellular automata game of life"
+  },
+  {
+   "id": "origami",
+   "name": "Folding simulation",
+   "adds": "Paper that folds and unfolds with real creases",
+   "hook": "things fold and unfold like origami",
+   "noun": "Fold",
+   "role": "physics",
+   "kinds": [
+    "render",
+    "game",
+    "app"
+   ],
+   "tags": [
+    "calm",
+    "creative",
+    "journal",
+    "meditation",
+    "puzzle"
+   ],
+   "repos": [
+    "amandaghassaei/OrigamiSimulator"
+   ],
+   "query": "origami folding"
+  },
+  {
+   "id": "pathtrace",
+   "name": "Path-traced lighting",
+   "adds": "Photoreal light with soft shadows and reflections",
+   "hook": "light bounces for real, with soft shadows and reflections",
+   "noun": "Light",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio",
+    "website"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "architecture",
+    "graphics",
+    "lookbook",
+    "realistic",
+    "storefront"
+   ],
+   "repos": [
+    "gkjohnson/three-gpu-pathtracer",
+    "google/filament"
+   ],
+   "query": "path tracing ray tracing"
+  },
+  {
+   "id": "raymarch",
+   "name": "One-shader worlds",
+   "adds": "An entire world drawn by a single shader",
+   "hook": "the entire world is drawn by one shader",
+   "noun": "Shader",
+   "role": "look",
+   "kinds": [
+    "render",
+    "game",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "abstract",
+    "scifi",
+    "graphics"
+   ],
+   "repos": [
+    "electricsquare/raymarching-workshop",
+    "shader-park/shader-park-core",
+    "fogleman/sdf"
+   ],
+   "query": "raymarching sdf shader"
+  },
+  {
+   "id": "glass",
+   "name": "Liquid glass interface",
+   "adds": "Refractive glass panels that bend what sits behind them",
+   "hook": "the interface is liquid glass that bends what is behind it",
+   "noun": "Glass",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "brand",
+    "creative",
+    "design",
+    "finance",
+    "minimal",
+    "professional",
+    "storefront"
+   ],
+   "repos": [
+    "samasante/liquid-glass",
+    "ybouane/liquidglass"
+   ],
+   "query": "liquid glass"
+  },
+  {
+   "id": "film",
+   "name": "Cinematic post-processing",
+   "adds": "Bloom, grain and lens effects so it looks filmed",
+   "hook": "everything looks filmed, with bloom and grain",
+   "noun": "Film",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "intense",
+    "horror",
+    "realistic",
+    "scifi",
+    "graphics"
+   ],
+   "repos": [
+    "pmndrs/postprocessing",
+    "lettier/3d-game-shaders-for-beginners"
+   ],
+   "query": "post processing bloom"
+  },
+  {
+   "id": "toon",
+   "name": "Comic-book shading",
+   "adds": "Ink outlines and cel shading",
+   "hook": "it is rendered like a living comic book",
+   "noun": "Ink",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "cozy",
+    "fantasy",
+    "playful"
+   ],
+   "repos": [
+    "OmarShehata/webgl-outlines",
+    "nidorx/matcaps"
+   ],
+   "query": "toon outline cel shading"
+  },
+  {
+   "id": "blackhole",
+   "name": "Black-hole lensing",
+   "adds": "Gravity that bends the light around it",
+   "hook": "a black hole bends the light of everything nearby",
+   "noun": "Horizon",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "space",
+    "scifi",
+    "eerie",
+    "graphics"
+   ],
+   "repos": [
+    "rantonels/starless",
+    "MisterPrada/singularity"
+   ],
+   "query": "black hole raytracer"
+  },
+  {
+   "id": "aurora",
+   "name": "Aurora sky",
+   "adds": "Shimmering curtains of light across the sky",
+   "hook": "the sky fills with shifting auroras",
+   "noun": "Aurora",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "website"
+   ],
+   "tags": [
+    "calm",
+    "fantasy",
+    "meditation",
+    "nature",
+    "sleep",
+    "space"
+   ],
+   "repos": [
+    "ksd3/aurorasim",
+    "unconed/NeverSeenTheSky",
+    "lun0522/AuroraSketcher"
+   ],
+   "query": "aurora"
+  },
+  {
+   "id": "noneuclid",
+   "name": "Impossible space",
+   "adds": "Rooms bigger inside than out and portals that fold space",
+   "hook": "rooms are bigger inside than out and portals fold space",
+   "noun": "Paradox",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio",
+    "website"
+   ],
+   "tags": [
+    "puzzle",
+    "horror",
+    "eerie",
+    "scifi",
+    "graphics"
+   ],
+   "repos": [
+    "HackerPoet/NonEuclidean",
+    "SebLague/Portals",
+    "zenorogue/hyperrogue"
+   ],
+   "query": "non-euclidean portals"
+  },
+  {
+   "id": "raycaster",
+   "name": "1993 raycaster look",
+   "adds": "DOOM-style 2.5D corridors",
+   "hook": "it is rendered like a 1993 corridor shooter",
+   "noun": "Corridor",
+   "role": "look",
+   "kinds": [
+    "game",
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "retro",
+    "shooter",
+    "horror"
+   ],
+   "repos": [
+    "vinibiavatti1/RayCastingTutorial",
+    "ahuth/raycast",
+    "id-Software/DOOM"
+   ],
+   "query": "raycasting raycaster"
+  },
+  {
+   "id": "crt",
+   "name": "CRT screen",
+   "adds": "Scanlines, curvature and phosphor glow",
+   "hook": "it glows on a curved old CRT screen",
+   "noun": "Phosphor",
+   "role": "look",
+   "kinds": [
+    "game",
+    "app",
+    "tool",
+    "website"
+   ],
+   "tags": [
+    "developers",
+    "horror",
+    "retro",
+    "writing"
+   ],
+   "repos": [
+    "Swordfish90/cool-retro-term",
+    "sehugg/8bitworkshop"
+   ],
+   "query": "crt retro terminal"
+  },
+  {
+   "id": "ascii",
+   "name": "Text-mode rendering",
+   "adds": "Everything drawn in animated text characters",
+   "hook": "everything is drawn in animated text characters",
+   "noun": "Glyphs",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "website",
+    "app",
+    "tool"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "creative",
+    "developers",
+    "minimal",
+    "notes",
+    "retro",
+    "writing"
+   ],
+   "repos": [
+    "ertdfgcvb/play.core"
+   ],
+   "query": "ascii text rendering"
+  },
+  {
+   "id": "splats",
+   "name": "Real-world scans",
+   "adds": "Places and objects scanned from a phone as Gaussian splats",
+   "hook": "real places, scanned with a phone, become explorable space",
+   "noun": "Scan",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio",
+    "website"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "architecture",
+    "graphics",
+    "lookbook",
+    "realistic",
+    "storefront"
+   ],
+   "repos": [
+    "antimatter15/splat"
+   ],
+   "query": "gaussian splatting"
+  },
+  {
+   "id": "pixel",
+   "name": "Pixel-art pipeline",
+   "adds": "Hand-drawn sprites and animation",
+   "hook": "every sprite is hand-drawn pixel art",
+   "noun": "Pixels",
+   "role": "look",
+   "kinds": [
+    "game",
+    "app"
+   ],
+   "dims": [
+    "2d"
+   ],
+   "tags": [
+    "retro",
+    "cozy",
+    "playful"
+   ],
+   "repos": [
+    "piskelapp/piskel",
+    "nesbox/TIC-80"
+   ],
+   "query": "pixel art sprite editor"
+  },
+  {
+   "id": "materials",
+   "name": "Procedural materials",
+   "adds": "Node-built surfaces: stone, metal, skin, moss",
+   "hook": "every surface has its own procedural material",
+   "noun": "Surface",
+   "role": "look",
+   "kinds": [
+    "game",
+    "render",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "realistic",
+    "fantasy",
+    "graphics"
+   ],
+   "repos": [
+    "RodZill4/material-maker",
+    "patriciogonzalezvivo/lygia"
+   ],
+   "query": "procedural materials shader library"
+  },
+  {
+   "id": "globe",
+   "name": "Interactive globe",
+   "adds": "A spinning 3D Earth you can pin things to",
+   "hook": "it is all anchored to a spinning globe of the real Earth",
+   "noun": "Globe",
+   "role": "world",
+   "kinds": [
+    "app",
+    "render",
+    "website",
+    "game",
+    "portfolio"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "data",
+    "events",
+    "learning",
+    "planner",
+    "social",
+    "space"
+   ],
+   "repos": [
+    "shuding/cobe",
+    "vasturiano/globe.gl"
+   ],
+   "query": "globe earth webgl"
+  },
+  {
+   "id": "weather",
+   "name": "Live wind and weather",
+   "adds": "Real, current wind and weather data",
+   "hook": "real weather from today blows through it",
+   "noun": "Weather",
+   "role": "data",
+   "kinds": [
+    "render",
+    "app",
+    "game",
+    "website"
+   ],
+   "tags": [
+    "calm",
+    "journal",
+    "meditation",
+    "nature",
+    "realistic",
+    "sleep",
+    "wellness"
+   ],
+   "repos": [
+    "mapbox/webgl-wind",
+    "cambecc/earth"
+   ],
+   "query": "wind weather visualization"
+  },
+  {
+   "id": "sky",
+   "name": "Live satellites and stars",
+   "adds": "Real satellites and star positions in real time",
+   "hook": "real satellites and stars move overhead in real time",
+   "noun": "Sky",
+   "role": "data",
+   "kinds": [
+    "render",
+    "app",
+    "game"
+   ],
+   "tags": [
+    "space",
+    "learning",
+    "calm"
+   ],
+   "repos": [
+    "jeyoder/StuffInSpace",
+    "ofrohn/d3-celestial",
+    "OpenSpace/OpenSpace"
+   ],
+   "query": "satellites stars sky map"
+  },
+  {
+   "id": "type",
+   "name": "Custom type and icons",
+   "adds": "Its own typeface tooling, icon set and accessible colours",
+   "hook": "it has its own typeface and icon language",
+   "noun": "Type",
+   "role": "look",
+   "kinds": [
+    "app",
+    "website",
+    "portfolio",
+    "tool"
+   ],
+   "tags": [
+    "brand",
+    "design",
+    "finance",
+    "minimal",
+    "professional",
+    "storefront"
+   ],
+   "repos": [
+    "opentypejs/opentype.js",
+    "lucide-icons/lucide",
+    "adobe/leonardo"
+   ],
+   "query": "typography icons"
+  },
+  {
+   "id": "palette",
+   "name": "Generated colour palettes",
+   "adds": "Palettes generated from the user or the day",
+   "hook": "its colours are generated fresh from your own data",
+   "noun": "Palette",
+   "role": "look",
+   "kinds": [
+    "app",
+    "website",
+    "render"
+   ],
+   "tags": [
+    "creative",
+    "design",
+    "drawing",
+    "fashion",
+    "journal",
+    "moodboard"
+   ],
+   "repos": [
+    "meodai/poline",
+    "adobe/leonardo"
+   ],
+   "query": "color palette generator"
+  },
+  {
+   "id": "sketch",
+   "name": "Generative illustration",
+   "adds": "A unique generated drawing for every entry or item",
+   "hook": "every entry gets its own generated illustration",
+   "noun": "Sketch",
+   "role": "look",
+   "kinds": [
+    "app",
+    "render",
+    "website"
+   ],
+   "tags": [
+    "creative",
+    "drawing",
+    "journal",
+    "wellness",
+    "writing"
+   ],
+   "repos": [
+    "LingDong-/fishdraw",
+    "mattdesl/canvas-sketch",
+    "hundredrabbits/Dotgrid"
+   ],
+   "query": "generative drawing illustration"
+  },
+  {
+   "id": "realm",
+   "name": "Generated realms",
+   "adds": "Continents, nations and histories generated per run",
+   "hook": "every playthrough generates a new map with its own nations and history",
+   "noun": "Realm",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "app"
+   ],
+   "tags": [
+    "fantasy",
+    "rpg",
+    "strategy"
+   ],
+   "repos": [
+    "Azgaar/Fantasy-Map-Generator",
+    "ProbableTrain/MapGenerator"
+   ],
+   "query": "fantasy map generator"
+  },
+  {
+   "id": "wfc",
+   "name": "Self-assembling levels",
+   "adds": "Levels that assemble from hand-made tiles (wave-function collapse)",
+   "hook": "levels assemble themselves from hand-made tiles",
+   "noun": "Tiles",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render"
+   ],
+   "tags": [
+    "puzzle",
+    "cozy",
+    "rpg"
+   ],
+   "repos": [
+    "marian42/wavefunctioncollapse"
+   ],
+   "query": "wave function collapse"
+  },
+  {
+   "id": "towns",
+   "name": "Generated towns and cities",
+   "adds": "Streets, blocks and buildings generated to fit the land",
+   "hook": "towns and cities grow street by street",
+   "noun": "City",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render"
+   ],
+   "tags": [
+    "fantasy",
+    "strategy",
+    "architecture",
+    "realistic"
+   ],
+   "repos": [
+    "watabou/TownGeneratorOS",
+    "jstrait/city-tour",
+    "AndyQ/MetalCity",
+    "SimHacker/micropolis"
+   ],
+   "query": "city town generator"
+  },
+  {
+   "id": "trees",
+   "name": "Growing trees",
+   "adds": "Procedural 3D trees that grow and sway",
+   "hook": "trees grow procedurally and sway in the wind",
+   "noun": "Grove",
+   "role": "world",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "website"
+   ],
+   "dims": [
+    "3d"
+   ],
+   "tags": [
+    "budget",
+    "calm",
+    "cozy",
+    "focus",
+    "habits",
+    "journal",
+    "meditation",
+    "nature",
+    "wellness"
+   ],
+   "repos": [
+    "dgreenheck/ez-tree"
+   ],
+   "query": "procedural tree"
+  },
+  {
+   "id": "dungeon",
+   "name": "Dungeon generator",
+   "adds": "Rooms, corridors and loot laid out fresh each time",
+   "hook": "every descent builds a new dungeon",
+   "noun": "Depths",
+   "role": "world",
+   "kinds": [
+    "game"
+   ],
+   "tags": [
+    "rpg",
+    "fantasy",
+    "horror"
+   ],
+   "repos": [
+    "AsPJT/DungeonTemplateLibrary",
+    "00-Evan/shattered-pixel-dungeon"
+   ],
+   "query": "dungeon roguelike generator"
+  },
+  {
+   "id": "daily",
+   "name": "Daily seeded world",
+   "adds": "A world seeded by the date, identical for everyone today",
+   "hook": "the world changes every day, the same for everyone",
+   "noun": "Today",
+   "role": "twist",
+   "kinds": [
+    "game",
+    "render",
+    "app",
+    "website"
+   ],
+   "tags": [
+    "habits",
+    "journal",
+    "puzzle",
+    "social"
+   ],
+   "repos": [
+    "davidbau/seedrandom"
+   ],
+   "query": "seeded random daily"
+  },
+  {
+   "id": "roads",
+   "name": "Generated roads and tracks",
+   "adds": "Road networks and race tracks that fit the terrain",
+   "hook": "roads and tracks are generated to fit the land",
+   "noun": "Roads",
+   "role": "world",
+   "kinds": [
+    "game"
+   ],
+   "tags": [
+    "racing",
+    "strategy"
+   ],
+   "repos": [
+    "TheDuckCow/godot-road-generator",
+    "ProbableTrain/MapGenerator",
+    "BKcore/HexGL"
+   ],
+   "query": "road generator racing track"
+  },
+  {
+   "id": "planner-ai",
+   "name": "Opponent that plans ahead",
+   "adds": "A search-based AI that looks several moves ahead",
+   "hook": "the opponent really plans several moves ahead",
+   "noun": "Gambit",
+   "role": "brain",
+   "kinds": [
+    "game",
+    "app"
+   ],
+   "tags": [
+    "strategy",
+    "puzzle",
+    "ai"
+   ],
+   "repos": [
+    "thomasahle/sunfish",
+    "douglasbagnall/p4wn"
+   ],
+   "query": "chess engine minimax"
+  },
+  {
+   "id": "selfplay",
+   "name": "Self-taught AI",
+   "adds": "An AI that learns your rules by playing itself",
+   "hook": "the AI teaches itself your rules by playing millions of games",
+   "noun": "Mind",
+   "role": "brain",
+   "kinds": [
+    "game",
+    "portfolio"
+   ],
+   "tags": [
+    "strategy",
+    "puzzle",
+    "ai"
+   ],
+   "repos": [
+    "suragnair/alpha-zero-general",
+    "pasky/michi"
+   ],
+   "query": "alphazero mcts self-play"
+  },
+  {
+   "id": "bt",
+   "name": "Enemies with tactics",
+   "adds": "Behaviour trees: patrol, flank, take cover, retreat",
+   "hook": "enemies patrol, flank and retreat like they mean it",
+   "noun": "Hunters",
+   "role": "brain",
+   "kinds": [
+    "game"
+   ],
+   "tags": [
+    "shooter",
+    "horror",
+    "rpg",
+    "responsive"
+   ],
+   "repos": [
+    "BehaviorTree/BehaviorTree.CPP"
+   ],
+   "query": "behavior tree ai"
+  },
+  {
+   "id": "paths",
+   "name": "Pathfinding",
+   "adds": "A* and friends so everything finds its own way",
+   "hook": "everything finds its own way around the world",
+   "noun": "Paths",
+   "role": "brain",
+   "kinds": [
+    "game",
+    "app",
+    "tool"
+   ],
+   "tags": [
+    "strategy",
+    "rpg",
+    "data"
+   ],
+   "repos": [
+    "qiao/PathFinding.js",
+    "professor-l/mazes"
+   ],
+   "query": "pathfinding a*"
+  },
+  {
+   "id": "vision",
+   "name": "In-browser vision",
+   "adds": "Pose, hand and depth models running on-device",
+   "hook": "it watches your body through a model running on your device",
+   "noun": "Vision",
+   "role": "brain",
+   "kinds": [
+    "app",
+    "render",
+    "game",
+    "portfolio",
+    "website"
+   ],
+   "tags": [
+    "ai",
+    "body",
+    "fitness",
+    "tryon",
+    "wellness"
+   ],
+   "repos": [
+    "tensorflow/tfjs-models"
+   ],
+   "query": "pose estimation tensorflow"
+  },
+  {
+   "id": "neurons",
+   "name": "Visible neural network",
+   "adds": "Shows the model thinking as it decides",
+   "hook": "you can watch the neural network think as it decides",
+   "noun": "Neurons",
+   "role": "data",
+   "kinds": [
+    "portfolio",
+    "render",
+    "app",
+    "game"
+   ],
+   "tags": [
+    "ai",
+    "learning",
+    "explainer"
+   ],
+   "repos": [
+    "bbycroft/llm-viz",
+    "tensorflow/playground",
+    "poloclub/cnn-explainer"
+   ],
+   "query": "neural network visualization"
+  },
+  {
+   "id": "synth",
+   "name": "Built-in synthesizer",
+   "adds": "Real synthesis for music and sound effects",
+   "hook": "every action plays a note from a real synthesizer",
+   "noun": "Chord",
+   "role": "sound",
+   "kinds": [
+    "game",
+    "app",
+    "render",
+    "website"
+   ],
+   "tags": [
+    "music",
+    "rhythm",
+    "creative",
+    "musicians"
+   ],
+   "repos": [
+    "charlieroberts/genish.js",
+    "mtytel/vital"
+   ],
+   "query": "synthesizer audio"
+  },
+  {
+   "id": "reactive-visuals",
+   "name": "Music-reactive visuals",
+   "adds": "Milkdrop-style visuals that move with audio",
+   "hook": "visuals pulse and warp with the music",
+   "noun": "Pulse",
+   "role": "sound",
+   "kinds": [
+    "render",
+    "app",
+    "website",
+    "game"
+   ],
+   "tags": [
+    "music",
+    "rhythm",
+    "visualizer",
+    "intense",
+    "player"
+   ],
+   "repos": [
+    "jberg/butterchurn"
+   ],
+   "query": "music visualizer"
+  },
+  {
+   "id": "chladni",
+   "name": "Sound-shaped patterns",
+   "adds": "Sand that forms geometric patterns at each frequency",
+   "hook": "sound shapes sand into geometric patterns",
+   "noun": "Resonance",
+   "role": "sound",
+   "kinds": [
+    "render",
+    "app",
+    "website"
+   ],
+   "tags": [
+    "calm",
+    "meditation",
+    "music",
+    "sleep",
+    "visualizer"
+   ],
+   "repos": [
+    "hilbertcube/Chladni-Patterns-Generator",
+    "nolangz/3D-Chladni"
+   ],
+   "query": "chladni"
+  },
+  {
+   "id": "orca",
+   "name": "Live-coded sequencer",
+   "adds": "A grid where letters are instructions that make music",
+   "hook": "a live-coded music sequencer is built into it",
+   "noun": "Sequence",
+   "role": "sound",
+   "kinds": [
+    "game",
+    "app",
+    "tool",
+    "render"
+   ],
+   "tags": [
+    "music",
+    "rhythm",
+    "sequencer",
+    "retro",
+    "musicians"
+   ],
+   "repos": [
+    "hundredrabbits/Orca"
+   ],
+   "query": "sequencer live coding"
+  },
+  {
+   "id": "marbles",
+   "name": "Physics music",
+   "adds": "Rolling marbles that hit notes",
+   "hook": "rolling marbles play the soundtrack",
+   "noun": "Marbles",
+   "role": "sound",
+   "kinds": [
+    "game",
+    "render",
+    "app"
+   ],
+   "tags": [
+    "music",
+    "puzzle",
+    "playful"
+   ],
+   "repos": [
+    "AndrewB330/MusicMarbles",
+    "yomboprime/marbleMachine"
+   ],
+   "query": "marble music machine"
+  },
+  {
+   "id": "sonify",
+   "name": "Hear the data",
+   "adds": "Data and algorithms turned into sound",
+   "hook": "you can hear the data as it changes",
+   "noun": "Signal",
+   "role": "sound",
+   "kinds": [
+    "app",
+    "render",
+    "portfolio",
+    "tool"
+   ],
+   "tags": [
+    "data",
+    "focus",
+    "learning",
+    "screentime"
+   ],
+   "repos": [
+    "bingmann/sound-of-sorting",
+    "mszula/visual-sorting"
+   ],
+   "query": "sonification"
+  },
+  {
+   "id": "timeline",
+   "name": "Keyframed motion",
+   "adds": "Cinematic sequences choreographed on a timeline",
+   "hook": "cinematic moments are choreographed on a timeline",
+   "noun": "Scene",
+   "role": "motion",
+   "kinds": [
+    "website",
+    "portfolio",
+    "app",
+    "game"
+   ],
+   "tags": [
+    "brand",
+    "creative",
+    "design",
+    "launch",
+    "lookbook",
+    "storefront"
+   ],
+   "repos": [
+    "theatre-js/theatre",
+    "juliangarnier/anime"
+   ],
+   "query": "animation timeline keyframes"
+  },
+  {
+   "id": "scroll",
+   "name": "Scroll storytelling",
+   "adds": "Smooth, scroll-driven scenes and page transitions",
+   "hook": "scrolling drives the whole story",
+   "noun": "Scroll",
+   "role": "motion",
+   "kinds": [
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "scroll",
+    "brand",
+    "launch",
+    "personal",
+    "design"
+   ],
+   "repos": [
+    "darkroomengineering/lenis",
+    "barbajs/barba"
+   ],
+   "query": "smooth scroll page transitions"
+  },
+  {
+   "id": "morph",
+   "name": "Shape morphing",
+   "adds": "Shapes and icons that melt between states",
+   "hook": "shapes melt from one form into the next",
+   "noun": "Morph",
+   "role": "motion",
+   "kinds": [
+    "website",
+    "app",
+    "portfolio"
+   ],
+   "tags": [
+    "brand",
+    "creative",
+    "design",
+    "playful",
+    "storefront"
+   ],
+   "repos": [
+    "veltman/flubber",
+    "airbnb/lottie-web"
+   ],
+   "query": "svg morph animation"
+  },
+  {
+   "id": "cursor",
+   "name": "Cursor and gesture play",
+   "adds": "A cursor and touch gestures that shape the page",
+   "hook": "your cursor and gestures shape everything",
+   "noun": "Touch",
+   "role": "interface",
+   "kinds": [
+    "website",
+    "app",
+    "portfolio"
+   ],
+   "tags": [
+    "cursor",
+    "creative",
+    "playful"
+   ],
+   "repos": [
+    "Cuberto/mouse-follower",
+    "pmndrs/use-gesture"
+   ],
+   "query": "cursor gestures"
+  },
+  {
+   "id": "canvas",
+   "name": "Infinite canvas",
+   "adds": "One zoomable canvas instead of pages",
+   "hook": "everything lives on one infinite, zoomable canvas",
+   "noun": "Canvas",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "tool",
+    "website"
+   ],
+   "tags": [
+    "creative",
+    "designers",
+    "moodboard",
+    "notes",
+    "planner",
+    "writing"
+   ],
+   "repos": [
+    "tldraw/tldraw"
+   ],
+   "query": "infinite canvas whiteboard"
+  },
+  {
+   "id": "nodes",
+   "name": "Node-graph editing",
+   "adds": "Behaviour built by wiring boxes together",
+   "hook": "you build behaviour by wiring nodes together",
+   "noun": "Nodes",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "tool",
+    "game"
+   ],
+   "tags": [
+    "creative",
+    "developers",
+    "musicians",
+    "systems"
+   ],
+   "repos": [
+    "jagenjo/litegraph.js"
+   ],
+   "query": "node graph editor"
+  },
+  {
+   "id": "sync",
+   "name": "Real-time together",
+   "adds": "Live sync between friends and devices, offline-first",
+   "hook": "friends edit and play together in real time",
+   "noun": "Together",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "game",
+    "tool",
+    "website"
+   ],
+   "tags": [
+    "events",
+    "groupchat",
+    "planner",
+    "social"
+   ],
+   "repos": [
+    "jlongster/crdt-example-app",
+    "webtorrent/webtorrent"
+   ],
+   "query": "crdt realtime sync"
+  },
+  {
+   "id": "rollback",
+   "name": "Lag-free online play",
+   "adds": "Rollback netcode for fair online matches",
+   "hook": "online matches feel lag-free thanks to rollback netcode",
+   "noun": "Rival",
+   "role": "interface",
+   "kinds": [
+    "game"
+   ],
+   "tags": [
+    "shooter",
+    "racing",
+    "strategy"
+   ],
+   "repos": [
+    "pond3r/ggpo"
+   ],
+   "query": "netcode multiplayer"
+  },
+  {
+   "id": "charts",
+   "name": "Fast live charts",
+   "adds": "Clean, fast charts of the user's own data",
+   "hook": "your own data becomes clean, live charts",
+   "noun": "Chart",
+   "role": "data",
+   "kinds": [
+    "app",
+    "tool",
+    "portfolio"
+   ],
+   "tags": [
+    "budget",
+    "finance",
+    "fitness",
+    "habits",
+    "investing",
+    "professional",
+    "screentime",
+    "sleep",
+    "subscriptions",
+    "tasks"
+   ],
+   "repos": [
+    "apache/echarts",
+    "leeoniya/uPlot"
+   ],
+   "query": "charts data visualization"
+  },
+  {
+   "id": "web3d",
+   "name": "Connections you can fly through",
+   "adds": "A force-directed 3D web of related things",
+   "hook": "everything connects in a 3D web you can fly through",
+   "noun": "Web",
+   "role": "data",
+   "kinds": [
+    "app",
+    "render",
+    "portfolio"
+   ],
+   "tags": [
+    "journal",
+    "learning",
+    "notes",
+    "researchers",
+    "social",
+    "writing"
+   ],
+   "repos": [
+    "vasturiano/3d-force-graph",
+    "cosmosgl/graph"
+   ],
+   "query": "force graph network"
+  },
+  {
+   "id": "explain",
+   "name": "Explorable explanation",
+   "adds": "It teaches the idea as you interact",
+   "hook": "it teaches its own ideas to you as you play",
+   "noun": "Lesson",
+   "role": "twist",
+   "kinds": [
+    "app",
+    "render",
+    "portfolio",
+    "website",
+    "game"
+   ],
+   "tags": [
+    "explainer",
+    "flashcards",
+    "language",
+    "learning"
+   ],
+   "repos": [
+    "ncase/trust",
+    "Pomax/BezierInfo-2",
+    "jackschaedler/circles-sines-signals"
+   ],
+   "query": "explorable explanation interactive"
+  },
+  {
+   "id": "mathviz",
+   "name": "Math drawn live",
+   "adds": "The maths behind it drawn on screen",
+   "hook": "the maths behind it is drawn live on screen",
+   "noun": "Proof",
+   "role": "data",
+   "kinds": [
+    "render",
+    "portfolio",
+    "app"
+   ],
+   "tags": [
+    "learning",
+    "science"
+   ],
+   "repos": [
+    "unconed/mathbox",
+    "wgxli/complex-function-plotter"
+   ],
+   "query": "math visualization"
+  },
+  {
+   "id": "bytes",
+   "name": "See inside raw data",
+   "adds": "Files and bytes rendered as readable images",
+   "hook": "raw files and data become images you can read",
+   "noun": "Bytes",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "render",
+    "portfolio"
+   ],
+   "tags": [
+    "security",
+    "developers",
+    "researchers"
+   ],
+   "repos": [
+    "sharkdp/binocle",
+    "Battelle/cantordust"
+   ],
+   "query": "binary visualization"
+  },
+  {
+   "id": "recipes",
+   "name": "Recipe-style transforms",
+   "adds": "Chains of operations you can reorder and share",
+   "hook": "you chain transformations like a recipe",
+   "noun": "Recipe",
+   "role": "interface",
+   "kinds": [
+    "tool",
+    "app"
+   ],
+   "tags": [
+    "security",
+    "developers",
+    "productivity"
+   ],
+   "repos": [
+    "gchq/CyberChef",
+    "cryptii/cryptii"
+   ],
+   "query": "encode decode tool"
+  },
+  {
+   "id": "packets",
+   "name": "Live network map",
+   "adds": "Connections and traffic drawn as a map",
+   "hook": "network traffic is drawn as a live map",
+   "noun": "Traffic",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "render"
+   ],
+   "tags": [
+    "security",
+    "researchers",
+    "networks"
+   ],
+   "repos": [
+    "srixivas/PcapXray"
+   ],
+   "query": "network traffic visualization"
+  },
+  {
+   "id": "history",
+   "name": "Replayable history",
+   "adds": "The whole history replays as an animation",
+   "hook": "its entire history replays as an animation",
+   "noun": "History",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "app",
+    "render",
+    "portfolio"
+   ],
+   "tags": [
+    "developers",
+    "habits",
+    "journal",
+    "tasks"
+   ],
+   "repos": [
+    "acaudwell/Gource",
+    "unhappychoice/gitlogue"
+   ],
+   "query": "history visualization timeline"
+  },
+  {
+   "id": "molecules",
+   "name": "Real molecules",
+   "adds": "3D molecules and proteins you can rotate",
+   "hook": "it is built from real molecules you can rotate",
+   "noun": "Molecule",
+   "role": "data",
+   "kinds": [
+    "render",
+    "app",
+    "portfolio"
+   ],
+   "tags": [
+    "science",
+    "body",
+    "learning",
+    "wellness"
+   ],
+   "repos": [
+    "molstar/molstar"
+   ],
+   "query": "molecule protein viewer"
+  },
+  {
+   "id": "companion",
+   "name": "Physical companion",
+   "adds": "A small robot or watch that reacts alongside it",
+   "hook": "a small physical device reacts alongside it",
+   "noun": "Companion",
+   "role": "twist",
+   "kinds": [
+    "app",
+    "game",
+    "portfolio"
+   ],
+   "tags": [
+    "focus",
+    "habits",
+    "playful",
+    "sleep",
+    "wellness"
+   ],
+   "repos": [
+    "stack-chan/stack-chan",
+    "sqfmi/Watchy",
+    "PetoiCamp/OpenCat-Quadruped-Robot"
+   ],
+   "query": "robot companion watch"
+  },
+  {
+   "id": "wreck",
+   "name": "Destructible page",
+   "adds": "The page itself can be knocked apart",
+   "hook": "the page itself can be knocked apart",
+   "noun": "Rubble",
+   "role": "twist",
+   "kinds": [
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "playful",
+    "chaotic",
+    "brand",
+    "launch"
+   ],
+   "repos": [
+    "erkie/erkie.github.com",
+    "producthunt/asteroids",
+    "liabru/matter-js"
+   ],
+   "query": "destroy website game"
+  },
+  {
+   "id": "incremental",
+   "name": "Slow reveal",
+   "adds": "The interface reveals itself as you progress",
+   "hook": "the world reveals itself slowly as you progress",
+   "noun": "Room",
+   "role": "twist",
+   "kinds": [
+    "game",
+    "app"
+   ],
+   "tags": [
+    "budget",
+    "cozy",
+    "focus",
+    "habits",
+    "idle"
+   ],
+   "repos": [
+    "doublespeakgames/adarkroom"
+   ],
+   "query": "incremental idle game"
+  },
+  {
+   "id": "computer",
+   "name": "A computer inside it",
+   "adds": "A real, programmable computer or interpreter inside the world",
+   "hook": "there is a real computer inside it you can program",
+   "noun": "Terminal",
+   "role": "twist",
+   "kinds": [
+    "game",
+    "portfolio",
+    "tool"
+   ],
+   "tags": [
+    "scifi",
+    "retro",
+    "puzzle",
+    "developers",
+    "systems"
+   ],
+   "repos": [
+    "jart/sectorlisp",
+    "kanaka/mal",
+    "rswier/c4"
+   ],
+   "query": "interpreter tiny computer"
+  }
+ ]
+}

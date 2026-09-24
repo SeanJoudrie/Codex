@@ -59,6 +59,15 @@ docs/SOURCES.md     the seed list, readable
 prompts/scout.md    the scout prompt
 ```
 
+## Idea generator
+
+`site/ideas.html` turns the archive into project ideas. Pick what you're making (a game, an art
+piece, an app, a portfolio piece, a website or a tool), answer the follow-up questions, and choose
+how many building blocks to combine (2 to 10). Each idea lists its blocks with archive references,
+plus a "make it yours" prompt. Lock the blocks you like, swap the rest, and copy the idea as a
+prompt for Claude. The blocks live in `data/features.json`; each has pinned repos plus a search
+query, so new archive finds show up in ideas automatically.
+
 ## Scouting with a prompt
 
 `prompts/scout.md` is a prompt for Claude (or any assistant with web search) that hunts for
