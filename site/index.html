@@ -3,39 +3,76 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Codex</title>
+<title>Codex — an archive of open-source projects worth learning from</title>
+<meta name="description" content="A ranked, screenshotted archive of open-source projects worth learning from: shaders, simulations, game AI, 3D tools, security visualizers and more. Describe an idea and it finds the closest references.">
+<meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Codex">
+<meta property="og:description" content="A ranked, screenshotted archive of open-source projects worth learning from. Describe an idea and it finds the closest references.">
+<meta property="og:url" content="https://seanjoudrie.github.io/Codex/">
+<meta property="og:image" content="https://seanjoudrie.github.io/Codex/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
-  <div class="brand">
-    <h1>Codex</h1>
-    <p class="meta" id="meta">Loading…</p>
-  </div>
-  <input id="q" type="search" placeholder="Describe an idea or search — e.g. “racing game with a smart CPU driver”" autocomplete="off" aria-label="Search">
-  <nav class="chips" id="chips" aria-label="Categories"></nav>
-  <div class="toggles">
-    <label><input type="checkbox" id="favOnly"> ★ only</label>
-    <select id="sort" aria-label="Sort">
-      <option value="best">Best first</option>
-      <option value="new">Newest first</option>
-      <option value="stars">Most stars</option>
-      <option value="gem">Hidden gems</option>
-      <option value="visual">Real screenshots first</option>
-    </select>
+  <div class="wrap">
+    <div class="brand">
+      <h1>Codex</h1>
+      <p class="tagline">Open-source projects worth learning from, ranked and screenshotted.</p>
+      <p class="meta" id="meta" aria-live="polite">Loading the archive…</p>
+    </div>
+    <div class="controls">
+      <input id="q" type="search" autocomplete="off" aria-label="Describe an idea or search"
+        placeholder="Describe an idea, e.g. “racing game with a smart CPU driver”">
+      <div class="toggles">
+        <label><input type="checkbox" id="favOnly"> Saved only</label>
+        <select id="sort" aria-label="Sort order">
+          <option value="best">Best first</option>
+          <option value="new">Newest first</option>
+          <option value="stars">Most stars</option>
+          <option value="gem">Hidden gems</option>
+          <option value="visual">Live demos first</option>
+        </select>
+      </div>
+    </div>
+    <nav class="chips" id="chips" aria-label="Categories"></nav>
   </div>
 </header>
 
-<section id="fresh" class="fresh" hidden>
-  <h2>New this week</h2>
-  <div class="strip" id="freshStrip"></div>
-</section>
+<main>
+  <p class="idea-note wrap" id="ideaNote" hidden></p>
 
-<p class="idea-note" id="ideaNote" hidden></p>
-<main class="grid" id="grid"></main>
-<p class="empty" id="empty" hidden>Nothing matches.</p>
+  <section class="listing wrap" aria-label="Projects">
+    <div class="grid" id="grid" aria-busy="true">
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+      <div class="card skeleton" aria-hidden="true"><div class="shot-sk"></div><div class="body"><div class="line w60"></div><div class="line w90"></div><div class="line w40"></div></div></div>
+    </div>
+    <p class="empty" id="empty" hidden></p>
+  </section>
+</main>
 
-<dialog id="detail"></dialog>
+<footer class="foot">
+  <div class="wrap">
+    <span>Repos, stars and screenshots are refreshed from GitHub daily. Each project belongs to its authors.</span>
+    <a href="https://github.com/SeanJoudrie/Codex">Source on GitHub</a>
+  </div>
+</footer>
+
+<dialog id="detail" aria-labelledby="detailTitle"></dialog>
 <script src="app.js" type="module"></script>
 </body>
 </html>

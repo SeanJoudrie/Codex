@@ -34,7 +34,7 @@ async function demoShot(url) {
     // Reject error pages that come back 200 (SPA 404s, dead GitHub Pages sites, parked domains).
     const title = await page.title();
     const text = (await page.evaluate(() => document.body?.innerText ?? '')).trim();
-    const errorish = /\b404\b|not found|page not found|there isn't a github pages site here|domain (is )?for sale|site can.t be reached/i;
+    const errorish = /\b404\b|not found|page not found|there isn't a github pages site here|domain (is )?for sale|site can.t be reached|you have been blocked|access denied|sign in to confirm|verify you are (a )?human|attention required|just a moment|captcha|enable javascript and cookies/i;
     if (errorish.test(title) || (text.length < 600 && errorish.test(text))) return null;
     const png = await page.screenshot();
     // Reject blank captures (a failed WebGL context is usually one flat colour).
@@ -43,6 +43,8 @@ async function demoShot(url) {
     return png;
   } catch { return null; } finally { await page.close(); }
 }
+
+function safeHost(u) { try { return new URL(u).hostname; } catch { return ''; } }
 
 async function download(url) {
   try {
@@ -54,7 +56,9 @@ async function download(url) {
 
 for (const r of todo) {
   let kind = null, buf = null;
-  if (r.homepage && (buf = await demoShot(r.homepage))) kind = 'demo';
+  // Video sites show bot walls to headless browsers; the README image is better.
+  const videoHost = /(^|\.)(youtube\.com|youtu\.be|vimeo\.com)$/i.test(safeHost(r.homepage));
+  if (r.homepage && !videoHost && (buf = await demoShot(r.homepage))) kind = 'demo';
   else if (r.readme_image && (buf = await download(r.readme_image))) kind = 'readme';
   else if ((buf = await download(`https://opengraph.githubassets.com/1/${r.repo}`))) kind = 'social';
   if (!buf) continue;
