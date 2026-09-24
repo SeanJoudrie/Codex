@@ -57,6 +57,7 @@ site/               the static front-end (grid, search, filters, ★ favourites)
 docs/CONCEPT.md     the full plan and roadmap
 docs/SOURCES.md     the seed list, readable
 prompts/scout.md    the scout prompt
+prompts/idea-review.md  design review + fix prompt for the idea generator
 ```
 
 ## Idea generator
