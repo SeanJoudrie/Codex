@@ -500,9 +500,10 @@
   },
   "limits": {
     "min_stars": 10,
-    "max_new_per_run": 150,
+    "max_new_per_run": 250,
     "search_pages_per_query": 2,
-    "stale_after_days": null
+    "stale_after_days": null,
+    "max_queue": 5000
   },
   "random": {
     "_about": "Wildcard draws: pick random creation-date windows across GitHub's history and take a random page of well-starred repos from each. Everything found this way is tagged 'random'.",

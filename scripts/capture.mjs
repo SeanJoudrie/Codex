@@ -12,6 +12,7 @@ await mkdir(MEDIA, { recursive: true });
 
 // SwiftShader = CPU WebGL, so shader demos don't render black on GPU-less CI runners.
 const browser = await chromium.launch({
+  executablePath: process.env.CHROMIUM_PATH || undefined, // optional: use a system Chromium
   args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'],
 });
 

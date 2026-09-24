@@ -22,8 +22,12 @@ function firstImage(readme, repo, branch) {
 
 let added = 0;
 for (const c of candidates.slice(0, sources.limits.max_new_per_run)) {
+  try { if (await enrichOne(c)) added++; } catch (e) { console.warn(`enrich skipped ${c.repo}: ${e.message}`); }
+}
+
+async function enrichOne(c) {
   const meta = await gh(`/repos/${c.repo}`);
-  if (!meta || meta.archived && meta.stargazers_count < sources.limits.min_stars) continue;
+  if (!meta || meta.archived && meta.stargazers_count < sources.limits.min_stars) return false;
   const readme = (await gh(`/repos/${c.repo}/readme`, { accept: 'application/vnd.github.raw', raw: true })) ?? '';
   const seed = seedBy.get(c.repo.toLowerCase());
   const stub = index.repos.find((r) => r.stub && r.repo.toLowerCase() === c.repo.toLowerCase());
@@ -47,7 +51,7 @@ for (const c of candidates.slice(0, sources.limits.max_new_per_run)) {
     sources: c.sources,
     first_seen: stub?.first_seen ?? today(),
   });
-  added++;
+  return true;
 }
 
 index.updated = today();

@@ -22,13 +22,22 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 export async function gh(path, { accept = 'application/vnd.github+json', raw = false } = {}) {
   const url = path.startsWith('http') ? path : `https://api.github.com${path}`;
   for (let attempt = 0; attempt < 4; attempt++) {
-    const res = await fetch(url, {
-      headers: {
-        Accept: accept,
-        'User-Agent': 'codex',
-        ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
-      },
-    });
+    let res;
+    try {
+      res = await fetch(url, {
+        headers: {
+          Accept: accept,
+          'User-Agent': 'codex',
+          ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
+        },
+        signal: AbortSignal.timeout(30_000),
+      });
+    } catch (e) {
+      // Dropped sockets and timeouts happen on long runs — back off and retry.
+      console.warn(`network error on ${path} (${e.cause?.code ?? e.name}), retrying`);
+      await sleep(2_000 * 2 ** attempt);
+      continue;
+    }
     if (res.status === 404) return null;
     if (res.status === 403 || res.status === 429) {
       const reset = Number(res.headers.get('x-ratelimit-reset')) * 1000;
