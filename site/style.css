@@ -198,3 +198,8 @@ dialog dd { margin: 0; overflow-wrap: anywhere; }
 .btn.small { min-height: 40px; }
 .breakdown summary { min-height: 40px; display: flex; align-items: center; }
 .field input[type="range"] { min-height: 40px; }
+.money { display: grid; gap: var(--s2); padding: var(--s4); border: var(--border); border-radius: var(--radius); }
+.money dl { display: grid; grid-template-columns: max-content 1fr; gap: var(--s2) var(--s4); margin: 0; font-size: var(--t-sm); }
+.money dt { font: 500 var(--t-xs)/1.7 var(--mono); color: var(--muted); }
+.money dd { margin: 0; }
+@media (max-width: 560px) { .money dl { grid-template-columns: 1fr; gap: var(--s1); } .money dd { margin-bottom: var(--s2); } }

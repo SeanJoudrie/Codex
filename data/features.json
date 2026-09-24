@@ -257,8 +257,8 @@
    "role": "interface",
    "kinds": [
     "app",
-    "tool",
-    "game"
+    "game",
+    "tool"
    ],
    "dims": [
     "2d"
@@ -991,12 +991,16 @@
     "portfolio"
    ],
    "tags": [
+    "b2b",
     "brand",
     "creative",
+    "creators",
     "design",
     "finance",
+    "freelancers",
     "minimal",
     "professional",
+    "small-business",
     "storefront",
     "swiss",
     "y2k"
@@ -1531,17 +1535,21 @@
    "role": "look",
    "kinds": [
     "app",
-    "website",
     "portfolio",
-    "tool"
+    "tool",
+    "website"
    ],
    "tags": [
+    "b2b",
     "brand",
     "brutalist",
+    "creators",
     "design",
     "finance",
+    "freelancers",
     "minimal",
     "professional",
+    "small-business",
     "storefront",
     "swiss"
    ],
@@ -1577,6 +1585,7 @@
     "drawing",
     "fashion",
     "journal",
+    "money",
     "moodboard",
     "risograph"
    ],
@@ -1612,6 +1621,7 @@
     "creative",
     "drawing",
     "journal",
+    "money",
     "papercraft",
     "risograph",
     "wellness",
@@ -1763,6 +1773,7 @@
     "habits",
     "journal",
     "meditation",
+    "money",
     "nature",
     "wellness"
    ],
@@ -1826,6 +1837,7 @@
    "tags": [
     "habits",
     "journal",
+    "money",
     "puzzle",
     "social"
    ],
@@ -2444,12 +2456,16 @@
     "website"
    ],
    "tags": [
+    "b2b",
     "collage",
     "creative",
+    "creators",
     "designers",
+    "freelancers",
     "moodboard",
     "notes",
     "planner",
+    "small-business",
     "writing"
    ],
    "repos": [
@@ -2508,9 +2524,14 @@
     "website"
    ],
    "tags": [
+    "b2b",
+    "creators",
     "events",
+    "freelancers",
     "groupchat",
+    "money",
     "planner",
+    "small-business",
     "social"
    ],
    "repos": [
@@ -2566,18 +2587,23 @@
    "role": "data",
    "kinds": [
     "app",
-    "tool",
-    "portfolio"
+    "portfolio",
+    "tool"
    ],
    "tags": [
+    "b2b",
     "budget",
+    "creators",
     "finance",
     "fitness",
+    "freelancers",
     "habits",
     "investing",
+    "money",
     "professional",
     "screentime",
     "sleep",
+    "small-business",
     "subscriptions",
     "swiss",
     "tasks"
@@ -2705,6 +2731,7 @@
     "portfolio"
    ],
    "tags": [
+    "b2b",
     "blueprint",
     "developers",
     "researchers",
@@ -2735,13 +2762,14 @@
    "noun": "Recipe",
    "role": "interface",
    "kinds": [
-    "tool",
-    "app"
+    "app",
+    "tool"
    ],
    "tags": [
-    "security",
+    "b2b",
     "developers",
-    "productivity"
+    "productivity",
+    "security"
    ],
    "repos": [
     "gchq/CyberChef",
@@ -2771,9 +2799,10 @@
     "render"
    ],
    "tags": [
-    "security",
+    "b2b",
+    "networks",
     "researchers",
-    "networks"
+    "security"
    ],
    "repos": [
     "srixivas/PcapXray"
@@ -2798,15 +2827,20 @@
    "noun": "History",
    "role": "data",
    "kinds": [
-    "tool",
     "app",
+    "portfolio",
     "render",
-    "portfolio"
+    "tool"
    ],
    "tags": [
+    "b2b",
+    "creators",
     "developers",
+    "freelancers",
     "habits",
     "journal",
+    "money",
+    "small-business",
     "tasks"
    ],
    "repos": [
@@ -2946,7 +2980,8 @@
     "cozy",
     "focus",
     "habits",
-    "idle"
+    "idle",
+    "money"
    ],
    "repos": [
     "doublespeakgames/adarkroom"
@@ -3018,6 +3053,7 @@
     "habits",
     "journal",
     "kids",
+    "money",
     "playful",
     "sleep",
     "wellness"
@@ -3057,11 +3093,12 @@
     "app"
    ],
    "tags": [
-    "finance",
     "budget",
-    "subscriptions",
+    "finance",
+    "kids",
+    "money",
     "playful",
-    "kids"
+    "subscriptions"
    ],
    "repos": [
     "liabru/matter-js",
@@ -3092,8 +3129,9 @@
     "app"
    ],
    "tags": [
-    "finance",
     "budget",
+    "finance",
+    "money",
     "professional"
    ],
    "repos": [],
@@ -3187,15 +3225,16 @@
    "noun": "Diff",
    "role": "data",
    "kinds": [
-    "tool",
-    "app"
+    "app",
+    "tool"
    ],
    "tags": [
+    "b2b",
     "developers",
-    "security",
+    "notes",
     "researchers",
-    "tasks",
-    "notes"
+    "security",
+    "tasks"
    ],
    "repos": [
     "Wilfred/difftastic"
@@ -3222,13 +3261,14 @@
     "render"
    ],
    "tags": [
-    "rpg",
+    "cozy",
     "fantasy",
     "horror",
-    "cozy",
-    "scifi",
     "journal",
-    "learning"
+    "learning",
+    "money",
+    "rpg",
+    "scifi"
    ],
    "repos": [],
    "query": "branching dialogue narrative",
@@ -3245,6 +3285,132 @@
     "mascot"
    ],
    "ambient": "told as a branching story"
+  },
+  {
+   "id": "booking",
+   "name": "Online booking",
+   "adds": "Customers pick a time and book themselves",
+   "hook": "customers book themselves",
+   "noun": "Bookings",
+   "role": "interface",
+   "kinds": [
+    "tool",
+    "app",
+    "website"
+   ],
+   "tags": [
+    "small-business",
+    "freelancers",
+    "creators",
+    "b2b",
+    "money",
+    "professional",
+    "planner",
+    "events"
+   ],
+   "repos": [],
+   "query": "booking scheduling calendar",
+   "scout": "open-source booking and scheduling (e.g. cal.com)",
+   "traits": [
+    "scheduling"
+   ],
+   "signature": "{each} is made by the customer, with no back-and-forth",
+   "angle": "lets customers book themselves",
+   "cost": 2,
+   "delight": 4
+  },
+  {
+   "id": "invoices",
+   "name": "Invoices that chase themselves",
+   "adds": "Invoices, payment links and polite automatic reminders",
+   "hook": "invoices chase themselves",
+   "noun": "Invoices",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "app"
+   ],
+   "tags": [
+    "small-business",
+    "freelancers",
+    "creators",
+    "b2b",
+    "money",
+    "professional"
+   ],
+   "repos": [],
+   "query": "invoice payments stripe",
+   "scout": "open-source invoicing (e.g. Invoice Ninja) and Stripe payment links",
+   "traits": [
+    "invoices",
+    "payments"
+   ],
+   "signature": "{each} sends its own invoice and a polite reminder until it is paid",
+   "angle": "gets you paid without chasing",
+   "cost": 2,
+   "delight": 5
+  },
+  {
+   "id": "reminders",
+   "name": "Text reminders",
+   "adds": "SMS or email reminders that cut no-shows",
+   "hook": "reminders cut no-shows",
+   "noun": "Reminders",
+   "role": "brain",
+   "kinds": [
+    "tool",
+    "app"
+   ],
+   "tags": [
+    "small-business",
+    "freelancers",
+    "creators",
+    "b2b",
+    "money",
+    "professional",
+    "habits",
+    "events"
+   ],
+   "repos": [],
+   "query": "sms email reminders",
+   "scout": "SMS and email reminder services (e.g. Twilio, Resend examples)",
+   "traits": [
+    "reminders"
+   ],
+   "signature": "{each} triggers a reminder so fewer people forget",
+   "angle": "cuts no-shows with reminders",
+   "cost": 1,
+   "delight": 3
+  },
+  {
+   "id": "crm",
+   "name": "Customer list",
+   "adds": "Every customer, their history and what they owe, in one place",
+   "hook": "every customer lives in one place",
+   "noun": "Customers",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "app"
+   ],
+   "tags": [
+    "small-business",
+    "freelancers",
+    "creators",
+    "b2b",
+    "money",
+    "professional"
+   ],
+   "repos": [],
+   "query": "crm customers contacts",
+   "scout": "open-source CRMs (e.g. Twenty)",
+   "traits": [
+    "clients"
+   ],
+   "signature": "{each} adds to one customer’s history automatically",
+   "angle": "keeps every customer’s history in one place",
+   "cost": 2,
+   "delight": 3
   }
  ]
 }

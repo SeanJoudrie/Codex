@@ -76,6 +76,10 @@ query, so new archive finds show up in ideas automatically.
 flat image. Pick a model or upload your own `.glb`, `.obj` or `.stl`, change the slime colour,
 and click to plant spores. Live at https://seanjoudrie.github.io/Codex/slime/.
 
+Switch **Goal** to *Pay the bills* for money mode: each idea gets a money plan (price, who pays,
+what's free vs paid, where users come from, how many you need for your monthly goal, and what to
+watch out for) and is scored on willingness to pay, demand, niche, reach and recurring income.
+
 ## Scouting with a prompt
 
 `prompts/scout.md` is a prompt for Claude (or any assistant with web search) that hunts for

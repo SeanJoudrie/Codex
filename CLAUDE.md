@@ -44,6 +44,16 @@ Each piece in `data/features.json` has:
 `data/comps.json` lists real products per domain; each `does` must start with a verb so
 "<Name> <does>; this …" reads. Add products when a domain feels thin.
 
+### Money mode ("Pay the bills")
+
+The Goal switch turns on money mode: extra questions (how it earns, monthly goal), a money plan on
+every idea (price, who pays, free vs paid, channels, the maths, risks) and a different score
+(willingness to pay 25%, demand/niche/reach 15% each, recurring/buildability/clarity 10% each).
+In money mode a proven model aimed at a named niche is allowed ("Proven model, new niche"); a copy
+with no niche is not shown. Numbers come from `data/money.json`: typical price ranges per domain,
+audience willingness to pay and channels, and conversion rates per model. They are rough planning
+figures; keep the page's disclaimer, and update ranges when you learn real competitor prices.
+
 ## Archive rules
 
 - **Never delete a repo** from `data/index.json` or `data/seeds.json`. Weak entries rank last; they don't leave.

@@ -1067,6 +1067,76 @@
      "terminal"
     ]
    }
+  ],
+  "small-business": [
+   {
+    "name": "Square",
+    "does": "takes payments and runs a small shop",
+    "traits": [
+     "payments",
+     "catalogue",
+     "charts"
+    ]
+   },
+   {
+    "name": "Jobber",
+    "does": "schedules and invoices service jobs",
+    "traits": [
+     "scheduling",
+     "invoices"
+    ]
+   },
+   {
+    "name": "Calendly",
+    "does": "books meetings without back-and-forth",
+    "traits": [
+     "scheduling"
+    ]
+   }
+  ],
+  "creators": [
+   {
+    "name": "Linktree",
+    "does": "puts all of a creator’s links on one page",
+    "traits": [
+     "link-page"
+    ]
+   },
+   {
+    "name": "Gumroad",
+    "does": "sells digital products for creators",
+    "traits": [
+     "payments",
+     "catalogue"
+    ]
+   },
+   {
+    "name": "Beacons",
+    "does": "bundles a link page, store and media kit",
+    "traits": [
+     "link-page",
+     "payments"
+    ]
+   }
+  ],
+  "freelancers": [
+   {
+    "name": "Bonsai",
+    "does": "handles freelance contracts and invoices",
+    "traits": [
+     "invoices",
+     "contracts"
+    ]
+   },
+   {
+    "name": "HoneyBook",
+    "does": "manages clients, proposals and payments",
+    "traits": [
+     "invoices",
+     "clients",
+     "payments"
+    ]
+   }
   ]
  }
 }

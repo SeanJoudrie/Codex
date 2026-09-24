@@ -1,0 +1,1041 @@
+{
+ "_about": "Money-mode data for the idea generator. Prices and rates are rough planning ranges from typical products in each category, not research; check real app-store and competitor prices before betting on them.",
+ "models": {
+  "subscription": {
+   "label": "Monthly subscription",
+   "short": "a monthly subscription",
+   "recurring": true,
+   "conversion": 0.03,
+   "how": "Free to start; a subscription unlocks the parts people come back for.",
+   "risk": "Needs a reason to come back every week, or people cancel.",
+   "cut": "App stores keep 15–30% of in-app subscriptions; web payments through a processor cost about 3%."
+  },
+  "onetime": {
+   "label": "One-time purchase",
+   "short": "a one-time purchase",
+   "recurring": false,
+   "conversion": 0.02,
+   "how": "A free trial or demo, then one payment for the full version.",
+   "risk": "Every month starts at zero; you need a steady stream of new buyers.",
+   "cut": "Stores keep 15–30%; itch.io lets you set its cut; Steam keeps 30%."
+  },
+  "iap": {
+   "label": "In-app purchases",
+   "short": "in-app purchases",
+   "recurring": false,
+   "conversion": 0.02,
+   "how": "Free to play or use; people buy extras, packs or cosmetics.",
+   "risk": "Pushy purchase design drives people away; keep it fair.",
+   "cut": "App stores keep 15–30%."
+  },
+  "ads": {
+   "label": "Ads",
+   "short": "ads",
+   "recurring": true,
+   "conversion": 1.0,
+   "how": "Free for everyone; ads pay per thousand views.",
+   "risk": "Pays little per person, so it needs very large, regular traffic.",
+   "cut": "Ad networks keep their share; you see a few dollars per thousand views at best for most audiences."
+  },
+  "b2b": {
+   "label": "Business subscription",
+   "short": "a business subscription",
+   "recurring": true,
+   "conversion": 0.05,
+   "how": "Businesses pay monthly per location or seat after a free trial.",
+   "risk": "Needs selling: demos, cold email, support. Fewer customers, each worth much more.",
+   "cut": "Payment processing is about 3%."
+  },
+  "marketplace": {
+   "label": "Commission",
+   "short": "a commission on sales",
+   "recurring": true,
+   "conversion": 0.02,
+   "how": "Free to list or browse; you take a cut of each sale or booking.",
+   "risk": "You have to bring both buyers and sellers at once.",
+   "cut": "You keep your commission minus about 3% processing."
+  },
+  "affiliate": {
+   "label": "Affiliate links",
+   "short": "affiliate links",
+   "recurring": true,
+   "conversion": 0.01,
+   "how": "Recommend products people already buy and earn a small cut of each sale.",
+   "risk": "Small cuts and cookies that expire; it only works at volume and with trust.",
+   "cut": "Commissions are commonly a few percent of the sale."
+  }
+ },
+ "domains": {
+  "budget": {
+   "wtp": 7,
+   "pain": "want to feel in control of money without spreadsheets",
+   "models": [
+    "subscription",
+    "affiliate"
+   ],
+   "price": {
+    "subscription": 6,
+    "onetime": 15,
+    "affiliate": 2
+   },
+   "channels": [
+    "personal-finance TikTok and YouTube",
+    "r/personalfinance-style communities",
+    "App Store search for “budget”"
+   ]
+  },
+  "subscriptions": {
+   "wtp": 6,
+   "pain": "keep paying for things they forgot about",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 4,
+    "onetime": 10
+   },
+   "channels": [
+    "App Store search",
+    "money-saving newsletters"
+   ]
+  },
+  "investing": {
+   "wtp": 7,
+   "pain": "want one clear view of everything they own",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 9
+   },
+   "channels": [
+    "investing Reddit and X",
+    "SEO on portfolio questions"
+   ]
+  },
+  "journal": {
+   "wtp": 5,
+   "pain": "want to reflect but can’t keep the habit",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 4,
+    "onetime": 15
+   },
+   "channels": [
+    "TikTok journaling creators",
+    "App Store search"
+   ]
+  },
+  "habits": {
+   "wtp": 5,
+   "pain": "start habits and drop them within a week",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 4
+   },
+   "channels": [
+    "self-improvement TikTok",
+    "App Store search"
+   ]
+  },
+  "sleep": {
+   "wtp": 7,
+   "pain": "are tired and will pay for better nights",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 7
+   },
+   "channels": [
+    "sleep and parenting communities",
+    "App Store search"
+   ]
+  },
+  "screentime": {
+   "wtp": 6,
+   "pain": "lose hours to their phone and hate it",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 5
+   },
+   "channels": [
+    "productivity TikTok and YouTube",
+    "App Store search"
+   ]
+  },
+  "fitness": {
+   "wtp": 8,
+   "pain": "want results and accountability",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 10
+   },
+   "channels": [
+    "fitness creators",
+    "local gyms and clubs",
+    "App Store search"
+   ]
+  },
+  "meditation": {
+   "wtp": 7,
+   "pain": "want calm but find meditation boring",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 9
+   },
+   "channels": [
+    "wellness creators",
+    "App Store search"
+   ]
+  },
+  "notes": {
+   "wtp": 5,
+   "pain": "lose ideas across too many apps",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 5,
+    "onetime": 20
+   },
+   "channels": [
+    "productivity YouTube",
+    "Product Hunt"
+   ]
+  },
+  "tasks": {
+   "wtp": 5,
+   "pain": "feel behind every day",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 4
+   },
+   "channels": [
+    "productivity YouTube",
+    "App Store search"
+   ]
+  },
+  "focus": {
+   "wtp": 4,
+   "pain": "can’t focus for long",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 3,
+    "onetime": 5
+   },
+   "channels": [
+    "study TikTok",
+    "App Store search"
+   ]
+  },
+  "planner": {
+   "wtp": 5,
+   "pain": "juggle plans across chats and calendars",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 5
+   },
+   "channels": [
+    "travel and planning TikTok",
+    "SEO on trip questions"
+   ]
+  },
+  "events": {
+   "wtp": 4,
+   "pain": "chase RSVPs in group chats",
+   "models": [
+    "marketplace",
+    "subscription"
+   ],
+   "price": {
+    "marketplace": 1,
+    "subscription": 5
+   },
+   "channels": [
+    "every invite is an ad for the app",
+    "event organiser communities"
+   ]
+  },
+  "groupchat": {
+   "wtp": 3,
+   "pain": "lose plans in noisy chats",
+   "models": [
+    "subscription",
+    "ads"
+   ],
+   "price": {
+    "subscription": 3,
+    "ads": 0.3
+   },
+   "channels": [
+    "invites spread it friend to friend"
+   ]
+  },
+  "flashcards": {
+   "wtp": 6,
+   "pain": "have exams coming and forget what they study",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 6
+   },
+   "channels": [
+    "study TikTok",
+    "SEO on course names"
+   ]
+  },
+  "language": {
+   "wtp": 7,
+   "pain": "want to speak a language, not collect streaks",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 9
+   },
+   "channels": [
+    "language-learning TikTok and YouTube",
+    "App Store search"
+   ]
+  },
+  "explainer": {
+   "wtp": 5,
+   "pain": "want to finally understand one hard thing",
+   "models": [
+    "onetime",
+    "subscription"
+   ],
+   "price": {
+    "onetime": 20,
+    "subscription": 8
+   },
+   "channels": [
+    "YouTube",
+    "SEO on the topic"
+   ]
+  },
+  "drawing": {
+   "wtp": 5,
+   "pain": "want to make art without complex tools",
+   "models": [
+    "onetime",
+    "iap"
+   ],
+   "price": {
+    "onetime": 10,
+    "iap": 3
+   },
+   "channels": [
+    "art TikTok",
+    "App Store search"
+   ]
+  },
+  "moodboard": {
+   "wtp": 5,
+   "pain": "collect references in too many places",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 6
+   },
+   "channels": [
+    "designer X and Instagram",
+    "Product Hunt"
+   ]
+  },
+  "writing": {
+   "wtp": 5,
+   "pain": "want to write more and finish things",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 6,
+    "onetime": 25
+   },
+   "channels": [
+    "writing communities",
+    "BookTok"
+   ]
+  },
+  "storefront": {
+   "wtp": 7,
+   "pain": "want a store that feels like their brand",
+   "models": [
+    "marketplace",
+    "b2b"
+   ],
+   "price": {
+    "marketplace": 3,
+    "b2b": 29
+   },
+   "channels": [
+    "small-brand founders on Instagram",
+    "Shopify-style communities"
+   ]
+  },
+  "lookbook": {
+   "wtp": 4,
+   "pain": "don’t know what to wear with what they own",
+   "models": [
+    "affiliate",
+    "subscription"
+   ],
+   "price": {
+    "affiliate": 1,
+    "subscription": 5
+   },
+   "channels": [
+    "fashion TikTok",
+    "Pinterest"
+   ]
+  },
+  "tryon": {
+   "wtp": 7,
+   "pain": "lose sales to returns and size doubts",
+   "models": [
+    "b2b"
+   ],
+   "price": {
+    "b2b": 99
+   },
+   "channels": [
+    "cold email to online clothing brands",
+    "e-commerce communities"
+   ]
+  },
+  "player": {
+   "wtp": 3,
+   "pain": "want their music to feel special",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 4
+   },
+   "channels": [
+    "music Reddit",
+    "App Store search"
+   ]
+  },
+  "visualizer": {
+   "wtp": 4,
+   "pain": "want visuals for streams and sets",
+   "models": [
+    "onetime",
+    "subscription"
+   ],
+   "price": {
+    "onetime": 15,
+    "subscription": 5
+   },
+   "channels": [
+    "streamers and DJs",
+    "YouTube demos"
+   ]
+  },
+  "sequencer": {
+   "wtp": 6,
+   "pain": "want to make beats quickly",
+   "models": [
+    "onetime",
+    "iap"
+   ],
+   "price": {
+    "onetime": 15,
+    "iap": 4
+   },
+   "channels": [
+    "producer YouTube",
+    "Instagram reels"
+   ]
+  },
+  "finance": {
+   "wtp": 7,
+   "pain": "want their money to make sense",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 6
+   },
+   "channels": [
+    "personal-finance creators",
+    "App Store search"
+   ]
+  },
+  "wellness": {
+   "wtp": 6,
+   "pain": "want to feel better day to day",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 6
+   },
+   "channels": [
+    "wellness creators",
+    "App Store search"
+   ]
+  },
+  "puzzle": {
+   "wtp": 5,
+   "pain": "want a satisfying few minutes",
+   "models": [
+    "ads",
+    "iap",
+    "onetime"
+   ],
+   "price": {
+    "ads": 0.2,
+    "iap": 2,
+    "onetime": 5
+   },
+   "channels": [
+    "short gameplay clips on TikTok",
+    "App Store search"
+   ]
+  },
+  "idle": {
+   "wtp": 5,
+   "pain": "want progress in spare moments",
+   "models": [
+    "ads",
+    "iap"
+   ],
+   "price": {
+    "ads": 0.3,
+    "iap": 3
+   },
+   "channels": [
+    "TikTok clips",
+    "Reddit incremental-games communities"
+   ]
+  },
+  "rpg": {
+   "wtp": 6,
+   "pain": "want a world to sink into",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 15
+   },
+   "channels": [
+    "Steam wishlists",
+    "YouTube devlogs",
+    "Reddit indie-game communities"
+   ]
+  },
+  "strategy": {
+   "wtp": 6,
+   "pain": "want deep decisions",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 15
+   },
+   "channels": [
+    "Steam wishlists",
+    "YouTube devlogs"
+   ]
+  },
+  "shooter": {
+   "wtp": 5,
+   "pain": "want fast, fair fun",
+   "models": [
+    "onetime",
+    "iap"
+   ],
+   "price": {
+    "onetime": 10,
+    "iap": 5
+   },
+   "channels": [
+    "Steam wishlists",
+    "streamers"
+   ]
+  },
+  "sandbox": {
+   "wtp": 6,
+   "pain": "want to build their own world",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 12
+   },
+   "channels": [
+    "YouTube and TikTok creations",
+    "Steam wishlists"
+   ]
+  },
+  "racing": {
+   "wtp": 4,
+   "pain": "want quick competitive runs",
+   "models": [
+    "iap",
+    "ads"
+   ],
+   "price": {
+    "iap": 3,
+    "ads": 0.2
+   },
+   "channels": [
+    "TikTok clips",
+    "App Store search"
+   ]
+  },
+  "rhythm": {
+   "wtp": 4,
+   "pain": "want to play along to music",
+   "models": [
+    "iap",
+    "onetime"
+   ],
+   "price": {
+    "iap": 3,
+    "onetime": 8
+   },
+   "channels": [
+    "music and gaming TikTok"
+   ]
+  },
+  "game": {
+   "wtp": 5,
+   "pain": "want something fun to play",
+   "models": [
+    "onetime",
+    "iap"
+   ],
+   "price": {
+    "onetime": 8,
+    "iap": 3
+   },
+   "channels": [
+    "TikTok gameplay clips",
+    "Steam or App Store search"
+   ]
+  },
+  "render": {
+   "wtp": 3,
+   "pain": "want beautiful things to look at",
+   "models": [
+    "onetime",
+    "b2b"
+   ],
+   "price": {
+    "onetime": 10,
+    "b2b": 200
+   },
+   "channels": [
+    "commissions from brands and venues",
+    "prints and posters"
+   ]
+  },
+  "portfolio": {
+   "wtp": 3,
+   "pain": "(this pays through the work it wins you)",
+   "models": [
+    "b2b"
+   ],
+   "price": {
+    "b2b": 500
+   },
+   "channels": [
+    "clients and employers who see it"
+   ]
+  },
+  "launch": {
+   "wtp": 5,
+   "pain": "need people to notice their product",
+   "models": [
+    "b2b"
+   ],
+   "price": {
+    "b2b": 300
+   },
+   "channels": [
+    "founders on X",
+    "Product Hunt makers"
+   ]
+  },
+  "brand": {
+   "wtp": 6,
+   "pain": "want a site that sells",
+   "models": [
+    "b2b",
+    "marketplace"
+   ],
+   "price": {
+    "b2b": 49,
+    "marketplace": 3
+   },
+   "channels": [
+    "small-brand founders",
+    "Instagram"
+   ]
+  },
+  "personal": {
+   "wtp": 3,
+   "pain": "want to stand out",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 20
+   },
+   "channels": [
+    "creators and job-seekers"
+   ]
+  },
+  "event": {
+   "wtp": 5,
+   "pain": "need people to show up",
+   "models": [
+    "marketplace"
+   ],
+   "price": {
+    "marketplace": 1
+   },
+   "channels": [
+    "every event page is an ad"
+   ]
+  },
+  "website": {
+   "wtp": 4,
+   "pain": "need a site that works",
+   "models": [
+    "b2b"
+   ],
+   "price": {
+    "b2b": 20
+   },
+   "channels": [
+    "SEO",
+    "word of mouth"
+   ]
+  },
+  "developers": {
+   "wtp": 6,
+   "pain": "waste time on repetitive work",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 8,
+    "onetime": 30
+   },
+   "channels": [
+    "GitHub",
+    "Hacker News",
+    "developer X"
+   ]
+  },
+  "designers": {
+   "wtp": 6,
+   "pain": "fight their tools instead of designing",
+   "models": [
+    "subscription",
+    "onetime"
+   ],
+   "price": {
+    "subscription": 8,
+    "onetime": 25
+   },
+   "channels": [
+    "designer X",
+    "Figma community"
+   ]
+  },
+  "musicians": {
+   "wtp": 6,
+   "pain": "want new sounds and faster workflows",
+   "models": [
+    "onetime"
+   ],
+   "price": {
+    "onetime": 30
+   },
+   "channels": [
+    "producer YouTube",
+    "plugin marketplaces"
+   ]
+  },
+  "researchers": {
+   "wtp": 6,
+   "pain": "drown in data and papers",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 12
+   },
+   "channels": [
+    "academic X",
+    "university labs"
+   ]
+  },
+  "security": {
+   "wtp": 8,
+   "pain": "can’t afford to miss something",
+   "models": [
+    "b2b",
+    "subscription"
+   ],
+   "price": {
+    "b2b": 49,
+    "subscription": 15
+   },
+   "channels": [
+    "security communities and CTFs",
+    "cold outreach to small IT teams"
+   ]
+  },
+  "small-business": {
+   "wtp": 9,
+   "pain": "lose time and money to admin every week",
+   "models": [
+    "b2b"
+   ],
+   "price": {
+    "b2b": 29
+   },
+   "channels": [
+    "Google search for the exact problem",
+    "local business groups",
+    "cold email"
+   ]
+  },
+  "creators": {
+   "wtp": 7,
+   "pain": "want to earn more from their audience",
+   "models": [
+    "subscription",
+    "marketplace"
+   ],
+   "price": {
+    "subscription": 12,
+    "marketplace": 2
+   },
+   "channels": [
+    "creator X and TikTok",
+    "every creator’s page links back to you"
+   ]
+  },
+  "freelancers": {
+   "wtp": 7,
+   "pain": "chase invoices and clients instead of working",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 12
+   },
+   "channels": [
+    "freelancer communities",
+    "SEO on invoicing questions"
+   ]
+  },
+  "tool": {
+   "wtp": 6,
+   "pain": "have a job this does faster",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 8
+   },
+   "channels": [
+    "communities where that job is done"
+   ]
+  },
+  "app": {
+   "wtp": 5,
+   "pain": "have a problem this solves",
+   "models": [
+    "subscription"
+   ],
+   "price": {
+    "subscription": 5
+   },
+   "channels": [
+    "App Store search",
+    "TikTok"
+   ]
+  }
+ },
+ "audiences": {
+  "dog-owners": {
+   "wtp": 1,
+   "note": "pet owners spend freely on their animals",
+   "channels": [
+    "pet TikTok and Instagram",
+    "dog Reddit communities",
+    "local dog groups and vets"
+   ],
+   "affiliate": "pet food and toys"
+  },
+  "cat-owners": {
+   "wtp": 1,
+   "note": "pet owners spend freely on their animals",
+   "channels": [
+    "cat TikTok and Instagram",
+    "cat Reddit communities"
+   ],
+   "affiliate": "pet food and toys"
+  },
+  "new-parents": {
+   "wtp": 2,
+   "note": "tired parents pay for peace of mind",
+   "channels": [
+    "parenting Facebook groups",
+    "parenting TikTok"
+   ],
+   "affiliate": "baby gear"
+  },
+  "students": {
+   "wtp": -2,
+   "note": "tight budgets, but huge numbers and word of mouth",
+   "channels": [
+    "study TikTok",
+    "campus ambassadors"
+   ],
+   "affiliate": "study supplies"
+  },
+  "climbers": {
+   "wtp": 0,
+   "note": "a tight community that shares tools",
+   "channels": [
+    "climbing gyms",
+    "climbing Reddit"
+   ],
+   "affiliate": "climbing gear"
+  },
+  "runners": {
+   "wtp": 1,
+   "note": "already pay for gear and apps",
+   "channels": [
+    "running clubs",
+    "Strava clubs"
+   ],
+   "affiliate": "running shoes"
+  },
+  "gardeners": {
+   "wtp": 0,
+   "note": "loyal and seasonal",
+   "channels": [
+    "gardening Facebook groups",
+    "gardening YouTube"
+   ],
+   "affiliate": "seeds and tools"
+  },
+  "retro-gamers": {
+   "wtp": 0,
+   "note": "pay for things they love, hate anything pushy",
+   "channels": [
+    "retro-gaming Reddit",
+    "YouTube"
+   ],
+   "affiliate": "retro hardware"
+  },
+  "musicians": {
+   "wtp": 0,
+   "note": "pay for tools that save studio time",
+   "channels": [
+    "producer YouTube",
+    "music forums"
+   ],
+   "affiliate": "gear"
+  },
+  "designers": {
+   "wtp": 1,
+   "note": "pay for tools that look and feel great",
+   "channels": [
+    "designer X",
+    "Dribbble and Product Hunt"
+   ],
+   "affiliate": "design assets"
+  },
+  "small-business": {
+   "wtp": 3,
+   "note": "pay monthly for anything that saves time or wins customers",
+   "channels": [
+    "Google search for the exact problem",
+    "local business groups",
+    "cold email"
+   ],
+   "affiliate": "business software"
+  },
+  "kids": {
+   "wtp": -1,
+   "note": "parents pay, and child-privacy rules apply",
+   "channels": [
+    "parent communities",
+    "teachers"
+   ],
+   "affiliate": "toys and books"
+  },
+  "older-adults": {
+   "wtp": 0,
+   "note": "loyal once they trust you; need clear, simple design",
+   "channels": [
+    "Facebook",
+    "word of mouth"
+   ],
+   "affiliate": "everyday products"
+  },
+  "night-owls": {
+   "wtp": 0,
+   "note": "an overlooked group with specific problems",
+   "channels": [
+    "nursing and shift-work communities"
+   ],
+   "affiliate": "sleep products"
+  },
+  "travellers": {
+   "wtp": 1,
+   "note": "spend while travelling",
+   "channels": [
+    "travel TikTok",
+    "SEO on destinations"
+   ],
+   "affiliate": "hotels and gear"
+  },
+  "book-lovers": {
+   "wtp": 0,
+   "note": "passionate and chatty",
+   "channels": [
+    "BookTok",
+    "Goodreads groups"
+   ],
+   "affiliate": "books"
+  }
+ }
+}

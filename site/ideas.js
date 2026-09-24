@@ -77,7 +77,7 @@ const KINDS = {
     ['signature', 'Signature moment', [['scroll', 'Scroll storytelling'], ['cursor', 'Cursor play'], ['3d', '3D'], ['music', 'Sound']]],
   ] },
   tool: { noun: 'tool', steps: [
-    ['for', 'For', [['developers', 'Developers'], ['designers', 'Designers'], ['musicians', 'Musicians'], ['researchers', 'Researchers'], ['security', 'Security work']]],
+    ['for', 'For', [['small-business', 'Small businesses'], ['creators', 'Creators'], ['freelancers', 'Freelancers'], ['developers', 'Developers'], ['designers', 'Designers'], ['musicians', 'Musicians'], ['researchers', 'Researchers'], ['security', 'Security work']]],
     ['form', 'Form', [['web', 'Web app'], ['cli', 'Command line'], ['desktop', 'Desktop app']]],
     STYLE, ART_Q,
   ] },
@@ -95,6 +95,7 @@ const UNIT = {
   shooter: 'every shot', sandbox: 'every block you place', puzzle: 'every solved room', racing: 'every lap', strategy: 'every order you give',
   rpg: 'every choice', idle: 'every upgrade', rhythm: 'every beat', game: 'every action',
   render: 'every touch', portfolio: 'every interaction', website: 'every scroll', tool: 'every file you open',
+  'small-business': 'every booking', creators: 'every sale', freelancers: 'every invoice',
 };
 const KIND_WORD = {
   budget: 'budgeting', subscriptions: 'subscription', investing: 'investing', journal: 'journaling', habits: 'habit', sleep: 'sleep',
@@ -128,6 +129,7 @@ const CORE = {
   personal: 'lay out the home page and three projects', event: 'lay out the event page with a date and RSVP', website: 'lay out the home page',
   security: 'load one file and show its contents', developers: 'run the tool on one input', designers: 'take one input and show one output',
   musicians: 'play one sound', researchers: 'load one dataset and show it', tool: 'run it on one input',
+  'small-business': 'take one booking and send one invoice', creators: 'publish one page with one thing to buy', freelancers: 'send one invoice and mark it paid',
 };
 const YOURS = {
   app: ['Write {title}’s first screen yourself, in your own voice{forAud}.', 'Decide the one feeling {title} should leave {audOr} with, and cut anything that doesn’t serve it.', 'Draw {title}’s {artOr} style on one page before you build any screen.', 'Write three things {character} would say in the app.'],
@@ -161,11 +163,11 @@ function weighted(r, items, weight) {
 }
 
 // ---------- data ----------
-let index, features, comps, byRepo;
+let index, features, comps, byRepo, MONEY;
 try {
   const load = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
-  const [i, f, c] = await Promise.all([load('data/index.json'), load('data/features.json'), load('data/comps.json')]);
-  index = i.repos; features = f.features; comps = c.domains;
+  const [i, f, c, m] = await Promise.all([load('data/index.json'), load('data/features.json'), load('data/comps.json'), load('data/money.json')]);
+  index = i.repos; features = f.features; comps = c.domains; MONEY = m;
   byRepo = new Map(index.map((r) => [r.repo, r]));
 } catch {
   $('#ideas').innerHTML = '<p class="empty">The archive could not be loaded. Check your connection and reload the page.</p>';
@@ -175,10 +177,19 @@ try {
 
 // ---------- state ----------
 // Opens on the owner's own example, fully answered, so the first view is a real result.
-const DEFAULT = { kind: 'app', answers: { audience: 'dog-owners', area: 'finance', appkind: 'budget', style: 'playful', art: 'risograph', platform: 'mobile' }, twist: '', count: 4 };
-const state = { kind: DEFAULT.kind, answers: { ...DEFAULT.answers }, twist: DEFAULT.twist, count: DEFAULT.count, seed: 1 };
+const DEFAULT = { goal: 'fun', kind: 'app', answers: { audience: 'dog-owners', area: 'finance', appkind: 'budget', style: 'playful', art: 'risograph', platform: 'mobile' }, twist: '', count: 4 };
+const state = { goal: DEFAULT.goal, kind: DEFAULT.kind, answers: { ...DEFAULT.answers }, twist: DEFAULT.twist, count: DEFAULT.count, seed: 1 };
 
-function stepsOf(kind = state.kind) { return KINDS[kind].steps; }
+const MODEL_Q = ['model', 'How it earns', [['subscription', 'Monthly subscription'], ['onetime', 'One-time purchase'], ['iap', 'In-app purchases'], ['ads', 'Ads'], ['b2b', 'Business subscription'], ['marketplace', 'Commission on sales'], ['affiliate', 'Affiliate links']]];
+const TARGET_Q = ['target', 'Monthly goal', [['500', '$500 a month'], ['1000', '$1,000 a month'], ['3000', '$3,000 a month'], ['10000', '$10,000 a month']]];
+// In money mode the business questions come right after who it's for, because they shape everything after.
+function stepsOf(kind = state.kind) {
+  const steps = KINDS[kind].steps;
+  if (state.goal !== 'money') return steps;
+  const at = steps.findIndex(([id]) => id === 'audience') + 1;
+  return [...steps.slice(0, at), MODEL_Q, TARGET_Q, ...steps.slice(at)];
+}
+const money = () => state.goal === 'money';
 function optionsOf([, , options, dependsOn, optionsBy]) { return dependsOn ? optionsBy[state.answers[dependsOn]] ?? [] : options; }
 function valid() {
   const out = {};
@@ -194,7 +205,7 @@ function labelOf(id) {
 }
 function briefTags() {
   const a = valid();
-  return new Set([...Object.values(a), state.kind]);
+  return new Set([...Object.values(a), state.kind, ...(money() ? ['money'] : [])]);
 }
 function domainOf() {
   const a = valid();
@@ -210,11 +221,12 @@ function candidates(tags) {
 }
 function baseWeight(f, tags) {
   const hits = f.tags.filter((t) => tags.has(t)).length;
-  return (hits ? (1 + 3 * hits) ** 2 : 0.6) * (0.7 + (f.delight ?? 5) / 10);
+  const w = (hits ? (1 + 3 * hits) ** 2 : 0.6) * (0.7 + (f.delight ?? 5) / 10);
+  return money() ? w * (4 - (f.cost ?? 2)) / 2.5 : w; // money mode favours what's cheap to build and run
 }
 // How well a piece fits this brief: 1 if it matches the domain, audience or art style; 0.4 if it only
 // matches a generic answer (personality, mood, 2D/3D…); 0 if it matches nothing.
-const GENERIC = new Set(['style', 'feel', 'dim', 'platform', 'time']);
+const GENERIC = new Set(['style', 'feel', 'dim', 'platform', 'time', 'target', 'subscription', 'onetime', 'iap', 'ads', 'marketplace', 'affiliate']);
 function relevance(f) {
   const a = valid();
   const specific = new Set(Object.entries(a).filter(([k]) => !GENERIC.has(k)).map(([, v]) => v));
@@ -259,7 +271,7 @@ function refsFor(f) {
 
 // ---------- writing ----------
 const listJoin = (xs) => xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')}${xs.length > 2 ? ',' : ''} and ${xs.at(-1)}`;
-function unit() { const a = valid(); return UNIT[a.appkind] ?? UNIT[a.area] ?? UNIT[a.genre] ?? UNIT[state.kind] ?? 'every action'; }
+function unit() { const a = valid(); return UNIT[a.appkind] ?? UNIT[a.area] ?? UNIT[a.genre] ?? UNIT[a.for] ?? UNIT[state.kind] ?? 'every action'; }
 function character() { const a = valid(); return AUD[a.audience]?.subject ?? ({ app: 'a small character who lives in the app', game: 'a small companion character', render: 'a small creature' })[state.kind] ?? 'a small character'; }
 function sig(f) {
   if (!f.signature) return null;
@@ -315,6 +327,7 @@ function summaryOf(idea) {
   const looks = [art, ...amb].filter(Boolean).slice(0, 3);
   if (looks.length) out.push(`It’s ${listJoin(looks)}.`);
   if (twist) out.push(`The twist: ${twist}.`);
+  if (money()) out.push(`It earns from ${moneyOf(idea).earns}.`);
   return out.join(' ');
 }
 
@@ -346,8 +359,59 @@ function whyOf(idea, cmp) {
   const { core } = coreSplit(idea);
   const lead = [...signatureBlocks(idea), ...ambientBlocks(idea)].filter((f) => core.includes(f) && f.angle && (f.traits ?? []).some((t) => cmp.novel.includes(t)))[0];
   const aud = AUD[a.audience] ? `, for ${AUD[a.audience].label.toLowerCase()}` : '';
+  if (money() && a.audience && (cmp.reskin || !lead)) return `${cmp.comp.name} ${cmp.comp.does}; this does it for ${AUD[a.audience].label.toLowerCase()}${MONEY.audiences[a.audience]?.note ? ` (${MONEY.audiences[a.audience].note})` : ''}.`;
   if (cmp.reskin || !lead) return `This is close to ${cmp.comp.name}, which ${cmp.comp.does}. Swap a piece to make it your own.`;
   return `${cmp.comp.name} ${cmp.comp.does}; this ${lead.angle}${aud}.`;
+}
+
+// ---------- money plan (money mode) ----------
+const DEFAULT_PRICE = { subscription: 5, onetime: 10, iap: 3, ads: 0.3, b2b: 29, marketplace: 2, affiliate: 1 };
+const fmt$ = (n) => n >= 1 ? `$${Math.round(n).toLocaleString()}` : `$${n.toFixed(2)}`;
+const fmtN = (n) => n >= 10000 ? `${Math.round(n / 1000).toLocaleString()},000` : n >= 1000 ? `${(Math.round(n / 100) * 100).toLocaleString()}` : `${Math.ceil(n)}`;
+function moneyOf(idea) {
+  const a = valid(), prof = MONEY.domains[domainOf()] ?? MONEY.domains[state.kind] ?? MONEY.domains.app;
+  const aud = MONEY.audiences[a.audience], audLabel = AUD[a.audience]?.label;
+  const modelId = a.model || prof.models[0], model = MONEY.models[modelId];
+  const price = prof.price[modelId] ?? DEFAULT_PRICE[modelId], target = +a.target || 3000;
+  const { core } = coreSplit(idea), paid = core.filter((f) => f.signature || f.ambient).slice(0, 2).map((f) => f.name.toLowerCase());
+  const coreJob = CORE[a.appkind] ?? CORE[a.genre] ?? CORE[a.for] ?? CORE[state.kind];
+  const priceLabel = { subscription: `${fmt$(price)} a month`, b2b: `${fmt$(price)} a month per business`, onetime: `${fmt$(price)} once`,
+    iap: `about ${fmt$(price)} per purchase`, ads: `roughly ${fmt$(price)} per active user a month`, marketplace: `a cut worth about ${fmt$(price)} per sale`,
+    affiliate: `about ${fmt$(price)} per referred purchase` }[modelId];
+  const earns = { subscription: `a ${fmt$(price)}-a-month subscription`, b2b: `a ${fmt$(price)}-a-month business plan`, onetime: `a one-time ${fmt$(price)} purchase`,
+    iap: `in-app purchases of about ${fmt$(price)}`, ads: 'ads', marketplace: 'a cut of every sale', affiliate: `affiliate links to ${aud?.affiliate ?? 'things it recommends'}` }[modelId];
+  const payer = audLabel ?? (state.kind === 'tool' && a.for ? labelOf('for') : null);
+  const who = `${payer ?? 'People'} ${/business/i.test(payer ?? '') ? 'that' : 'who'} ${prof.pain}${aud?.note ? `. ${cap(aud.note)}` : ''}.`;
+  const free = {
+    subscription: `Free: ${coreJob}. Paid: ${paid.length ? listJoin(paid) : 'the full experience'}, plus full history.`,
+    b2b: `Free 14-day trial of everything, then ${priceLabel}.`,
+    onetime: `Free demo: ${coreJob}. Paid: the full version${paid.length ? ` with ${listJoin(paid)}` : ''}.`,
+    iap: `Free: the whole core. Paid: ${state.kind === 'game' ? 'extra levels and cosmetics' : 'extra packs and themes'}, never power.`,
+    ads: 'Everything is free. Ads show between sessions, never in the middle of one.',
+    marketplace: 'Free to browse and list; the cut comes out of each sale.',
+    affiliate: `Free for everyone; recommendations link to ${aud?.affiliate ?? 'products'} people would buy anyway.`,
+  }[modelId];
+  const shareable = idea.features.some((f) => ['daily', 'sketch', 'sync', 'mascot'].includes(f.id));
+  const channels = [...(aud?.channels ?? []).slice(0, 2), ...prof.channels.slice(0, 2)];
+  const find = `${cap(listJoin([...new Set(channels)].slice(0, 3)))}.${shareable ? ' Something shareable is built in, so users bring users.' : ''}`;
+  let maths;
+  const conv = model.conversion;
+  if (modelId === 'subscription' || modelId === 'b2b') {
+    const payers = target / price, free = payers / conv;
+    maths = `To make ${fmt$(target)} a month: about ${fmtN(payers)} ${modelId === 'b2b' ? 'paying businesses' : 'subscribers'} at ${fmt$(price)}. At a typical ${Math.round(conv * 100)}% trial-to-paid rate, that's about ${fmtN(free)} ${modelId === 'b2b' ? 'businesses trying it' : 'active free users'}.`;
+  } else if (modelId === 'onetime') {
+    maths = `To make ${fmt$(target)} a month: about ${fmtN(target / price)} sales a month at ${fmt$(price)}. If ${Math.round(conv * 100)}% of visitors buy, that's about ${fmtN(target / price / conv)} visitors every month.`;
+  } else if (modelId === 'iap') {
+    maths = `To make ${fmt$(target)} a month: about ${fmtN(target / price)} purchases a month. If ${Math.round(conv * 100)}% of players buy something, that's about ${fmtN(target / price / conv)} monthly players.`;
+  } else if (modelId === 'ads') {
+    maths = `To make ${fmt$(target)} a month from ads: about ${fmtN(target / price)} monthly active users, coming back often.`;
+  } else if (modelId === 'marketplace') {
+    maths = `To make ${fmt$(target)} a month: about ${fmtN(target / price)} sales a month through the app.`;
+  } else {
+    maths = `To make ${fmt$(target)} a month: about ${fmtN(target / price)} referred purchases a month, which needs about ${fmtN(target / price / conv)} visitors.`;
+  }
+  const watch = `${model.risk} ${model.cut}${a.audience === 'kids' ? ' Child-privacy rules (such as COPPA in the US) apply.' : ''}`;
+  return { modelId, model, price, target, earns, priceLabel, who, free, find, maths, watch, prof, aud, shareable, fits: prof.models.includes(modelId) };
 }
 
 // ---------- scoring (the review rubric, estimated from data) ----------
@@ -391,9 +455,31 @@ function scoreOf(idea) {
   // Delight: the best single moment
   const star = [...idea.features].sort((x, y) => (y.delight ?? 0) - (x.delight ?? 0))[0];
   s.delight = [clamp((star?.delight ?? 4) + (pairs ? 0.5 : 0)), `Best moment: ${star?.name.toLowerCase() ?? 'none'}.`];
+  if (money()) return moneyScore(idea, s, cmp);
   let overall = Object.entries(WEIGHTS).reduce((t, [k, w]) => t + s[k][0] * w, 0);
   if (cmp.reskin) overall = Math.min(overall, 5);
   return { overall: Math.round(overall * 10) / 10, crit: s, cmp };
+}
+
+// Money mode: a proven model aimed at a named niche is a strength, not a reskin.
+const MONEY_WEIGHTS = { pay: 0.25, demand: 0.15, wedge: 0.15, reach: 0.15, recurring: 0.1, buildability: 0.1, clarity: 0.1 };
+Object.assign(CRIT_LABEL, { pay: 'Willingness to pay', demand: 'Proof of demand', wedge: 'Niche wedge', reach: 'Reach', recurring: 'Recurring income' });
+function moneyScore(idea, s, cmp) {
+  const a = valid(), m = moneyOf(idea), m$ = {};
+  const pay = m.prof.wtp + (m.aud?.wtp ?? 0) + (m.fits ? 0.5 : -1.5);
+  m$.pay = [clamp(pay), `${m.prof.wtp}/10 for this category${m.aud ? `, ${m.aud.wtp >= 0 ? '+' : ''}${m.aud.wtp} for ${AUD[a.audience].label.toLowerCase()}` : ''}; ${m.fits ? 'a model that suits it' : 'an unusual model for this category'}.`];
+  const n = (comps[domainOf()] ?? []).length;
+  m$.demand = [clamp([4, 6, 7.5, 8.5][Math.min(3, n)] + (cmp.reskin ? 0.5 : 0)), n ? `${n} known product${n > 1 ? 's' : ''} already earn here (closest: ${cmp.comp.name}).` : 'No well-known products in this exact space: unproven demand.'];
+  m$.wedge = [clamp(3 + (a.audience ? 3 : 0) + (cmp.reskin ? 0 : 2) + (a.art ? 0.5 : 0) + (state.twist.trim() ? 1 : 0)),
+    `${a.audience ? `Aimed at ${AUD[a.audience].label.toLowerCase()}` : 'No niche named'}; ${cmp.reskin ? `same model as ${cmp.comp.name}` : `different from ${cmp.comp.name} in how it works`}.`];
+  m$.reach = [clamp((m.aud ? 7 : 5) + (m.shareable ? 1.5 : 0) - (m.modelId === 'ads' ? 1.5 : 0)), `${m.aud ? 'A community you can find' : 'No specific community to reach'}${m.shareable ? '; users share it' : ''}${m.modelId === 'ads' ? '; ads need a lot of traffic' : ''}.`];
+  const hooks = idea.features.filter((f) => f.tags.includes('money')).length;
+  m$.recurring = [clamp((m.model.recurring ? 8 : 4) + Math.min(1.5, hooks * 0.5)), `${m.model.recurring ? 'Earns every month' : 'Earns once per buyer'}${hooks ? `; ${hooks} piece${hooks > 1 ? 's' : ''} that bring people back` : ''}.`];
+  m$.buildability = s.buildability; m$.clarity = s.clarity;
+  const overall = Object.entries(MONEY_WEIGHTS).reduce((t, [k, w]) => t + m$[k][0] * w, 0);
+  const copy = cmp.reskin && !a.audience;
+  const verdict = copy ? 'Copy' : cmp.reskin ? 'Proven model, new niche' : cmp.verdict;
+  return { overall: Math.round((copy ? Math.min(overall, 5) : overall) * 10) / 10, crit: m$, cmp: { ...cmp, reskin: copy, verdict }, money: m };
 }
 
 // ---------- ideas ----------
@@ -486,6 +572,13 @@ function pieceRows(idea, rows) {
         </li>`).join('');
 }
 
+function moneyHtml(m) {
+  const rows = [['How it earns', `${m.model.label}: ${m.priceLabel}. ${m.model.how}`], ['Who pays', m.who], ['Free vs paid', m.free],
+    ['How people find it', m.find], ['The maths', m.maths], ['Watch out for', m.watch]];
+  return `<div class="money"><h4 class="sub-h">Money plan</h4><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
+    <p class="gen-note">Rough planning numbers from typical prices in this category. Check real competitors’ prices before you commit.</p></div>`;
+}
+
 function ideaHtml(e, n) {
   const { idea, score } = e;
   const chips = Object.keys(valid()).map((k) => `<span>${esc(labelOf(k))}</span>`).join('');
@@ -498,11 +591,12 @@ function ideaHtml(e, n) {
         <span class="score-badge" aria-label="Score ${score.overall} out of 10">${score.overall.toFixed(1)}<small>/10</small></span>
         <span class="verdict">${esc(score.cmp.verdict)}</span>
         <details class="breakdown"><summary>Why this score</summary>
-          <table><tbody>${Object.keys(WEIGHTS).map((k) => `<tr><th scope="row">${CRIT_LABEL[k]}</th><td class="num">${score.crit[k][0].toFixed(1)}</td><td>${esc(score.crit[k][1])}</td></tr>`).join('')}</tbody></table>
-          <p class="gen-note">Estimated from the pieces and your answers. Weights: differentiation 25%, clarity 20%, coherence and buildability 15% each, references and ownership 10% each, delight 5%.</p>
+          <table><tbody>${Object.keys(score.money ? MONEY_WEIGHTS : WEIGHTS).map((k) => `<tr><th scope="row">${CRIT_LABEL[k]}</th><td class="num">${score.crit[k][0].toFixed(1)}</td><td>${esc(score.crit[k][1])}</td></tr>`).join('')}</tbody></table>
+          <p class="gen-note">${score.money ? 'Estimated from the pieces, your answers and typical prices. Weights: willingness to pay 25%, demand, niche and reach 15% each, recurring income, buildability and clarity 10% each.' : 'Estimated from the pieces and your answers. Weights: differentiation 25%, clarity 20%, coherence and buildability 15% each, references and ownership 10% each, delight 5%.'}</p>
         </details>
       </div>
       <p class="why"><strong>Why it’s different.</strong> ${esc(e.why)}</p>
+      ${score.money ? moneyHtml(score.money) : ''}
       ${chips ? `<div class="chips-row">${chips}</div>` : ''}
     </div>
     <div class="section">
@@ -558,20 +652,21 @@ function promptOf(idea) {
     'How it’s built:',
     ...idea.features.map((f) => `- ${f.name}: ${sig(f) ?? (f.ambient ? `the whole thing is ${f.ambient}` : f.adds)}. References: ${refsFor(f).map((r) => `https://github.com/${r.repo}`).join(', ') || `none yet (scout: ${f.scout ?? f.query})`}`),
     '', 'First weekend:', ...weekendOf(e).map((x) => `- ${x}`),
+    ...(e.score.money ? ['', 'Money plan (the main goal: this app pays for my free projects):', `- How it earns: ${e.score.money.model.label}, ${e.score.money.priceLabel}`, `- Who pays: ${e.score.money.who}`, `- Free vs paid: ${e.score.money.free}`, `- How people find it: ${e.score.money.find}`, `- The maths: ${e.score.money.maths}`, `- Watch out for: ${e.score.money.watch}`, 'Also check the real prices of the closest competitors, and tell me the fastest path to the first paying customer.'] : []),
     '', 'Read the reference READMEs first. Then give me the stack, how these pieces connect into one experience, the hardest part and which reference solves it, a first-weekend plan, and the licence of any code I would copy.',
   ].join('\n');
 }
 
 // ---------- share links (old links still open: unknown keys are ignored, missing ones default) ----------
 function writeHash() {
-  const p = new URLSearchParams({ kind: state.kind, ...valid(), n: state.count, seed: state.seed });
+  const p = new URLSearchParams({ ...(money() ? { goal: 'money' } : {}), kind: state.kind, ...valid(), n: state.count, seed: state.seed });
   if (state.twist.trim()) p.set('twist', state.twist.trim());
   history.replaceState(null, '', `#${p}`);
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   if (!p.has('kind') || !KINDS[p.get('kind')]) return false;
-  state.kind = p.get('kind'); state.answers = {};
+  state.kind = p.get('kind'); state.answers = {}; state.goal = p.get('goal') === 'money' ? 'money' : 'fun';
   for (const [id] of stepsOf()) if (p.get(id)) state.answers[id] = p.get(id);
   state.twist = p.get('twist') ?? '';
   state.count = Math.min(10, Math.max(2, +p.get('n') || 4));
@@ -581,9 +676,10 @@ function readHash() {
 
 // ---------- events ----------
 function syncForm() {
-  $('#kind').value = state.kind; $('#count').value = state.count; $('#countOut').textContent = state.count; $('#twist').value = state.twist;
+  $('#goal').value = state.goal; $('#kind').value = state.kind; $('#count').value = state.count; $('#countOut').textContent = state.count; $('#twist').value = state.twist;
   renderSteps();
 }
+$('#goal').addEventListener('change', (e) => { state.goal = e.target.value; renderSteps(); });
 $('#kind').addEventListener('change', (e) => { state.kind = e.target.value; const aud = state.answers.audience; state.answers = aud ? { audience: aud } : {}; renderSteps(); });
 $('#steps').addEventListener('change', (e) => {
   const q = e.target.dataset.q; if (!q) return;
@@ -596,7 +692,7 @@ $('#form').addEventListener('submit', (e) => { e.preventDefault(); generate(); }
 
 $('#surprise').addEventListener('click', () => {
   const r = rng(Math.floor(Math.random() * 1e9));
-  state.kind = pick(r, Object.keys(KINDS)); state.answers = {}; state.twist = '';
+  state.kind = pick(r, money() ? ['app', 'app', 'tool', 'game', 'website'] : Object.keys(KINDS)); state.answers = {}; state.twist = '';
   for (const step of stepsOf()) { const opts = optionsOf(step); if (opts.length && r() < 0.85) state.answers[step[0]] = pick(r, opts)[0]; }
   state.count = 3 + Math.floor(r() * 3);
   syncForm(); generate();
