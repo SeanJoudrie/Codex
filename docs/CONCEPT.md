@@ -43,7 +43,7 @@ Heavy WebGPU demos will still fail and fall through to the README image.
 
 Motion & animation · Rendering & shaders · Simulation · Game AI · Algorithms, visualized ·
 Procedural generation · Data viz & collection · Math · Interaction & UI · Audio ·
-Design tooling · Uncategorized / weird
+Design tooling · Random & wildcard — full list with hints in `data/categories.json`
 
 ## Record shape
 

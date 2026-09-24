@@ -1,60 +1,507 @@
 {
   "_about": "Where discover.mjs looks each week. Edit freely — add lists, topics, queries and people as you find them. Entries marked verify:true haven't been confirmed to exist yet; discover.mjs skips 404s and logs them.",
-
   "awesome_lists": [
-    { "repo": "terkelg/awesome-creative-coding",          "categories": ["rendering", "simulation", "motion"] },
-    { "repo": "sjfricke/awesome-webgl",                    "categories": ["rendering"] },
-    { "repo": "radixzz/awesome-glsl",                      "categories": ["rendering"], "verify": true },
-    { "repo": "Calinou/awesome-gamedev",                   "categories": ["game-ai"] },
-    { "repo": "ellisonleao/magictools",                    "categories": ["game-ai", "design"] },
-    { "repo": "tayllan/awesome-algorithms",                "categories": ["algorithms"] },
-    { "repo": "willianjusten/awesome-audio-visualization", "categories": ["audio"] },
-    { "repo": "wbkd/awesome-d3",                           "categories": ["dataviz"] },
-    { "repo": "jasonwebb/morphogenesis-resources",         "categories": ["procgen", "simulation"] }
+    {
+      "repo": "terkelg/awesome-creative-coding",
+      "categories": [
+        "rendering",
+        "simulation",
+        "motion"
+      ]
+    },
+    {
+      "repo": "sjfricke/awesome-webgl",
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "repo": "radixzz/awesome-glsl",
+      "categories": [
+        "rendering"
+      ],
+      "verify": true
+    },
+    {
+      "repo": "Calinou/awesome-gamedev",
+      "categories": [
+        "game-ai"
+      ]
+    },
+    {
+      "repo": "ellisonleao/magictools",
+      "categories": [
+        "game-ai",
+        "design"
+      ]
+    },
+    {
+      "repo": "tayllan/awesome-algorithms",
+      "categories": [
+        "algorithms"
+      ]
+    },
+    {
+      "repo": "willianjusten/awesome-audio-visualization",
+      "categories": [
+        "audio"
+      ]
+    },
+    {
+      "repo": "wbkd/awesome-d3",
+      "categories": [
+        "dataviz"
+      ]
+    },
+    {
+      "repo": "jasonwebb/morphogenesis-resources",
+      "categories": [
+        "procgen",
+        "simulation"
+      ]
+    },
+    {
+      "repo": "codecrafters-io/build-your-own-x",
+      "categories": [
+        "systems"
+      ]
+    },
+    {
+      "repo": "sbilly/awesome-security",
+      "categories": [
+        "security"
+      ]
+    },
+    {
+      "repo": "apsdehal/awesome-ctf",
+      "categories": [
+        "security"
+      ]
+    },
+    {
+      "repo": "josephmisiti/awesome-machine-learning",
+      "categories": [
+        "ai-ml"
+      ]
+    },
+    {
+      "repo": "Kavex/GameDev-Resources",
+      "categories": [
+        "game-engines"
+      ],
+      "verify": true
+    },
+    {
+      "repo": "leereilly/games",
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "repo": "sshuair/awesome-gis",
+      "categories": [
+        "maps"
+      ]
+    },
+    {
+      "repo": "rothgar/awesome-tuis",
+      "categories": [
+        "devtools"
+      ]
+    },
+    {
+      "repo": "MrLeebo/awesome-demoscene",
+      "categories": [
+        "retro"
+      ],
+      "verify": true
+    },
+    {
+      "repo": "mattdesl/graphics-resources",
+      "categories": [
+        "rendering",
+        "3d"
+      ],
+      "verify": true
+    }
   ],
-
   "topics": {
-    "rendering":   ["webgl", "webgpu", "threejs", "glsl", "shader", "raymarching", "sdf"],
-    "simulation":  ["physics-simulation", "fluid-simulation", "cellular-automata", "particles", "boids", "physarum"],
-    "game-ai":     ["game-ai", "behavior-tree", "monte-carlo-tree-search", "minimax", "pathfinding", "goap", "utility-ai"],
-    "algorithms":  ["algorithm-visualization", "sorting-algorithms", "sorting-visualization", "maze-generator"],
-    "procgen":     ["procedural-generation", "wave-function-collapse", "l-system", "terrain-generation", "generative-art"],
-    "dataviz":     ["data-visualization", "d3", "web-scraping", "open-data"],
-    "motion":      ["animation", "svg-animation", "scroll-animation", "motion-design"],
-    "interaction": ["creative-coding", "interactive", "cursor-effects"],
-    "audio":       ["web-audio", "audio-visualizer", "generative-music", "synthesizer"],
-    "math":        ["computational-geometry", "linear-algebra"],
-    "design":      ["color-palette", "design-tokens", "typography"]
+    "rendering": [
+      "webgl",
+      "webgpu",
+      "threejs",
+      "glsl",
+      "shader",
+      "raymarching",
+      "sdf"
+    ],
+    "simulation": [
+      "physics-simulation",
+      "fluid-simulation",
+      "cellular-automata",
+      "particles",
+      "boids",
+      "physarum"
+    ],
+    "game-ai": [
+      "game-ai",
+      "behavior-tree",
+      "monte-carlo-tree-search",
+      "minimax",
+      "pathfinding",
+      "goap",
+      "utility-ai"
+    ],
+    "algorithms": [
+      "algorithm-visualization",
+      "sorting-algorithms",
+      "sorting-visualization",
+      "maze-generator"
+    ],
+    "procgen": [
+      "procedural-generation",
+      "wave-function-collapse",
+      "l-system",
+      "terrain-generation",
+      "generative-art"
+    ],
+    "dataviz": [
+      "data-visualization",
+      "d3",
+      "web-scraping",
+      "open-data"
+    ],
+    "motion": [
+      "animation",
+      "svg-animation",
+      "scroll-animation",
+      "motion-design"
+    ],
+    "interaction": [
+      "creative-coding",
+      "interactive",
+      "cursor-effects"
+    ],
+    "audio": [
+      "web-audio",
+      "audio-visualizer",
+      "generative-music",
+      "synthesizer"
+    ],
+    "math": [
+      "computational-geometry",
+      "linear-algebra"
+    ],
+    "design": [
+      "color-palette",
+      "design-tokens",
+      "typography"
+    ],
+    "3d": [
+      "3d-modeling",
+      "mesh-processing",
+      "procedural-modeling",
+      "voxel",
+      "cad",
+      "gaussian-splatting",
+      "nerf",
+      "photogrammetry",
+      "sculpting"
+    ],
+    "game-engines": [
+      "game-engine",
+      "ecs",
+      "physics-engine",
+      "level-editor",
+      "netcode"
+    ],
+    "games": [
+      "open-source-game",
+      "browser-game",
+      "roguelike",
+      "webgl-game"
+    ],
+    "ai-ml": [
+      "tensorflowjs",
+      "onnx",
+      "pose-estimation",
+      "hand-tracking",
+      "stable-diffusion",
+      "generative-ai",
+      "computer-vision"
+    ],
+    "maps": [
+      "maps",
+      "gis",
+      "globe",
+      "satellite-imagery",
+      "geospatial"
+    ],
+    "science": [
+      "astronomy",
+      "space",
+      "physics",
+      "bioinformatics",
+      "chemistry",
+      "climate"
+    ],
+    "security": [
+      "ctf",
+      "reverse-engineering",
+      "osint",
+      "network-visualization",
+      "cryptography",
+      "blue-team",
+      "malware-analysis"
+    ],
+    "systems": [
+      "operating-system",
+      "compiler",
+      "interpreter",
+      "emulator",
+      "database",
+      "build-your-own-x",
+      "virtual-machine"
+    ],
+    "retro": [
+      "demoscene",
+      "fantasy-console",
+      "pico-8",
+      "pixel-art",
+      "crt-shader",
+      "retro-computing"
+    ],
+    "devtools": [
+      "tui",
+      "terminal",
+      "cli",
+      "code-visualization",
+      "text-editor"
+    ],
+    "creative-tools": [
+      "drawing-app",
+      "node-editor",
+      "music-tracker",
+      "paint",
+      "generative-art-tool"
+    ],
+    "hardware": [
+      "robotics",
+      "drone",
+      "embedded",
+      "esp32",
+      "arduino",
+      "led"
+    ],
+    "networks": [
+      "p2p",
+      "crdt",
+      "multiplayer",
+      "webrtc",
+      "mesh-network"
+    ],
+    "explainers": [
+      "explorable-explanations",
+      "interactive-tutorial",
+      "visual-explanation"
+    ]
   },
-
   "queries": [
-    { "q": "\"monte carlo tree search\" language:javascript",   "categories": ["game-ai"] },
-    { "q": "\"behavior tree\" game ai in:readme stars:>50",     "categories": ["game-ai"] },
-    { "q": "chess engine language:javascript stars:>100",      "categories": ["game-ai"] },
-    { "q": "sorting visualizer in:name,description stars:>50", "categories": ["algorithms"] },
-    { "q": "pathfinding visualizer stars:>50",                 "categories": ["algorithms", "game-ai"] },
-    { "q": "\"wave function collapse\" stars:>50",             "categories": ["procgen"] },
-    { "q": "\"liquid glass\" webgl",                           "categories": ["rendering", "interaction"] },
-    { "q": "physarum OR \"slime mold\" simulation",            "categories": ["simulation"] },
-    { "q": "\"falling sand\" game",                            "categories": ["simulation"] },
-    { "q": "raymarching webgl stars:>50",                      "categories": ["rendering"] },
-    { "q": "spring animation library language:typescript stars:>200", "categories": ["motion"] },
-    { "q": "audio visualizer webgl stars:>50",                 "categories": ["audio"] }
+    {
+      "q": "\"monte carlo tree search\" language:javascript",
+      "categories": [
+        "game-ai"
+      ]
+    },
+    {
+      "q": "\"behavior tree\" game ai in:readme stars:>50",
+      "categories": [
+        "game-ai"
+      ]
+    },
+    {
+      "q": "chess engine language:javascript stars:>100",
+      "categories": [
+        "game-ai"
+      ]
+    },
+    {
+      "q": "sorting visualizer in:name,description stars:>50",
+      "categories": [
+        "algorithms"
+      ]
+    },
+    {
+      "q": "pathfinding visualizer stars:>50",
+      "categories": [
+        "algorithms",
+        "game-ai"
+      ]
+    },
+    {
+      "q": "\"wave function collapse\" stars:>50",
+      "categories": [
+        "procgen"
+      ]
+    },
+    {
+      "q": "\"liquid glass\" webgl",
+      "categories": [
+        "rendering",
+        "interaction"
+      ]
+    },
+    {
+      "q": "physarum OR \"slime mold\" simulation",
+      "categories": [
+        "simulation"
+      ]
+    },
+    {
+      "q": "\"falling sand\" game",
+      "categories": [
+        "simulation"
+      ]
+    },
+    {
+      "q": "raymarching webgl stars:>50",
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "q": "spring animation library language:typescript stars:>200",
+      "categories": [
+        "motion"
+      ]
+    },
+    {
+      "q": "audio visualizer webgl stars:>50",
+      "categories": [
+        "audio"
+      ]
+    },
+    {
+      "q": "\"build your own\" from scratch stars:>500",
+      "categories": [
+        "systems"
+      ]
+    },
+    {
+      "q": "tiny operating system stars:>300",
+      "categories": [
+        "systems"
+      ]
+    },
+    {
+      "q": "gaussian splatting viewer webgl",
+      "categories": [
+        "3d",
+        "rendering"
+      ]
+    },
+    {
+      "q": "procedural modeling browser stars:>100",
+      "categories": [
+        "3d"
+      ]
+    },
+    {
+      "q": "packet visualizer OR network visualizer stars:>100",
+      "categories": [
+        "security",
+        "networks"
+      ]
+    },
+    {
+      "q": "ctf tools stars:>300",
+      "categories": [
+        "security"
+      ]
+    },
+    {
+      "q": "interactive globe webgl stars:>200",
+      "categories": [
+        "maps"
+      ]
+    },
+    {
+      "q": "self-play reinforcement learning game stars:>200",
+      "categories": [
+        "game-ai",
+        "ai-ml"
+      ]
+    },
+    {
+      "q": "chess engine stars:>300",
+      "categories": [
+        "game-ai"
+      ]
+    },
+    {
+      "q": "emulator in browser stars:>300",
+      "categories": [
+        "retro",
+        "systems"
+      ]
+    },
+    {
+      "q": "demoscene intro webgl",
+      "categories": [
+        "retro",
+        "rendering"
+      ]
+    },
+    {
+      "q": "hand tracking browser demo stars:>100",
+      "categories": [
+        "ai-ml",
+        "interaction"
+      ]
+    },
+    {
+      "q": "explorable explanation interactive stars:>100",
+      "categories": [
+        "explainers"
+      ]
+    },
+    {
+      "q": "terminal ui dashboard stars:>500",
+      "categories": [
+        "devtools"
+      ]
+    }
   ],
-
   "people": {
     "_about": "Their new repos AND what they star go into the candidate pool. Stars are the best signal here.",
     "follow": [
-      "fogleman", "SebLague", "amandaghassaei", "jasonwebb", "nicoptere", "piellardj",
-      "MaxBittker", "evanw", "unconed", "HackerPoet", "robert-leitl", "mattdesl",
-      "mrdoob", "shiffman"
+      "fogleman",
+      "SebLague",
+      "amandaghassaei",
+      "jasonwebb",
+      "nicoptere",
+      "piellardj",
+      "MaxBittker",
+      "evanw",
+      "unconed",
+      "HackerPoet",
+      "robert-leitl",
+      "mattdesl",
+      "mrdoob",
+      "shiffman"
     ]
   },
-
   "limits": {
     "min_stars": 10,
     "max_new_per_run": 150,
     "search_pages_per_query": 2,
     "stale_after_days": null
+  },
+  "random": {
+    "_about": "Wildcard draws: pick random creation-date windows across GitHub's history and take a random page of well-starred repos from each. Everything found this way is tagged 'random'.",
+    "draws_per_run": 8,
+    "window_days": 30,
+    "earliest": "2010-01-01",
+    "min_stars": 150
   }
 }

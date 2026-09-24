@@ -45,6 +45,20 @@ for (const [category, topics] of Object.entries(sources.topics)) {
 }
 for (const { q, categories } of sources.queries) await search(q, categories, `query:${q}`);
 
+// Random draws: a random month of GitHub history, a random page of well-starred repos.
+if (sources.random) {
+  const { draws_per_run, window_days, earliest, min_stars } = sources.random;
+  const start = Date.parse(earliest), span = Date.now() - start - window_days * 864e5;
+  for (let i = 0; i < draws_per_run; i++) {
+    const from = new Date(start + Math.random() * span);
+    const to = new Date(from.getTime() + window_days * 864e5);
+    const q = `created:${from.toISOString().slice(0, 10)}..${to.toISOString().slice(0, 10)} stars:>=${min_stars}`;
+    const page = 1 + Math.floor(Math.random() * 3);
+    const res = await gh(`/search/repositories?q=${encodeURIComponent(q)}&per_page=10&page=${page}`);
+    for (const item of res?.items ?? []) if (!item.fork) add(item.full_name, ['random'], 'random');
+  }
+}
+
 // People: their own repos and what they star.
 for (const user of sources.people.follow) {
   const own = await gh(`/users/${user}/repos?sort=pushed&per_page=30`);

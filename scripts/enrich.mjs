@@ -32,16 +32,16 @@ for (const c of candidates.slice(0, sources.limits.max_new_per_run)) {
     repo: meta.full_name,
     url: meta.html_url,
     description: meta.description,
-    homepage: meta.homepage || (meta.has_pages ? `https://${meta.owner.login}.github.io/${meta.name}/` : null),
+    homepage: meta.homepage || seed?.demo || (meta.has_pages ? `https://${meta.owner.login}.github.io/${meta.name}/` : null),
     language: meta.language,
     topics: meta.topics ?? [],
     stars: meta.stargazers_count,
     pushed: meta.pushed_at?.slice(0, 10),
     licence: meta.license?.spdx_id && meta.license.spdx_id !== 'NOASSERTION' ? meta.license.spdx_id : (seed?.licence_recorded ?? 'unknown'),
-    categories: c.categories.length ? c.categories : ['weird'],
+    categories: c.categories.length ? c.categories : ['random'],
     idea: seed?.idea ?? null,
     note: seed?.note ?? '',
-    technique: null, // filled by tag.mjs later
+    technique: seed?.technique ?? null, // scout-prompt seeds bring one; tag.mjs fills the rest
     readme_image: firstImage(readme, meta.full_name, meta.default_branch),
     media: null,     // filled by capture.mjs
     sources: c.sources,

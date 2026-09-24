@@ -49,14 +49,22 @@ npm run serve                 # open the site
 data/
   seeds.json        91 repos from the Creative-Coding Experiments Master Doc
   sources.json      where discovery looks: awesome-lists, topics, queries, people
-  categories.json   the category set shown as filter chips
+  categories.json   26 categories shown as filter chips
   index.json        the index itself (starts as seed stubs; the first refresh fills it)
   candidates.json   queue of discovered repos not yet enriched
 media/              thumbnails, one .webp per repo
 site/               the static front-end (grid, search, filters, ★ favourites)
 docs/CONCEPT.md     the full plan and roadmap
 docs/SOURCES.md     the seed list, readable
+prompts/scout.md    the scout prompt
 ```
+
+## Scouting with a prompt
+
+`prompts/scout.md` is a prompt for Claude (or any assistant with web search) that hunts for
+flashy, already-built projects across all 26 categories, including a **random & wildcard**
+section. Set the categories, count and mode at the top, run it, and paste the `repos` it returns
+into `data/seeds.json`. The next refresh screenshots them.
 
 ## Adding things by hand
 
