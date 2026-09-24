@@ -75,3 +75,5 @@ dialog dd { margin: 0; overflow-wrap: anywhere; }
 .close { background: var(--chip); color: var(--ink); margin-left: auto; }
 .empty { text-align: center; color: var(--muted); padding: 60px 16px; }
 @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+.idea-note { margin: 0; padding: 18px 16px 0; font: 600 12px var(--mono); color: var(--accent); letter-spacing: .04em; }
+@media (min-width: 900px) { .idea-note { padding: 22px 28px 0; } }

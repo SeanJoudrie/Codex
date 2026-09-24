@@ -1,4 +1,5 @@
 // Codex — static client. Reads data/index.json + data/categories.json.
+import { matchIdea } from './match.js';
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -14,7 +15,7 @@ const [index, categories] = await Promise.all([
 const repos = index.repos;
 const catLabel = Object.fromEntries(categories.map((c) => [c.id, c.label]));
 const favs = new Set(store.get('favs', []));
-const state = { q: '', cat: store.get('cat', 'all'), favOnly: false, sort: store.get('sort', 'new') };
+const state = { q: '', cat: store.get('cat', 'all'), favOnly: false, sort: store.get('sort', 'best') };
 
 // Stable colour per repo for placeholder cards.
 const hue = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
@@ -46,7 +47,8 @@ function card(r) {
       <div class="row">
         ${r.stub && !r.stars ? '<span>not fetched yet</span>' : `<span>★ ${(r.stars ?? 0).toLocaleString()}</span>`}
         ${r.language && r.language !== 'unknown' ? `<span>${esc(r.language)}</span>` : ''}
-        ${r.media?.kind && r.media.kind !== 'demo' ? `<span class="kind">${r.media.kind}</span>` : ''}
+        ${r.list ? '<span class="kind">list</span>' : ''}
+        ${r.rank && state.cat !== 'all' && r.rank[state.cat] ? `<span class="kind">#${r.rank[state.cat]}</span>` : ''}
         <button class="fav" data-fav="${esc(r.repo)}" aria-pressed="${favs.has(r.repo)}" aria-label="Favourite">★</button>
       </div>
     </div>
@@ -56,12 +58,11 @@ function card(r) {
 function matches(r) {
   if (state.cat !== 'all' && !r.categories.includes(state.cat)) return false;
   if (state.favOnly && !favs.has(r.repo)) return false;
-  if (!state.q) return true;
-  const hay = [r.repo, r.description, r.technique, r.note, r.idea, r.language, ...(r.topics ?? []), ...r.categories].join(' ').toLowerCase();
-  return state.q.split(/\s+/).every((w) => hay.includes(w));
+  return true;
 }
 
 const sorters = {
+  best: (a, b) => (b.score ?? 0) - (a.score ?? 0) || (b.stars ?? 0) - (a.stars ?? 0),
   new: (a, b) => (b.first_seen ?? '').localeCompare(a.first_seen ?? '') || b.stars - a.stars,
   stars: (a, b) => b.stars - a.stars,
   // Hidden gems: has a real screenshot, low stars, recently pushed.
@@ -73,9 +74,14 @@ const gemScore = (r) => rank(r) * 2 - Math.log10((r.stars ?? 0) + 10) + (r.pushe
 function isoDaysAgo(n) { return new Date(Date.now() - n * 864e5).toISOString().slice(0, 10); }
 
 function render() {
-  const list = repos.filter(matches).sort(sorters[state.sort]);
+  // A typed query is treated as an idea: ranked by relevance, then usefulness.
+  const pool = repos.filter(matches);
+  const list = state.q ? matchIdea(pool, state.q, catLabel).map((x) => x.r) : pool.sort(sorters[state.sort]);
+  $('#ideaNote').hidden = !state.q;
+  $('#ideaNote').textContent = state.q ? `${list.length} references for “${state.q}”, best matches first` : '';
   $('#grid').innerHTML = list.map(card).join('');
   $('#empty').hidden = list.length > 0;
+  $('#empty').textContent = state.q ? 'Nothing in the archive matches that idea yet — try other words, or run the scout prompt on it.' : 'Nothing matches.';
   const fresh = repos.filter((r) => r.first_seen >= isoDaysAgo(7) && !r.sources?.every((s) => s === 'seed'));
   $('#fresh').hidden = !fresh.length || state.q || state.cat !== 'all';
   $('#freshStrip').innerHTML = fresh.slice(0, 24).map(card).join('');
@@ -95,6 +101,7 @@ function open(repo) {
         ${r.note ? `<dt>Note</dt><dd>${esc(r.note)}</dd>` : ''}
         <dt>Category</dt><dd>${r.categories.map((c) => esc(catLabel[c] ?? c)).join(', ')}</dd>
         <dt>Stars</dt><dd>${(r.stars ?? 0).toLocaleString()} · ${esc(r.language ?? '—')} · pushed ${esc(r.pushed ?? '—')}</dd>
+        <dt>Rank</dt><dd>${Object.entries(r.rank ?? {}).map(([c, n]) => `#${n} in ${esc(catLabel[c] ?? c)}`).join(' · ') || '—'} · score ${r.score ?? '—'}/100</dd>
         <dt>Licence</dt><dd>${esc(r.licence ?? 'unknown')}</dd>
         <dt>Found via</dt><dd>${esc((r.sources ?? []).join(', '))} · ${esc(r.first_seen ?? '')}</dd>
       </dl>

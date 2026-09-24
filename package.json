@@ -9,12 +9,16 @@
     "capture": "node scripts/capture.mjs",
     "tag": "node scripts/tag.mjs",
     "build": "node scripts/build.mjs",
-    "refresh": "npm run discover && npm run enrich && npm run capture && npm run tag && npm run build",
-    "serve": "npm run build && npx --yes serve dist"
+    "refresh": "npm run discover && npm run enrich && npm run capture && npm run tag && npm run rank && npm run build",
+    "serve": "npm run build && npx --yes serve dist",
+    "rank": "node scripts/rank.mjs",
+    "ideas": "node scripts/ideas.mjs"
   },
   "dependencies": {
     "playwright": "^1.47.0",
     "sharp": "^0.33.5"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

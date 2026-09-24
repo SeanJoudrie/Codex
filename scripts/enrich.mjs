@@ -28,8 +28,7 @@ for (const c of candidates.slice(0, sources.limits.max_new_per_run)) {
 async function enrichOne(c) {
   const meta = await gh(`/repos/${c.repo}`);
   if (!meta || meta.archived && meta.stargazers_count < sources.limits.min_stars) return false;
-  const seedEntry = seedBy.get(c.repo.toLowerCase());
-  if (!seedEntry && isLinkCollection({ repo: meta.full_name, description: meta.description, topics: meta.topics })) return false;
+
   const readme = (await gh(`/repos/${c.repo}/readme`, { accept: 'application/vnd.github.raw', raw: true })) ?? '';
   const seed = seedBy.get(c.repo.toLowerCase());
   const stub = index.repos.find((r) => r.stub && r.repo.toLowerCase() === c.repo.toLowerCase());
@@ -44,13 +43,17 @@ async function enrichOne(c) {
     stars: meta.stargazers_count,
     pushed: meta.pushed_at?.slice(0, 10),
     licence: meta.license?.spdx_id && meta.license.spdx_id !== 'NOASSERTION' ? meta.license.spdx_id : (seed?.licence_recorded ?? 'unknown'),
-    categories: c.categories.length ? c.categories : ['random'],
+    // Hand-picked/scouted repos keep their curated categories; discovered ones take their sources'.
+    categories: seed?.categories ?? (c.categories.length ? c.categories : ['random']),
     idea: seed?.idea ?? null,
     note: seed?.note ?? '',
     technique: seed?.technique ?? null, // scout-prompt seeds bring one; tag.mjs fills the rest
     readme_image: firstImage(readme, meta.full_name, meta.default_branch),
     media: null,     // filled by capture.mjs
     sources: c.sources,
+    list: isLinkCollection({ repo: meta.full_name, description: meta.description, topics: meta.topics }), // kept, ranked last
+    archived: meta.archived || undefined,
+    wow: seed?.wow,
     first_seen: stub?.first_seen ?? today(),
   });
   return true;

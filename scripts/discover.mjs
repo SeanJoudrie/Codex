@@ -86,11 +86,13 @@ for (const user of sources.people.follow) await safely(user, async () => {
   for (const r of starred ?? []) add(r.full_name, [], `starred-by:${user}`);
 });
 
+// Merge with what's already queued so nothing found is ever dropped.
+for (const q of queued) for (const src of q.sources) add(q.repo, q.categories, src);
+
 const candidates = [...found.values()].map((e) => ({
   repo: e.repo, categories: [...e.categories], sources: [...e.sources],
 }));
 // Repos surfaced by several sources are the strongest signal — process them first.
 candidates.sort((a, b) => (b.sources.includes('seed') - a.sources.includes('seed')) || b.sources.length - a.sources.length);
-// The queue is rebuilt every run, so only the front of it matters — keep the file small.
-await writeJSON('candidates.json', candidates.slice(0, sources.limits.max_queue));
-console.log(`discover: ${candidates.length} new candidates (keeping ${Math.min(candidates.length, sources.limits.max_queue)})`);
+await writeJSON('candidates.json', candidates);
+console.log(`discover: ${candidates.length} repos queued`);

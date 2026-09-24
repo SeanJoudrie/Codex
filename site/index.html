@@ -12,11 +12,12 @@
     <h1>Codex</h1>
     <p class="meta" id="meta">Loading…</p>
   </div>
-  <input id="q" type="search" placeholder="Search repos, techniques, languages…" autocomplete="off" aria-label="Search">
+  <input id="q" type="search" placeholder="Describe an idea or search — e.g. “racing game with a smart CPU driver”" autocomplete="off" aria-label="Search">
   <nav class="chips" id="chips" aria-label="Categories"></nav>
   <div class="toggles">
     <label><input type="checkbox" id="favOnly"> ★ only</label>
     <select id="sort" aria-label="Sort">
+      <option value="best">Best first</option>
       <option value="new">Newest first</option>
       <option value="stars">Most stars</option>
       <option value="gem">Hidden gems</option>
@@ -30,6 +31,7 @@
   <div class="strip" id="freshStrip"></div>
 </section>
 
+<p class="idea-note" id="ideaNote" hidden></p>
 <main class="grid" id="grid"></main>
 <p class="empty" id="empty" hidden>Nothing matches.</p>
 
