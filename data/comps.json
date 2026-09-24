@@ -1,0 +1,1072 @@
+{
+ "_about": "Well-known products per domain with their defining traits. The idea generator compares each idea against these to score differentiation and catch reskins. Traits are the same vocabulary as block traits in features.json. Add freely.",
+ "domains": {
+  "budget": [
+   {
+    "name": "Rocket Money",
+    "does": "tracks subscriptions and bills from your bank",
+    "traits": [
+     "bank-sync",
+     "charts",
+     "subscriptions"
+    ]
+   },
+   {
+    "name": "YNAB",
+    "does": "gives every dollar a job in envelopes",
+    "traits": [
+     "envelope-allocation",
+     "charts",
+     "manual-entry"
+    ]
+   },
+   {
+    "name": "Copilot",
+    "does": "categorises spending with polished charts",
+    "traits": [
+     "bank-sync",
+     "charts",
+     "glass-ui"
+    ]
+   },
+   {
+    "name": "Goodbudget",
+    "does": "splits money into shared envelopes",
+    "traits": [
+     "envelope-allocation",
+     "shared"
+    ]
+   }
+  ],
+  "subscriptions": [
+   {
+    "name": "Rocket Money",
+    "does": "finds and cancels subscriptions",
+    "traits": [
+     "bank-sync",
+     "subscriptions",
+     "charts"
+    ]
+   },
+   {
+    "name": "Bobby",
+    "does": "lists your subscriptions with reminders",
+    "traits": [
+     "subscriptions",
+     "manual-entry"
+    ]
+   }
+  ],
+  "investing": [
+   {
+    "name": "Robinhood",
+    "does": "makes trading feel instant",
+    "traits": [
+     "charts",
+     "trading"
+    ]
+   },
+   {
+    "name": "Delta",
+    "does": "tracks a whole portfolio in one place",
+    "traits": [
+     "charts",
+     "portfolio"
+    ]
+   }
+  ],
+  "journal": [
+   {
+    "name": "Day One",
+    "does": "keeps a private photo journal",
+    "traits": [
+     "writing",
+     "photos",
+     "history-replay"
+    ]
+   },
+   {
+    "name": "Stoic",
+    "does": "prompts reflection and tracks mood",
+    "traits": [
+     "prompts",
+     "charts",
+     "mood"
+    ]
+   },
+   {
+    "name": "Daylio",
+    "does": "logs moods in two taps",
+    "traits": [
+     "mood",
+     "charts",
+     "streaks"
+    ]
+   }
+  ],
+  "habits": [
+   {
+    "name": "Streaks",
+    "does": "counts streaks for up to 24 habits",
+    "traits": [
+     "streaks",
+     "charts"
+    ]
+   },
+   {
+    "name": "Habitica",
+    "does": "turns habits into an RPG",
+    "traits": [
+     "rpg",
+     "virtual-pet",
+     "streaks"
+    ]
+   },
+   {
+    "name": "Finch",
+    "does": "grows a pet bird as you do self-care",
+    "traits": [
+     "virtual-pet",
+     "streaks",
+     "growing"
+    ]
+   }
+  ],
+  "sleep": [
+   {
+    "name": "Sleep Cycle",
+    "does": "tracks sleep and wakes you gently",
+    "traits": [
+     "charts",
+     "body-tracking"
+    ]
+   },
+   {
+    "name": "Pokémon Sleep",
+    "does": "turns sleep into collecting creatures",
+    "traits": [
+     "virtual-pet",
+     "charts"
+    ]
+   },
+   {
+    "name": "Calm",
+    "does": "plays sleep stories",
+    "traits": [
+     "audio",
+     "stories"
+    ]
+   }
+  ],
+  "screentime": [
+   {
+    "name": "Opal",
+    "does": "blocks distracting apps",
+    "traits": [
+     "blocking",
+     "charts"
+    ]
+   },
+   {
+    "name": "one sec",
+    "does": "adds a pause before opening apps",
+    "traits": [
+     "blocking"
+    ]
+   },
+   {
+    "name": "Forest",
+    "does": "grows a tree while you stay off your phone",
+    "traits": [
+     "growing-tree",
+     "focus"
+    ]
+   }
+  ],
+  "fitness": [
+   {
+    "name": "Strava",
+    "does": "logs workouts socially",
+    "traits": [
+     "charts",
+     "shared",
+     "maps"
+    ]
+   },
+   {
+    "name": "Zombies, Run!",
+    "does": "turns runs into an audio story",
+    "traits": [
+     "branching-story",
+     "audio"
+    ]
+   },
+   {
+    "name": "Ring Fit Adventure",
+    "does": "turns exercise into an RPG",
+    "traits": [
+     "body-tracking",
+     "rpg"
+    ]
+   }
+  ],
+  "meditation": [
+   {
+    "name": "Headspace",
+    "does": "guides meditation",
+    "traits": [
+     "audio",
+     "lessons"
+    ]
+   },
+   {
+    "name": "Calm",
+    "does": "plays calming audio and scenes",
+    "traits": [
+     "audio",
+     "fluid"
+    ]
+   },
+   {
+    "name": "Endel",
+    "does": "generates adaptive soundscapes",
+    "traits": [
+     "audio-synth",
+     "live-weather"
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "name": "Notion",
+    "does": "organises notes in blocks",
+    "traits": [
+     "documents",
+     "shared"
+    ]
+   },
+   {
+    "name": "Obsidian",
+    "does": "links notes into a graph",
+    "traits": [
+     "graph-3d",
+     "linking"
+    ]
+   },
+   {
+    "name": "Apple Notes",
+    "does": "keeps quick notes",
+    "traits": [
+     "documents"
+    ]
+   }
+  ],
+  "tasks": [
+   {
+    "name": "Todoist",
+    "does": "manages tasks and projects",
+    "traits": [
+     "lists",
+     "reminders"
+    ]
+   },
+   {
+    "name": "Things",
+    "does": "plans your day calmly",
+    "traits": [
+     "lists",
+     "glass-ui"
+    ]
+   },
+   {
+    "name": "Habitica",
+    "does": "turns tasks into an RPG",
+    "traits": [
+     "rpg",
+     "virtual-pet"
+    ]
+   }
+  ],
+  "focus": [
+   {
+    "name": "Forest",
+    "does": "grows a tree while you focus",
+    "traits": [
+     "growing-tree",
+     "focus"
+    ]
+   },
+   {
+    "name": "Flora",
+    "does": "grows plants with friends while focusing",
+    "traits": [
+     "growing-tree",
+     "shared"
+    ]
+   },
+   {
+    "name": "Focusmate",
+    "does": "pairs you with a live partner",
+    "traits": [
+     "shared",
+     "video"
+    ]
+   }
+  ],
+  "planner": [
+   {
+    "name": "Google Calendar",
+    "does": "schedules everything",
+    "traits": [
+     "calendar",
+     "shared"
+    ]
+   },
+   {
+    "name": "Wanderlog",
+    "does": "plans trips on a map",
+    "traits": [
+     "globe",
+     "shared"
+    ]
+   },
+   {
+    "name": "Notion Calendar",
+    "does": "plans your week",
+    "traits": [
+     "calendar"
+    ]
+   }
+  ],
+  "events": [
+   {
+    "name": "Partiful",
+    "does": "sends playful event invites",
+    "traits": [
+     "invites",
+     "shared"
+    ]
+   },
+   {
+    "name": "Luma",
+    "does": "runs event pages and RSVPs",
+    "traits": [
+     "invites",
+     "shared"
+    ]
+   },
+   {
+    "name": "Meetup",
+    "does": "finds local groups",
+    "traits": [
+     "groups",
+     "shared"
+    ]
+   }
+  ],
+  "groupchat": [
+   {
+    "name": "Discord",
+    "does": "hosts group chat and voice",
+    "traits": [
+     "shared",
+     "chat"
+    ]
+   },
+   {
+    "name": "WhatsApp",
+    "does": "messages groups",
+    "traits": [
+     "shared",
+     "chat"
+    ]
+   },
+   {
+    "name": "Geneva",
+    "does": "organises group chats into rooms",
+    "traits": [
+     "shared",
+     "chat"
+    ]
+   }
+  ],
+  "flashcards": [
+   {
+    "name": "Anki",
+    "does": "schedules spaced-repetition cards",
+    "traits": [
+     "spaced-repetition"
+    ]
+   },
+   {
+    "name": "Quizlet",
+    "does": "studies sets of cards",
+    "traits": [
+     "spaced-repetition",
+     "games"
+    ]
+   }
+  ],
+  "language": [
+   {
+    "name": "Duolingo",
+    "does": "gamifies language lessons with a mascot",
+    "traits": [
+     "virtual-pet",
+     "streaks",
+     "lessons"
+    ]
+   },
+   {
+    "name": "Babbel",
+    "does": "teaches practical conversations",
+    "traits": [
+     "lessons",
+     "audio"
+    ]
+   }
+  ],
+  "explainer": [
+   {
+    "name": "Brilliant",
+    "does": "teaches with interactive problems",
+    "traits": [
+     "explorable",
+     "lessons"
+    ]
+   },
+   {
+    "name": "Khan Academy",
+    "does": "teaches with videos and exercises",
+    "traits": [
+     "lessons",
+     "video"
+    ]
+   }
+  ],
+  "drawing": [
+   {
+    "name": "Procreate",
+    "does": "paints on iPad",
+    "traits": [
+     "brushes",
+     "layers"
+    ]
+   },
+   {
+    "name": "Tldraw",
+    "does": "sketches on an infinite canvas",
+    "traits": [
+     "infinite-canvas",
+     "shared"
+    ]
+   }
+  ],
+  "moodboard": [
+   {
+    "name": "Pinterest",
+    "does": "collects images into boards",
+    "traits": [
+     "boards",
+     "feed"
+    ]
+   },
+   {
+    "name": "Milanote",
+    "does": "arranges images and notes on a canvas",
+    "traits": [
+     "infinite-canvas",
+     "boards"
+    ]
+   }
+  ],
+  "writing": [
+   {
+    "name": "iA Writer",
+    "does": "focuses you on the text",
+    "traits": [
+     "documents",
+     "minimal"
+    ]
+   },
+   {
+    "name": "Ulysses",
+    "does": "organises long writing",
+    "traits": [
+     "documents"
+    ]
+   }
+  ],
+  "storefront": [
+   {
+    "name": "A Shopify theme",
+    "does": "sells products with a catalogue and checkout",
+    "traits": [
+     "catalogue",
+     "checkout"
+    ]
+   },
+   {
+    "name": "SSENSE",
+    "does": "mixes editorial with a catalogue",
+    "traits": [
+     "catalogue",
+     "editorial"
+    ]
+   },
+   {
+    "name": "Glossier",
+    "does": "sells with a friendly brand voice",
+    "traits": [
+     "catalogue",
+     "brand"
+    ]
+   }
+  ],
+  "lookbook": [
+   {
+    "name": "Pinterest",
+    "does": "collects outfit images",
+    "traits": [
+     "boards",
+     "feed"
+    ]
+   },
+   {
+    "name": "Whering",
+    "does": "digitises your wardrobe into outfits",
+    "traits": [
+     "wardrobe",
+     "outfit-builder"
+    ]
+   }
+  ],
+  "tryon": [
+   {
+    "name": "Snapchat try-on lenses",
+    "does": "overlay products on your face",
+    "traits": [
+     "body-tracking",
+     "ar"
+    ]
+   },
+   {
+    "name": "Zalando size advisor",
+    "does": "recommends a size",
+    "traits": [
+     "sizing"
+    ]
+   }
+  ],
+  "player": [
+   {
+    "name": "Spotify",
+    "does": "streams music",
+    "traits": [
+     "streaming",
+     "playlists"
+    ]
+   },
+   {
+    "name": "Winamp + MilkDrop",
+    "does": "plays music with visualisers",
+    "traits": [
+     "audio-visuals"
+    ]
+   }
+  ],
+  "visualizer": [
+   {
+    "name": "MilkDrop",
+    "does": "warps visuals to music",
+    "traits": [
+     "audio-visuals"
+    ]
+   },
+   {
+    "name": "Kaleidosync",
+    "does": "visualises Spotify tracks",
+    "traits": [
+     "audio-visuals"
+    ]
+   }
+  ],
+  "sequencer": [
+   {
+    "name": "GarageBand",
+    "does": "records and sequences music",
+    "traits": [
+     "daw",
+     "loops"
+    ]
+   },
+   {
+    "name": "Ableton Note",
+    "does": "sketches beats on a phone",
+    "traits": [
+     "loops"
+    ]
+   }
+  ],
+  "finance": [
+   {
+    "name": "Rocket Money",
+    "does": "tracks spending and bills",
+    "traits": [
+     "bank-sync",
+     "charts"
+    ]
+   },
+   {
+    "name": "YNAB",
+    "does": "budgets with envelopes",
+    "traits": [
+     "envelope-allocation",
+     "charts"
+    ]
+   }
+  ],
+  "wellness": [
+   {
+    "name": "Headspace",
+    "does": "guides mental health habits",
+    "traits": [
+     "audio",
+     "lessons"
+    ]
+   },
+   {
+    "name": "Finch",
+    "does": "grows a pet as you care for yourself",
+    "traits": [
+     "virtual-pet",
+     "streaks"
+    ]
+   }
+  ],
+  "fashion": [
+   {
+    "name": "SSENSE",
+    "does": "sells fashion editorially",
+    "traits": [
+     "catalogue",
+     "editorial"
+    ]
+   },
+   {
+    "name": "Whering",
+    "does": "builds outfits from your wardrobe",
+    "traits": [
+     "outfit-builder",
+     "wardrobe"
+    ]
+   }
+  ],
+  "shooter": [
+   {
+    "name": "DOOM",
+    "does": "is fast corridor shooting",
+    "traits": [
+     "corridor-shooter",
+     "enemy-ai"
+    ]
+   },
+   {
+    "name": "Hades",
+    "does": "mixes fast combat with a strong story",
+    "traits": [
+     "enemy-ai",
+     "branching-story"
+    ]
+   },
+   {
+    "name": "Ziggurat",
+    "does": "is a fantasy magic shooter in generated dungeons",
+    "traits": [
+     "generated-world",
+     "enemy-ai"
+    ]
+   }
+  ],
+  "sandbox": [
+   {
+    "name": "Minecraft",
+    "does": "lets you break and build a voxel world",
+    "traits": [
+     "voxel",
+     "building",
+     "generated-world"
+    ]
+   },
+   {
+    "name": "Noita",
+    "does": "simulates every pixel as a material",
+    "traits": [
+     "falling-sand",
+     "physics"
+    ]
+   },
+   {
+    "name": "Terraria",
+    "does": "lets you build and explore in 2D",
+    "traits": [
+     "building",
+     "generated-world"
+    ]
+   }
+  ],
+  "puzzle": [
+   {
+    "name": "Portal",
+    "does": "solves rooms with portals",
+    "traits": [
+     "impossible-space",
+     "physics"
+    ]
+   },
+   {
+    "name": "Baba Is You",
+    "does": "changes the rules themselves",
+    "traits": [
+     "rules"
+    ]
+   },
+   {
+    "name": "Monument Valley",
+    "does": "walks you through impossible architecture",
+    "traits": [
+     "impossible-space"
+    ]
+   }
+  ],
+  "racing": [
+   {
+    "name": "Mario Kart",
+    "does": "is arcade kart racing",
+    "traits": [
+     "racing",
+     "online-play"
+    ]
+   },
+   {
+    "name": "Trackmania",
+    "does": "is precise time-trial racing",
+    "traits": [
+     "racing",
+     "generated-tracks"
+    ]
+   }
+  ],
+  "strategy": [
+   {
+    "name": "RimWorld",
+    "does": "runs a colony that tells its own stories",
+    "traits": [
+     "ecosystem",
+     "branching-story"
+    ]
+   },
+   {
+    "name": "Factorio",
+    "does": "has you build factories",
+    "traits": [
+     "building",
+     "logistics"
+    ]
+   },
+   {
+    "name": "Into the Breach",
+    "does": "is a set of small tactical puzzles",
+    "traits": [
+     "search-ai"
+    ]
+   }
+  ],
+  "rpg": [
+   {
+    "name": "Skyrim",
+    "does": "is an open-world fantasy RPG",
+    "traits": [
+     "generated-world",
+     "branching-story"
+    ]
+   },
+   {
+    "name": "Dwarf Fortress",
+    "does": "simulates a whole generated world",
+    "traits": [
+     "generated-world",
+     "ecosystem"
+    ]
+   },
+   {
+    "name": "Shattered Pixel Dungeon",
+    "does": "is a roguelike dungeon crawl",
+    "traits": [
+     "generated-world",
+     "pixel-art"
+    ]
+   }
+  ],
+  "idle": [
+   {
+    "name": "Cookie Clicker",
+    "does": "makes numbers go up",
+    "traits": [
+     "slow-reveal"
+    ]
+   },
+   {
+    "name": "A Dark Room",
+    "does": "reveals its story slowly",
+    "traits": [
+     "slow-reveal",
+     "branching-story"
+    ]
+   }
+  ],
+  "rhythm": [
+   {
+    "name": "Beat Saber",
+    "does": "has you slice blocks to music in VR",
+    "traits": [
+     "vr",
+     "audio"
+    ]
+   },
+   {
+    "name": "Rhythm Heaven",
+    "does": "has you tap to the beat",
+    "traits": [
+     "audio"
+    ]
+   }
+  ],
+  "game": [
+   {
+    "name": "Minecraft",
+    "does": "lets you break and build a voxel world",
+    "traits": [
+     "voxel",
+     "building"
+    ]
+   },
+   {
+    "name": "Stardew Valley",
+    "does": "is cozy farming life",
+    "traits": [
+     "growing-tree",
+     "cozy"
+    ]
+   }
+  ],
+  "render": [
+   {
+    "name": "teamLab installations",
+    "does": "fills rooms with projected nature",
+    "traits": [
+     "fluid",
+     "growing-tree",
+     "body-tracking"
+    ]
+   },
+   {
+    "name": "Refik Anadol data sculptures",
+    "does": "turns data into flowing visuals",
+    "traits": [
+     "fluid",
+     "visible-ai"
+    ]
+   },
+   {
+    "name": "Sandspiel",
+    "does": "is a falling-sand toy",
+    "traits": [
+     "falling-sand"
+    ]
+   }
+  ],
+  "portfolio": [
+   {
+    "name": "A three.js demo scene",
+    "does": "shows off a shader or model",
+    "traits": [
+     "webgl"
+    ]
+   },
+   {
+    "name": "A Codrops experiment",
+    "does": "shows off one polished interaction",
+    "traits": [
+     "shape-morph",
+     "cursor-play"
+    ]
+   }
+  ],
+  "launch": [
+   {
+    "name": "Apple product pages",
+    "does": "tell product stories as you scroll",
+    "traits": [
+     "scroll-storytelling",
+     "cinematic-motion"
+    ]
+   },
+   {
+    "name": "Linear launch pages",
+    "does": "use crisp motion and type",
+    "traits": [
+     "custom-type",
+     "cinematic-motion"
+    ]
+   }
+  ],
+  "brand": [
+   {
+    "name": "Awwwards-style agency sites",
+    "does": "lean on heavy motion and cursor play",
+    "traits": [
+     "cursor-play",
+     "cinematic-motion"
+    ]
+   },
+   {
+    "name": "Glossier",
+    "does": "is a friendly brand store",
+    "traits": [
+     "catalogue",
+     "brand"
+    ]
+   }
+  ],
+  "personal": [
+   {
+    "name": "A portfolio template",
+    "does": "shows projects in a grid",
+    "traits": [
+     "catalogue"
+    ]
+   }
+  ],
+  "event": [
+   {
+    "name": "Luma event page",
+    "does": "shows event details and takes RSVPs",
+    "traits": [
+     "invites"
+    ]
+   }
+  ],
+  "website": [
+   {
+    "name": "A Squarespace template",
+    "does": "builds a clean site from blocks",
+    "traits": [
+     "catalogue"
+    ]
+   }
+  ],
+  "security": [
+   {
+    "name": "CyberChef",
+    "does": "chains data transforms in the browser",
+    "traits": [
+     "recipes"
+    ]
+   },
+   {
+    "name": "Wireshark",
+    "does": "captures and filters packets",
+    "traits": [
+     "packet-capture"
+    ]
+   },
+   {
+    "name": "Ghidra",
+    "does": "reverse engineers binaries",
+    "traits": [
+     "binary-view"
+    ]
+   }
+  ],
+  "developers": [
+   {
+    "name": "VS Code",
+    "does": "edits code with extensions",
+    "traits": [
+     "editor"
+    ]
+   },
+   {
+    "name": "GitHub",
+    "does": "hosts and reviews code",
+    "traits": [
+     "history-replay",
+     "structural-diff"
+    ]
+   }
+  ],
+  "designers": [
+   {
+    "name": "Figma",
+    "does": "designs interfaces together",
+    "traits": [
+     "infinite-canvas",
+     "shared"
+    ]
+   },
+   {
+    "name": "Coolors",
+    "does": "generates palettes",
+    "traits": [
+     "generated-palette"
+    ]
+   }
+  ],
+  "musicians": [
+   {
+    "name": "Ableton Live",
+    "does": "produces music",
+    "traits": [
+     "loops",
+     "audio-synth"
+    ]
+   },
+   {
+    "name": "Orca",
+    "does": "live-codes sequences",
+    "traits": [
+     "live-coding"
+    ]
+   }
+  ],
+  "researchers": [
+   {
+    "name": "Jupyter",
+    "does": "runs data notebooks",
+    "traits": [
+     "notebooks",
+     "charts"
+    ]
+   },
+   {
+    "name": "Observable",
+    "does": "shares live data notebooks",
+    "traits": [
+     "notebooks",
+     "charts",
+     "shared"
+    ]
+   }
+  ],
+  "tool": [
+   {
+    "name": "A generic CLI",
+    "does": "does one job from the terminal",
+    "traits": [
+     "terminal"
+    ]
+   }
+  ]
+ }
+}

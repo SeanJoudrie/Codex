@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Idea generator — Codex</title>
-<meta name="description" content="Pick what you want to make and get project ideas that combine 2 to 10 open-source building blocks from the Codex archive, each with references and a plan to make it your own.">
+<meta name="description" content="Pick what you want to make and who it is for, and get project ideas that combine open-source pieces from the Codex archive, each summarised, scored against real products, and planned for a first weekend.">
 <meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
@@ -33,13 +33,13 @@
 <main class="wrap gen">
   <form class="gen-form" id="form" novalidate>
     <h2>What are you making?</h2>
-    <p class="intro">Answer as much or as little as you like. Each idea combines existing projects from the archive; the part that makes it yours is up to you.</p>
+    <p class="intro">Answer what you know and leave the rest on Any. Each idea combines projects from the archive, scores itself against real products, and leaves the part that makes it yours to you.</p>
     <div class="field">
       <label for="kind">Type</label>
       <select id="kind">
+        <option value="app">An app</option>
         <option value="game">A game</option>
         <option value="render">An interactive art piece</option>
-        <option value="app">An app</option>
         <option value="portfolio">A portfolio piece</option>
         <option value="website">A website</option>
         <option value="tool">A tool</option>
@@ -47,8 +47,12 @@
     </div>
     <div id="steps" class="gen-steps"></div>
     <div class="field">
-      <label for="count">Building blocks <output id="countOut">5</output></label>
-      <input type="range" id="count" min="2" max="10" step="1" value="5">
+      <label for="twist">Your twist <span class="opt">optional</span></label>
+      <input type="text" id="twist" maxlength="80" autocomplete="off" placeholder="e.g. your dog narrates everything">
+    </div>
+    <div class="field">
+      <label for="count">Pieces to combine <output id="countOut">4</output></label>
+      <input type="range" id="count" min="2" max="10" step="1" value="4">
     </div>
     <div class="actions">
       <button class="btn" type="submit" id="generate">Generate</button>

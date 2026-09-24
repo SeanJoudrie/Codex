@@ -26,10 +26,23 @@ GPL means their project becomes GPL; no licence means all rights reserved.
 
 ## Idea generator
 
-`site/ideas.html` + `site/ideas.js` combine building blocks from `data/features.json` into ideas.
-When the user wants new kinds of blocks, add entries there: `kinds` (game, render, app, portfolio,
-website, tool), `tags` matching the generator's answer values, pinned `repos` that exist in
-`data/index.json`, and a `query` for live archive matches. Keep `hook` phrased to fit "…, where <hook>".
+`site/ideas.html` + `site/ideas.js` turn answers into three scored ideas, all client-side:
+choose pieces (`data/features.json`) → write a 2–3 sentence summary → compare against real
+products (`data/comps.json`) → score on the review rubric → generate 12 drafts and show the best
+three that aren't reskins. Review method and last results: `prompts/idea-review.md`,
+`docs/reviews/`.
+
+Each piece in `data/features.json` has:
+- `kinds`, `tags` (must match answer values exactly), `repos` (must exist in `data/index.json`),
+  `query` (live archive match), `scout` (what to look for when `repos` is empty)
+- `signature`: a per-action clause starting with `{each}` ("{each} drops a coin into a jar…");
+  `{subject}` is the audience's character. Pieces that describe the whole product (looks, worlds,
+  interfaces) have `ambient` instead: a phrase that reads after "It's …".
+- `traits` (compared with `comps.json`), `angle` (finishes "…; this ___"), `cost` 1–3,
+  `delight` 1–10, optional `exclusive` group, `avoid` tags and `pairsWell` ids.
+
+`data/comps.json` lists real products per domain; each `does` must start with a verb so
+"<Name> <does>; this …" reads. Add products when a domain feels thin.
 
 ## Archive rules
 

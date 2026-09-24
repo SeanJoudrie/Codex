@@ -18,9 +18,10 @@
     "3d"
    ],
    "tags": [
-    "browser",
     "3d",
+    "browser",
     "graphics",
+    "lowpoly",
     "web"
    ],
    "repos": [
@@ -28,7 +29,16 @@
     "BabylonJS/Babylon.js",
     "playcanvas/engine"
    ],
-   "query": "Three.js scene"
+   "query": "Three.js scene",
+   "traits": [
+    "webgl"
+   ],
+   "angle": "runs in any browser in 3D",
+   "cost": 1,
+   "delight": 2,
+   "pairsWell": [
+    "slime"
+   ]
   },
   {
    "id": "raylib",
@@ -50,7 +60,16 @@
     "raysan5/raylib",
     "kitao/pyxel"
    ],
-   "query": "raylib native core"
+   "query": "raylib native core",
+   "traits": [
+    "native"
+   ],
+   "angle": "ships as a small native download",
+   "cost": 1,
+   "delight": 2,
+   "avoid": [
+    "browser"
+   ]
   },
   {
    "id": "littlejs",
@@ -74,7 +93,16 @@
    "repos": [
     "KilledByAPixel/LittleJS"
    ],
-   "query": "LittleJS 2D engine"
+   "query": "LittleJS 2D engine",
+   "traits": [
+    "browser-2d"
+   ],
+   "angle": "runs instantly in the browser",
+   "cost": 1,
+   "delight": 2,
+   "avoid": [
+    "download"
+   ]
   },
   {
    "id": "fantasy-console",
@@ -91,16 +119,24 @@
     "2d"
    ],
    "tags": [
-    "retro",
+    "2d",
     "cozy",
-    "2d"
+    "pixel",
+    "retro"
    ],
    "repos": [
     "nesbox/TIC-80",
     "binji/binjgb",
     "floooh/chips"
    ],
-   "query": "Fantasy console"
+   "query": "Fantasy console",
+   "traits": [
+    "fantasy-console"
+   ],
+   "angle": "lives inside its own fantasy console",
+   "cost": 1,
+   "delight": 5,
+   "ambient": "housed in its own fantasy console"
   },
   {
    "id": "ecs",
@@ -122,7 +158,18 @@
    "repos": [
     "SanderMertens/flecs"
    ],
-   "query": "Entity-component system"
+   "query": "Entity-component system",
+   "traits": [
+    "ecs"
+   ],
+   "angle": "runs thousands of things at once",
+   "cost": 2,
+   "delight": 2,
+   "signature": "{each} ripples through thousands of things at once",
+   "avoid": [
+    "app",
+    "website"
+   ]
   },
   {
    "id": "voxel",
@@ -139,16 +186,30 @@
     "3d"
    ],
    "tags": [
-    "sandbox",
+    "3d",
     "cozy",
-    "3d"
+    "lowpoly",
+    "sandbox"
    ],
    "repos": [
     "fogleman/Craft",
     "MovingBlocks/Terasology",
     "nimadez/voxel-builder"
    ],
-   "query": "Voxel world"
+   "query": "Voxel world",
+   "traits": [
+    "voxel",
+    "building"
+   ],
+   "angle": "lets you break and build the whole world",
+   "cost": 3,
+   "delight": 7,
+   "signature": "{each} changes a block world you can break and build",
+   "exclusive": "world",
+   "pairsWell": [
+    "pathtrace"
+   ],
+   "ambient": "set in a block world you can break and build"
   },
   {
    "id": "webxr",
@@ -174,7 +235,18 @@
    "repos": [
     "aframevr/aframe"
    ],
-   "query": "Step inside in VR"
+   "query": "Step inside in VR",
+   "traits": [
+    "vr"
+   ],
+   "angle": "lets you stand inside it in VR",
+   "cost": 3,
+   "delight": 7,
+   "avoid": [
+    "mobile",
+    "weekend"
+   ],
+   "ambient": "viewable from inside in VR"
   },
   {
    "id": "tui",
@@ -205,7 +277,15 @@
     "Textualize/textual",
     "charmbracelet/vhs"
    ],
-   "query": "Terminal interface"
+   "query": "Terminal interface",
+   "traits": [
+    "terminal"
+   ],
+   "angle": "lives entirely in the terminal",
+   "cost": 1,
+   "delight": 4,
+   "exclusive": "render-style",
+   "ambient": "a terminal app through and through"
   },
   {
    "id": "slime",
@@ -233,7 +313,20 @@
     "nicoptere/physarum",
     "fogleman/physarum"
    ],
-   "query": "physarum slime mold"
+   "query": "physarum slime mold",
+   "traits": [
+    "living-growth"
+   ],
+   "angle": "grows something alive from what you do",
+   "cost": 2,
+   "delight": 8,
+   "signature": "{each} feeds a living slime that spreads across the screen",
+   "avoid": [
+    "professional"
+   ],
+   "pairsWell": [
+    "three"
+   ]
   },
   {
    "id": "fluid",
@@ -259,13 +352,25 @@
     "meditation",
     "ocean",
     "playful",
-    "visualizer"
+    "visualizer",
+    "watercolour"
    ],
    "repos": [
     "PavelDoGreat/WebGL-Fluid-Simulation",
     "sandydoo/flux"
    ],
-   "query": "fluid simulation"
+   "query": "fluid simulation",
+   "traits": [
+    "fluid"
+   ],
+   "angle": "makes it fluid to the touch",
+   "cost": 1,
+   "delight": 7,
+   "signature": "{each} stirs a swirl of colour you can push around",
+   "pairsWell": [
+    "reactive-visuals",
+    "glass"
+   ]
   },
   {
    "id": "ocean",
@@ -292,7 +397,18 @@
     "evanw/webgl-water",
     "yuanming-hu/taichi_mpm"
    ],
-   "query": "ocean water fluid 3d"
+   "query": "ocean water fluid 3d",
+   "traits": [
+    "fluid-3d"
+   ],
+   "angle": "fills it with real 3D liquid",
+   "cost": 3,
+   "delight": 9,
+   "signature": "{each} sends a wave through a real 3D liquid",
+   "avoid": [
+    "weekend",
+    "mobile"
+   ]
   },
   {
    "id": "sand",
@@ -319,7 +435,17 @@
     "MaxBittker/sandspiel",
     "PieKing1215/FallingSandEngine"
    ],
-   "query": "falling sand"
+   "query": "falling sand",
+   "traits": [
+    "falling-sand"
+   ],
+   "angle": "turns it into a chemistry set",
+   "cost": 2,
+   "delight": 8,
+   "signature": "{each} pours out grains of material that burn, melt or grow",
+   "avoid": [
+    "professional"
+   ]
   },
   {
    "id": "rigid",
@@ -336,10 +462,11 @@
    ],
    "tags": [
     "chaotic",
-    "responsive",
-    "shooter",
+    "claymation",
     "playful",
     "racing",
+    "responsive",
+    "shooter",
     "systems"
    ],
    "repos": [
@@ -347,7 +474,19 @@
     "liabru/matter-js",
     "kripken/ammo.js"
    ],
-   "query": "physics engine rigid body"
+   "query": "physics engine rigid body",
+   "traits": [
+    "physics"
+   ],
+   "angle": "makes it physical",
+   "cost": 1,
+   "delight": 7,
+   "signature": "{each} lands as a physical object you can stack and knock over",
+   "pairsWell": [
+    "mascot",
+    "jars",
+    "marbles"
+   ]
   },
   {
    "id": "cloth",
@@ -363,18 +502,30 @@
     "app"
    ],
    "tags": [
+    "body",
+    "claymation",
     "fashion",
     "lookbook",
-    "tryon",
     "playful",
-    "body"
+    "tryon"
    ],
    "repos": [
     "Habrador/Ten-Minute-Physics-Unity",
     "diwi/PixelFlow",
     "sam007961/FastMassSpring"
    ],
-   "query": "cloth soft body"
+   "query": "cloth soft body",
+   "traits": [
+    "soft-body"
+   ],
+   "angle": "makes it soft and tearable",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} stretches, drapes or tears like fabric",
+   "pairsWell": [
+    "garment3d",
+    "vision"
+   ]
   },
   {
    "id": "boids",
@@ -399,7 +550,14 @@
     "ercang/boids-js",
     "cubedhuang/boids"
    ],
-   "query": "boids flocking"
+   "query": "boids flocking",
+   "traits": [
+    "flocking"
+   ],
+   "angle": "turns it into a living flock",
+   "cost": 1,
+   "delight": 6,
+   "signature": "{each} joins a flock that moves as one"
   },
   {
    "id": "particle-life",
@@ -425,7 +583,17 @@
     "hunar4321/particle-life",
     "Chakazul/Lenia"
    ],
-   "query": "particle life artificial life"
+   "query": "particle life artificial life",
+   "traits": [
+    "artificial-life"
+   ],
+   "angle": "grows a tiny ecosystem from it",
+   "cost": 1,
+   "delight": 8,
+   "signature": "{each} adds a creature to a tiny ecosystem",
+   "avoid": [
+    "professional"
+   ]
   },
   {
    "id": "reaction",
@@ -446,13 +614,22 @@
     "creative",
     "fashion",
     "journal",
-    "nature"
+    "nature",
+    "risograph",
+    "watercolour"
    ],
    "repos": [
     "piellardj/reaction-diffusion-webgl",
     "colejd/Reaction-Diffusion-ThreeJS"
    ],
-   "query": "reaction diffusion"
+   "query": "reaction diffusion",
+   "traits": [
+    "pattern-growth"
+   ],
+   "angle": "grows patterns from it",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} grows a coral-like pattern"
   },
   {
    "id": "gravity",
@@ -476,7 +653,14 @@
     "Hsin-Hung/N-body-simulation",
     "alvinng4/grav_sim"
    ],
-   "query": "gravity n-body orbit"
+   "query": "gravity n-body orbit",
+   "traits": [
+    "orbits"
+   ],
+   "angle": "puts it all in orbit",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} becomes a body in orbit, pulling on the rest"
   },
   {
    "id": "erosion",
@@ -503,7 +687,18 @@
     "LanLou123/Webgl-Erosion",
     "SebLague/Hydraulic-Erosion"
    ],
-   "query": "erosion terrain hydrology"
+   "query": "erosion terrain hydrology",
+   "traits": [
+    "erosion"
+   ],
+   "angle": "carves a landscape from it",
+   "cost": 3,
+   "delight": 7,
+   "exclusive": "world",
+   "avoid": [
+    "weekend"
+   ],
+   "ambient": "set on land that rain carves over time"
   },
   {
    "id": "ants",
@@ -525,7 +720,17 @@
     "Nikorasu/PyNAnts",
     "nilsgollub/AntSim_V2"
    ],
-   "query": "ant colony pheromone"
+   "query": "ant colony pheromone",
+   "traits": [
+    "ant-colony"
+   ],
+   "angle": "lets a colony find paths through it",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} lays a scent trail that a colony follows",
+   "pairsWell": [
+    "realm"
+   ]
   },
   {
    "id": "frost",
@@ -545,13 +750,21 @@
     "eerie",
     "meditation",
     "nature",
-    "sleep"
+    "sleep",
+    "watercolour"
    ],
    "repos": [
     "fogleman/dlaf",
     "BrutPitt/DLAf-optimized"
    ],
-   "query": "diffusion limited aggregation"
+   "query": "diffusion limited aggregation",
+   "traits": [
+    "crystal-growth"
+   ],
+   "angle": "grows frost from it",
+   "cost": 1,
+   "delight": 7,
+   "signature": "{each} grows frost crystals across the screen"
   },
   {
    "id": "traffic",
@@ -577,7 +790,14 @@
     "toruseo/UXsim",
     "cityflow-project/CityFlow"
    ],
-   "query": "traffic simulation"
+   "query": "traffic simulation",
+   "traits": [
+    "traffic"
+   ],
+   "angle": "simulates real traffic",
+   "cost": 3,
+   "delight": 5,
+   "signature": "{each} changes how traffic flows and jams"
   },
   {
    "id": "ecosystem",
@@ -598,7 +818,17 @@
    "repos": [
     "connor-brooks/ecosim"
    ],
-   "query": "ecosystem evolution simulation"
+   "query": "ecosystem evolution simulation",
+   "traits": [
+    "ecosystem"
+   ],
+   "angle": "runs a living ecosystem",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} shifts a small ecosystem of hunters and prey",
+   "avoid": [
+    "professional"
+   ]
   },
   {
    "id": "automata",
@@ -626,7 +856,14 @@
     "copy/life",
     "Nikorasu/NantArray"
    ],
-   "query": "cellular automata game of life"
+   "query": "cellular automata game of life",
+   "traits": [
+    "cellular-automata"
+   ],
+   "angle": "runs on cellular rules",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} flips cells that follow simple rules"
   },
   {
    "id": "origami",
@@ -645,12 +882,20 @@
     "creative",
     "journal",
     "meditation",
+    "papercraft",
     "puzzle"
    ],
    "repos": [
     "amandaghassaei/OrigamiSimulator"
    ],
-   "query": "origami folding"
+   "query": "origami folding",
+   "traits": [
+    "folding"
+   ],
+   "angle": "folds like paper",
+   "cost": 3,
+   "delight": 7,
+   "signature": "{each} folds and unfolds like paper"
   },
   {
    "id": "pathtrace",
@@ -679,7 +924,21 @@
     "gkjohnson/three-gpu-pathtracer",
     "google/filament"
    ],
-   "query": "path tracing ray tracing"
+   "query": "path tracing ray tracing",
+   "traits": [
+    "path-tracing"
+   ],
+   "angle": "uses photoreal light",
+   "cost": 3,
+   "delight": 8,
+   "exclusive": "render-style",
+   "avoid": [
+    "mobile"
+   ],
+   "pairsWell": [
+    "voxel"
+   ],
+   "ambient": "lit with real, bouncing light"
   },
   {
    "id": "raymarch",
@@ -706,7 +965,18 @@
     "shader-park/shader-park-core",
     "fogleman/sdf"
    ],
-   "query": "raymarching sdf shader"
+   "query": "raymarching sdf shader",
+   "traits": [
+    "raymarching"
+   ],
+   "angle": "draws everything with one shader",
+   "cost": 2,
+   "delight": 8,
+   "exclusive": "render-style",
+   "pairsWell": [
+    "noneuclid"
+   ],
+   "ambient": "drawn entirely by a single shader"
   },
   {
    "id": "glass",
@@ -727,13 +997,25 @@
     "finance",
     "minimal",
     "professional",
-    "storefront"
+    "storefront",
+    "swiss",
+    "y2k"
    ],
    "repos": [
     "samasante/liquid-glass",
     "ybouane/liquidglass"
    ],
-   "query": "liquid glass"
+   "query": "liquid glass",
+   "traits": [
+    "glass-ui"
+   ],
+   "angle": "uses liquid-glass panels",
+   "cost": 1,
+   "delight": 7,
+   "pairsWell": [
+    "fluid"
+   ],
+   "ambient": "wrapped in panels of liquid glass"
   },
   {
    "id": "film",
@@ -749,17 +1031,26 @@
     "portfolio"
    ],
    "tags": [
-    "intense",
+    "graphics",
     "horror",
+    "intense",
+    "noir",
     "realistic",
     "scifi",
-    "graphics"
+    "y2k"
    ],
    "repos": [
     "pmndrs/postprocessing",
     "lettier/3d-game-shaders-for-beginners"
    ],
-   "query": "post processing bloom"
+   "query": "post processing bloom",
+   "traits": [
+    "cinematic-post"
+   ],
+   "angle": "looks filmed",
+   "cost": 1,
+   "delight": 5,
+   "ambient": "finished with film-like bloom and grain"
   },
   {
    "id": "toon",
@@ -776,15 +1067,25 @@
     "3d"
    ],
    "tags": [
+    "claymation",
     "cozy",
     "fantasy",
+    "lowpoly",
     "playful"
    ],
    "repos": [
     "OmarShehata/webgl-outlines",
     "nidorx/matcaps"
    ],
-   "query": "toon outline cel shading"
+   "query": "toon outline cel shading",
+   "traits": [
+    "toon-shading"
+   ],
+   "angle": "looks like a living comic",
+   "cost": 2,
+   "delight": 6,
+   "exclusive": "render-style",
+   "ambient": "drawn like a living comic book"
   },
   {
    "id": "blackhole",
@@ -811,7 +1112,18 @@
     "rantonels/starless",
     "MisterPrada/singularity"
    ],
-   "query": "black hole raytracer"
+   "query": "black hole raytracer",
+   "traits": [
+    "lensing"
+   ],
+   "angle": "bends light like a black hole",
+   "cost": 3,
+   "delight": 9,
+   "signature": "{each} bends around a black hole",
+   "avoid": [
+    "professional",
+    "mobile"
+   ]
   },
   {
    "id": "aurora",
@@ -838,7 +1150,14 @@
     "unconed/NeverSeenTheSky",
     "lun0522/AuroraSketcher"
    ],
-   "query": "aurora"
+   "query": "aurora",
+   "traits": [
+    "aurora"
+   ],
+   "angle": "fills the sky with aurora",
+   "cost": 2,
+   "delight": 7,
+   "ambient": "lit by shifting auroras"
   },
   {
    "id": "noneuclid",
@@ -865,7 +1184,19 @@
     "SebLague/Portals",
     "zenorogue/hyperrogue"
    ],
-   "query": "non-euclidean portals"
+   "query": "non-euclidean portals",
+   "traits": [
+    "impossible-space"
+   ],
+   "angle": "folds space",
+   "cost": 3,
+   "delight": 9,
+   "signature": "{each} opens a room that is bigger inside than out",
+   "exclusive": "world",
+   "pairsWell": [
+    "raymarch"
+   ],
+   "ambient": "full of rooms that are bigger inside than out"
   },
   {
    "id": "raycaster",
@@ -880,16 +1211,25 @@
     "portfolio"
    ],
    "tags": [
+    "horror",
+    "noir",
     "retro",
-    "shooter",
-    "horror"
+    "shooter"
    ],
    "repos": [
     "vinibiavatti1/RayCastingTutorial",
     "ahuth/raycast",
     "id-Software/DOOM"
    ],
-   "query": "raycasting raycaster"
+   "query": "raycasting raycaster",
+   "traits": [
+    "corridor-shooter"
+   ],
+   "angle": "looks like a 1993 shooter",
+   "cost": 2,
+   "delight": 6,
+   "exclusive": "render-style",
+   "ambient": "played in 1993-style corridors"
   },
   {
    "id": "crt",
@@ -907,6 +1247,7 @@
    "tags": [
     "developers",
     "horror",
+    "pixel",
     "retro",
     "writing"
    ],
@@ -914,7 +1255,14 @@
     "Swordfish90/cool-retro-term",
     "sehugg/8bitworkshop"
    ],
-   "query": "crt retro terminal"
+   "query": "crt retro terminal",
+   "traits": [
+    "crt"
+   ],
+   "angle": "glows like an old CRT",
+   "cost": 1,
+   "delight": 6,
+   "ambient": "shown on a curved old CRT screen"
   },
   {
    "id": "ascii",
@@ -934,17 +1282,28 @@
     "2d"
    ],
    "tags": [
+    "blueprint",
+    "brutalist",
     "creative",
     "developers",
     "minimal",
     "notes",
+    "pixel",
     "retro",
     "writing"
    ],
    "repos": [
     "ertdfgcvb/play.core"
    ],
-   "query": "ascii text rendering"
+   "query": "ascii text rendering",
+   "traits": [
+    "ascii"
+   ],
+   "angle": "is drawn in text",
+   "cost": 1,
+   "delight": 6,
+   "exclusive": "render-style",
+   "ambient": "drawn in animated text characters"
   },
   {
    "id": "splats",
@@ -972,7 +1331,15 @@
    "repos": [
     "antimatter15/splat"
    ],
-   "query": "gaussian splatting"
+   "query": "gaussian splatting",
+   "traits": [
+    "scanned-world"
+   ],
+   "angle": "uses real scanned places",
+   "cost": 2,
+   "delight": 8,
+   "exclusive": "world",
+   "ambient": "built from real places scanned with a phone"
   },
   {
    "id": "pixel",
@@ -989,15 +1356,24 @@
     "2d"
    ],
    "tags": [
-    "retro",
     "cozy",
-    "playful"
+    "pixel",
+    "playful",
+    "retro"
    ],
    "repos": [
     "piskelapp/piskel",
     "nesbox/TIC-80"
    ],
-   "query": "pixel art sprite editor"
+   "query": "pixel art sprite editor",
+   "traits": [
+    "pixel-art"
+   ],
+   "angle": "is hand-drawn in pixels",
+   "cost": 1,
+   "delight": 6,
+   "exclusive": "render-style",
+   "ambient": "drawn in hand-made pixel art"
   },
   {
    "id": "materials",
@@ -1023,7 +1399,14 @@
     "RodZill4/material-maker",
     "patriciogonzalezvivo/lygia"
    ],
-   "query": "procedural materials shader library"
+   "query": "procedural materials shader library",
+   "traits": [
+    "procedural-materials"
+   ],
+   "angle": "gives every surface its own material",
+   "cost": 2,
+   "delight": 5,
+   "ambient": "given a procedural material on every surface"
   },
   {
    "id": "globe",
@@ -1054,7 +1437,17 @@
     "shuding/cobe",
     "vasturiano/globe.gl"
    ],
-   "query": "globe earth webgl"
+   "query": "globe earth webgl",
+   "traits": [
+    "globe"
+   ],
+   "angle": "pins it to the real Earth",
+   "cost": 1,
+   "delight": 6,
+   "avoid": [
+    "shooter"
+   ],
+   "ambient": "pinned to a spinning globe"
   },
   {
    "id": "weather",
@@ -1082,7 +1475,17 @@
     "mapbox/webgl-wind",
     "cambecc/earth"
    ],
-   "query": "wind weather visualization"
+   "query": "wind weather visualization",
+   "traits": [
+    "live-weather"
+   ],
+   "angle": "reacts to real weather",
+   "cost": 2,
+   "delight": 6,
+   "pairsWell": [
+    "trees"
+   ],
+   "ambient": "shaped by today’s real weather"
   },
   {
    "id": "sky",
@@ -1106,7 +1509,18 @@
     "ofrohn/d3-celestial",
     "OpenSpace/OpenSpace"
    ],
-   "query": "satellites stars sky map"
+   "query": "satellites stars sky map",
+   "traits": [
+    "live-sky"
+   ],
+   "angle": "uses the real sky",
+   "cost": 2,
+   "delight": 6,
+   "avoid": [
+    "shooter",
+    "finance"
+   ],
+   "ambient": "set under the real sky, satellites and all"
   },
   {
    "id": "type",
@@ -1123,18 +1537,27 @@
    ],
    "tags": [
     "brand",
+    "brutalist",
     "design",
     "finance",
     "minimal",
     "professional",
-    "storefront"
+    "storefront",
+    "swiss"
    ],
    "repos": [
     "opentypejs/opentype.js",
     "lucide-icons/lucide",
     "adobe/leonardo"
    ],
-   "query": "typography icons"
+   "query": "typography icons",
+   "traits": [
+    "custom-type"
+   ],
+   "angle": "has its own type and icons",
+   "cost": 1,
+   "delight": 3,
+   "ambient": "set in its own typeface and icons"
   },
   {
    "id": "palette",
@@ -1154,13 +1577,24 @@
     "drawing",
     "fashion",
     "journal",
-    "moodboard"
+    "moodboard",
+    "risograph"
    ],
    "repos": [
     "meodai/poline",
     "adobe/leonardo"
    ],
-   "query": "color palette generator"
+   "query": "color palette generator",
+   "traits": [
+    "generated-palette"
+   ],
+   "angle": "generates its colours from you",
+   "cost": 1,
+   "delight": 4,
+   "signature": "{each} shifts the colour palette",
+   "pairsWell": [
+    "sketch"
+   ]
   },
   {
    "id": "sketch",
@@ -1178,6 +1612,8 @@
     "creative",
     "drawing",
     "journal",
+    "papercraft",
+    "risograph",
     "wellness",
     "writing"
    ],
@@ -1186,7 +1622,18 @@
     "mattdesl/canvas-sketch",
     "hundredrabbits/Dotgrid"
    ],
-   "query": "generative drawing illustration"
+   "query": "generative drawing illustration",
+   "traits": [
+    "generative-illustration"
+   ],
+   "angle": "draws a unique illustration for everything",
+   "cost": 1,
+   "delight": 6,
+   "signature": "{each} gets its own generated illustration",
+   "pairsWell": [
+    "mascot",
+    "palette"
+   ]
   },
   {
    "id": "realm",
@@ -1209,7 +1656,22 @@
     "Azgaar/Fantasy-Map-Generator",
     "ProbableTrain/MapGenerator"
    ],
-   "query": "fantasy map generator"
+   "query": "fantasy map generator",
+   "traits": [
+    "generated-world"
+   ],
+   "angle": "generates a whole world",
+   "cost": 3,
+   "delight": 7,
+   "exclusive": "world",
+   "avoid": [
+    "weekend"
+   ],
+   "pairsWell": [
+    "ants",
+    "story"
+   ],
+   "ambient": "set on a freshly generated map with its own nations"
   },
   {
    "id": "wfc",
@@ -1230,7 +1692,16 @@
    "repos": [
     "marian42/wavefunctioncollapse"
    ],
-   "query": "wave function collapse"
+   "query": "wave function collapse",
+   "traits": [
+    "generated-levels"
+   ],
+   "angle": "builds levels from your tiles",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} builds the next level from hand-made tiles",
+   "exclusive": "world",
+   "ambient": "built from hand-made tiles that assemble themselves"
   },
   {
    "id": "towns",
@@ -1255,7 +1726,18 @@
     "AndyQ/MetalCity",
     "SimHacker/micropolis"
    ],
-   "query": "city town generator"
+   "query": "city town generator",
+   "traits": [
+    "generated-city"
+   ],
+   "angle": "grows towns",
+   "cost": 3,
+   "delight": 6,
+   "exclusive": "world",
+   "avoid": [
+    "weekend"
+   ],
+   "ambient": "set in towns that grow street by street"
   },
   {
    "id": "trees",
@@ -1287,7 +1769,17 @@
    "repos": [
     "dgreenheck/ez-tree"
    ],
-   "query": "procedural tree"
+   "query": "procedural tree",
+   "traits": [
+    "growing-tree"
+   ],
+   "angle": "grows a living tree",
+   "cost": 1,
+   "delight": 6,
+   "signature": "{each} grows a branch on a tree that sways in the wind",
+   "pairsWell": [
+    "weather"
+   ]
   },
   {
    "id": "dungeon",
@@ -1308,7 +1800,15 @@
     "AsPJT/DungeonTemplateLibrary",
     "00-Evan/shattered-pixel-dungeon"
    ],
-   "query": "dungeon roguelike generator"
+   "query": "dungeon roguelike generator",
+   "traits": [
+    "generated-world"
+   ],
+   "angle": "builds a new dungeon every run",
+   "cost": 2,
+   "delight": 5,
+   "exclusive": "world",
+   "ambient": "set in a freshly built dungeon every run"
   },
   {
    "id": "daily",
@@ -1332,7 +1832,14 @@
    "repos": [
     "davidbau/seedrandom"
    ],
-   "query": "seeded random daily"
+   "query": "seeded random daily",
+   "traits": [
+    "daily-seed"
+   ],
+   "angle": "is the same for everyone each day",
+   "cost": 1,
+   "delight": 5,
+   "ambient": "the same world for everyone each day"
   },
   {
    "id": "roads",
@@ -1353,7 +1860,15 @@
     "ProbableTrain/MapGenerator",
     "BKcore/HexGL"
    ],
-   "query": "road generator racing track"
+   "query": "road generator racing track",
+   "traits": [
+    "generated-tracks"
+   ],
+   "angle": "generates its tracks",
+   "cost": 2,
+   "delight": 4,
+   "exclusive": "world",
+   "ambient": "raced on tracks generated to fit the land"
   },
   {
    "id": "planner-ai",
@@ -1375,7 +1890,17 @@
     "thomasahle/sunfish",
     "douglasbagnall/p4wn"
    ],
-   "query": "chess engine minimax"
+   "query": "chess engine minimax",
+   "traits": [
+    "search-ai"
+   ],
+   "angle": "plays against you with a real plan",
+   "cost": 2,
+   "delight": 5,
+   "signature": "{each} is answered by an opponent that plans ahead",
+   "avoid": [
+    "app"
+   ]
   },
   {
    "id": "selfplay",
@@ -1397,7 +1922,18 @@
     "suragnair/alpha-zero-general",
     "pasky/michi"
    ],
-   "query": "alphazero mcts self-play"
+   "query": "alphazero mcts self-play",
+   "traits": [
+    "self-play-ai"
+   ],
+   "angle": "has an AI that learned by itself",
+   "cost": 3,
+   "delight": 6,
+   "signature": "{each} is met by an AI that taught itself the rules",
+   "avoid": [
+    "weekend",
+    "app"
+   ]
   },
   {
    "id": "bt",
@@ -1418,7 +1954,22 @@
    "repos": [
     "BehaviorTree/BehaviorTree.CPP"
    ],
-   "query": "behavior tree ai"
+   "query": "behavior tree ai",
+   "traits": [
+    "enemy-ai"
+   ],
+   "angle": "has enemies with real tactics",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} is met by enemies that patrol, flank and retreat",
+   "avoid": [
+    "app",
+    "calm",
+    "cozy"
+   ],
+   "pairsWell": [
+    "paths"
+   ]
   },
   {
    "id": "paths",
@@ -1441,7 +1992,17 @@
     "qiao/PathFinding.js",
     "professor-l/mazes"
    ],
-   "query": "pathfinding a*"
+   "query": "pathfinding a*",
+   "traits": [
+    "pathfinding"
+   ],
+   "angle": "finds its own way",
+   "cost": 1,
+   "delight": 4,
+   "signature": "{each} finds its own way around",
+   "pairsWell": [
+    "bt"
+   ]
   },
   {
    "id": "vision",
@@ -1467,7 +2028,17 @@
    "repos": [
     "tensorflow/tfjs-models"
    ],
-   "query": "pose estimation tensorflow"
+   "query": "pose estimation tensorflow",
+   "traits": [
+    "body-tracking"
+   ],
+   "angle": "reads your body through the camera",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} is read from your body through the camera",
+   "pairsWell": [
+    "cloth"
+   ]
   },
   {
    "id": "neurons",
@@ -1492,7 +2063,17 @@
     "tensorflow/playground",
     "poloclub/cnn-explainer"
    ],
-   "query": "neural network visualization"
+   "query": "neural network visualization",
+   "traits": [
+    "visible-ai"
+   ],
+   "angle": "shows the AI thinking",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} shows the neural network thinking",
+   "avoid": [
+    "finance"
+   ]
   },
   {
    "id": "synth",
@@ -1517,7 +2098,19 @@
     "charlieroberts/genish.js",
     "mtytel/vital"
    ],
-   "query": "synthesizer audio"
+   "query": "synthesizer audio",
+   "traits": [
+    "audio-synth"
+   ],
+   "angle": "turns it into music",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} plays a note from a real synthesizer",
+   "avoid": [
+    "finance",
+    "security",
+    "professional"
+   ]
   },
   {
    "id": "reactive-visuals",
@@ -1542,7 +2135,22 @@
    "repos": [
     "jberg/butterchurn"
    ],
-   "query": "music visualizer"
+   "query": "music visualizer",
+   "traits": [
+    "audio-visuals"
+   ],
+   "angle": "moves with the music",
+   "cost": 1,
+   "delight": 7,
+   "signature": "{each} pulses and warps with the music",
+   "avoid": [
+    "finance",
+    "security",
+    "professional"
+   ],
+   "pairsWell": [
+    "fluid"
+   ]
   },
   {
    "id": "chladni",
@@ -1567,7 +2175,18 @@
     "hilbertcube/Chladni-Patterns-Generator",
     "nolangz/3D-Chladni"
    ],
-   "query": "chladni"
+   "query": "chladni",
+   "traits": [
+    "cymatics"
+   ],
+   "angle": "shapes sand with sound",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} shapes sand into a pattern with sound",
+   "avoid": [
+    "finance",
+    "security"
+   ]
   },
   {
    "id": "orca",
@@ -1592,7 +2211,20 @@
    "repos": [
     "hundredrabbits/Orca"
    ],
-   "query": "sequencer live coding"
+   "query": "sequencer live coding",
+   "traits": [
+    "live-coding"
+   ],
+   "angle": "hides a live-coded sequencer inside",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} triggers a live-coded music sequence",
+   "avoid": [
+    "finance",
+    "security",
+    "wellness",
+    "professional"
+   ]
   },
   {
    "id": "marbles",
@@ -1615,7 +2247,21 @@
     "AndrewB330/MusicMarbles",
     "yomboprime/marbleMachine"
    ],
-   "query": "marble music machine"
+   "query": "marble music machine",
+   "traits": [
+    "physics-music"
+   ],
+   "angle": "plays music with marbles",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} drops a marble that plays a note",
+   "avoid": [
+    "security",
+    "professional"
+   ],
+   "pairsWell": [
+    "rigid"
+   ]
   },
   {
    "id": "sonify",
@@ -1640,7 +2286,14 @@
     "bingmann/sound-of-sorting",
     "mszula/visual-sorting"
    ],
-   "query": "sonification"
+   "query": "sonification",
+   "traits": [
+    "sonification"
+   ],
+   "angle": "lets you hear it",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} can be heard as sound"
   },
   {
    "id": "timeline",
@@ -1667,7 +2320,17 @@
     "theatre-js/theatre",
     "juliangarnier/anime"
    ],
-   "query": "animation timeline keyframes"
+   "query": "animation timeline keyframes",
+   "traits": [
+    "cinematic-motion"
+   ],
+   "angle": "choreographs every moment",
+   "cost": 1,
+   "delight": 5,
+   "pairsWell": [
+    "scroll"
+   ],
+   "ambient": "choreographed like a film"
   },
   {
    "id": "scroll",
@@ -1691,7 +2354,18 @@
     "darkroomengineering/lenis",
     "barbajs/barba"
    ],
-   "query": "smooth scroll page transitions"
+   "query": "smooth scroll page transitions",
+   "traits": [
+    "scroll-storytelling"
+   ],
+   "angle": "tells its story as you scroll",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} moves the story forward",
+   "pairsWell": [
+    "timeline"
+   ],
+   "ambient": "told as you scroll"
   },
   {
    "id": "morph",
@@ -1707,16 +2381,25 @@
    ],
    "tags": [
     "brand",
+    "collage",
     "creative",
     "design",
     "playful",
-    "storefront"
+    "storefront",
+    "y2k"
    ],
    "repos": [
     "veltman/flubber",
     "airbnb/lottie-web"
    ],
-   "query": "svg morph animation"
+   "query": "svg morph animation",
+   "traits": [
+    "shape-morph"
+   ],
+   "angle": "melts shapes into each other",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} melts one shape into the next"
   },
   {
    "id": "cursor",
@@ -1739,7 +2422,14 @@
     "Cuberto/mouse-follower",
     "pmndrs/use-gesture"
    ],
-   "query": "cursor gestures"
+   "query": "cursor gestures",
+   "traits": [
+    "cursor-play"
+   ],
+   "angle": "reacts to your hands",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} reacts to your cursor and gestures"
   },
   {
    "id": "canvas",
@@ -1754,6 +2444,7 @@
     "website"
    ],
    "tags": [
+    "collage",
     "creative",
     "designers",
     "moodboard",
@@ -1764,7 +2455,14 @@
    "repos": [
     "tldraw/tldraw"
    ],
-   "query": "infinite canvas whiteboard"
+   "query": "infinite canvas whiteboard",
+   "traits": [
+    "infinite-canvas"
+   ],
+   "angle": "puts everything on one infinite canvas",
+   "cost": 1,
+   "delight": 4,
+   "ambient": "laid out on one infinite, zoomable canvas"
   },
   {
    "id": "nodes",
@@ -1787,7 +2485,14 @@
    "repos": [
     "jagenjo/litegraph.js"
    ],
-   "query": "node graph editor"
+   "query": "node graph editor",
+   "traits": [
+    "node-editor"
+   ],
+   "angle": "lets you wire behaviour together",
+   "cost": 2,
+   "delight": 4,
+   "signature": "{each} is built by wiring nodes together"
   },
   {
    "id": "sync",
@@ -1812,7 +2517,14 @@
     "jlongster/crdt-example-app",
     "webtorrent/webtorrent"
    ],
-   "query": "crdt realtime sync"
+   "query": "crdt realtime sync",
+   "traits": [
+    "shared"
+   ],
+   "angle": "works live with friends",
+   "cost": 3,
+   "delight": 4,
+   "ambient": "shared live with friends"
   },
   {
    "id": "rollback",
@@ -1832,7 +2544,18 @@
    "repos": [
     "pond3r/ggpo"
    ],
-   "query": "netcode multiplayer"
+   "query": "netcode multiplayer",
+   "traits": [
+    "online-play"
+   ],
+   "angle": "plays online without lag",
+   "cost": 3,
+   "delight": 3,
+   "avoid": [
+    "weekend",
+    "calm"
+   ],
+   "ambient": "playable online without lag"
   },
   {
    "id": "charts",
@@ -1856,13 +2579,21 @@
     "screentime",
     "sleep",
     "subscriptions",
+    "swiss",
     "tasks"
    ],
    "repos": [
     "apache/echarts",
     "leeoniya/uPlot"
    ],
-   "query": "charts data visualization"
+   "query": "charts data visualization",
+   "traits": [
+    "charts"
+   ],
+   "angle": "charts your data",
+   "cost": 1,
+   "delight": 3,
+   "signature": "{each} updates clean, live charts"
   },
   {
    "id": "web3d",
@@ -1888,7 +2619,14 @@
     "vasturiano/3d-force-graph",
     "cosmosgl/graph"
    ],
-   "query": "force graph network"
+   "query": "force graph network",
+   "traits": [
+    "graph-3d"
+   ],
+   "angle": "connects everything in 3D",
+   "cost": 1,
+   "delight": 6,
+   "signature": "{each} links into a 3D web you can fly through"
   },
   {
    "id": "explain",
@@ -1915,7 +2653,14 @@
     "Pomax/BezierInfo-2",
     "jackschaedler/circles-sines-signals"
    ],
-   "query": "explorable explanation interactive"
+   "query": "explorable explanation interactive",
+   "traits": [
+    "explorable"
+   ],
+   "angle": "teaches as you play",
+   "cost": 3,
+   "delight": 6,
+   "signature": "{each} teaches a little as you go"
   },
   {
    "id": "mathviz",
@@ -1930,6 +2675,7 @@
     "app"
    ],
    "tags": [
+    "blueprint",
     "learning",
     "science"
    ],
@@ -1937,7 +2683,14 @@
     "unconed/mathbox",
     "wgxli/complex-function-plotter"
    ],
-   "query": "math visualization"
+   "query": "math visualization",
+   "traits": [
+    "math-viz"
+   ],
+   "angle": "shows the maths live",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} draws the maths behind it live"
   },
   {
    "id": "bytes",
@@ -1952,15 +2705,27 @@
     "portfolio"
    ],
    "tags": [
-    "security",
+    "blueprint",
     "developers",
-    "researchers"
+    "researchers",
+    "security"
    ],
    "repos": [
     "sharkdp/binocle",
     "Battelle/cantordust"
    ],
-   "query": "binary visualization"
+   "query": "binary visualization",
+   "traits": [
+    "binary-view"
+   ],
+   "angle": "shows raw bytes as images",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} renders raw bytes as an image you can read",
+   "pairsWell": [
+    "packets",
+    "recipes"
+   ]
   },
   {
    "id": "recipes",
@@ -1982,7 +2747,17 @@
     "gchq/CyberChef",
     "cryptii/cryptii"
    ],
-   "query": "encode decode tool"
+   "query": "encode decode tool",
+   "traits": [
+    "recipes"
+   ],
+   "angle": "chains steps like a recipe",
+   "cost": 2,
+   "delight": 3,
+   "signature": "{each} is a step in a recipe you can reorder and share",
+   "pairsWell": [
+    "bytes"
+   ]
   },
   {
    "id": "packets",
@@ -2003,7 +2778,17 @@
    "repos": [
     "srixivas/PcapXray"
    ],
-   "query": "network traffic visualization"
+   "query": "network traffic visualization",
+   "traits": [
+    "packet-capture"
+   ],
+   "angle": "maps live traffic",
+   "cost": 3,
+   "delight": 6,
+   "signature": "{each} draws network traffic as a live map",
+   "pairsWell": [
+    "bytes"
+   ]
   },
   {
    "id": "history",
@@ -2028,7 +2813,14 @@
     "acaudwell/Gource",
     "unhappychoice/gitlogue"
    ],
-   "query": "history visualization timeline"
+   "query": "history visualization timeline",
+   "traits": [
+    "history-replay"
+   ],
+   "angle": "replays its own history",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} can be replayed as an animation"
   },
   {
    "id": "molecules",
@@ -2051,7 +2843,20 @@
    "repos": [
     "molstar/molstar"
    ],
-   "query": "molecule protein viewer"
+   "query": "molecule protein viewer",
+   "traits": [
+    "molecules"
+   ],
+   "angle": "is built from real molecules",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} is built from real molecules you can rotate",
+   "avoid": [
+    "finance",
+    "journal",
+    "shooter",
+    "storefront"
+   ]
   },
   {
    "id": "companion",
@@ -2077,7 +2882,18 @@
     "sqfmi/Watchy",
     "PetoiCamp/OpenCat-Quadruped-Robot"
    ],
-   "query": "robot companion watch"
+   "query": "robot companion watch",
+   "traits": [
+    "hardware"
+   ],
+   "angle": "has a physical companion",
+   "cost": 3,
+   "delight": 8,
+   "signature": "{each} makes a small physical device on your desk react",
+   "avoid": [
+    "weekend",
+    "web"
+   ]
   },
   {
    "id": "wreck",
@@ -2091,17 +2907,28 @@
     "portfolio"
    ],
    "tags": [
-    "playful",
-    "chaotic",
     "brand",
-    "launch"
+    "brutalist",
+    "chaotic",
+    "launch",
+    "playful"
    ],
    "repos": [
     "erkie/erkie.github.com",
     "producthunt/asteroids",
     "liabru/matter-js"
    ],
-   "query": "destroy website game"
+   "query": "destroy website game",
+   "traits": [
+    "destructible-page"
+   ],
+   "angle": "lets you wreck the page",
+   "cost": 1,
+   "delight": 8,
+   "signature": "{each} can knock the page itself apart",
+   "avoid": [
+    "professional"
+   ]
   },
   {
    "id": "incremental",
@@ -2124,7 +2951,15 @@
    "repos": [
     "doublespeakgames/adarkroom"
    ],
-   "query": "incremental idle game"
+   "query": "incremental idle game",
+   "traits": [
+    "slow-reveal"
+   ],
+   "angle": "reveals itself slowly",
+   "cost": 1,
+   "delight": 5,
+   "signature": "{each} reveals a little more of the world",
+   "ambient": "revealed a little at a time"
   },
   {
    "id": "computer",
@@ -2150,7 +2985,266 @@
     "kanaka/mal",
     "rswier/c4"
    ],
-   "query": "interpreter tiny computer"
+   "query": "interpreter tiny computer",
+   "traits": [
+    "in-world-computer"
+   ],
+   "angle": "hides a programmable computer inside",
+   "cost": 3,
+   "delight": 6,
+   "signature": "{each} runs on a real computer inside it you can program",
+   "avoid": [
+    "app"
+   ]
+  },
+  {
+   "id": "mascot",
+   "name": "A character that reacts to you",
+   "adds": "A small creature or pet whose mood and day reflect what you do",
+   "hook": "a small character reacts to everything you do",
+   "noun": "Companion",
+   "role": "life",
+   "kinds": [
+    "app",
+    "game",
+    "website"
+   ],
+   "tags": [
+    "budget",
+    "claymation",
+    "cozy",
+    "fitness",
+    "focus",
+    "habits",
+    "journal",
+    "kids",
+    "playful",
+    "sleep",
+    "wellness"
+   ],
+   "repos": [
+    "stack-chan/stack-chan",
+    "piskelapp/piskel",
+    "theatre-js/theatre"
+   ],
+   "query": "virtual pet character animation",
+   "traits": [
+    "virtual-pet"
+   ],
+   "angle": "makes you feel it through a character you care about",
+   "cost": 2,
+   "delight": 8,
+   "signature": "{each} changes how {subject} spends the day",
+   "avoid": [
+    "professional",
+    "security"
+   ],
+   "pairsWell": [
+    "rigid",
+    "sketch",
+    "jars",
+    "story"
+   ]
+  },
+  {
+   "id": "jars",
+   "name": "Money you can see",
+   "adds": "Savings and budgets as physical jars that fill and spill",
+   "hook": "your money sits in jars you can see fill and spill",
+   "noun": "Jars",
+   "role": "physics",
+   "kinds": [
+    "app"
+   ],
+   "tags": [
+    "finance",
+    "budget",
+    "subscriptions",
+    "playful",
+    "kids"
+   ],
+   "repos": [
+    "liabru/matter-js",
+    "schteppe/p2.js"
+   ],
+   "query": "physics jars coins",
+   "traits": [
+    "envelope-allocation",
+    "physics"
+   ],
+   "angle": "makes your money physical",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} drops a coin into a jar you can see fill and spill",
+   "pairsWell": [
+    "mascot",
+    "rigid"
+   ]
+  },
+  {
+   "id": "receipts",
+   "name": "Snap a receipt",
+   "adds": "Point the camera at a receipt and it logs itself",
+   "hook": "receipts log themselves from a photo",
+   "noun": "Receipt",
+   "role": "brain",
+   "kinds": [
+    "app"
+   ],
+   "tags": [
+    "finance",
+    "budget",
+    "professional"
+   ],
+   "repos": [],
+   "query": "receipt ocr text recognition",
+   "scout": "receipt OCR in the browser (tesseract.js)",
+   "traits": [
+    "receipt-scan"
+   ],
+   "angle": "logs spending from a photo",
+   "cost": 2,
+   "delight": 4,
+   "signature": "{each} logs itself from a photo of the receipt"
+  },
+  {
+   "id": "outfits",
+   "name": "Outfit builder",
+   "adds": "Drag, layer and swap pieces into outfits",
+   "hook": "you build outfits by dragging and layering pieces",
+   "noun": "Outfit",
+   "role": "interface",
+   "kinds": [
+    "app",
+    "website"
+   ],
+   "tags": [
+    "collage",
+    "creative",
+    "fashion",
+    "lookbook",
+    "playful",
+    "storefront",
+    "tryon"
+   ],
+   "repos": [
+    "pmndrs/use-gesture",
+    "tldraw/tldraw"
+   ],
+   "query": "drag drop layering canvas",
+   "traits": [
+    "outfit-builder"
+   ],
+   "angle": "lets you build outfits by hand",
+   "cost": 1,
+   "delight": 6,
+   "signature": "{each} can be dragged and layered into an outfit",
+   "pairsWell": [
+    "garment3d"
+   ]
+  },
+  {
+   "id": "garment3d",
+   "name": "3D garments",
+   "adds": "Clothes shown as 3D pieces you can spin and drape",
+   "hook": "every piece can be spun and draped in 3D",
+   "noun": "Drape",
+   "role": "look",
+   "kinds": [
+    "app",
+    "website",
+    "portfolio"
+   ],
+   "tags": [
+    "fashion",
+    "storefront",
+    "lookbook",
+    "tryon",
+    "realistic"
+   ],
+   "repos": [
+    "mrdoob/three.js",
+    "Habrador/Ten-Minute-Physics-Unity"
+   ],
+   "query": "cloth simulation 3d garment",
+   "traits": [
+    "garment-3d"
+   ],
+   "angle": "shows clothes as 3D pieces",
+   "cost": 2,
+   "delight": 7,
+   "signature": "{each} can be spun and draped in 3D",
+   "pairsWell": [
+    "outfits",
+    "cloth"
+   ]
+  },
+  {
+   "id": "diffs",
+   "name": "Readable diffs",
+   "adds": "Changes shown side by side, structurally",
+   "hook": "every change is shown side by side, structurally",
+   "noun": "Diff",
+   "role": "data",
+   "kinds": [
+    "tool",
+    "app"
+   ],
+   "tags": [
+    "developers",
+    "security",
+    "researchers",
+    "tasks",
+    "notes"
+   ],
+   "repos": [
+    "Wilfred/difftastic"
+   ],
+   "query": "diff structural",
+   "traits": [
+    "structural-diff"
+   ],
+   "angle": "shows changes structurally",
+   "cost": 1,
+   "delight": 4,
+   "signature": "{each} is shown side by side, structurally"
+  },
+  {
+   "id": "story",
+   "name": "Branching story",
+   "adds": "Dialogue and choices that change what happens",
+   "hook": "your choices branch the story",
+   "noun": "Story",
+   "role": "twist",
+   "kinds": [
+    "game",
+    "app",
+    "render"
+   ],
+   "tags": [
+    "rpg",
+    "fantasy",
+    "horror",
+    "cozy",
+    "scifi",
+    "journal",
+    "learning"
+   ],
+   "repos": [],
+   "query": "branching dialogue narrative",
+   "scout": "branching dialogue engines (inkle/ink, yarn spinner)",
+   "traits": [
+    "branching-story"
+   ],
+   "angle": "branches its story on your choices",
+   "cost": 2,
+   "delight": 6,
+   "signature": "{each} branches the story",
+   "pairsWell": [
+    "realm",
+    "mascot"
+   ],
+   "ambient": "told as a branching story"
   }
  ]
 }
