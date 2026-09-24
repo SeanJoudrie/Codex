@@ -68,6 +68,13 @@ plus a "make it yours" prompt. Lock the blocks you like, swap the rest, and copy
 prompt for Claude. The blocks live in `data/features.json`; each has pinned repos plus a search
 query, so new archive finds show up in ideas automatically.
 
+## Slime Sculpture
+
+`site/slime/` is the first project built from the archive: a physarum slime-mold simulation
+(Jones 2010, after `nicoptere/physarum`) that runs across the surface of a 3D model instead of a
+flat image. Pick a model or upload your own `.glb`, `.obj` or `.stl`, change the slime colour,
+and click to plant spores. Live at https://seanjoudrie.github.io/Codex/slime/.
+
 ## Scouting with a prompt
 
 `prompts/scout.md` is a prompt for Claude (or any assistant with web search) that hunts for

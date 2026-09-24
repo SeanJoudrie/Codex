@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A slime mold simulation that grows glowing veins across a 3D model. Pick a specimen or upload your own, change the colour, and plant spores.">
+<meta name="theme-color" content="#0d0f12">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Slime Sculpture">
+<meta property="og:description" content="Slime mold that grows glowing veins across a 3D model. Upload your own, change the colour, plant spores.">
+<meta property="og:url" content="https://seanjoudrie.github.io/Codex/slime/">
+<meta property="og:image" content="https://seanjoudrie.github.io/Codex/slime/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<title>Slime Sculpture</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  /* Single dark look by design: a specimen stage, so the slime can glow. */
+  :root {
+    --bg: #0d0f12; --panel: #13161b; --raise: #1a1e24; --line: #262a32; --ink: #e4e6ea; --muted: #8d929c;
+    --slime: #f2c230;
+    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px; --s6: 24px;
+    --radius: 6px;
+    color-scheme: dark;
+  }
+  [hidden] { display: none !important; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 14px/1.5 var(--sans); -webkit-font-smoothing: antialiased; }
+  :focus-visible { outline: 2px solid var(--slime); outline-offset: 2px; }
+
+  .app { height: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 304px; }
+  .stage { position: relative; min-height: 0; overflow: hidden; background: radial-gradient(120% 90% at 50% 45%, #171a20 0%, var(--bg) 70%); }
+  .stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; cursor: crosshair; }
+  .stage.dragging::after { content: "Drop a .glb, .obj or .stl file"; position: absolute; inset: var(--s4); display: grid; place-items: center;
+    border: 1px dashed var(--slime); border-radius: var(--radius); color: var(--ink); font: 500 14px var(--mono); background: rgb(13 15 18 / .7); }
+
+  .label { position: absolute; left: var(--s4); top: var(--s4); display: grid; gap: var(--s1); pointer-events: none; }
+  .label h1 { margin: 0; font: 600 18px/1.2 var(--mono); letter-spacing: -.01em; }
+  .label .species { margin: 0; font: italic 400 13px/1.4 var(--sans); color: var(--muted); }
+  .readout { position: absolute; left: var(--s4); bottom: var(--s4); right: var(--s4); display: flex; flex-wrap: wrap; gap: var(--s1) var(--s4);
+    font: 400 12px/1.5 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; pointer-events: none; }
+  .readout b { color: var(--ink); font-weight: 500; }
+  .hint { position: absolute; right: var(--s4); top: var(--s4); margin: 0; font: 400 12px/1.5 var(--mono); color: var(--muted); pointer-events: none; text-align: right; }
+
+  .loading { position: absolute; inset: 0; display: grid; place-items: center; background: rgb(13 15 18 / .6); font: 500 13px var(--mono); color: var(--ink); }
+  .loading span { display: flex; align-items: center; gap: var(--s3); }
+  .loading span::before { content: ""; width: 12px; height: 12px; border: 2px solid var(--line); border-top-color: var(--slime); border-radius: 50%; }
+  @media (prefers-reduced-motion: no-preference) { .loading span::before { animation: spin .8s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } } }
+
+  .panel { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding: var(--s6) var(--s5); display: flex; flex-direction: column; gap: var(--s6); }
+  .group { display: grid; gap: var(--s3); }
+  .head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s2); }
+  .head h2 { margin: 0; font: 500 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .head output, .head .val { font: 400 12px/1 var(--mono); color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  .seg { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s2); }
+  .btn { height: 36px; padding: 0 var(--s3); border: 1px solid var(--line); border-radius: var(--radius); background: transparent; color: var(--ink);
+    font: 500 13px/1 var(--sans); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: var(--s2); }
+  .btn:hover { border-color: var(--muted); }
+  .btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+  .btn:disabled { opacity: .5; cursor: progress; }
+  .file { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+  .note { margin: 0; font-size: 12px; color: var(--muted); }
+  .note.error { color: #f0907c; }
+
+  .swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s2); }
+  .swatch { aspect-ratio: 1; border-radius: var(--radius); border: 1px solid var(--line); padding: 3px; background: transparent; cursor: pointer; }
+  .swatch span { display: block; width: 100%; height: 100%; border-radius: 3px; background: var(--c); }
+  .swatch[aria-pressed="true"] { border-color: var(--ink); }
+  .swatch.custom { position: relative; overflow: hidden; }
+  .swatch.custom input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; border: 0; padding: 0; }
+  .swatch.custom span { background: conic-gradient(#f2c230, #f08a2c, #e2605a, #43e0c6, #eef1f2, #f2c230); }
+
+  .slider { display: grid; gap: var(--s2); }
+  input[type="range"] { width: 100%; margin: 0; accent-color: var(--slime); }
+  .row { display: flex; gap: var(--s2); }
+  .row .btn { flex: 1; }
+  .check { display: flex; align-items: center; gap: var(--s2); font-size: 13px; cursor: pointer; }
+  .check input { accent-color: var(--slime); margin: 0; }
+
+  .credits { margin-top: auto; padding-top: var(--s4); border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); display: grid; gap: var(--s1); }
+  .credits a { color: var(--ink); }
+
+  @media (max-width: 820px) {
+    .app { grid-template-columns: 1fr; grid-template-rows: minmax(360px, 62vh) auto; height: auto; min-height: 100%; }
+    .panel { border-left: 0; border-top: 1px solid var(--line); overflow: visible; padding: var(--s5) var(--s4); }
+    .hint { display: none; }
+    .swatches { grid-template-columns: repeat(8, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <section class="stage" id="stage" aria-label="Slime simulation">
+    <canvas id="view"></canvas>
+    <div class="label">
+      <h1>Slime Sculpture</h1>
+      <p class="species">Physarum polycephalum, grown on a 3D surface</p>
+    </div>
+    <p class="hint">Drag to orbit · scroll to zoom<br>Click the surface to plant a spore</p>
+    <div class="readout" id="readout" aria-live="off"></div>
+    <div class="loading" id="loading"><span id="loadingText">Building the specimen…</span></div>
+  </section>
+
+  <aside class="panel" aria-label="Controls">
+    <div class="group">
+      <div class="head"><h2>Specimen</h2></div>
+      <div class="seg" id="models">
+        <button class="btn" type="button" data-model="cortex" aria-pressed="true">Cortex</button>
+        <button class="btn" type="button" data-model="knot" aria-pressed="false">Knot</button>
+        <button class="btn" type="button" data-model="stone" aria-pressed="false">River stone</button>
+        <label class="btn" for="upload" id="uploadBtn">Your model</label>
+      </div>
+      <input class="file" type="file" id="upload" accept=".glb,.gltf,.obj,.stl">
+      <p class="note" id="modelNote">Upload a .glb, .gltf, .obj or .stl, or drop one onto the stage.</p>
+    </div>
+
+    <div class="group">
+      <div class="head"><h2>Slime colour</h2><span class="val" id="colorName">Physarum</span></div>
+      <div class="swatches" id="swatches">
+        <button class="swatch" type="button" style="--c:#f2c230" data-color="#f2c230" data-name="Physarum" aria-pressed="true" aria-label="Physarum yellow"><span></span></button>
+        <button class="swatch" type="button" style="--c:#f08a2c" data-color="#f08a2c" data-name="Trichia" aria-pressed="false" aria-label="Trichia orange"><span></span></button>
+        <button class="swatch" type="button" style="--c:#e2605a" data-color="#e2605a" data-name="Lycogala" aria-pressed="false" aria-label="Lycogala coral"><span></span></button>
+        <button class="swatch" type="button" style="--c:#f29bb4" data-color="#f29bb4" data-name="Arcyria" aria-pressed="false" aria-label="Arcyria pink"><span></span></button>
+        <button class="swatch" type="button" style="--c:#eef1f2" data-color="#eef1f2" data-name="Ceratiomyxa" aria-pressed="false" aria-label="Ceratiomyxa white"><span></span></button>
+        <button class="swatch" type="button" style="--c:#43e0c6" data-color="#43e0c6" data-name="Bioluminescent" aria-pressed="false" aria-label="Bioluminescent teal"><span></span></button>
+        <button class="swatch" type="button" style="--c:#7fb2ff" data-color="#7fb2ff" data-name="Glacier" aria-pressed="false" aria-label="Glacier blue"><span></span></button>
+        <label class="swatch custom" aria-label="Custom colour" title="Custom colour"><span></span><input type="color" id="customColor" value="#f2c230"></label>
+      </div>
+    </div>
+
+    <div class="group">
+      <label class="slider" for="speed"><span class="head"><h2>Growth speed</h2><output id="speedOut">2×</output></span>
+        <input type="range" id="speed" min="1" max="6" step="1" value="2"></label>
+      <label class="slider" for="memory"><span class="head"><h2>Trail memory</h2><output id="memoryOut">Medium</output></span>
+        <input type="range" id="memory" min="0" max="100" step="1" value="40"></label>
+      <label class="slider" for="groove"><span class="head"><h2>Seek grooves</h2><output id="grooveOut">40%</output></span>
+        <input type="range" id="groove" min="0" max="100" step="1" value="40"></label>
+      <label class="slider" for="glow"><span class="head"><h2>Glow</h2><output id="glowOut">45%</output></span>
+        <input type="range" id="glow" min="0" max="100" step="1" value="45"></label>
+    </div>
+
+    <div class="group">
+      <div class="row">
+        <button class="btn" type="button" id="pause">Pause</button>
+        <button class="btn" type="button" id="restart">Restart</button>
+      </div>
+      <label class="check" for="rotate"><input type="checkbox" id="rotate" checked> Slowly rotate</label>
+    </div>
+
+    <div class="credits">
+      <span>Agent model after Jeff Jones (2010), as implemented flat in <a href="https://github.com/nicoptere/physarum" target="_blank" rel="noopener">nicoptere/physarum</a>, rewritten here to run across a mesh.</span>
+      <span>Rendering: <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a>. Found via <a href="https://seanjoudrie.github.io/Codex/" target="_blank" rel="noopener">Codex</a>.</span>
+    </div>
+  </aside>
+</div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
+import { ImprovedNoise } from 'three/addons/math/ImprovedNoise.js';
+
+const $ = (id) => document.getElementById(id);
+const small = matchMedia('(max-width: 820px)').matches || (navigator.hardwareConcurrency ?? 8) <= 4;
+const TARGET_VERTS = small ? 45000 : 110000;
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// ---------- renderer ----------
+const stage = $('stage'), canvas = $('view');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(38, 1, 0.05, 50);
+camera.position.set(0.4, 0.5, 3.4);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.minDistance = 1.4; controls.maxDistance = 7;
+controls.autoRotate = !reduceMotion; controls.autoRotateSpeed = 0.5;
+$('rotate').checked = controls.autoRotate;
+
+scene.add(new THREE.HemisphereLight(0xc4ccda, 0x16130f, 0.9));
+const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(2, 3, 2.5); scene.add(key);
+const rim = new THREE.DirectionalLight(0x8fa6c8, 0.9); rim.position.set(-3, 1, -2.5); scene.add(rim);
+
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.7, 0.55, 0.2);
+composer.addPass(bloom);
+composer.addPass(new OutputPass());
+
+function resize() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false); composer.setSize(w, h);
+  camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+new ResizeObserver(resize).observe(stage);
+
+// ---------- material: clay + glowing slime from a per-vertex trail value ----------
+const uniforms = { uSlime: { value: new THREE.Color('#f2c230') }, uGlow: { value: 1.2 } };
+const material = new THREE.MeshStandardMaterial({ color: 0x55565e, roughness: 0.78, metalness: 0.0 });
+material.onBeforeCompile = (shader) => {
+  Object.assign(shader.uniforms, uniforms);
+  shader.vertexShader = shader.vertexShader
+    .replace('#include <common>', '#include <common>\nattribute float aTrail;\nvarying float vTrail;')
+    .replace('#include <begin_vertex>', '#include <begin_vertex>\nvTrail = aTrail;');
+  shader.fragmentShader = shader.fragmentShader
+    .replace('#include <common>', '#include <common>\nuniform vec3 uSlime;\nuniform float uGlow;\nvarying float vTrail;')
+    .replace('#include <emissivemap_fragment>', `#include <emissivemap_fragment>
+      float t = smoothstep(0.03, 1.0, vTrail);
+      diffuseColor.rgb = mix(diffuseColor.rgb, uSlime * 0.6, t * 0.9);
+      totalEmissiveRadiance += uSlime * pow(t, 1.6) * uGlow;`);
+};
+
+// ---------- geometry ----------
+const noise = new ImprovedNoise();
+
+function icosphere(targetVerts) {
+  const detail = Math.max(8, Math.round(Math.sqrt((targetVerts - 2) / 10)));
+  const g = new THREE.IcosahedronGeometry(1, detail);
+  g.deleteAttribute('normal'); g.deleteAttribute('uv');
+  return mergeVertices(g, 1e-6);
+}
+
+function displace(g, fn) {
+  const p = g.attributes.position, v = new THREE.Vector3();
+  for (let i = 0; i < p.count; i++) { v.fromBufferAttribute(p, i); fn(v); p.setXYZ(i, v.x, v.y, v.z); }
+  return g;
+}
+
+const MODELS = {
+  // Folded like a cortex: sharp creases (sulci) between rounded ridges, plus a midline fissure.
+  cortex: () => displace(icosphere(TARGET_VERTS), (v) => {
+    const d = v.clone().normalize();
+    const w = noise.noise(d.x * 1.3 + 7, d.y * 1.3, d.z * 1.3) * 0.9;
+    const f1 = Math.abs(noise.noise(d.x * 4.2 + w, d.y * 4.2 - w, d.z * 4.2));
+    const f2 = Math.abs(noise.noise(d.x * 9.1 - w, d.y * 9.1, d.z * 9.1 + w));
+    let h = 0.075 * Math.pow(f1, 0.55) + 0.022 * Math.pow(f2, 0.6);
+    if (d.y > -0.35) h -= 0.09 * Math.exp(-((d.x / 0.07) ** 2)) * Math.min(1, (d.y + 0.35) * 2);
+    v.set(d.x * 0.92, d.y * 0.8, d.z * 1.15).multiplyScalar(1 + h);
+  }),
+  knot: () => {
+    const g = new THREE.TorusKnotGeometry(0.62, 0.2, small ? 420 : 720, small ? 64 : 96, 2, 3);
+    g.deleteAttribute('normal'); g.deleteAttribute('uv');
+    return mergeVertices(g, 1e-6);
+  },
+  stone: () => displace(icosphere(TARGET_VERTS), (v) => {
+    const d = v.clone().normalize();
+    const h = 0.14 * noise.noise(d.x * 1.1 + 3, d.y * 1.1, d.z * 1.1) + 0.04 * noise.noise(d.x * 3.2, d.y * 3.2 + 5, d.z * 3.2);
+    v.copy(d).multiplyScalar(1 + h); v.y *= 0.6;
+  }),
+};
+
+// Midpoint subdivision: 4 triangles per triangle, until the mesh is dense enough for the sim.
+function subdivide(g) {
+  const pos = g.attributes.position.array, idx = g.index.array, n0 = pos.length / 3;
+  const out = Array.from(pos), faces = [], mids = new Map();
+  const mid = (a, b) => {
+    const k = a < b ? a * n0 + b : b * n0 + a;
+    let m = mids.get(k);
+    if (m === undefined) {
+      m = out.length / 3;
+      out.push((pos[a * 3] + pos[b * 3]) / 2, (pos[a * 3 + 1] + pos[b * 3 + 1]) / 2, (pos[a * 3 + 2] + pos[b * 3 + 2]) / 2);
+      mids.set(k, m);
+    }
+    return m;
+  };
+  for (let i = 0; i < idx.length; i += 3) {
+    const a = idx[i], b = idx[i + 1], c = idx[i + 2], ab = mid(a, b), bc = mid(b, c), ca = mid(c, a);
+    faces.push(a, ab, ca, ab, b, bc, ca, bc, c, ab, bc, ca);
+  }
+  const s = new THREE.BufferGeometry();
+  s.setAttribute('position', new THREE.Float32BufferAttribute(out, 3));
+  s.setIndex(new THREE.Uint32BufferAttribute(new Uint32Array(faces), 1));
+  return s;
+}
+
+// Center, scale to a unit bounding sphere, weld, densify.
+function prepare(g) {
+  for (const k of Object.keys(g.attributes)) if (k !== 'position') g.deleteAttribute(k);
+  g.computeBoundingBox();
+  const c = g.boundingBox.getCenter(new THREE.Vector3());
+  g.translate(-c.x, -c.y, -c.z);
+  g.computeBoundingSphere();
+  const r = g.boundingSphere.radius || 1;
+  g.scale(1 / r, 1 / r, 1 / r);
+  g = mergeVertices(g, 1e-5);
+  if (!g.index) { const n = g.attributes.position.count; g.setIndex([...Array(n).keys()]); }
+  while (g.attributes.position.count < TARGET_VERTS / 3.6) g = subdivide(g);
+  g.computeVertexNormals();
+  return g;
+}
+
+// ---------- simulation state ----------
+let mesh = null, sim = null;
+
+function buildSim(g) {
+  const N = g.attributes.position.count, P = g.attributes.position.array, Nn = g.attributes.normal.array, I = g.index.array;
+  // adjacency (CSR)
+  const lists = Array.from({ length: N }, () => []);
+  const link = (a, b) => { const l = lists[a]; if (!l.includes(b)) l.push(b); };
+  for (let i = 0; i < I.length; i += 3) {
+    const a = I[i], b = I[i + 1], c = I[i + 2];
+    link(a, b); link(b, a); link(b, c); link(c, b); link(c, a); link(a, c);
+  }
+  const start = new Uint32Array(N + 1);
+  for (let v = 0; v < N; v++) start[v + 1] = start[v] + lists[v].length;
+  const nbr = new Uint32Array(start[N]);
+  for (let v = 0; v < N; v++) nbr.set(lists[v], start[v]);
+
+  // concavity: how far the neighbours sit "above" the vertex along its normal (positive in grooves)
+  const cav = new Float32Array(N);
+  let edgeSum = 0, edgeN = 0;
+  for (let v = 0; v < N; v++) {
+    let mx = 0, my = 0, mz = 0; const s = start[v], e = start[v + 1];
+    for (let k = s; k < e; k++) {
+      const u = nbr[k]; mx += P[u * 3]; my += P[u * 3 + 1]; mz += P[u * 3 + 2];
+      edgeSum += Math.hypot(P[u * 3] - P[v * 3], P[u * 3 + 1] - P[v * 3 + 1], P[u * 3 + 2] - P[v * 3 + 2]); edgeN++;
+    }
+    const d = e - s || 1;
+    cav[v] = (mx / d - P[v * 3]) * Nn[v * 3] + (my / d - P[v * 3 + 1]) * Nn[v * 3 + 1] + (mz / d - P[v * 3 + 2]) * Nn[v * 3 + 2];
+  }
+  const edge = edgeSum / edgeN;
+  const sorted = Float32Array.from(cav, Math.abs).sort();
+  const p95 = sorted[Math.floor(sorted.length * 0.95)] || 1;
+  for (let v = 0; v < N; v++) cav[v] = Math.max(-1, Math.min(1, cav[v] / p95));
+
+  const A = Math.round(N * 0.08); // ~8% of vertices, close to Jones's population density
+  return { N, P, Nn, start, nbr, cav, edge, A,
+    trail: new Float32Array(N), next: new Float32Array(N), occ: new Uint8Array(N),
+    av: new Uint32Array(A), ah: new Float32Array(A * 3), steps: 0 };
+}
+
+function randomTangent(s, v, out, o) {
+  let x = Math.random() - 0.5, y = Math.random() - 0.5, z = Math.random() - 0.5;
+  const nx = s.Nn[v * 3], ny = s.Nn[v * 3 + 1], nz = s.Nn[v * 3 + 2], d = x * nx + y * ny + z * nz;
+  x -= d * nx; y -= d * ny; z -= d * nz;
+  const l = Math.hypot(x, y, z) || 1;
+  out[o] = x / l; out[o + 1] = y / l; out[o + 2] = z / l;
+}
+
+function walk(s, v, steps) {
+  for (let i = 0; i < steps; i++) { const a = s.start[v], b = s.start[v + 1]; v = s.nbr[a + Math.floor(Math.random() * (b - a))]; }
+  return v;
+}
+
+function plant(s, v, count, spread) {
+  for (let i = 0; i < count; i++) {
+    const a = Math.floor(Math.random() * s.A);
+    if (s.occ[s.av[a]]) s.occ[s.av[a]]--;
+    s.av[a] = walk(s, v, Math.floor(Math.random() * spread));
+    s.occ[s.av[a]]++;
+    randomTangent(s, s.av[a], s.ah, a * 3);
+  }
+}
+
+function seed(s) {
+  s.trail.fill(0); s.occ.fill(0); s.steps = 0;
+  // Most agents start scattered so a web forms everywhere; a few spore patches give it bright hubs.
+  const spores = Array.from({ length: 8 }, () => Math.floor(Math.random() * s.N));
+  for (let a = 0; a < s.A; a++) {
+    s.av[a] = Math.random() < 0.75 ? Math.floor(Math.random() * s.N) : walk(s, spores[a % spores.length], Math.floor(Math.random() * 60));
+    randomTangent(s, s.av[a], s.ah, a * 3);
+    s.occ[s.av[a]]++;
+  }
+}
+
+// ---------- one simulation step (Jones 2010 physarum, on a mesh) ----------
+// Each agent has a heading along the surface and three sensors (left, centre, right) that reach
+// SENSE_HOPS vertices ahead. It turns toward the strongest trail, steps one vertex, and deposits.
+// Sensing far ahead while moving one step at a time is what stretches trails into veins.
+const params = { speed: 2, decay: 0.965, groove: 0.4, glow: 0.6, paused: false };
+const SENSE_HOPS = 4, SENSOR_ANGLE = Math.PI / 4, TURN = Math.PI / 8, DEPOSIT = 1.0, DIFFUSE = 0.2, SATURATE = 24, WANDER = 0.04, MAX_PER_VERTEX = 1;
+const COS_S = Math.cos(SENSOR_ANGLE), SIN_S = Math.sin(SENSOR_ANGLE), COS_T = Math.cos(TURN), SIN_T = Math.sin(TURN);
+
+// Rotate tangent (hx,hy,hz) about normal n by angle (cos c, sin s) → out
+function rot(hx, hy, hz, nx, ny, nz, c, s, out) {
+  const cx = ny * hz - nz * hy, cy = nz * hx - nx * hz, cz = nx * hy - ny * hx; // n × h
+  out[0] = hx * c + cx * s; out[1] = hy * c + cy * s; out[2] = hz * c + cz * s;
+}
+
+// Walk up to SENSE_HOPS vertices in direction d, always taking the neighbour most aligned with it.
+function probe(s, v, dx, dy, dz) {
+  const { P, start, nbr } = s;
+  for (let i = 0; i < SENSE_HOPS; i++) {
+    let best = -1, bestDot = 0;
+    const px = P[v * 3], py = P[v * 3 + 1], pz = P[v * 3 + 2];
+    for (let k = start[v], e = start[v + 1]; k < e; k++) {
+      const n = nbr[k];
+      const d = (P[n * 3] - px) * dx + (P[n * 3 + 1] - py) * dy + (P[n * 3 + 2] - pz) * dz;
+      if (d > bestDot) { bestDot = d; best = n; }
+    }
+    if (best < 0) break;
+    v = best;
+  }
+  return v;
+}
+
+const tmpL = [0, 0, 0], tmpR = [0, 0, 0];
+function step(s) {
+  const { P, Nn, start, nbr, trail, cav, av, ah, A, occ } = s;
+  const G = params.groove * 3;
+  for (let a = 0; a < A; a++) {
+    const v = av[a], o = a * 3;
+    let hx = ah[o], hy = ah[o + 1], hz = ah[o + 2];
+    const nx = Nn[v * 3], ny = Nn[v * 3 + 1], nz = Nn[v * 3 + 2];
+    // sense
+    rot(hx, hy, hz, nx, ny, nz, COS_S, SIN_S, tmpL);
+    rot(hx, hy, hz, nx, ny, nz, COS_S, -SIN_S, tmpR);
+    const vc = probe(s, v, hx, hy, hz), vl = probe(s, v, tmpL[0], tmpL[1], tmpL[2]), vr = probe(s, v, tmpR[0], tmpR[1], tmpR[2]);
+    const c = trail[vc] + G * cav[vc], l = trail[vl] + G * cav[vl], r = trail[vr] + G * cav[vr];
+    // turn
+    let turn = 0;
+    if (c >= l && c >= r) turn = 0;
+    else if (l > r) turn = 1; else if (r > l) turn = -1;
+    else turn = Math.random() < 0.5 ? 1 : -1;
+    if (Math.random() < WANDER) turn = Math.random() < 0.5 ? 1 : -1;
+    if (turn) { rot(hx, hy, hz, nx, ny, nz, COS_T, turn * SIN_T, tmpL); hx = tmpL[0]; hy = tmpL[1]; hz = tmpL[2]; }
+    // move one vertex along the heading
+    let next = -1, bestDot = -Infinity;
+    const px = P[v * 3], py = P[v * 3 + 1], pz = P[v * 3 + 2];
+    for (let k = start[v], e = start[v + 1]; k < e; k++) {
+      const n = nbr[k];
+      const dx = P[n * 3] - px, dy = P[n * 3 + 1] - py, dz = P[n * 3 + 2] - pz;
+      const d = (dx * hx + dy * hy + dz * hz) / (Math.hypot(dx, dy, dz) || 1);
+      if (d > bestDot) { bestDot = d; next = n; }
+    }
+    // One agent per vertex (Jones 2010): if the spot is taken, stay put and pick a new heading.
+    // This crowding is what makes the slime branch into a web instead of one thick highway.
+    if (occ[next] >= MAX_PER_VERTEX) { randomTangent(s, v, ah, o); continue; }
+    occ[v]--; occ[next]++;
+    // keep the heading on the surface at the new vertex
+    const bx = Nn[next * 3], by = Nn[next * 3 + 1], bz = Nn[next * 3 + 2], dn = hx * bx + hy * by + hz * bz;
+    hx -= dn * bx; hy -= dn * by; hz -= dn * bz;
+    const hl = Math.hypot(hx, hy, hz);
+    if (hl < 1e-4) randomTangent(s, next, ah, o); else { ah[o] = hx / hl; ah[o + 1] = hy / hl; ah[o + 2] = hz / hl; }
+    av[a] = next;
+    if (trail[next] < SATURATE) trail[next] += DEPOSIT;
+  }
+  // diffuse across mesh edges, then decay
+  const next = s.next, decay = params.decay;
+  for (let v = 0, N = s.N; v < N; v++) {
+    let sum = 0; const b = start[v], e = start[v + 1];
+    for (let k = b; k < e; k++) sum += trail[nbr[k]];
+    next[v] = (trail[v] * (1 - DIFFUSE) + (sum / ((e - b) || 1)) * DIFFUSE) * decay;
+  }
+  s.next = trail; s.trail = next; s.steps++;
+}
+
+// Auto-exposure: scale brightness to the current strongest veins, so the web reads at any density.
+let exposure = 1, exposureAt = -1e9;
+function upload(s) {
+  const out = mesh.geometry.attributes.aTrail.array, t = s.trail;
+  if (s.steps - exposureAt > 20 || s.steps < exposureAt) {
+    exposureAt = s.steps;
+    const sample = new Float32Array(3000);
+    for (let i = 0; i < sample.length; i++) sample[i] = t[Math.floor(Math.random() * s.N)];
+    sample.sort();
+    const p995 = sample[Math.floor(sample.length * 0.995)];
+    exposure = 1 / Math.max(0.5, p995);
+  }
+  for (let v = 0; v < s.N; v++) { const x = Math.min(1, t[v] * exposure); out[v] = x * x * x; }
+  mesh.geometry.attributes.aTrail.needsUpdate = true;
+}
+
+// ---------- loading a specimen ----------
+function setLoading(on, text) { $('loading').hidden = !on; if (text) $('loadingText').textContent = text; }
+const nextFrame = () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+
+async function useGeometry(makeGeometry, label) {
+  setLoading(true, `Building ${label}…`);
+  document.querySelectorAll('#models .btn').forEach((b) => (b.disabled = true));
+  await nextFrame();
+  try {
+    const g = prepare(await makeGeometry());
+    g.setAttribute('aTrail', new THREE.BufferAttribute(new Float32Array(g.attributes.position.count), 1));
+    const newSim = buildSim(g);
+    seed(newSim);
+    if (mesh) { scene.remove(mesh); mesh.geometry.dispose(); }
+    mesh = new THREE.Mesh(g, material);
+    scene.add(mesh);
+    sim = newSim;
+    started = performance.now();
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  } finally {
+    setLoading(false);
+    document.querySelectorAll('#models .btn').forEach((b) => (b.disabled = false));
+  }
+}
+
+function pressModel(id) {
+  document.querySelectorAll('#models [data-model]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.model === id)));
+}
+
+document.querySelectorAll('#models [data-model]').forEach((b) => b.addEventListener('click', async () => {
+  pressModel(b.dataset.model);
+  $('modelNote').className = 'note';
+  $('modelNote').textContent = 'Upload a .glb, .gltf, .obj or .stl, or drop one onto the stage.';
+  await useGeometry(MODELS[b.dataset.model], b.textContent.toLowerCase());
+}));
+
+// User models: merge every mesh in the file into one surface.
+async function readModel(file) {
+  const ext = file.name.split('.').pop().toLowerCase();
+  let object;
+  if (ext === 'stl') {
+    const { STLLoader } = await import('three/addons/loaders/STLLoader.js');
+    return new STLLoader().parse(await file.arrayBuffer());
+  } else if (ext === 'obj') {
+    const { OBJLoader } = await import('three/addons/loaders/OBJLoader.js');
+    object = new OBJLoader().parse(await file.text());
+  } else if (ext === 'glb' || ext === 'gltf') {
+    const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js');
+    const data = ext === 'glb' ? await file.arrayBuffer() : await file.text();
+    object = (await new GLTFLoader().parseAsync(data, '')).scene;
+  } else throw new Error('unsupported');
+  object.updateMatrixWorld(true);
+  const chunks = [];
+  object.traverse((o) => {
+    if (!o.isMesh || !o.geometry?.attributes?.position) return;
+    const g = (o.geometry.index ? o.geometry.toNonIndexed() : o.geometry.clone()).applyMatrix4(o.matrixWorld);
+    chunks.push(g.attributes.position.array);
+  });
+  if (!chunks.length) throw new Error('no meshes');
+  const all = new Float32Array(chunks.reduce((n, c) => n + c.length, 0));
+  let off = 0; for (const c of chunks) { all.set(c, off); off += c.length; }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(all, 3));
+  return g;
+}
+
+async function loadFile(file) {
+  if (!file) return;
+  const note = $('modelNote');
+  pressModel(null);
+  const ok = await useGeometry(() => readModel(file), file.name);
+  if (ok) {
+    note.className = 'note';
+    note.textContent = `${file.name}: ${sim.N.toLocaleString()} vertices${sim.N > 250000 ? '. This is a heavy model and may run slowly.' : '.'}`;
+  } else {
+    note.className = 'note error';
+    note.textContent = `Couldn't read ${file.name}. Use a .glb, a single-file .gltf, an .obj or an .stl.`;
+  }
+}
+$('upload').addEventListener('change', (e) => { loadFile(e.target.files[0]); e.target.value = ''; });
+stage.addEventListener('dragover', (e) => { e.preventDefault(); stage.classList.add('dragging'); });
+stage.addEventListener('dragleave', () => stage.classList.remove('dragging'));
+stage.addEventListener('drop', (e) => { e.preventDefault(); stage.classList.remove('dragging'); loadFile(e.dataTransfer.files[0]); });
+
+// ---------- colour ----------
+function setColor(hex, name) {
+  uniforms.uSlime.value.set(hex);
+  document.documentElement.style.setProperty('--slime', hex);
+  $('colorName').textContent = name;
+  document.querySelectorAll('#swatches .swatch[data-color]').forEach((s) => s.setAttribute('aria-pressed', String(s.dataset.color === hex && name !== 'Custom')));
+}
+document.querySelectorAll('#swatches .swatch[data-color]').forEach((s) => s.addEventListener('click', () => setColor(s.dataset.color, s.dataset.name)));
+$('customColor').addEventListener('input', (e) => setColor(e.target.value, 'Custom'));
+
+// ---------- sliders & buttons ----------
+const MEMORY = [[0, 'Short'], [35, 'Medium'], [70, 'Long']];
+function readSliders() {
+  params.speed = +$('speed').value; $('speedOut').textContent = `${params.speed}×`;
+  const m = +$('memory').value; params.decay = 0.9 + (m / 100) * 0.095;
+  $('memoryOut').textContent = MEMORY.filter(([t]) => m >= t).pop()[1];
+  params.groove = +$('groove').value / 100; $('grooveOut').textContent = `${$('groove').value}%`;
+  params.glow = +$('glow').value / 100; $('glowOut').textContent = `${$('glow').value}%`;
+  bloom.strength = 0.15 + params.glow * 1.1; uniforms.uGlow.value = 0.3 + params.glow * 1.6;
+}
+['speed', 'memory', 'groove', 'glow'].forEach((id) => $(id).addEventListener('input', readSliders));
+readSliders();
+
+$('pause').addEventListener('click', () => {
+  params.paused = !params.paused;
+  $('pause').textContent = params.paused ? 'Resume' : 'Pause';
+});
+$('restart').addEventListener('click', () => { if (sim) { seed(sim); started = performance.now(); pausedFor = 0; } });
+$('rotate').addEventListener('change', (e) => (controls.autoRotate = e.target.checked));
+
+// Click (not drag) on the surface plants a spore there.
+const ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+let down = null;
+canvas.addEventListener('pointerdown', (e) => (down = [e.clientX, e.clientY]));
+canvas.addEventListener('pointerup', (e) => {
+  if (!down || !mesh || !sim || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return;
+  const r = canvas.getBoundingClientRect();
+  ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(ptr, camera);
+  const hit = ray.intersectObject(mesh)[0];
+  if (!hit) return;
+  plant(sim, hit.face.a, Math.round(sim.A * 0.08), 8);
+});
+
+// ---------- loop ----------
+let started = performance.now(), pausedFor = 0, lastTick = performance.now(), lastReadout = 0;
+const fmtTime = (ms) => { const s = Math.floor(ms / 1000); return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`; };
+
+function frame(now) {
+  const dt = now - lastTick; lastTick = now;
+  if (params.paused) pausedFor += dt;
+  if (sim && mesh && !params.paused) { for (let i = 0; i < params.speed; i++) step(sim); upload(sim); }
+  controls.update();
+  composer.render();
+  if (sim && now - lastReadout > 400) {
+    lastReadout = now;
+    $('readout').innerHTML = `<span><b>${sim.A.toLocaleString()}</b> agents</span><span><b>${sim.N.toLocaleString()}</b> vertices</span>` +
+      `<span>grown <b>${fmtTime(now - started - pausedFor)}</b></span><span><b>${sim.steps.toLocaleString()}</b> steps</span>`;
+  }
+  requestAnimationFrame(frame);
+}
+
+resize();
+await useGeometry(MODELS.cortex, 'the cortex');
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
