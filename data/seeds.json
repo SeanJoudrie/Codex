@@ -1,5 +1,5 @@
 {
- "_about": "Seed list: every repo from the Creative-Coding Experiments Master Doc (2026-08-18). Licences as recorded there; enrich.mjs re-reads the live licence from GitHub.",
+ "_about": "Seed list: the Creative-Coding Experiments Master Doc (2026-08-18) plus scout-prompt runs (source field says which). enrich.mjs re-reads live metadata from GitHub.",
  "repos": [
   {
    "repo": "HackerPoet/NonEuclidean",
@@ -926,6 +926,2028 @@
    "note": "Seed off floor(Date.now()/86400000)",
    "licence_recorded": "MIT",
    "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "theatre-js/theatre",
+   "categories": [
+    "motion"
+   ],
+   "idea": "Theatre.js: a motion design editor for the web",
+   "note": "After Effects-style keyframe timeline and graph editor that runs in the browser and drives Three.js scenes, DOM and SVG",
+   "technique": "In-browser sequence editor with keyframes and bezier curve tweening bound to object props (r3f extension)",
+   "demo": "https://www.theatrejs.com",
+   "wow": 3,
+   "stars": 12700,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0 (studio: AGPL-3.0)",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "veltman/flubber",
+   "categories": [
+    "motion"
+   ],
+   "idea": "Flubber: smooth morphing between arbitrary 2D shapes",
+   "note": "Morphs any SVG shape into any other, even with different point counts, and the demo page makes it look easy",
+   "technique": "Polygon resampling, point-count matching and rotation alignment for shape interpolation; triangulation-based shape splitting",
+   "demo": "https://veltman.github.io/flubber/demos/",
+   "wow": 3,
+   "stars": 6900,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "airbnb/lottie-web",
+   "categories": [
+    "motion"
+   ],
+   "idea": "Lottie: After Effects animations rendered natively on the web",
+   "note": "Designers export AE compositions as JSON and they play as vector animation in the browser, no video",
+   "technique": "Bodymovin JSON scene format interpreted into SVG/canvas renderers with shape layers, masks and expressions",
+   "demo": "http://airbnb.io/lottie/",
+   "wow": 2,
+   "stars": 32100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "juliangarnier/anime",
+   "categories": [
+    "motion"
+   ],
+   "idea": "Anime.js animation engine",
+   "note": "Lightweight engine for CSS, SVG, DOM and JS object animation; the homepage alone is a showcase of staggering and timelines",
+   "technique": "Timeline and stagger-based tweening engine with spring and custom easing functions",
+   "demo": "https://animejs.com",
+   "wow": 2,
+   "stars": 73100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "darkroomengineering/lenis",
+   "categories": [
+    "motion",
+    "interaction"
+   ],
+   "idea": "Lenis: smooth scroll",
+   "note": "The smooth-scroll layer under a lot of award-site scroll-driven scenes, while keeping native scroll, sticky and anchors working",
+   "technique": "Lerped virtual scroll position applied to native scroll (not transform hijacking), synced to a RAF loop for scroll-driven animation",
+   "demo": "https://lenis.dev",
+   "wow": 2,
+   "stars": 16000,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "gkjohnson/three-gpu-pathtracer",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "GPU path tracer for three.js",
+   "note": "Progressive physically based path tracing of normal three.js scenes in the browser, with lots of live example scenes",
+   "technique": "BVH (three-mesh-bvh) packed into textures and traversed in a fragment shader for progressive Monte Carlo path tracing",
+   "demo": "https://gkjohnson.github.io/three-gpu-pathtracer/example/bundle/index.html",
+   "wow": 3,
+   "stars": 1800,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "rantonels/starless",
+   "categories": [
+    "rendering",
+    "science"
+   ],
+   "idea": "Starless: CPU black hole raytracer in numpy",
+   "note": "Renders a Schwarzschild black hole with accretion disk and lensed sky, with a write-up explaining the physics shortcut",
+   "technique": "Geodesic ray integration in Schwarzschild spacetime via a Binet-equation force trick, vectorised in numpy",
+   "demo": "http://rantonels.github.io/starless",
+   "wow": 3,
+   "stars": 714,
+   "language": "Python",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "OmarShehata/webgl-outlines",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Post-process outline shader for three.js and PlayCanvas",
+   "note": "Clean, well-explained toon-style outlines that catch interior edges too, with a live demo and an accompanying article",
+   "technique": "Edge detection on depth, normal and surface-ID buffers in a post-process pass (non-photorealistic rendering)",
+   "demo": "https://threejs-outlines-postprocess.glitch.me/",
+   "wow": 2,
+   "stars": 414,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "pmndrs/postprocessing",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Post-processing library for three.js",
+   "note": "Bloom, SSAO, depth of field, god rays, glitch and more, merged into efficient passes; the demo lets you toggle every effect",
+   "technique": "Effect merging: combining multiple fullscreen effects into a single shader pass to cut render passes",
+   "demo": "https://pmndrs.github.io/postprocessing/public/demo",
+   "wow": 2,
+   "stars": 2900,
+   "language": "JavaScript",
+   "licence_recorded": "Zlib",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "google/filament",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Filament: real-time PBR engine",
+   "note": "Google's mobile-first physically based renderer, which also compiles to WebGL2; its design doc is one of the best PBR references anywhere",
+   "technique": "Clustered forward rendering with physically based materials, IBL and camera exposure units",
+   "demo": "https://google.github.io/filament/",
+   "wow": 2,
+   "stars": 20500,
+   "language": "C++",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "antimatter15/splat",
+   "categories": [
+    "3d",
+    "rendering"
+   ],
+   "idea": "WebGL 3D Gaussian splat viewer",
+   "note": "Photoreal navigable Gaussian splat scenes on WebGL 1 with no dependencies, in a tiny codebase",
+   "technique": "3D Gaussian splatting with worker-side depth sorting and instanced quad splats in WebGL 1",
+   "demo": "https://antimatter15.com/splat/",
+   "wow": 3,
+   "stars": 3100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "stephomi/sculptgl",
+   "categories": [
+    "3d"
+   ],
+   "idea": "SculptGL: ZBrush-style sculpting in the browser",
+   "note": "Full digital sculpting app (brushes, dynamic topology, multiresolution) that runs in a browser tab; the precursor to Nomad Sculpt",
+   "technique": "Dynamic topology and multiresolution mesh sculpting with octree picking in WebGL",
+   "demo": "https://stephaneginier.com/sculptgl/",
+   "wow": 3,
+   "stars": 1500,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "zalo/CascadeStudio",
+   "categories": [
+    "3d"
+   ],
+   "idea": "Cascade Studio: live-scripted CAD kernel and IDE in the browser",
+   "note": "Real B-rep CAD (OpenCascade compiled to WASM) scripted in JavaScript or OpenSCAD with live preview and STEP/STL export",
+   "technique": "OpenCascade.js (WASM) B-rep kernel run in a web worker with code-driven CSG and fillets",
+   "demo": "https://zalo.github.io/CascadeStudio/",
+   "wow": 3,
+   "stars": 1500,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "elalish/manifold",
+   "categories": [
+    "3d"
+   ],
+   "idea": "Manifold: robust mesh booleans",
+   "note": "Fast, guaranteed-manifold mesh boolean operations, now used across CAD and 3D-printing tools, with a browser playground",
+   "technique": "Topologically robust mesh booleans with symbolic perturbation, compiled to WASM for JS",
+   "demo": "https://manifoldcad.org",
+   "wow": 2,
+   "stars": 2300,
+   "language": "C++",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "nimadez/voxel-builder",
+   "categories": [
+    "3d"
+   ],
+   "idea": "Voxel Builder: voxel modeling app in the browser",
+   "note": "A full voxel editor with modelling, path-traced rendering and export, from a small, lesser-known repo",
+   "technique": "Babylon.js-based voxel editing with thin-instanced voxels and mesh export pipelines",
+   "demo": "https://nimadez.github.io/voxel-builder/",
+   "wow": 2,
+   "stars": 164,
+   "language": "JavaScript",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "tldraw/tldraw",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "tldraw: infinite canvas SDK",
+   "note": "The best-feeling whiteboard interactions on the web (hand-drawn strokes, snapping, arrows that bind to shapes), as an embeddable SDK",
+   "technique": "Reactive signals-based canvas state with custom shape utilities and perfect-freehand pressure strokes",
+   "demo": "https://tldraw.dev",
+   "wow": 3,
+   "stars": 50500,
+   "language": "TypeScript",
+   "licence_recorded": "tldraw license (source-available, key required for production)",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "shuding/cobe",
+   "categories": [
+    "interaction",
+    "rendering"
+   ],
+   "idea": "COBE: 5KB WebGL globe",
+   "note": "A draggable dotted-globe hero in about 5KB, with DOM elements bindable as markers",
+   "technique": "Single fragment-shader dot globe using a Fibonacci-sphere point lattice sampled against a land map",
+   "demo": "https://cobe.vercel.app",
+   "wow": 3,
+   "stars": 5900,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "pmndrs/use-gesture",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "use-gesture: drag, pinch and scroll gestures for React and vanilla JS",
+   "note": "The gesture layer behind many physics-feeling UIs; pair it with springs and you get cards, sheets and carousels with momentum",
+   "technique": "Unified pointer/touch/wheel gesture state machine with velocity, offset and rubberband bounds",
+   "demo": "https://use-gesture.netlify.app",
+   "wow": 2,
+   "stars": 9600,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "barbajs/barba",
+   "categories": [
+    "interaction",
+    "motion"
+   ],
+   "idea": "Barba.js: fluid page transitions",
+   "note": "Turns a multi-page site into seamless animated transitions between pages without a SPA framework",
+   "technique": "PJAX navigation with lifecycle hooks (leave/enter) for animating between old and new page containers",
+   "demo": "https://barba.js.org/",
+   "wow": 2,
+   "stars": 13000,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Cuberto/mouse-follower",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Mouse Follower: custom cursor effects",
+   "note": "Cuberto's own custom-cursor system, with text, media and magnetic states, as seen on their award-winning site",
+   "technique": "GSAP-driven lagged cursor follower with state classes, sticky/magnetic targets and media reveals",
+   "demo": null,
+   "wow": 2,
+   "stars": 818,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "meodai/poline",
+   "categories": [
+    "design"
+   ],
+   "idea": "Poline: esoteric colour palette generator",
+   "note": "Generates palettes by drawing lines between anchor colours through HSL space, with a playful interactive demo",
+   "technique": "HSL mapped to cartesian space, with palettes sampled along eased lines between anchor points",
+   "demo": "https://meodai.github.io/poline/",
+   "wow": 3,
+   "stars": 1300,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "adobe/leonardo",
+   "categories": [
+    "design"
+   ],
+   "idea": "Leonardo: contrast-based colour palettes",
+   "note": "Choose a target contrast ratio and it generates the colour, so adaptive themes are accessible by construction",
+   "technique": "Colour scale interpolation in perceptual spaces, solved for target WCAG contrast ratios against a background",
+   "demo": "https://www.leonardocolor.io",
+   "wow": 2,
+   "stars": 2100,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "opentypejs/opentype.js",
+   "categories": [
+    "design"
+   ],
+   "idea": "opentype.js: read and write fonts in JavaScript",
+   "note": "Parse a font, get glyph outlines as paths and draw or edit type in the browser, the base for kinetic-type experiments",
+   "technique": "OpenType/TrueType table parsing to glyph bezier paths, kerning and font serialisation",
+   "demo": "https://opentype.js.org/",
+   "wow": 2,
+   "stars": 5000,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "facebook/yoga",
+   "categories": [
+    "design"
+   ],
+   "idea": "Yoga: embeddable flexbox layout engine",
+   "note": "The flexbox implementation behind React Native, usable for laying out UI on canvas, WebGL or anywhere with no DOM",
+   "technique": "Standalone CSS flexbox layout algorithm in C++ with WASM/JS bindings",
+   "demo": "https://yogalayout.dev/",
+   "wow": 2,
+   "stars": 18900,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "lucide-icons/lucide",
+   "categories": [
+    "design"
+   ],
+   "idea": "Lucide: community icon system",
+   "note": "A large, strict, consistent 24px stroke icon set with design rules and tooling for keeping thousands of icons coherent",
+   "technique": "Icon design system with a grid, stroke and cap conventions, SVG optimisation and per-framework package generation",
+   "demo": "https://lucide.dev",
+   "wow": 1,
+   "stars": 24700,
+   "language": "JavaScript",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Chakazul/Lenia",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Lenia: continuous cellular automata",
+   "note": "Game of Life made continuous in space, time and state. It grows gliding, breathing 'creatures' that look like microscopic organisms, and you can try it in the browser.",
+   "technique": "Continuous cellular automaton with a ring-shaped convolution kernel and a Gaussian growth function",
+   "demo": "https://chakazul.github.io/Lenia/JavaScript/Lenia.html",
+   "wow": 3,
+   "stars": 3800,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "hunar4321/particle-life",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Particle Life artificial-life sandbox",
+   "note": "A few attraction and repulsion rules between coloured particles produce cells, worms and swarms that look alive. It has 2D and 3D browser demos with live sliders.",
+   "technique": "Asymmetric pairwise force matrix between particle types (particle life / clusters)",
+   "demo": "https://hunar4321.github.io/particle-life/particle_life.html",
+   "wow": 3,
+   "stars": 3400,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "yuanming-hu/taichi_mpm",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "MLS-MPM in 88 lines",
+   "note": "A SIGGRAPH 2018 material point method solver for snow, sand, jelly and cutting. It includes an 88-line single-file version, and a JS port runs in the browser.",
+   "technique": "Moving least squares material point method (MLS-MPM) with particle-to-grid transfer",
+   "demo": "https://r03ert0.github.io/mls-mpm.js/index.html",
+   "wow": 3,
+   "stars": 2600,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "copy/life",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Infinite Game of Life with Hashlife",
+   "note": "Conway's Life in the browser on an infinite field. Hashlife lets you zoom out and fast-forward huge patterns (breeders, computers) by billions of generations.",
+   "technique": "Hashlife: memoised quadtree for exponential time-stepping of cellular automata",
+   "demo": "https://copy.sh/life/",
+   "wow": 2,
+   "stars": 437,
+   "language": "JavaScript",
+   "licence_recorded": "BSD-2-Clause",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "volkhin/RoadTrafficSimulator",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Draw-your-own-roads traffic simulator",
+   "note": "Draw intersections and roads in the browser and watch cars queue, change lanes and jam, while the simulator tunes the traffic-light timings.",
+   "technique": "Intelligent Driver Model (IDM) car-following plus MOBIL lane-changing",
+   "demo": "http://volkhin.com/RoadTrafficSimulator",
+   "wow": 2,
+   "stars": 478,
+   "language": "CoffeeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Azgaar/Fantasy-Map-Generator",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Fantasy world map generator",
+   "note": "Generates whole worlds in the browser, with heightmap, rivers, biomes, states, cultures, religions, burgs and routes. Everything is editable and it exports at print quality.",
+   "technique": "Voronoi/Delaunay cell graph with heightmap templates, precipitation-driven rivers and political expansion",
+   "demo": "https://azgaar.github.io/Fantasy-Map-Generator",
+   "wow": 3,
+   "stars": 6024,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "marian42/wavefunctioncollapse",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Infinite WFC city you can walk through",
+   "note": "An endless 3D city assembled on the fly from modular blocks, the best-known 3D showcase of wave function collapse.",
+   "technique": "3D wave function collapse over modular tiles with backtracking and chunked infinite generation",
+   "demo": "https://marian42.itch.io/wfc",
+   "wow": 3,
+   "stars": 4861,
+   "language": "C#",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "ProbableTrain/MapGenerator",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Procedural American city maps",
+   "note": "Generates convincing city street maps (main roads, minor roads, parks, coastlines, buildings) step by step in the browser and exports them as SVG or STL.",
+   "technique": "Tensor-field-guided streamline road generation",
+   "demo": "https://maps.probabletrain.com",
+   "wow": 3,
+   "stars": 1430,
+   "language": "TypeScript",
+   "licence_recorded": "LGPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "dgreenheck/ez-tree",
+   "categories": [
+    "procgen",
+    "3d"
+   ],
+   "idea": "Procedural tree generator for Three.js",
+   "note": "A browser app and library that grows parametric trees with bark and leaves, exportable to GLB or PNG. It drops straight into a Three.js scene.",
+   "technique": "Recursive parametric branching with per-level sections, gnarliness and growth forces",
+   "demo": "https://www.eztree.dev",
+   "wow": 2,
+   "stars": 1700,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "watabou/TownGeneratorOS",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Medieval Fantasy City Generator source",
+   "note": "Source of watabou's well-known generator of walled medieval towns, with wards, citadels, gates and streets on a map-like plan.",
+   "technique": "Voronoi patch subdivision into wards, with wall and street routing and recursive building lot splitting",
+   "demo": "http://fantasycities.watabou.ru/?size=15&seed=682063530",
+   "wow": 2,
+   "stars": 1903,
+   "language": "Haxe",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "wgxli/complex-function-plotter",
+   "categories": [
+    "math"
+   ],
+   "idea": "WebGL domain-colouring plotter",
+   "note": "A fast, good-looking plotter for complex functions (zeta, elliptic functions, the j-invariant, Julia sets) that also computes contour integrals and residues, with slider variables.",
+   "technique": "Domain colouring: a user expression is compiled to a GLSL fragment shader, with hue for phase and brightness for magnitude",
+   "demo": "https://samuelj.li/complex-function-plotter/",
+   "wow": 3,
+   "stars": 69,
+   "language": "JavaScript",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "HackerPoet/MarbleMarcher",
+   "categories": [
+    "math",
+    "games"
+   ],
+   "idea": "A marble game on a live fractal",
+   "note": "You roll a marble across animated, raymarched fractals, and the physics collides against the distance estimator directly with no meshes.",
+   "technique": "Fractal distance estimators used for both raymarched rendering and sphere collision",
+   "demo": "https://codeparade.itch.io/marblemarcher",
+   "wow": 3,
+   "stars": 2500,
+   "language": "C++",
+   "licence_recorded": "GPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "zenorogue/hyperrogue",
+   "categories": [
+    "math",
+    "games"
+   ],
+   "idea": "Roguelike in hyperbolic space",
+   "note": "A full game played on hyperbolic tilings. It also ships RogueViz, an engine for non-Euclidean visualisations (spherical, Nil, Sol, and more).",
+   "technique": "Hyperbolic tilings in the Poincaré and Klein models, with Minkowski-space (hyperboloid) coordinates",
+   "demo": "https://zenorogue.itch.io/hyperrogue",
+   "wow": 3,
+   "stars": 711,
+   "language": "C++",
+   "licence_recorded": "GPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "fogleman/sdf",
+   "categories": [
+    "math",
+    "3d"
+   ],
+   "idea": "SDF to mesh in a few lines of Python",
+   "note": "A very small API for composing signed distance functions (booleans, twist, bend, text) that exports watertight STL meshes, with an image-rich README.",
+   "technique": "SDF composition evaluated on a batched grid, then marching cubes for meshing",
+   "demo": null,
+   "wow": 2,
+   "stars": 2000,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "unconed/mathbox",
+   "categories": [
+    "math"
+   ],
+   "idea": "Presentation-quality WebGL math graphing",
+   "note": "Steven Wittens' declarative library for animated math diagrams such as vector fields, surfaces and quaternion hyperspheres. It is the engine behind his well-known math explainers.",
+   "technique": "Declarative data-to-shader pipeline (ShaderGraph) on top of Three.js",
+   "demo": "https://mathbox.org",
+   "wow": 2,
+   "stars": 1500,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "cambecc/earth",
+   "categories": [
+    "science",
+    "maps"
+   ],
+   "idea": "earth.nullschool: animated global wind",
+   "note": "The original animated wind map, with flowing particle streamlines over a spinnable globe driven by real GFS weather data.",
+   "technique": "Particle advection through a bilinearly interpolated wind vector field on D3 map projections",
+   "demo": "http://earth.nullschool.net",
+   "wow": 3,
+   "stars": 6600,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jeyoder/StuffInSpace",
+   "categories": [
+    "science"
+   ],
+   "idea": "Every tracked object in Earth orbit, live",
+   "note": "A real-time WebGL globe showing thousands of satellites and debris pieces propagated from TLEs. Click one to see its orbit.",
+   "technique": "SGP4 orbit propagation of TLE data in a web worker, rendered as WebGL point sprites",
+   "demo": "http://stuffin.space",
+   "wow": 3,
+   "stars": 833,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "OpenSpace/OpenSpace",
+   "categories": [
+    "science"
+   ],
+   "idea": "Visualise the entire known universe",
+   "note": "Planetarium-grade software that flies from Earth's surface to the cosmic web using real mission, star and galaxy datasets, and runs in domes.",
+   "technique": "Multi-scale astronomical rendering with dynamic scene-graph origin to beat floating-point precision",
+   "demo": "http://openspaceproject.com",
+   "wow": 3,
+   "stars": 1300,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "molstar/molstar",
+   "categories": [
+    "science"
+   ],
+   "idea": "Mol*: web molecular viewer",
+   "note": "The WebGL viewer behind RCSB PDB and AlphaFold DB, able to stream and render huge macromolecular structures in the browser.",
+   "technique": "GPU impostor rendering of molecular representations with a streaming structure-data pipeline",
+   "demo": "https://molstar.org",
+   "wow": 2,
+   "stars": 1000,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "ofrohn/d3-celestial",
+   "categories": [
+    "science"
+   ],
+   "idea": "Interactive star map in D3",
+   "note": "A configurable sky map with stars, constellations, the Milky Way and moving planets in many projections, including printable wall maps and a current-sky view.",
+   "technique": "Celestial GeoJSON rendered through D3 geo projections",
+   "demo": "http://armchairastronautics.blogspot.com/p/skymap.html",
+   "wow": 2,
+   "stars": 744,
+   "language": "JavaScript",
+   "licence_recorded": "BSD-3-Clause",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "KilledByAPixel/LittleJS",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Tiny, fast, dependency-free HTML5 game engine",
+   "note": "Full-featured 2D engine (WebGL sprites, particles, physics, sound, input) that still fits game-jam size limits, with dozens of live examples",
+   "technique": "WebGL batched sprite rendering + tile collision in a minimal JS engine",
+   "demo": "https://killedbyapixel.github.io/LittleJS/examples",
+   "wow": 3,
+   "stars": 4200,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jrouwe/JoltPhysics",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Multi-core rigid body physics engine used in AAA games",
+   "note": "The physics engine behind Horizon Forbidden West and Death Stranding 2: deterministic, multithreaded, with soft bodies, vehicles and ragdolls",
+   "technique": "Job-system parallel broadphase and constraint solving with lock-free body access",
+   "demo": "https://www.youtube.com/watch?v=pwyCW0yNKMA",
+   "wow": 3,
+   "stars": 11600,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "pond3r/ggpo",
+   "categories": [
+    "game-engines",
+    "networks"
+   ],
+   "idea": "GGPO rollback netcode SDK",
+   "note": "The original rollback networking library from fighting games; the reference for making online play feel like zero latency",
+   "technique": "Rollback netcode: input prediction, speculative execution and state resimulation",
+   "demo": "http://ggpo.net/",
+   "wow": 2,
+   "stars": 3600,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "SanderMertens/flecs",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Fast entity component system for C and C++",
+   "note": "Handles millions of entities with relationships, queries and a web-based explorer for inspecting a live world",
+   "technique": "Archetype-based ECS storage with entity relationships (pairs) and cached queries",
+   "demo": "https://www.flecs.dev",
+   "wow": 2,
+   "stars": 8700,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "raysan5/raylib",
+   "categories": [
+    "game-engines"
+   ],
+   "idea": "Simple, easy-to-use C library for games",
+   "note": "Plain C99 game library with hundreds of small examples that run in the browser; a very readable codebase",
+   "technique": "Immediate-mode C API over an OpenGL abstraction layer (rlgl), compiled to WebAssembly for web examples",
+   "demo": "https://www.raylib.com",
+   "wow": 2,
+   "stars": 34900,
+   "language": "C",
+   "licence_recorded": "Zlib",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "BKcore/HexGL",
+   "categories": [
+    "games"
+   ],
+   "idea": "Futuristic WebGL anti-gravity racer",
+   "note": "A wipEout-style racing game running in the browser with Three.js; an early showpiece of what WebGL could do",
+   "technique": "Three.js racing game with heightmap/collision-map track physics and shader post-processing",
+   "demo": "http://hexgl.bkcore.com",
+   "wow": 3,
+   "stars": 1700,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Anuken/Mindustry",
+   "categories": [
+    "games"
+   ],
+   "idea": "Automation tower-defense RTS",
+   "note": "Hugely polished factory-building plus tower-defense game, fully open source and moddable",
+   "technique": "Conveyor/logistics simulation on a tile grid with libGDX-based rendering",
+   "demo": "https://mindustrygame.github.io",
+   "wow": 3,
+   "stars": 29100,
+   "language": "Java",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "doublespeakgames/adarkroom",
+   "categories": [
+    "games"
+   ],
+   "idea": "A Dark Room, minimalist text adventure",
+   "note": "Famous incremental game that grows from one button into a whole world; a lesson in pacing and progressive disclosure",
+   "technique": "Incremental/idle game state machine with progressively revealed UI",
+   "demo": "http://adarkroom.doublespeakgames.com",
+   "wow": 2,
+   "stars": 8300,
+   "language": "JavaScript",
+   "licence_recorded": "MPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "00-Evan/shattered-pixel-dungeon",
+   "categories": [
+    "games"
+   ],
+   "idea": "Shattered Pixel Dungeon roguelike",
+   "note": "Much-loved pixel-art roguelike dungeon crawler with procedural levels and hundreds of items",
+   "technique": "Procedural dungeon room generation and turn-based roguelike systems",
+   "demo": "https://shatteredpixel.com/shatteredpd/",
+   "wow": 2,
+   "stars": 6600,
+   "language": "Java",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "id-Software/DOOM",
+   "categories": [
+    "games",
+    "retro"
+   ],
+   "idea": "Original DOOM source release",
+   "note": "Carmack's 1997 source drop; famous code worth reading for BSP rendering and game loop design",
+   "technique": "BSP-tree visibility and 2.5D column renderer",
+   "demo": null,
+   "wow": 2,
+   "stars": 19600,
+   "language": "C",
+   "licence_recorded": "GPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "thomasahle/sunfish",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Strong chess engine in about 111 lines of Python",
+   "note": "A simple but strong engine you can read in one sitting, and play online as a Lichess bot (classic and NNUE versions)",
+   "technique": "MTD-bi search with piece-square tables, null-move and transposition table",
+   "demo": "https://lichess.org/@/sunfish-engine",
+   "wow": 3,
+   "stars": 3300,
+   "language": "Python",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "suragnair/alpha-zero-general",
+   "categories": [
+    "game-ai",
+    "ai-ml"
+   ],
+   "idea": "AlphaZero self-play for any board game",
+   "note": "Clean, commented AlphaGo Zero implementation with Othello, Connect4, Gobang and more; play against the trained agent",
+   "technique": "MCTS guided by a policy/value network trained by self-play",
+   "demo": "https://suragnair.github.io/posts/alphazero.html",
+   "wow": 3,
+   "stars": 4500,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "pasky/michi",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Minimalistic Go MCTS engine",
+   "note": "A complete Go-playing program in about 550 lines of Python, written for clarity; the best way to learn how MCTS Go bots work",
+   "technique": "Monte Carlo Tree Search with RAVE and pattern-based playouts",
+   "demo": null,
+   "wow": 2,
+   "stars": 278,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "douglasbagnall/p4wn",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Small embeddable JavaScript chess engine",
+   "note": "Tiny, readable, playable-in-the-browser chess AI with adjustable difficulty, originally built for a 5K contest",
+   "technique": "Alpha-beta search with compact board representation in plain JS",
+   "demo": "http://p4wn.sf.net/src",
+   "wow": 2,
+   "stars": 115,
+   "language": "JavaScript",
+   "licence_recorded": "Public domain / CC0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "BehaviorTree/BehaviorTree.CPP",
+   "categories": [
+    "game-ai"
+   ],
+   "idea": "Behavior tree library with a visual editor",
+   "note": "Production behaviour-tree library with XML trees and the Groot2 GUI for editing and live-monitoring trees",
+   "technique": "Behavior trees: sequences, fallbacks, decorators and reactive async actions",
+   "demo": "https://www.behaviortree.dev/",
+   "wow": 2,
+   "stars": 4200,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "algorithm-visualizer/algorithm-visualizer",
+   "categories": [
+    "algorithms"
+   ],
+   "idea": "Interactive platform that visualizes algorithms from code",
+   "note": "Step through real code while arrays, graphs and trees animate alongside it, across hundreds of algorithms",
+   "technique": "Code instrumented with tracer calls that drive synchronized visualizers",
+   "demo": "https://algorithm-visualizer.org",
+   "wow": 3,
+   "stars": 48700,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "qiao/PathFinding.js",
+   "categories": [
+    "algorithms",
+    "game-ai"
+   ],
+   "idea": "Grid pathfinding library with visual demo",
+   "note": "Draw walls and watch A*, JPS, Dijkstra, BFS and others explore the grid live",
+   "technique": "A*, Jump Point Search and bidirectional search on grids",
+   "demo": "http://qiao.github.io/PathFinding.js/visual/",
+   "wow": 3,
+   "stars": 8700,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "mszula/visual-sorting",
+   "categories": [
+    "algorithms",
+    "audio"
+   ],
+   "idea": "Visual Sorting (web Sound of Sorting)",
+   "note": "21+ sorting algorithms as animated bars with synchronized sound, step-by-step playback in the browser",
+   "technique": "Sorting-step recording played back as canvas bars and Web Audio tones",
+   "demo": "https://mszula.github.io/visual-sorting/",
+   "wow": 3,
+   "stars": 700,
+   "language": "TypeScript",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "bingmann/sound-of-sorting",
+   "categories": [
+    "algorithms",
+    "audio"
+   ],
+   "idea": "The Sound of Sorting",
+   "note": "The original sorting audibilization whose videos went viral; hear the difference between algorithms",
+   "technique": "Mapping array accesses and comparisons to sine-tone frequencies",
+   "demo": "http://panthema.net/2013/sound-of-sorting/",
+   "wow": 2,
+   "stars": 914,
+   "language": "C++",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "professor-l/mazes",
+   "categories": [
+    "algorithms",
+    "procgen"
+   ],
+   "idea": "Maze generation algorithms, an exploration",
+   "note": "Interactive side-by-side exploration of maze generation algorithms with animated generation and explanations",
+   "technique": "Recursive backtracker, Kruskal, Prim, Wilson and Aldous-Broder spanning-tree mazes",
+   "demo": "https://professor-l.github.io/mazes",
+   "wow": 2,
+   "stars": 51,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "bbycroft/llm-viz",
+   "categories": [
+    "ai-ml",
+    "explainers"
+   ],
+   "idea": "3D walkthrough of a GPT running inference",
+   "note": "Every matrix multiply of a small GPT drawn as glowing 3D blocks you can fly through, step by step",
+   "technique": "WebGL instanced blocks + camera-tour animation driven by real transformer forward-pass values",
+   "demo": "https://bbycroft.net/llm",
+   "wow": 3,
+   "stars": 5500,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "poloclub/cnn-explainer",
+   "categories": [
+    "ai-ml",
+    "explainers"
+   ],
+   "idea": "CNN Explainer",
+   "note": "Live CNN in the browser with animated convolution, ReLU and softmax views you can click into",
+   "technique": "TensorFlow.js model + Svelte/D3 linked overview-to-detail animated transitions",
+   "demo": "http://poloclub.github.io/cnn-explainer/",
+   "wow": 3,
+   "stars": 9100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "tensorflow/playground",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "Neural network playground",
+   "note": "The classic: train a tiny net live and watch every neuron's decision boundary paint itself",
+   "technique": "Hand-rolled backprop in TypeScript + per-neuron heatmap canvases rendered with D3",
+   "demo": "http://playground.tensorflow.org",
+   "wow": 3,
+   "stars": 13000,
+   "language": "TypeScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "tensorspace-team/tensorspace",
+   "categories": [
+    "ai-ml"
+   ],
+   "idea": "3D neural network visualization framework",
+   "note": "Loads real Keras/TF.js models and renders each layer's activations as explorable 3D stacks",
+   "technique": "Three.js layer geometry fed by intermediate tensor outputs from pre-trained models",
+   "demo": "https://tensorspace.org",
+   "wow": 2,
+   "stars": 5200,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "gameBear/webgl-convolution",
+   "categories": [
+    "ai-ml",
+    "simulation"
+   ],
+   "idea": "Neural Patterns (neuralpatterns.io)",
+   "note": "Tiny web toy where a 3x3 kernel plus an activation function produces worms, waves and slime — hidden gem",
+   "technique": "Neural cellular automata as a WebGL fragment shader: 3x3 convolution then custom activation",
+   "demo": "https://neuralpatterns.io/",
+   "wow": 2,
+   "stars": 0,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "finos/perspective",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Streaming analytics grid and charts in WASM",
+   "note": "Pivots and charts millions of streaming rows in the browser at interactive speed",
+   "technique": "C++ query engine compiled to WebAssembly feeding a virtualized datagrid and WebGL charts",
+   "demo": "https://perspective-dev.github.io/",
+   "wow": 3,
+   "stars": 11200,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "uwdata/mosaic",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Linked views over DuckDB",
+   "note": "Brush-and-link across billions of rows with crossfilter speed, straight from a database",
+   "technique": "Coordinator that pushes view queries into DuckDB (WASM or server) with pre-aggregated materialized indexes",
+   "demo": "https://idl.uw.edu/mosaic/",
+   "wow": 2,
+   "stars": 1400,
+   "language": "TypeScript",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "leeoniya/uPlot",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "uPlot: tiny, fast time-series charts",
+   "note": "~50 KB chart lib that draws 150k+ points in milliseconds — absurdly small for what it does",
+   "technique": "Canvas2D path batching and min/max decimation for time series",
+   "demo": "https://leeoniya.github.io/uPlot/demos/index.html",
+   "wow": 2,
+   "stars": 10500,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "rawgraphs/rawgraphs-app",
+   "categories": [
+    "dataviz",
+    "design"
+   ],
+   "idea": "RAWGraphs",
+   "note": "Paste a spreadsheet, get alluvials, beeswarms, circle packing and more as editable SVG",
+   "technique": "D3 chart modules with a data-mapping UI (dimensions to visual variables) and SVG export",
+   "demo": "https://app.rawgraphs.io",
+   "wow": 2,
+   "stars": 9000,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "apache/echarts",
+   "categories": [
+    "dataviz"
+   ],
+   "idea": "Apache ECharts",
+   "note": "Huge gallery of animated charts incl. 3D globes, graphs and large-data modes — a technique mine",
+   "technique": "ZRender canvas/SVG scene graph with progressive rendering for large datasets",
+   "demo": "https://echarts.apache.org",
+   "wow": 1,
+   "stars": 67400,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "mapbox/webgl-wind",
+   "categories": [
+    "maps",
+    "rendering"
+   ],
+   "idea": "WebGL wind particles",
+   "note": "One million wind particles at 60fps, entirely on the GPU, in a few hundred lines",
+   "technique": "GPU particle state stored in textures, ping-pong framebuffers and fading trail screen texture",
+   "demo": "https://mapbox.github.io/webgl-wind/demo/",
+   "wow": 3,
+   "stars": 1100,
+   "language": "JavaScript",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "vasturiano/globe.gl",
+   "categories": [
+    "maps"
+   ],
+   "idea": "Globe.GL",
+   "note": "Drop-in Three.js globe with arcs, hex bins, paths, rings and labels — dozens of pretty examples",
+   "technique": "Three.js globe layers (hexbin, arcs, polygons) with geo-to-3D projection",
+   "demo": "https://vasturiano.github.io/globe.gl/example/world-population/",
+   "wow": 2,
+   "stars": 3200,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "keplergl/kepler.gl",
+   "categories": [
+    "maps",
+    "dataviz"
+   ],
+   "idea": "kepler.gl",
+   "note": "Drag in a CSV and get extruded hexbins, arcs and trip animations over millions of points",
+   "technique": "deck.gl GPU layers over MapLibre with spatial aggregation and time playback",
+   "demo": "https://kepler.gl",
+   "wow": 2,
+   "stars": 12000,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "wiedehopf/tar1090",
+   "categories": [
+    "maps",
+    "hardware"
+   ],
+   "idea": "tar1090 ADS-B flight tracker UI",
+   "note": "The live aircraft map behind many hobby radio receivers — trails, history replay, multi-map layers",
+   "technique": "OpenLayers map fed by readsb/dump1090 ADS-B decoder JSON with compressed track history",
+   "demo": null,
+   "wow": 2,
+   "stars": 1900,
+   "language": "JavaScript",
+   "licence_recorded": "custom (see LICENSE)",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "ncase/trust",
+   "categories": [
+    "explainers"
+   ],
+   "idea": "The Evolution of Trust",
+   "note": "Play the iterated prisoner's dilemma against cartoon strategies — the gold standard explorable",
+   "technique": "Pixi.js-driven narrative slides with embedded live game-theory tournaments",
+   "demo": "http://ncase.me/trust/",
+   "wow": 3,
+   "stars": 6300,
+   "language": "JavaScript",
+   "licence_recorded": "CC0-1.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "poloclub/transformer-explainer",
+   "categories": [
+    "explainers",
+    "ai-ml"
+   ],
+   "idea": "Transformer Explainer",
+   "note": "Runs GPT-2 live in the browser and animates attention and sampling for your own prompt",
+   "technique": "ONNX runtime in-browser GPT-2 with Svelte/D3 animated attention and probability views",
+   "demo": "http://poloclub.github.io/transformer-explainer",
+   "wow": 3,
+   "stars": 8700,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Pomax/BezierInfo-2",
+   "categories": [
+    "explainers",
+    "math"
+   ],
+   "idea": "A Primer on Bézier Curves",
+   "note": "Book-length interactive primer — every section has a draggable curve demonstrating the math",
+   "technique": "De Casteljau, curve offsetting, arc-length and intersection algorithms with live canvas sketches",
+   "demo": "https://pomax.github.io/bezierinfo",
+   "wow": 2,
+   "stars": 2500,
+   "language": "JavaScript",
+   "licence_recorded": "see LICENSE.md",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jackschaedler/circles-sines-signals",
+   "categories": [
+    "explainers",
+    "audio"
+   ],
+   "idea": "Circles, Sines and Signals",
+   "note": "Beautifully minimal DSP primer — phasors, sampling, aliasing and the DFT as animated diagrams",
+   "technique": "D3 animated phasor and sampling diagrams building up to the discrete Fourier transform",
+   "demo": "http://jackschaedler.github.io/circles-sines-signals/",
+   "wow": 2,
+   "stars": 1000,
+   "language": "JavaScript",
+   "licence_recorded": "EPL-1.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "ncase/polygons",
+   "categories": [
+    "explainers",
+    "simulation"
+   ],
+   "idea": "Parable of the Polygons",
+   "note": "Drag shapes around to feel Schelling's segregation model — tiny biases, big patterns",
+   "technique": "Schelling agent-based segregation model with drag-and-drop interaction in a narrative page",
+   "demo": "http://ncase.me/polygons",
+   "wow": 2,
+   "stars": 1400,
+   "language": "JavaScript",
+   "licence_recorded": "CC0-1.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "anvaka/pm",
+   "categories": [
+    "networks",
+    "dataviz"
+   ],
+   "idea": "Package manager galaxies",
+   "note": "npm, PyPI, RubyGems etc. dependency graphs rendered as flyable 3D star galaxies",
+   "technique": "ngraph force layout precomputed offline, rendered as WebGL point clouds with fly-through camera",
+   "demo": "http://anvaka.github.io/pm/#/",
+   "wow": 3,
+   "stars": 1800,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "cosmograph-org/cosmos",
+   "categories": [
+    "networks",
+    "dataviz"
+   ],
+   "idea": "GPU force-graph layout",
+   "note": "Simulates and renders force graphs with hundreds of thousands of nodes in real time",
+   "technique": "Force-directed layout computed entirely in WebGL shaders (many-body via quadtree textures)",
+   "demo": "https://cosmograph.app",
+   "wow": 3,
+   "stars": 1300,
+   "language": "TypeScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "vasturiano/3d-force-graph",
+   "categories": [
+    "networks"
+   ],
+   "idea": "3D Force-Directed Graph",
+   "note": "Drop-in 3D graph component with VR/AR variants and a big set of striking examples",
+   "technique": "d3-force-3d / ngraph physics rendered with Three.js",
+   "demo": "https://vasturiano.github.io/3d-force-graph/example/large-graph/",
+   "wow": 2,
+   "stars": 6400,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jlongster/crdt-example-app",
+   "categories": [
+    "networks"
+   ],
+   "idea": "CRDT sync with hybrid logical clocks",
+   "note": "Small, readable, complete offline-first sync system from the Actual Budget author — pure technique",
+   "technique": "Hybrid logical clocks + LWW-map CRDT + merkle-tree diffing for sync",
+   "demo": "https://crdt.jlongster.com",
+   "wow": 2,
+   "stars": 664,
+   "language": "JavaScript",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "webtorrent/webtorrent",
+   "categories": [
+    "networks"
+   ],
+   "idea": "WebTorrent",
+   "note": "BitTorrent in the browser — streams video peer-to-peer over WebRTC with no plugins",
+   "technique": "BitTorrent wire protocol over WebRTC data channels with WebSocket trackers",
+   "demo": "https://webtorrent.io",
+   "wow": 2,
+   "stars": 31400,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Battelle/cantordust",
+   "categories": [
+    "security"
+   ],
+   "idea": "Binary visualization plugin for Ghidra",
+   "note": "See the shape of an unknown file (Hilbert maps, byte-trigram clouds), then click straight through to the bytes",
+   "technique": "Hilbert-curve byte mapping and 2/3-tuple digraph point clouds for binary classification",
+   "demo": "https://inside.battelle.org/blog-details/battelle-publishes-open-source-binary-visualization-tool",
+   "wow": 3,
+   "stars": 420,
+   "language": "Java",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "sharkdp/binocle",
+   "categories": [
+    "security"
+   ],
+   "idea": "Graphical binary data viewer",
+   "note": "Scrub through ELF files, memory dumps and Doom assets as pixels, with stride and offset sliders that make structure pop out",
+   "technique": "Rendering raw bytes as images with adjustable width/stride/pixel format (entropy and datatype colour maps)",
+   "demo": null,
+   "wow": 3,
+   "stars": 1300,
+   "language": "Rust",
+   "licence_recorded": "MIT / Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "srixivas/PcapXray",
+   "categories": [
+    "security",
+    "dataviz"
+   ],
+   "idea": "PCAP to network diagram forensics tool",
+   "note": "Turns a packet capture into an annotated network graph with device identification, Tor detection and suspicious-traffic flags (DEF CON 27 Demo Labs)",
+   "technique": "PCAP parsing (scapy/dpkt/pyshark) into a host/flow graph rendered with graphviz",
+   "demo": null,
+   "wow": 2,
+   "stars": 1900,
+   "language": "Python",
+   "licence_recorded": "GPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "cryptii/cryptii",
+   "categories": [
+    "security",
+    "explainers"
+   ],
+   "idea": "Modular in-browser encoding and cipher playground",
+   "note": "Chain Enigma, ciphers, encodings and hashes as live-updating blocks; changes ripple both directions instantly",
+   "technique": "Pipeline of bidirectional encoder bricks recomputed on every keystroke, fully client-side",
+   "demo": "https://cryptii.com/",
+   "wow": 2,
+   "stars": 1500,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "gchq/CyberChef",
+   "categories": [
+    "security"
+   ],
+   "idea": "The Cyber Swiss Army Knife web app",
+   "note": "GCHQ's drag-and-drop recipe builder for encoding, crypto, compression and data analysis; hundreds of operations in one static page",
+   "technique": "Composable operation 'recipes' serialised into the URL, running entirely in the browser",
+   "demo": "https://gchq.github.io/CyberChef",
+   "wow": 2,
+   "stars": 35900,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "nanochess/bootOS",
+   "categories": [
+    "systems"
+   ],
+   "idea": "An operating system in 512 bytes",
+   "note": "A monolithic OS with a filesystem and program loader that fits entirely in one x86 boot sector",
+   "technique": "Hand-optimised x86 real-mode assembly, BIOS interrupts, LBA sector filesystem",
+   "demo": null,
+   "wow": 3,
+   "stars": 2100,
+   "language": "Assembly",
+   "licence_recorded": "BSD-2-Clause",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jart/sectorlisp",
+   "categories": [
+    "systems"
+   ],
+   "idea": "LISP bootstrapped in a boot sector",
+   "note": "A metacircular LISP interpreter with garbage collection in 512 bytes of i8086 code, smaller than any other LISP",
+   "technique": "McCarthy's eval/apply in size-golfed 8086 assembly with a C reference implementation",
+   "demo": null,
+   "wow": 3,
+   "stars": 1500,
+   "language": "Assembly",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jart/blink",
+   "categories": [
+    "systems",
+    "devtools"
+   ],
+   "idea": "Tiniest x86-64 Linux emulator plus blinkenlights TUI debugger",
+   "note": "Runs real Linux binaries like GCC on any platform, and blinkenlights shows registers, memory and stack live in the terminal",
+   "technique": "JIT-accelerated x86-64 emulation with Linux syscall translation",
+   "demo": null,
+   "wow": 3,
+   "stars": 7600,
+   "language": "C",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "rswier/c4",
+   "categories": [
+    "systems"
+   ],
+   "idea": "C compiler in four functions",
+   "note": "A self-hosting C compiler and VM in about 500 lines, famous as an exercise in minimalism",
+   "technique": "Single-pass recursive-descent compiler emitting bytecode for a tiny stack VM",
+   "demo": null,
+   "wow": 3,
+   "stars": 10800,
+   "language": "C",
+   "licence_recorded": "GPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "kanaka/mal",
+   "categories": [
+    "systems"
+   ],
+   "idea": "Make-A-Lisp in 89 languages",
+   "note": "One Clojure-inspired Lisp built in 11 incremental steps, implemented in 89 languages; the step guide teaches interpreter building",
+   "technique": "Step-by-step REPL, reader, env, TCO and macros following a shared architecture guide",
+   "demo": null,
+   "wow": 2,
+   "stars": 10700,
+   "language": "unknown",
+   "licence_recorded": "MPL-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "floooh/chips",
+   "categories": [
+    "retro"
+   ],
+   "idea": "8-bit chip emulators as single-header C",
+   "note": "Z80, 6502, AY, video chips and whole C64/CPC/ZX systems, compiled to WebAssembly with visual debuggers you can open in the browser",
+   "technique": "Cycle-stepped chip emulation with pin-level interfaces in dependency-free C headers",
+   "demo": "https://floooh.github.io/tiny8bit/",
+   "wow": 3,
+   "stars": 1300,
+   "language": "C",
+   "licence_recorded": "Zlib",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "nesbox/TIC-80",
+   "categories": [
+    "retro",
+    "game-engines"
+   ],
+   "idea": "Fantasy computer for tiny games",
+   "note": "Code, sprite, map, SFX and music editors all inside a 240x136 virtual console that runs in the browser",
+   "technique": "Fantasy-console constraints: fixed palette, memory map and cartridge format with embedded Lua/JS/etc runtimes",
+   "demo": "https://tic80.com",
+   "wow": 3,
+   "stars": 6100,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Swordfish90/cool-retro-term",
+   "categories": [
+    "retro",
+    "devtools"
+   ],
+   "idea": "CRT-mimicking terminal emulator",
+   "note": "A real everyday terminal with phosphor glow, scanlines, curvature and flicker in amber, green or IBM DOS themes",
+   "technique": "CRT post-processing shaders (bloom, burn-in, screen curvature) over a Qt terminal widget",
+   "demo": null,
+   "wow": 3,
+   "stars": 26400,
+   "language": "unknown",
+   "licence_recorded": "GPL-2.0 / GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "binji/binjgb",
+   "categories": [
+    "retro"
+   ],
+   "idea": "Small Game Boy / Color emulator in WebAssembly",
+   "note": "Accurate GB/GBC emulator with rewind and a rich debugger (tile, OAM and memory viewers) that runs in the browser",
+   "technique": "Cycle-accurate Game Boy emulation compiled to WASM with ImGui debugger windows",
+   "demo": "https://binji.github.io/binjgb/",
+   "wow": 2,
+   "stars": 607,
+   "language": "C",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "sehugg/8bitworkshop",
+   "categories": [
+    "retro",
+    "devtools"
+   ],
+   "idea": "Web IDE for 8-bit programming and Verilog",
+   "note": "Write assembly or C for Atari 2600, NES, arcade boards and more, with instant emulation and a live Verilog simulator",
+   "technique": "In-browser assemblers/compilers wired to JS emulators with live reload and debugging",
+   "demo": "https://8bitworkshop.com",
+   "wow": 2,
+   "stars": 585,
+   "language": "TypeScript",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "unhappychoice/gitlogue",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Cinematic git commit replay in the terminal",
+   "note": "Replays your history as code being typed out with syntax highlighting and file-tree transitions, like a screensaver of your repo",
+   "technique": "Diff-driven typing animation in a Rust TUI with tree-sitter highlighting",
+   "demo": null,
+   "wow": 3,
+   "stars": 5000,
+   "language": "Rust",
+   "licence_recorded": "ISC",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "acaudwell/Gource",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Animated version-control visualization",
+   "note": "Your repo as a living force-directed tree where contributors fly around zapping files over time",
+   "technique": "OpenGL force-directed file tree driven by parsed VCS logs, exportable to video",
+   "demo": "https://gource.io",
+   "wow": 3,
+   "stars": 13100,
+   "language": "unknown",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Wilfred/difftastic",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Structural diff that understands syntax",
+   "note": "Diffs the syntax tree instead of lines, so reformatting and moved code no longer show up as noise",
+   "technique": "Tree-sitter parsing plus Dijkstra shortest-path search over the syntax-tree diff graph",
+   "demo": "https://difftastic.wilfred.me.uk/",
+   "wow": 2,
+   "stars": 25900,
+   "language": "Rust",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "charmbracelet/vhs",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Terminal GIFs scripted as code",
+   "note": "Write a .tape script and get a polished, reproducible terminal recording as GIF or video",
+   "technique": "Headless terminal driven by a small DSL, frames captured and encoded with ffmpeg",
+   "demo": null,
+   "wow": 2,
+   "stars": 21000,
+   "language": "Go",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "Textualize/textual",
+   "categories": [
+    "devtools",
+    "interaction"
+   ],
+   "idea": "Rich TUI framework for Python",
+   "note": "Build animated, CSS-styled apps that run in the terminal and the browser; the built-in demo is surprisingly slick",
+   "technique": "Reactive widget tree with CSS-like styling and a compositor rendering to terminal cells",
+   "demo": "https://textual.textualize.io/",
+   "wow": 2,
+   "stars": 37300,
+   "language": "Python",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "LingDong-/fishdraw",
+   "categories": [
+    "creative-tools",
+    "procgen"
+   ],
+   "idea": "Procedural fish drawings for pen plotters",
+   "note": "A single dependency-free JS file that draws endless, beautifully hatched scientific-illustration fish",
+   "technique": "Procedural polyline generation with hatching and occlusion clipping for plotter output",
+   "demo": "https://fishdraw.glitch.me/",
+   "wow": 3,
+   "stars": 2300,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jagenjo/litegraph.js",
+   "categories": [
+    "creative-tools"
+   ],
+   "idea": "Canvas2D node-graph engine and editor",
+   "note": "The node editor underneath ComfyUI; a full Blueprint-style graph editor drawn in plain Canvas2D",
+   "technique": "Dataflow node graph execution with a custom Canvas2D-rendered editor",
+   "demo": "https://tamats.com/projects/litegraph/editor",
+   "wow": 2,
+   "stars": 8200,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "hundredrabbits/Dotgrid",
+   "categories": [
+    "creative-tools",
+    "design"
+   ],
+   "idea": "Minimalist grid-based vector tool",
+   "note": "A tiny, opinionated vector editor for logos and icons from the Hundred Rabbits sailboat studio",
+   "technique": "Grid-snapped path construction exported to SVG",
+   "demo": "https://hundredrabbits.itch.io/dotgrid",
+   "wow": 2,
+   "stars": 1100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT (code) / BY-NC-SA 4.0 (assets)",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "piskelapp/piskel",
+   "categories": [
+    "creative-tools",
+    "retro"
+   ],
+   "idea": "Browser sprite and pixel-art animation editor",
+   "note": "A full onion-skinning sprite animator that runs entirely in the browser",
+   "technique": "Frame-based pixel editing with layered canvases and GIF/spritesheet export",
+   "demo": "https://www.piskelapp.com",
+   "wow": 2,
+   "stars": 12800,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "mattdesl/canvas-sketch",
+   "categories": [
+    "creative-tools"
+   ],
+   "idea": "Generative-art sketching framework",
+   "note": "Matt DesLauriers' toolkit for print-resolution generative art sketches with hot reload and export",
+   "technique": "Sketch loop abstraction with physical-unit sizing and frame export",
+   "demo": null,
+   "wow": 1,
+   "stars": 5300,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "hundredrabbits/Orca",
+   "categories": [
+    "audio",
+    "creative-tools"
+   ],
+   "idea": "Esoteric grid language for live sequencing",
+   "note": "Every letter on a 2D grid is an operator; programs look like ASCII art and play music over MIDI/OSC",
+   "technique": "2D esoteric livecoding language driving MIDI/OSC/UDP",
+   "demo": "https://hundredrabbits.github.io/Orca/",
+   "wow": 3,
+   "stars": 5100,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "jberg/butterchurn",
+   "categories": [
+    "audio",
+    "rendering"
+   ],
+   "idea": "Milkdrop visualizer in WebGL",
+   "note": "Winamp's legendary Milkdrop presets, reborn in the browser",
+   "technique": "Per-frame/per-pixel preset equations compiled to WebGL 2 shaders with feedback warping",
+   "demo": "https://butterchurnviz.com",
+   "wow": 3,
+   "stars": 2000,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "BespokeSynth/BespokeSynth",
+   "categories": [
+    "audio"
+   ],
+   "idea": "Live-patchable software modular synth",
+   "note": "A sprawling modular environment you rewire while it plays, with Python livecoding built in",
+   "technique": "Modular audio graph with live repatching and embedded Python scripting",
+   "demo": "http://bespokesynth.com",
+   "wow": 2,
+   "stars": 4700,
+   "language": "C++",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "mtytel/vital",
+   "categories": [
+    "audio"
+   ],
+   "idea": "Spectral-warping wavetable synthesizer",
+   "note": "Source of a pro-grade wavetable synth famous for its animated, visual UI",
+   "technique": "Spectral wavetable warping with GPU-drawn realtime visualizations",
+   "demo": "https://vital.audio",
+   "wow": 2,
+   "stars": 2100,
+   "language": "unknown",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "charlieroberts/genish.js",
+   "categories": [
+    "audio"
+   ],
+   "idea": "gen~-style single-sample audio compiler in JS",
+   "note": "Compiles audio graphs into one optimized per-sample callback; has a live playground",
+   "technique": "Code generation of per-sample DSP callbacks for Web Audio worklets",
+   "demo": "http://www.charlie-roberts.com/genish/playground",
+   "wow": 1,
+   "stars": 129,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "PetoiCamp/OpenCat",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "Open-source quadruped robot cat/dog framework",
+   "note": "Firmware that makes palm-sized robot pets walk, trot and do tricks like tiny Boston Dynamics bots",
+   "technique": "Quadruped gait generation and servo control on Arduino/ESP32",
+   "demo": "https://www.petoi.com/pages/bittle-x-robot-dog-simulator",
+   "wow": 3,
+   "stars": 5400,
+   "language": "C++",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "stack-chan/stack-chan",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "Cute JavaScript-driven M5Stack robot",
+   "note": "A tiny expressive desk robot with an animated face, programmable in JS with browser tools",
+   "technique": "Moddable SDK JavaScript on ESP32 with servo-driven head and face rendering",
+   "demo": "https://stack-chan.github.io/stack-chan/web/",
+   "wow": 3,
+   "stars": 1700,
+   "language": "JavaScript",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "sqfmi/Watchy",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "Open-source e-ink smartwatch",
+   "note": "A complete ESP32 e-paper watch whose faces you code yourself",
+   "technique": "ESP32 deep-sleep with partial-refresh e-paper rendering",
+   "demo": "https://watchy.sqfmi.com",
+   "wow": 2,
+   "stars": 2800,
+   "language": "unknown",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "BCN3D/BCN3D-Moveo",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "3D-printed educational robot arm",
+   "note": "Full CAD, STLs, firmware and BOM for a printable 5-axis arm",
+   "technique": "Stepper-driven 3D-printed robotic arm with Arduino/RAMPS firmware",
+   "demo": null,
+   "wow": 2,
+   "stars": 2000,
+   "language": "unknown",
+   "licence_recorded": "MIT",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "SeanChangX/QBIT",
+   "categories": [
+    "hardware"
+   ],
+   "idea": "ESP32-C3 desktop companion robot",
+   "note": "A small networked desk avatar with a web dashboard, poke interface and browser flash tool",
+   "technique": "ESP32-C3 firmware plus web-based flashing and device network",
+   "demo": "https://qbit.labxcloud.com",
+   "wow": 1,
+   "stars": 127,
+   "language": "C++",
+   "licence_recorded": "CC BY-NC-SA 4.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "carlini/printf-tac-toe",
+   "categories": [
+    "random"
+   ],
+   "idea": "Tic-tac-toe in a single printf call",
+   "note": "Why: an IOCCC entry proving printf is Turing complete by running a whole game inside one format string",
+   "technique": "printf-oriented programming using %n / %hhn memory writes",
+   "demo": null,
+   "wow": 3,
+   "stars": 2500,
+   "language": "C",
+   "licence_recorded": "GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "MichaelAyles/KiDoom",
+   "categories": [
+    "random"
+   ],
+   "idea": "DOOM rendered as PCB traces in KiCad",
+   "note": "Why: walls become copper traces and demons become QFP-64 chips, playable at 15-25 FPS in a circuit-board editor",
+   "technique": "Extracting vectors from doomgeneric and pushing them through KiCad's Python API",
+   "demo": null,
+   "wow": 3,
+   "stars": 97,
+   "language": "Python",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "kspalaiologos/malbolge-lisp",
+   "categories": [
+    "random"
+   ],
+   "idea": "A Lisp interpreter written in Malbolge",
+   "note": "Why: a 350MB Lisp built in the language designed to be nearly impossible to program",
+   "technique": "Macro-assembled code generation targeting Malbolge Unshackled",
+   "demo": null,
+   "wow": 3,
+   "stars": 556,
+   "language": "C",
+   "licence_recorded": "CC0-1.0 / GPL-3.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "MichaelAyles/ScopeDoom",
+   "categories": [
+    "random"
+   ],
+   "idea": "DOOM on an oscilloscope via a sound card",
+   "note": "Why: turns your headphone jack into a vector display, left channel X, right channel Y",
+   "technique": "Using stereo audio output as an XY DAC for vector wireframe rendering",
+   "demo": null,
+   "wow": 2,
+   "stars": 20,
+   "language": "Python",
+   "licence_recorded": "GPL",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "tomhea/flip-jump",
+   "categories": [
+    "random"
+   ],
+   "idea": "The single-instruction language: flip a bit, then jump",
+   "note": "Why: one instruction, yet it has a standard library, a C compiler and an online IDE",
+   "technique": "One-instruction-set computer with macro assembler and C-to-FJ compiler",
+   "demo": "https://fj.tomhe.app",
+   "wow": 2,
+   "stars": 142,
+   "language": "Python",
+   "licence_recorded": "BSD-2-Clause",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "historicalsource/hitchhikersguide",
+   "categories": [
+    "random"
+   ],
+   "idea": "Original 1984 Infocom Hitchhiker's Guide source",
+   "note": "Why: Douglas Adams' text adventure in its original ZIL source, an odd historical artifact",
+   "technique": "ZIL (Zork Implementation Language) interactive fiction",
+   "demo": null,
+   "wow": 2,
+   "stars": 1100,
+   "language": "ZIL",
+   "licence_recorded": "none (not openly licensed)",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "ertdfgcvb/play.core",
+   "categories": [
+    "random"
+   ],
+   "idea": "Live-code ASCII art playground",
+   "note": "Why: a shader-like programming model where every pixel is a character; gorgeous text-mode demos",
+   "technique": "Per-cell main() function rendering animated ASCII to the DOM or canvas",
+   "demo": "https://play.ertdfgcvb.xyz",
+   "wow": 3,
+   "stars": 537,
+   "language": "unknown",
+   "licence_recorded": "Apache-2.0",
+   "source": "scout-2026-09-24"
+  },
+  {
+   "repo": "xoreaxeaxeax/movfuscator",
+   "categories": [
+    "random"
+   ],
+   "idea": "C compiler that emits only mov instructions",
+   "note": "Why: proves x86 mov alone is Turing complete and produces binaries nearly impossible to reverse",
+   "technique": "Single-instruction compilation using mov-based lookup tables",
+   "demo": null,
+   "wow": 3,
+   "stars": 10500,
+   "language": "C",
+   "licence_recorded": "unknown",
+   "source": "scout-2026-09-24"
   }
  ]
 }

@@ -42,10 +42,10 @@ function card(r) {
     ${thumb(r)}
     <div class="body">
       <p class="name"><span class="owner">${esc(owner)}/</span>${esc(name)}</p>
-      <p class="desc">${esc(r.technique ?? r.note ?? r.description ?? '')}</p>
+      <p class="desc">${esc(r.note || r.technique || r.description || '')}</p>
       <div class="row">
-        ${r.stub ? '<span>not fetched yet</span>' : `<span>★ ${(r.stars ?? 0).toLocaleString()}</span>`}
-        ${r.language ? `<span>${esc(r.language)}</span>` : ''}
+        ${r.stub && !r.stars ? '<span>not fetched yet</span>' : `<span>★ ${(r.stars ?? 0).toLocaleString()}</span>`}
+        ${r.language && r.language !== 'unknown' ? `<span>${esc(r.language)}</span>` : ''}
         ${r.media?.kind && r.media.kind !== 'demo' ? `<span class="kind">${r.media.kind}</span>` : ''}
         <button class="fav" data-fav="${esc(r.repo)}" aria-pressed="${favs.has(r.repo)}" aria-label="Favourite">★</button>
       </div>

@@ -123,6 +123,13 @@
         "3d"
       ],
       "verify": true
+    },
+    {
+      "repo": "rarelygoeshere/UnorthodoxFun",
+      "categories": [
+        "random",
+        "games"
+      ]
     }
   ],
   "topics": {
