@@ -1,0 +1,2206 @@
+{
+ "updated": "2026-09-24",
+ "_about": "Stub entries built offline from seeds.json. The first real run of `npm run refresh` replaces them with live metadata and screenshots.",
+ "repos": [
+  {
+   "repo": "HackerPoet/NonEuclidean",
+   "url": "https://github.com/HackerPoet/NonEuclidean",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Canonical; stencil buffers + camera matrix surgery",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Portals",
+   "url": "https://github.com/SebLague/Portals",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Recursive portals, screen-space slicing",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "EricPlayZ/NonEuclidean-Godot",
+   "url": "https://github.com/EricPlayZ/NonEuclidean-Godot",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "mmagdics/noneuclideanunity",
+   "url": "https://github.com/mmagdics/noneuclideanunity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Shader-side, not stencil-side",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "samasante/liquid-glass",
+   "url": "https://github.com/samasante/liquid-glass",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "Headless DOM lens — start here",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "ybouane/liquidglass",
+   "url": "https://github.com/ybouane/liquidglass",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "WebGL shader route",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "deepika-builds/liquid-glass",
+   "url": "https://github.com/deepika-builds/liquid-glass",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "One-file SVG displacement",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "OverShifted/LiquidGlass",
+   "url": "https://github.com/OverShifted/LiquidGlass",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "Shader math reference",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "MaxBittker/sandspiel",
+   "url": "https://github.com/MaxBittker/sandspiel",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Rust/WASM; closest to what you'd build",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "R74nCom/sandboxels",
+   "url": "https://github.com/R74nCom/sandboxels",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "R74n Content Licence (non-commercial)",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Huge reaction table",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Caltrop256/plop",
+   "url": "https://github.com/Caltrop256/plop",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "GPL-3.0",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "C/WASM",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Hartrik/sand-game-js",
+   "url": "https://github.com/Hartrik/sand-game-js",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "Proprietary",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Built for mobile browsers",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "PieKing1215/FallingSandEngine",
+   "url": "https://github.com/PieKing1215/FallingSandEngine",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Rust",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "nicoptere/physarum",
+   "url": "https://github.com/nicoptere/physarum",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "Unlicense",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "JS physarum core",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "fogleman/physarum",
+   "url": "https://github.com/fogleman/physarum",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "Go; presets are why his renders look better",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Slime-Simulation",
+   "url": "https://github.com/SebLague/Slime-Simulation",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "GPL-3.0",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "Clearest explanation",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
+   "url": "https://github.com/DavidMcLaughlin208/SlimeMoldPhysarum",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "1M+ particles",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "MisterPrada/singularity",
+   "url": "https://github.com/MisterPrada/singularity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "Three.js/TSL — your exact stack",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "mdreem/gr_raytracer",
+   "url": "https://github.com/mdreem/gr_raytracer",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "Rust; Schwarzschild + Kerr",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "T-Spink/Schwarzschild-Black-Hole",
+   "url": "https://github.com/T-Spink/Schwarzschild-Black-Hole",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "C++",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Rani367/singularity",
+   "url": "https://github.com/Rani367/singularity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "C; 50 FPS on a 1-bit Playdate screen",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "erkie/erkie.github.com",
+   "url": "https://github.com/erkie/erkie.github.com",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "zlib-style custom",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "Original Kick Ass bookmarklet",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "producthunt/asteroids",
+   "url": "https://github.com/producthunt/asteroids",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "Maintained fork",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "liabru/matter-js",
+   "url": "https://github.com/liabru/matter-js",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "2D physics; also for marbles and wrecking",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Boids",
+   "url": "https://github.com/SebLague/Boids",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "ercang/boids-js",
+   "url": "https://github.com/ercang/boids-js",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "3D, WebWorkers",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "cubedhuang/boids",
+   "url": "https://github.com/cubedhuang/boids",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "Spatial subdivision",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "connor-brooks/ecosim",
+   "url": "https://github.com/connor-brooks/ecosim",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "Predator (hawk) behaviour",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "robert-leitl/ferrofluid",
+   "url": "https://github.com/robert-leitl/ferrofluid",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "WebGL2",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "g1n0st/taichi-ferrofluid",
+   "url": "https://github.com/g1n0st/taichi-ferrofluid",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "Level-set spike physics",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Univstar/IoB-Ferrofluid-2D",
+   "url": "https://github.com/Univstar/IoB-Ferrofluid-2D",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "shiinamiyuki/Accurate-Large-Scale-Ferrofluids",
+   "url": "https://github.com/shiinamiyuki/Accurate-Large-Scale-Ferrofluids",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "ahuth/raycast",
+   "url": "https://github.com/ahuth/raycast",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "React; easiest to graft into a site",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "vinibiavatti1/RayCastingTutorial",
+   "url": "https://github.com/vinibiavatti1/RayCastingTutorial",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster teaching",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "emre-aki/raycast.js",
+   "url": "https://github.com/emre-aki/raycast.js",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "GPL-3.0",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster, advanced",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "yurkagon/ReactCasting",
+   "url": "https://github.com/yurkagon/ReactCasting",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster in pure DOM",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "AndrewB330/MusicMarbles",
+   "url": "https://github.com/AndrewB330/MusicMarbles",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "audio",
+    "simulation"
+   ],
+   "idea": "Marble sequencer",
+   "note": "Custom deterministic C++ physics",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "yomboprime/marbleMachine",
+   "url": "https://github.com/yomboprime/marbleMachine",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "audio",
+    "simulation"
+   ],
+   "idea": "Marble sequencer",
+   "note": "Three.js",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "piellardj/reaction-diffusion-webgl",
+   "url": "https://github.com/piellardj/reaction-diffusion-webgl",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "jasonwebb/reaction-diffusion-playground",
+   "url": "https://github.com/jasonwebb/reaction-diffusion-playground",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "CC BY-NC-SA 4.0",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "Best interactive one",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "linusmossberg/reaction-diffusion",
+   "url": "https://github.com/linusmossberg/reaction-diffusion",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "Anisotropic + Phong",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "colejd/Reaction-Diffusion-ThreeJS",
+   "url": "https://github.com/colejd/Reaction-Diffusion-ThreeJS",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "LanLou123/Webgl-Erosion",
+   "url": "https://github.com/LanLou123/Webgl-Erosion",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "Already in the browser",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Hydraulic-Erosion",
+   "url": "https://github.com/SebLague/Hydraulic-Erosion",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "weigert/SimpleHydrology",
+   "url": "https://github.com/weigert/SimpleHydrology",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "Rivers and lakes first-class",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "bshishov/UnityTerrainErosionGPU",
+   "url": "https://github.com/bshishov/UnityTerrainErosionGPU",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "electricsquare/raymarching-workshop",
+   "url": "https://github.com/electricsquare/raymarching-workshop",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Read this first",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "shader-park/shader-park-core",
+   "url": "https://github.com/shader-park/shader-park-core",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Write JS, get a shader",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Ray-Marching",
+   "url": "https://github.com/SebLague/Ray-Marching",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "JiepengTan/FishManShaderTutorial",
+   "url": "https://github.com/JiepengTan/FishManShaderTutorial",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Mountains and oceans",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "danielchasehooper/ShapeUp-public",
+   "url": "https://github.com/danielchasehooper/ShapeUp-public",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Hsin-Hung/N-body-simulation",
+   "url": "https://github.com/Hsin-Hung/N-body-simulation",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "CUDA; Barnes-Hut",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "alvinng4/grav_sim",
+   "url": "https://github.com/alvinng4/grav_sim",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "Bad integrators evaporate galaxies",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "nicosmo/cosmic_web_explorer",
+   "url": "https://github.com/nicosmo/cosmic_web_explorer",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "WebGPU",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "SebLague/Solar-System",
+   "url": "https://github.com/SebLague/Solar-System",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "Presentation layer",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "PavelDoGreat/WebGL-Fluid-Simulation",
+   "url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "The one everyone uses",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "matsuoka-601/WebGPU-Ocean",
+   "url": "https://github.com/matsuoka-601/WebGPU-Ocean",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "3D MLS-MPM on WebGPU",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "sandydoo/flux",
+   "url": "https://github.com/sandydoo/flux",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "Rust; restraint",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "piellardj/navier-stokes-webgl",
+   "url": "https://github.com/piellardj/navier-stokes-webgl",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Habrador/Ten-Minute-Physics-Unity",
+   "url": "https://github.com/Habrador/Ten-Minute-Physics-Unity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "Matthias Müller's series, XPBD cloth",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "diwi/PixelFlow",
+   "url": "https://github.com/diwi/PixelFlow",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "Softbody on GPU",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "sam007961/FastMassSpring",
+   "url": "https://github.com/sam007961/FastMassSpring",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Ninjajie/Fusion",
+   "url": "https://github.com/Ninjajie/Fusion",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "amandaghassaei/OrigamiSimulator",
+   "url": "https://github.com/amandaghassaei/OrigamiSimulator",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "oriedita/oriedita",
+   "url": "https://github.com/oriedita/oriedita",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "Crease-pattern editor",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "zzhuyii/OrigamiSimulator",
+   "url": "https://github.com/zzhuyii/OrigamiSimulator",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "MATLAB",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "olawlor/AuroraRendererUnity",
+   "url": "https://github.com/olawlor/AuroraRendererUnity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Author wrote the paper and the renderer",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "lun0522/AuroraSketcher",
+   "url": "https://github.com/lun0522/AuroraSketcher",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Draw the curtains",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "unconed/NeverSeenTheSky",
+   "url": "https://github.com/unconed/NeverSeenTheSky",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Steven Wittens",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "ksd3/aurorasim",
+   "url": "https://github.com/ksd3/aurorasim",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Physics-first",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "luciopaiva/chladni",
+   "url": "https://github.com/luciopaiva/chladni",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Cleanest read",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "nolangz/3D-Chladni",
+   "url": "https://github.com/nolangz/3D-Chladni",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Audio-reactive, 3D",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "hilbertcube/Chladni-Patterns-Generator",
+   "url": "https://github.com/hilbertcube/Chladni-Patterns-Generator",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Solves the PDE properly",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "addiebarron/chladni",
+   "url": "https://github.com/addiebarron/chladni",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "p5",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Nikorasu/PyNAnts",
+   "url": "https://github.com/Nikorasu/PyNAnts",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "GPL-3.0",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "Split to-food / to-home pheromone channels",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "nilsgollub/AntSim_V2",
+   "url": "https://github.com/nilsgollub/AntSim_V2",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "TS/Pixi",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "Nikorasu/NantArray",
+   "url": "https://github.com/Nikorasu/NantArray",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "CA rewrite, maps to a fragment shader",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "fogleman/dlaf",
+   "url": "https://github.com/fogleman/dlaf",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "The spatial index is the whole trick",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "jasonwebb/2d-diffusion-limited-aggregation-experiments",
+   "url": "https://github.com/jasonwebb/2d-diffusion-limited-aggregation-experiments",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "BrutPitt/DLAf-optimized",
+   "url": "https://github.com/BrutPitt/DLAf-optimized",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "3D",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "jasonwebb/morphogenesis-resources",
+   "url": "https://github.com/jasonwebb/morphogenesis-resources",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (link collection)",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "Bibliography of the field",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "jstrait/city-tour",
+   "url": "https://github.com/jstrait/city-tour",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "Three.js",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "a-b-street/abstreet",
+   "url": "https://github.com/a-b-street/abstreet",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "How road networks are really modelled",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "AndyQ/MetalCity",
+   "url": "https://github.com/AndyQ/MetalCity",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "Lighting does the work",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "TheDuckCow/godot-road-generator",
+   "url": "https://github.com/TheDuckCow/godot-road-generator",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "tuqire/webcam-particles",
+   "url": "https://github.com/tuqire/webcam-particles",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Your face, 60,000 points",
+   "note": "The pipeline, assembled",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "tensorflow/tfjs-models",
+   "url": "https://github.com/tensorflow/tfjs-models",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "Apache-2.0",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Your face, 60,000 points",
+   "note": "depth-estimation: per-pixel depth from one camera",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "evanw/webgl-water",
+   "url": "https://github.com/evanw/webgl-water",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "None (all rights reserved)",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Wave tank",
+   "note": "Evan Wallace",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "toruseo/UXsim",
+   "url": "https://github.com/toruseo/UXsim",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ripple tank of traffic",
+   "note": "Car-following model; phantom jams",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "cityflow-project/CityFlow",
+   "url": "https://github.com/cityflow-project/CityFlow",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unverified",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ripple tank of traffic",
+   "note": "",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  },
+  {
+   "repo": "davidbau/seedrandom",
+   "url": "https://github.com/davidbau/seedrandom",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "math"
+   ],
+   "idea": "A world that keeps going without you",
+   "note": "Seed off floor(Date.now()/86400000)",
+   "technique": null,
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "first_seen": "2026-08-18",
+   "stub": true
+  }
+ ]
+}

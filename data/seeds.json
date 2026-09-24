@@ -1,0 +1,931 @@
+{
+ "_about": "Seed list: every repo from the Creative-Coding Experiments Master Doc (2026-08-18). Licences as recorded there; enrich.mjs re-reads the live licence from GitHub.",
+ "repos": [
+  {
+   "repo": "HackerPoet/NonEuclidean",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Canonical; stencil buffers + camera matrix surgery",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Portals",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Recursive portals, screen-space slicing",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "EricPlayZ/NonEuclidean-Godot",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "mmagdics/noneuclideanunity",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Non-Euclidean space",
+   "note": "Shader-side, not stencil-side",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "samasante/liquid-glass",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "Headless DOM lens — start here",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "ybouane/liquidglass",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "WebGL shader route",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "deepika-builds/liquid-glass",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "One-file SVG displacement",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "OverShifted/LiquidGlass",
+   "categories": [
+    "rendering",
+    "interaction"
+   ],
+   "idea": "Liquid glass over your own page",
+   "note": "Shader math reference",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "MaxBittker/sandspiel",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Rust/WASM; closest to what you'd build",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "R74nCom/sandboxels",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Huge reaction table",
+   "licence_recorded": "R74n Content Licence (non-commercial)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Caltrop256/plop",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "C/WASM",
+   "licence_recorded": "GPL-3.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Hartrik/sand-game-js",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Built for mobile browsers",
+   "licence_recorded": "Proprietary",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "PieKing1215/FallingSandEngine",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Falling-sand alchemy",
+   "note": "Rust",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "nicoptere/physarum",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "JS physarum core",
+   "licence_recorded": "Unlicense",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "fogleman/physarum",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "Go; presets are why his renders look better",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Slime-Simulation",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "Clearest explanation",
+   "licence_recorded": "GPL-3.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Slime mold",
+   "note": "1M+ particles",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "MisterPrada/singularity",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "Three.js/TSL — your exact stack",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "mdreem/gr_raytracer",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "Rust; Schwarzschild + Kerr",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "T-Spink/Schwarzschild-Black-Hole",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "C++",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Rani367/singularity",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Black hole",
+   "note": "C; 50 FPS on a 1-bit Playdate screen",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "erkie/erkie.github.com",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "Original Kick Ass bookmarklet",
+   "licence_recorded": "zlib-style custom",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "producthunt/asteroids",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "Maintained fork",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "liabru/matter-js",
+   "categories": [
+    "interaction"
+   ],
+   "idea": "Wrecking the page",
+   "note": "2D physics; also for marbles and wrecking",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Boids",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "ercang/boids-js",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "3D, WebWorkers",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "cubedhuang/boids",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "Spatial subdivision",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "connor-brooks/ecosim",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Boids at scale, with a hawk",
+   "note": "Predator (hawk) behaviour",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "robert-leitl/ferrofluid",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "WebGL2",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "g1n0st/taichi-ferrofluid",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "Level-set spike physics",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Univstar/IoB-Ferrofluid-2D",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "shiinamiyuki/Accurate-Large-Scale-Ferrofluids",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ferrofluid",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "ahuth/raycast",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "React; easiest to graft into a site",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "vinibiavatti1/RayCastingTutorial",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster teaching",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "emre-aki/raycast.js",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster, advanced",
+   "licence_recorded": "GPL-3.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "yurkagon/ReactCasting",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Doom-style raycaster",
+   "note": "Raycaster in pure DOM",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "AndrewB330/MusicMarbles",
+   "categories": [
+    "audio",
+    "simulation"
+   ],
+   "idea": "Marble sequencer",
+   "note": "Custom deterministic C++ physics",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "yomboprime/marbleMachine",
+   "categories": [
+    "audio",
+    "simulation"
+   ],
+   "idea": "Marble sequencer",
+   "note": "Three.js",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "piellardj/reaction-diffusion-webgl",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "jasonwebb/reaction-diffusion-playground",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "Best interactive one",
+   "licence_recorded": "CC BY-NC-SA 4.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "linusmossberg/reaction-diffusion",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "Anisotropic + Phong",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "colejd/Reaction-Diffusion-ThreeJS",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Reaction-diffusion",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "LanLou123/Webgl-Erosion",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "Already in the browser",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Hydraulic-Erosion",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "weigert/SimpleHydrology",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "Rivers and lakes first-class",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "bshishov/UnityTerrainErosionGPU",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Terrain that erodes",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "electricsquare/raymarching-workshop",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Read this first",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "shader-park/shader-park-core",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Write JS, get a shader",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Ray-Marching",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "JiepengTan/FishManShaderTutorial",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "Mountains and oceans",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "danielchasehooper/ShapeUp-public",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "One shader, whole world",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Hsin-Hung/N-body-simulation",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "CUDA; Barnes-Hut",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "alvinng4/grav_sim",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "Bad integrators evaporate galaxies",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "nicosmo/cosmic_web_explorer",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "WebGPU",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "SebLague/Solar-System",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "A galaxy that collides",
+   "note": "Presentation layer",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "PavelDoGreat/WebGL-Fluid-Simulation",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "The one everyone uses",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "matsuoka-601/WebGPU-Ocean",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "3D MLS-MPM on WebGPU",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "sandydoo/flux",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "Rust; restraint",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "piellardj/navier-stokes-webgl",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Fluid you can shove",
+   "note": "",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Habrador/Ten-Minute-Physics-Unity",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "Matthias Müller's series, XPBD cloth",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "diwi/PixelFlow",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "Softbody on GPU",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "sam007961/FastMassSpring",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Ninjajie/Fusion",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Cloth you can cut",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "amandaghassaei/OrigamiSimulator",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "oriedita/oriedita",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "Crease-pattern editor",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "zzhuyii/OrigamiSimulator",
+   "categories": [
+    "math",
+    "simulation"
+   ],
+   "idea": "Origami that folds itself",
+   "note": "MATLAB",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "olawlor/AuroraRendererUnity",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Author wrote the paper and the renderer",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "lun0522/AuroraSketcher",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Draw the curtains",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "unconed/NeverSeenTheSky",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Steven Wittens",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "ksd3/aurorasim",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Aurora",
+   "note": "Physics-first",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "luciopaiva/chladni",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Cleanest read",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "nolangz/3D-Chladni",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Audio-reactive, 3D",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "hilbertcube/Chladni-Patterns-Generator",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "Solves the PDE properly",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "addiebarron/chladni",
+   "categories": [
+    "audio",
+    "math"
+   ],
+   "idea": "Sound made visible (Chladni)",
+   "note": "p5",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Nikorasu/PyNAnts",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "Split to-food / to-home pheromone channels",
+   "licence_recorded": "GPL-3.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "nilsgollub/AntSim_V2",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "TS/Pixi",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "Nikorasu/NantArray",
+   "categories": [
+    "simulation",
+    "game-ai"
+   ],
+   "idea": "Ant colony",
+   "note": "CA rewrite, maps to a fragment shader",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "fogleman/dlaf",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "The spatial index is the whole trick",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "jasonwebb/2d-diffusion-limited-aggregation-experiments",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "BrutPitt/DLAf-optimized",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "3D",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "jasonwebb/morphogenesis-resources",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "Ice that grows",
+   "note": "Bibliography of the field",
+   "licence_recorded": "None (link collection)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "jstrait/city-tour",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "Three.js",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "a-b-street/abstreet",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "How road networks are really modelled",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "AndyQ/MetalCity",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "Lighting does the work",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "TheDuckCow/godot-road-generator",
+   "categories": [
+    "procgen"
+   ],
+   "idea": "A city that grows",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "tuqire/webcam-particles",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Your face, 60,000 points",
+   "note": "The pipeline, assembled",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "tensorflow/tfjs-models",
+   "categories": [
+    "rendering"
+   ],
+   "idea": "Your face, 60,000 points",
+   "note": "depth-estimation: per-pixel depth from one camera",
+   "licence_recorded": "Apache-2.0",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "evanw/webgl-water",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Wave tank",
+   "note": "Evan Wallace",
+   "licence_recorded": "None (all rights reserved)",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "toruseo/UXsim",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ripple tank of traffic",
+   "note": "Car-following model; phantom jams",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "cityflow-project/CityFlow",
+   "categories": [
+    "simulation"
+   ],
+   "idea": "Ripple tank of traffic",
+   "note": "",
+   "licence_recorded": "unverified",
+   "source": "master-doc-2026-08-18"
+  },
+  {
+   "repo": "davidbau/seedrandom",
+   "categories": [
+    "math"
+   ],
+   "idea": "A world that keeps going without you",
+   "note": "Seed off floor(Date.now()/86400000)",
+   "licence_recorded": "MIT",
+   "source": "master-doc-2026-08-18"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>Codex</h1>
+    <p class="meta" id="meta">Loading…</p>
+  </div>
+  <input id="q" type="search" placeholder="Search repos, techniques, languages…" autocomplete="off" aria-label="Search">
+  <nav class="chips" id="chips" aria-label="Categories"></nav>
+  <div class="toggles">
+    <label><input type="checkbox" id="favOnly"> ★ only</label>
+    <select id="sort" aria-label="Sort">
+      <option value="new">Newest first</option>
+      <option value="stars">Most stars</option>
+      <option value="gem">Hidden gems</option>
+      <option value="visual">Real screenshots first</option>
+    </select>
+  </div>
+</header>
+
+<section id="fresh" class="fresh" hidden>
+  <h2>New this week</h2>
+  <div class="strip" id="freshStrip"></div>
+</section>
+
+<main class="grid" id="grid"></main>
+<p class="empty" id="empty" hidden>Nothing matches.</p>
+
+<dialog id="detail"></dialog>
+<script src="app.js" type="module"></script>
+</body>
+</html>
