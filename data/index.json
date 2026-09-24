@@ -68,10 +68,7 @@
    "note": "Write JS, get a shader",
    "technique": null,
    "readme_image": "https://user-images.githubusercontent.com/6014011/159131472-2f26c33f-2023-4980-b6e0-3d2c5bd53d6f.png",
-   "media": {
-    "path": "media/shader-park__shader-park-core.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:glsl",
@@ -111,10 +108,7 @@
    "note": "A few attraction and repulsion rules between coloured particles produce cells, worms and swarms that look alive. It has 2D and 3D browser demos with live sliders.",
    "technique": "Asymmetric pairwise force matrix between particle types (particle life / clusters)",
    "readme_image": null,
-   "media": {
-    "path": "media/hunar4321__particle-life.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -156,10 +150,7 @@
    "note": "The physics engine behind Horizon Forbidden West and Death Stranding 2: deterministic, multithreaded, with soft bodies, vehicles and ragdolls",
    "technique": "Job-system parallel broadphase and constraint solving with lock-free body access",
    "readme_image": null,
-   "media": {
-    "path": "media/jrouwe__JoltPhysics.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:Calinou/awesome-gamedev",
@@ -211,10 +202,7 @@
    "note": "Huge reaction table",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/R74nCom/sandboxels/main/icons/cover-3840x1240px-text.png",
-   "media": {
-    "path": "media/R74nCom__sandboxels.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:physics-simulation",
@@ -295,10 +283,7 @@
    "note": "After Effects-style keyframe timeline and graph editor that runs in the browser and drives Three.js scenes, DOM and SVG",
    "technique": "In-browser sequence editor with keyframes and bezier curve tweening bound to object props (r3f extension)",
    "readme_image": "https://raw.githubusercontent.com/AriaMinaei/theatre-docs/main/docs/.vuepress/public/preview-3d-short.gif",
-   "media": {
-    "path": "media/theatre-js__theatre.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:terkelg/awesome-creative-coding",
@@ -334,10 +319,7 @@
    "note": "Rust/WASM; closest to what you'd build",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png",
-   "media": {
-    "path": "media/MaxBittker__sandspiel.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -410,10 +392,7 @@
    "note": "Game of Life made continuous in space, time and state. It grows gliding, breathing 'creatures' that look like microscopic organisms, and you can try it in the browser.",
    "technique": "Continuous cellular automaton with a ring-shaped convolution kernel and a Gaussian growth function",
    "readme_image": "https://raw.githubusercontent.com/Chakazul/Lenia/master/Screencap/icon2.png",
-   "media": {
-    "path": "media/Chakazul__Lenia.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -452,10 +431,7 @@
    "note": "Full-featured 2D engine (WebGL sprites, particles, physics, sound, input) that still fits game-jam size limits, with dozens of live examples",
    "technique": "WebGL batched sprite rendering + tile collision in a minimal JS engine",
    "readme_image": "https://raw.githubusercontent.com/KilledByAPixel/LittleJS/main/examples/logo.png",
-   "media": {
-    "path": "media/KilledByAPixel__LittleJS.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl",
@@ -502,10 +478,7 @@
    "note": "Plain C99 game library with hundreds of small examples that run in the browser; a very readable codebase",
    "technique": "Immediate-mode C API over an OpenGL abstraction layer (rlgl), compiled to WebAssembly for web examples",
    "readme_image": "https://raw.githubusercontent.com/raysan5/raylib/master/logo/raylib_logo_animation.gif",
-   "media": {
-    "path": "media/raysan5__raylib.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:game-engine",
@@ -551,10 +524,7 @@
    "note": "21+ sorting algorithms as animated bars with synchronized sound, step-by-step playback in the browser",
    "technique": "Sorting-step recording played back as canvas bars and Web Audio tones",
    "readme_image": "https://star-history.dera.page/svg?repos=mszula/visual-sorting&type=Date",
-   "media": {
-    "path": "media/mszula__visual-sorting.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:sorting-algorithms",
@@ -625,10 +595,7 @@
    "note": "Drop-in 3D graph component with VR/AR variants and a big set of striking examples",
    "technique": "d3-force-3d / ngraph physics rendered with Three.js",
    "readme_image": "https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif",
-   "media": {
-    "path": "media/vasturiano__3d-force-graph.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl",
@@ -662,10 +629,7 @@
    "note": "Build animated, CSS-styled apps that run in the terminal and the browser; the built-in demo is surprisingly slick",
    "technique": "Reactive widget tree with CSS-like styling and a compositor rendering to terminal cells",
    "readme_image": "https://github.com/user-attachments/assets/63e839c3-5b8e-478d-b78e-cf7647eb85e8",
-   "media": {
-    "path": "media/Textualize__textual.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:tui",
@@ -792,10 +756,7 @@
    "note": "Best interactive one",
    "technique": null,
    "readme_image": "https://camo.githubusercontent.com/6a5b7b40467455254ed239cfc966eda29f7cfcafda71e1212f407046396017e8/68747470733a2f2f7777772e6b61726c73696d732e636f6d2f72642d6571756174696f6e2e706e67",
-   "media": {
-    "path": "media/jasonwebb__reaction-diffusion-playground.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -827,10 +788,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/colejd/Reaction-Diffusion-ThreeJS/master/misc/images/reaction-diffusion.png",
-   "media": {
-    "path": "media/colejd__Reaction-Diffusion-ThreeJS.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -937,10 +895,7 @@
    "note": "The one everyone uses",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/PavelDoGreat/WebGL-Fluid-Simulation/master/screenshot.jpg?raw=true",
-   "media": {
-    "path": "media/PavelDoGreat__WebGL-Fluid-Simulation.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl",
@@ -975,10 +930,7 @@
    "note": "3D MLS-MPM on WebGPU",
    "technique": null,
    "readme_image": "https://github.com/user-attachments/assets/5b008b16-7d46-4e09-af21-d70f6fa2ec20",
-   "media": {
-    "path": "media/matsuoka-601__WebGPU-Ocean.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgpu",
@@ -1010,10 +962,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/piellardj/piellardj.github.io/master/images/readme/donate-paypal.svg",
-   "media": {
-    "path": "media/piellardj__navier-stokes-webgl.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:fluid-simulation",
@@ -1099,10 +1048,7 @@
    "note": "Softbody on GPU",
    "technique": null,
    "readme_image": "http://thomasdiewald.com/processing/libraries/pixelflow/PixelFlow_header.jpg",
-   "media": {
-    "path": "media/diwi__PixelFlow.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:glsl",
@@ -1138,10 +1084,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/jasonwebb/2d-diffusion-limited-aggregation-experiments/master/experiments/01-basic-dla/images/social-media-preview.png",
-   "media": {
-    "path": "media/jasonwebb__2d-diffusion-limited-aggregation-experiments.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -1171,10 +1114,7 @@
    "note": "A draggable dotted-globe hero in about 5KB, with DOM elements bindable as markers",
    "technique": "Single fragment-shader dot globe using a Fibonacci-sphere point lattice sampled against a land map",
    "readme_image": "https://raw.githubusercontent.com/shuding/cobe/main/card.png",
-   "media": {
-    "path": "media/shuding__cobe.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl",
@@ -1245,10 +1185,7 @@
    "note": "Planetarium-grade software that flies from Earth's surface to the cosmic web using real mission, star and galaxy datasets, and runs in domes.",
    "technique": "Multi-scale astronomical rendering with dynamic scene-graph origin to beat floating-point precision",
    "readme_image": "https://raw.githubusercontent.com/OpenSpace/OpenSpace/master/data/openspace-horiz-logo-crop.png",
-   "media": {
-    "path": "media/OpenSpace__OpenSpace.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:astronomy",
@@ -1292,10 +1229,7 @@
    "note": "Handles millions of entities with relationships, queries and a web-based explorer for inspecting a live world",
    "technique": "Archetype-based ECS storage with entity relationships (pairs) and cached queries",
    "readme_image": "https://raw.githubusercontent.com/SanderMertens/flecs/master/docs/img/logo.png",
-   "media": {
-    "path": "media/SanderMertens__flecs.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:game-engine",
@@ -1321,10 +1255,7 @@
    "note": "Famous incremental game that grows from one button into a whole world; a lesson in pacing and progressive disclosure",
    "technique": "Incremental/idle game state machine with progressively revealed UI",
    "readme_image": "http://i.imgur.com/DMdnDYq.png",
-   "media": {
-    "path": "media/doublespeakgames__adarkroom.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:Calinou/awesome-gamedev",
@@ -1381,10 +1312,7 @@
    "note": "Tiny, readable, playable-in-the-browser chess AI with adjustable difficulty, originally built for a 5K contest",
    "technique": "Alpha-beta search with compact board representation in plain JS",
    "readme_image": null,
-   "media": {
-    "path": "media/douglasbagnall__p4wn.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:chess engine language:javascript stars:>100",
@@ -1416,10 +1344,7 @@
    "note": "Drag in a CSV and get extruded hexbins, arcs and trip animations over millions of points",
    "technique": "deck.gl GPU layers over MapLibre with spatial aggregation and time playback",
    "readme_image": null,
-   "media": {
-    "path": "media/keplergl__kepler.gl.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:data-visualization",
@@ -1455,10 +1380,7 @@
    "note": "BitTorrent in the browser — streams video peer-to-peer over WebRTC with no plugins",
    "technique": "BitTorrent wire protocol over WebRTC data channels with WebSocket trackers",
    "readme_image": "https://webtorrent.io/img/WebTorrent.png",
-   "media": {
-    "path": "media/webtorrent__webtorrent.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:p2p",
@@ -1572,10 +1494,7 @@
    "note": "Matt DesLauriers' toolkit for print-resolution generative art sketches with hot reload and export",
    "technique": "Sketch loop abstraction with physical-unit sizing and frame export",
    "readme_image": "https://raw.githubusercontent.com/mattdesl/canvas-sketch/master/docs/assets/images/chrome-example.png",
-   "media": {
-    "path": "media/mattdesl__canvas-sketch.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:terkelg/awesome-creative-coding",
@@ -1608,10 +1527,7 @@
    "note": "A complete ESP32 e-paper watch whose faces you code yourself",
    "technique": "ESP32 deep-sleep with partial-refresh e-paper rendering",
    "readme_image": "https://watchy.sqfmi.com/img/watchy_render.png",
-   "media": {
-    "path": "media/sqfmi__Watchy.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:esp32",
@@ -1676,10 +1592,7 @@
    "note": "WebGL shader route",
    "technique": null,
    "readme_image": "https://liquid-glass.ybouane.com/banner.jpg",
-   "media": {
-    "path": "media/ybouane__liquidglass.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:\"liquid glass\" webgl"
@@ -1707,10 +1620,7 @@
    "note": "C/WASM",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/Caltrop256__plop.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:\"falling sand\" game"
@@ -1745,10 +1655,7 @@
    "note": "Built for mobile browsers",
    "technique": null,
    "readme_image": "https://files.harag.cz/www/app/sand-game-js/preview-with-gui.png",
-   "media": {
-    "path": "media/Hartrik__sand-game-js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:\"falling sand\" game"
@@ -1774,10 +1681,7 @@
    "note": "3D, WebWorkers",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/ercang__boids-js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:boids"
@@ -1809,10 +1713,7 @@
    "note": "Spatial subdivision",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/cubedhuang/boids/main/readme/areas.png",
-   "media": {
-    "path": "media/cubedhuang__boids.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:boids"
@@ -1876,10 +1777,7 @@
    "note": "WebGL2",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/robert-leitl/ferrofluid/main/cover.jpg?raw=true",
-   "media": {
-    "path": "media/robert-leitl__ferrofluid.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:robert-leitl"
@@ -1938,10 +1836,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://i.imgur.com/c8BvDOj.jpg",
-   "media": {
-    "path": "media/SebLague__Hydraulic-Erosion.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:SebLague"
@@ -2004,10 +1899,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/danielchasehooper__ShapeUp-public.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:raymarching"
@@ -2031,10 +1923,7 @@
    "note": "Presentation layer",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/SebLague/Images/master/Atmosphere.png",
-   "media": {
-    "path": "media/SebLague__Solar-System.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:SebLague"
@@ -2069,10 +1958,7 @@
    "note": "Rust; restraint",
    "technique": null,
    "readme_image": "https://assets.sandydoo.me/flux/samples/flux-all-at-1280-800-logical.webp",
-   "media": {
-    "path": "media/sandydoo__flux.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:fluid-simulation"
@@ -2097,10 +1983,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/amandaghassaei/OrigamiSimulator/main/assets/doc/crane.gif",
-   "media": {
-    "path": "media/amandaghassaei__OrigamiSimulator.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:amandaghassaei"
@@ -2190,10 +2073,7 @@
    "note": "How road networks are really modelled",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/a-b-street__abstreet.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:physarum OR \"slime mold\" simulation"
@@ -2288,10 +2168,7 @@
    "note": "Lightweight engine for CSS, SVG, DOM and JS object animation; the homepage alone is a showcase of staggering and timelines",
    "technique": "Timeline and stagger-based tweening engine with spring and custom easing functions",
    "readme_image": "https://raw.githubusercontent.com/juliangarnier/anime/master/assets/images/animejs-v4-logo-animation.gif",
-   "media": {
-    "path": "media/juliangarnier__anime.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:animation"
@@ -2334,10 +2211,7 @@
    "note": "Progressive physically based path tracing of normal three.js scenes in the browser, with lots of live example scenes",
    "technique": "BVH (three-mesh-bvh) packed into textures and traversed in a fragment shader for progressive Monte Carlo path tracing",
    "readme_image": null,
-   "media": {
-    "path": "media/gkjohnson__three-gpu-pathtracer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:threejs"
@@ -2371,10 +2245,7 @@
    "note": "Bloom, SSAO, depth of field, god rays, glitch and more, merged into efficient passes; the demo lets you toggle every effect",
    "technique": "Effect merging: combining multiple fullscreen effects into a single shader pass to cut render passes",
    "readme_image": null,
-   "media": {
-    "path": "media/pmndrs__postprocessing.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl"
@@ -2412,10 +2283,7 @@
    "note": "Google's mobile-first physically based renderer, which also compiles to WebGL2; its design doc is one of the best PBR references anywhere",
    "technique": "Clustered forward rendering with physically based materials, IBL and camera exposure units",
    "readme_image": null,
-   "media": {
-    "path": "media/google__filament.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:webgl"
@@ -2440,10 +2308,7 @@
    "note": "Photoreal navigable Gaussian splat scenes on WebGL 1 with no dependencies, in a tiny codebase",
    "technique": "3D Gaussian splatting with worker-side depth sorting and instanced quad splats in WebGL 1",
    "readme_image": null,
-   "media": {
-    "path": "media/antimatter15__splat.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:gaussian splatting viewer webgl"
@@ -2473,10 +2338,7 @@
    "note": "Real B-rep CAD (OpenCascade compiled to WASM) scripted in JavaScript or OpenSCAD with live preview and STEP/STL export",
    "technique": "OpenCascade.js (WASM) B-rep kernel run in a web worker with code-driven CSG and fillets",
    "readme_image": "https://raw.githubusercontent.com/zalo/CascadeStudio/master/packages/cascade-studio/icon/CascadeStudioBanner-1257x519.png",
-   "media": {
-    "path": "media/zalo__CascadeStudio.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:cad"
@@ -2500,10 +2362,7 @@
    "note": "Fast, guaranteed-manifold mesh boolean operations, now used across CAD and 3D-printing tools, with a browser playground",
    "technique": "Topologically robust mesh booleans with symbolic perturbation, compiled to WASM for JS",
    "readme_image": null,
-   "media": {
-    "path": "media/elalish__manifold.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "starred-by:fogleman"
@@ -2541,10 +2400,7 @@
    "note": "The best-feeling whiteboard interactions on the web (hand-drawn strokes, snapping, arrows that bind to shapes), as an embeddable SDK",
    "technique": "Reactive signals-based canvas state with custom shape utilities and perfect-freehand pressure strokes",
    "readme_image": "https://raw.githubusercontent.com/tldraw/tldraw/main/assets/github-hero-light.png",
-   "media": {
-    "path": "media/tldraw__tldraw.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:multiplayer"
@@ -2585,10 +2441,7 @@
    "note": "Turns a multi-page site into seamless animated transitions between pages without a SPA framework",
    "technique": "PJAX navigation with lifecycle hooks (leave/enter) for animating between old and new page containers",
    "readme_image": "https://avatars0.githubusercontent.com/u/61326?v=4?s=100",
-   "media": {
-    "path": "media/barbajs__barba.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:animation"
@@ -2620,10 +2473,7 @@
    "note": "Generates palettes by drawing lines between anchor colours through HSL space, with a playful interactive demo",
    "technique": "HSL mapped to cartesian space, with palettes sampled along eased lines between anchor points",
    "readme_image": "https://raw.githubusercontent.com/meodai/poline/main/dist/poline-wheel.png",
-   "media": {
-    "path": "media/meodai__poline.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:color-palette"
@@ -2663,10 +2513,7 @@
    "note": "Choose a target contrast ratio and it generates the colour, so adaptive themes are accessible by construction",
    "technique": "Colour scale interpolation in perceptual spaces, solved for target WCAG contrast ratios against a background",
    "readme_image": "https://raw.githubusercontent.com/adobe/leonardo/main/.github/Leonardo_Logo.png",
-   "media": {
-    "path": "media/adobe__leonardo.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:color-palette"
@@ -2699,10 +2546,7 @@
    "note": "Generates whole worlds in the browser, with heightmap, rivers, biomes, states, cultures, religions, burgs and routes. Everything is editable and it exports at print quality.",
    "technique": "Voronoi/Delaunay cell graph with heightmap templates, precipitation-driven rivers and political expansion",
    "readme_image": "https://github.com/Azgaar/Fantasy-Map-Generator/assets/26469650/9502eae9-92e0-4d0d-9f17-a2ba4a565c01",
-   "media": {
-    "path": "media/Azgaar__Fantasy-Map-Generator.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:procedural-generation"
@@ -2727,10 +2571,7 @@
    "note": "You roll a marble across animated, raymarched fractals, and the physics collides against the distance estimator directly with no meshes.",
    "technique": "Fractal distance estimators used for both raymarched rendering and sphere collision",
    "readme_image": null,
-   "media": {
-    "path": "media/HackerPoet__MarbleMarcher.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:HackerPoet"
@@ -2754,10 +2595,7 @@
    "note": "Steven Wittens' declarative library for animated math diagrams such as vector fields, surfaces and quaternion hyperspheres. It is the engine behind his well-known math explainers.",
    "technique": "Declarative data-to-shader pipeline (ShaderGraph) on top of Three.js",
    "readme_image": "http://acko.net/files/mathbox2/cover1.jpg",
-   "media": {
-    "path": "media/unconed__mathbox.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "by:unconed"
@@ -2781,10 +2619,7 @@
    "note": "A wipEout-style racing game running in the browser with Three.js; an early showpiece of what WebGL could do",
    "technique": "Three.js racing game with heightmap/collision-map track physics and shader post-processing",
    "readme_image": null,
-   "media": {
-    "path": "media/BKcore__HexGL.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:leereilly/games"
@@ -2820,10 +2655,7 @@
    "note": "Hugely polished factory-building plus tower-defense game, fully open source and moddable",
    "technique": "Conveyor/logistics simulation on a tile grid with libGDX-based rendering",
    "readme_image": "https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets-raw/sprites/ui/logo.png",
-   "media": {
-    "path": "media/Anuken__Mindustry.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:Calinou/awesome-gamedev"
@@ -2854,10 +2686,7 @@
    "note": "A simple but strong engine you can read in one sitting, and play online as a Lichess bot (classic and NNUE versions)",
    "technique": "MTD-bi search with piece-square tables, null-move and transposition table",
    "readme_image": "https://raw.github.com/thomasahle/sunfish/master/docs/logo/sunfish_large.png",
-   "media": {
-    "path": "media/thomasahle__sunfish.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:chess engine stars:>300"
@@ -2900,10 +2729,7 @@
    "note": "Clean, commented AlphaGo Zero implementation with Othello, Connect4, Gobang and more; play against the trained agent",
    "technique": "MCTS guided by a policy/value network trained by self-play",
    "readme_image": "https://raw.githubusercontent.com/suragnair/alpha-zero-general/master/pretrained_models/6x6.png",
-   "media": {
-    "path": "media/suragnair__alpha-zero-general.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:monte-carlo-tree-search"
@@ -2936,10 +2762,7 @@
    "note": "Production behaviour-tree library with XML trees and the Groot2 GUI for editing and live-monitoring trees",
    "technique": "Behavior trees: sequences, fallbacks, decorators and reactive async actions",
    "readme_image": "https://raw.githubusercontent.com/BehaviorTree/BehaviorTree.CPP/master/animated.svg",
-   "media": {
-    "path": "media/BehaviorTree__BehaviorTree.CPP.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:robotics"
@@ -2969,10 +2792,7 @@
    "note": "Step through real code while arrays, graphs and trees animate alongside it, across hundreds of algorithms",
    "technique": "Code instrumented with tracer calls that drive synchronized visualizers",
    "readme_image": null,
-   "media": {
-    "path": "media/algorithm-visualizer__algorithm-visualizer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:animation"
@@ -2997,10 +2817,7 @@
    "note": "The original sorting audibilization whose videos went viral; hear the difference between algorithms",
    "technique": "Mapping array accesses and comparisons to sine-tone frequencies",
    "readme_image": null,
-   "media": {
-    "path": "media/bingmann__sound-of-sorting.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:sorting visualizer in:name,description stars:>50"
@@ -3035,10 +2852,7 @@
    "note": "Loads real Keras/TF.js models and renders each layer's activations as explorable 3D stacks",
    "technique": "Three.js layer geometry fed by intermediate tensor outputs from pre-trained models",
    "readme_image": "https://raw.githack.com/tensorspace-team/tensorspace/master/assets/logo.png",
-   "media": {
-    "path": "media/tensorspace-team__tensorspace.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:threejs"
@@ -3079,10 +2893,7 @@
    "note": "~50 KB chart lib that draws 150k+ points in milliseconds — absurdly small for what it does",
    "technique": "Canvas2D path batching and min/max decimation for time series",
    "readme_image": "https://raw.githubusercontent.com/leeoniya/uPlot/master/uPlot.png",
-   "media": {
-    "path": "media/leeoniya__uPlot.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:data-visualization"
@@ -3117,10 +2928,7 @@
    "note": "Paste a spreadsheet, get alluvials, beeswarms, circle packing and more as editable SVG",
    "technique": "D3 chart modules with a data-mapping UI (dimensions to visual variables) and SVG export",
    "readme_image": "http://dl.acm.org/images/oa.gif",
-   "media": {
-    "path": "media/rawgraphs__rawgraphs-app.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:data-visualization"
@@ -3154,10 +2962,7 @@
    "note": "Huge gallery of animated charts incl. 3D globes, graphs and large-data modes — a technique mine",
    "technique": "ZRender canvas/SVG scene graph with progressive rendering for large datasets",
    "readme_image": "https://raw.githubusercontent.com/apache/echarts/master/asset/logo.png?raw=true",
-   "media": {
-    "path": "media/apache__echarts.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:data-visualization"
@@ -3192,10 +2997,7 @@
    "note": "One million wind particles at 60fps, entirely on the GPU, in a few hundred lines",
    "technique": "GPU particle state stored in textures, ping-pong framebuffers and fading trail screen texture",
    "readme_image": null,
-   "media": {
-    "path": "media/mapbox__webgl-wind.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:particles"
@@ -3227,10 +3029,7 @@
    "note": "Runs GPT-2 live in the browser and animates attention and sampling for your own prompt",
    "technique": "ONNX runtime in-browser GPT-2 with Svelte/D3 animated attention and probability views",
    "readme_image": "https://github.com/user-attachments/assets/0a4d8888-6555-4df5-bc71-77f1299115c3",
-   "media": {
-    "path": "media/poloclub__transformer-explainer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:generative-ai"
@@ -3270,10 +3069,7 @@
    "note": "Turns a packet capture into an annotated network graph with device identification, Tor detection and suspicious-traffic flags (DEF CON 27 Demo Labs)",
    "technique": "PCAP parsing (scapy/dpkt/pyshark) into a host/flow graph rendered with graphviz",
    "readme_image": null,
-   "media": {
-    "path": "media/srixivas__PcapXray.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:packet visualizer OR network visualizer stars:>100"
@@ -3298,10 +3094,7 @@
    "note": "Runs real Linux binaries like GCC on any platform, and blinkenlights shows registers, memory and stack live in the terminal",
    "technique": "JIT-accelerated x86-64 emulation with Linux syscall translation",
    "readme_image": "https://raw.githubusercontent.com/jart/blink/master/blink/blink-gcc.png",
-   "media": {
-    "path": "media/jart__blink.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:rothgar/awesome-tuis"
@@ -3346,10 +3139,7 @@
    "note": "One Clojure-inspired Lisp built in 11 incremental steps, implemented in 89 languages; the step guide teaches interpreter building",
    "technique": "Step-by-step REPL, reader, env, TCO and macros following a shared architecture guide",
    "readme_image": null,
-   "media": {
-    "path": "media/kanaka__mal.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "awesome:codecrafters-io/build-your-own-x"
@@ -3384,10 +3174,7 @@
    "note": "Code, sprite, map, SFX and music editors all inside a 240x136 virtual console that runs in the browser",
    "technique": "Fantasy-console constraints: fixed palette, memory map and cartridge format with embedded Lua/JS/etc runtimes",
    "readme_image": null,
-   "media": {
-    "path": "media/nesbox__TIC-80.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:fantasy-console"
@@ -3454,10 +3241,7 @@
    "note": "Accurate GB/GBC emulator with rewind and a rich debugger (tile, OAM and memory viewers) that runs in the browser",
    "technique": "Cycle-accurate Game Boy emulation compiled to WASM with ImGui debugger windows",
    "readme_image": null,
-   "media": {
-    "path": "media/binji__binjgb.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "query:emulator in browser stars:>300"
@@ -3487,10 +3271,7 @@
    "note": "A single dependency-free JS file that draws endless, beautifully hatched scientific-illustration fish",
    "technique": "Procedural polyline generation with hatching and occlusion clipping for plotter output",
    "readme_image": "https://raw.githubusercontent.com/LingDong-/fishdraw/main/samples/000020.svg",
-   "media": {
-    "path": "media/LingDong-__fishdraw.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:procedural-generation"
@@ -3520,10 +3301,7 @@
    "note": "A tiny, opinionated vector editor for logos and icons from the Hundred Rabbits sailboat studio",
    "technique": "Grid-snapped path construction exported to SVG",
    "readme_image": null,
-   "media": {
-    "path": "media/hundredrabbits__Dotgrid.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:drawing-app"
@@ -3595,10 +3373,7 @@
    "note": "A tiny expressive desk robot with an animated face, programmable in JS with browser tools",
    "technique": "Moddable SDK JavaScript on ESP32 with servo-driven head and face rendering",
    "readme_image": null,
-   "media": {
-    "path": "media/stack-chan__stack-chan.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed",
     "topic:esp32"
@@ -3678,10 +3453,7 @@
    "note": "Recursive portals, screen-space slicing",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/SebLague/Images/master/Portals.png",
-   "media": {
-    "path": "media/SebLague__Portals.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -3704,10 +3476,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/EricPlayZ/NonEuclidean-Godot/master/screenshot.jpg",
-   "media": {
-    "path": "media/EricPlayZ__NonEuclidean-Godot.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -3784,10 +3553,7 @@
    "note": "One-file SVG displacement",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/deepika-builds/liquid-glass/main/demo/screenshot.jpg",
-   "media": {
-    "path": "media/deepika-builds__liquid-glass.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -3873,10 +3639,7 @@
    "note": "Clearest explanation",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/SebLague/Images/master/Slime%202.PNG",
-   "media": {
-    "path": "media/SebLague__Slime-Simulation.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -3943,10 +3706,7 @@
    "note": "Rust; Schwarzschild + Kerr",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/mdreem/gr_raytracer/master/kerr_black_hole_with_stars.png",
-   "media": {
-    "path": "media/mdreem__gr_raytracer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4173,10 +3933,7 @@
    "note": "React; easiest to graft into a site",
    "technique": null,
    "readme_image": "https://user-images.githubusercontent.com/2503289/27006798-32a4af54-4df3-11e7-88fb-61e72023e689.gif",
-   "media": {
-    "path": "media/ahuth__raycast.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4285,10 +4042,7 @@
    "note": "Raycaster in pure DOM",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/yurkagon/ReactCasting/master/main.gif",
-   "media": {
-    "path": "media/yurkagon__ReactCasting.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4322,10 +4076,7 @@
    "note": "Custom deterministic C++ physics",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/AndrewB330__MusicMarbles.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4349,10 +4100,7 @@
    "note": "Three.js",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/yomboprime__marbleMachine.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4381,10 +4129,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/piellardj/piellardj.github.io/master/images/readme/donate-paypal.svg",
-   "media": {
-    "path": "media/piellardj__reaction-diffusion-webgl.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4417,10 +4162,7 @@
    "note": "Anisotropic + Phong",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/linusmossberg/reaction-diffusion/master/data/reaction-diffusion-default.jpg",
-   "media": {
-    "path": "media/linusmossberg__reaction-diffusion.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4475,10 +4217,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://i.imgur.com/D0Dhn0a.png",
-   "media": {
-    "path": "media/SebLague__Ray-Marching.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4513,10 +4252,7 @@
    "note": "CUDA; Barnes-Hut",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/Hsin-Hung/N-body-simulation/main/images/galaxy_collision.png",
-   "media": {
-    "path": "media/Hsin-Hung__N-body-simulation.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4549,10 +4285,7 @@
    "note": "Bad integrators evaporate galaxies",
    "technique": null,
    "readme_image": "https://img.youtube.com/vi/C45ceYja0jE/0.jpg",
-   "media": {
-    "path": "media/alvinng4__grav_sim.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4585,10 +4318,7 @@
    "note": "WebGPU",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/nicosmo/cosmic_web_explorer/main/Examples/BAO_example.png",
-   "media": {
-    "path": "media/nicosmo__cosmic_web_explorer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4683,10 +4413,7 @@
    "note": "Crease-pattern editor",
    "technique": null,
    "readme_image": "https://imgur.com/dUT8JK6.png",
-   "media": {
-    "path": "media/oriedita__oriedita.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4820,10 +4547,7 @@
    "note": "Cleanest read",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/luciopaiva/chladni/master/screenshot.png",
-   "media": {
-    "path": "media/luciopaiva__chladni.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4868,10 +4592,7 @@
    "note": "Audio-reactive, 3D",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/nolangz/3D-Chladni/main/media/chladni-cosmic-demo.gif",
-   "media": {
-    "path": "media/nolangz__3D-Chladni.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -4930,10 +4651,7 @@
    "note": "p5",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/addiebarron/chladni/master/screenshot.png",
-   "media": {
-    "path": "media/addiebarron__chladni.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5017,10 +4735,7 @@
    "note": "TS/Pixi",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/nilsgollub/AntSim_V2/main/docs/preview.gif",
-   "media": {
-    "path": "media/nilsgollub__AntSim_V2.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5132,10 +4847,7 @@
    "note": "Three.js",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/jstrait/city-tour/master/city_tour.gif",
-   "media": {
-    "path": "media/jstrait__city-tour.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5203,10 +4915,7 @@
    "note": "The pipeline, assembled",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/tuqire__webcam-particles.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5229,10 +4938,7 @@
    "note": "depth-estimation: per-pixel depth from one camera",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/tensorflow__tfjs-models.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5264,10 +4970,7 @@
    "note": "Car-following model; phantom jams",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/toruseo/UXsim/images/gridnetwork_macro.gif",
-   "media": {
-    "path": "media/toruseo__UXsim.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5295,10 +4998,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/cityflow-project__CityFlow.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5321,10 +5021,7 @@
    "note": "Seed off floor(Date.now()/86400000)",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/davidbau__seedrandom.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5347,10 +5044,7 @@
    "note": "Morphs any SVG shape into any other, even with different point counts, and the demo page makes it look easy",
    "technique": "Polygon resampling, point-count matching and rotation alignment for shape interpolation; triangulation-based shape splitting",
    "readme_image": null,
-   "media": {
-    "path": "media/veltman__flubber.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5373,10 +5067,7 @@
    "note": "Designers export AE compositions as JSON and they play as vector animation in the browser, no video",
    "technique": "Bodymovin JSON scene format interpreted into SVG/canvas renderers with shape layers, masks and expressions",
    "readme_image": "https://raw.githubusercontent.com/airbnb/lottie-web/master/gifs/Example1.gif",
-   "media": {
-    "path": "media/airbnb__lottie-web.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5410,10 +5101,7 @@
    "note": "The smooth-scroll layer under a lot of award-site scroll-driven scenes, while keeping native scroll, sticky and anchors working",
    "technique": "Lerped virtual scroll position applied to native scroll (not transform hijacking), synced to a RAF loop for scroll-driven animation",
    "readme_image": "https://assets.darkroom.engineering/lenis/banner.gif",
-   "media": {
-    "path": "media/darkroomengineering__lenis.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5437,10 +5125,7 @@
    "note": "Renders a Schwarzschild black hole with accretion disk and lensed sky, with a write-up explaining the physics shortcut",
    "technique": "Geodesic ray integration in Schwarzschild spacetime via a Binet-equation force trick, vectorised in numpy",
    "readme_image": null,
-   "media": {
-    "path": "media/rantonels__starless.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5463,10 +5148,7 @@
    "note": "Clean, well-explained toon-style outlines that catch interior edges too, with a live demo and an accompanying article",
    "technique": "Edge detection on depth, normal and surface-ID buffers in a post-process pass (non-photorealistic rendering)",
    "readme_image": "https://raw.githubusercontent.com/OmarShehata/webgl-outlines/main/media/boat_outline_3_versions.jpeg",
-   "media": {
-    "path": "media/OmarShehata__webgl-outlines.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5489,10 +5171,7 @@
    "note": "Full digital sculpting app (brushes, dynamic topology, multiresolution) that runs in a browser tab; the precursor to Nomad Sculpt",
    "technique": "Dynamic topology and multiresolution mesh sculpting with octree picking in WebGL",
    "readme_image": null,
-   "media": {
-    "path": "media/stephomi__sculptgl.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5535,10 +5214,7 @@
    "note": "A full voxel editor with modelling, path-traced rendering and export, from a small, lesser-known repo",
    "technique": "Babylon.js-based voxel editing with thin-instanced voxels and mesh export pipelines",
    "readme_image": "https://raw.githubusercontent.com/nimadez/voxel-builder/main/media/screenshot.png?raw=true",
-   "media": {
-    "path": "media/nimadez__voxel-builder.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5570,10 +5246,7 @@
    "note": "The gesture layer behind many physics-feeling UIs; pair it with springs and you get cards, sheets and carousels with momentum",
    "technique": "Unified pointer/touch/wheel gesture state machine with velocity, offset and rubberband bounds",
    "readme_image": "https://i.imgur.com/qLKJod3.gif",
-   "media": {
-    "path": "media/pmndrs__use-gesture.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5632,10 +5305,7 @@
    "note": "Parse a font, get glyph outlines as paths and draw or edit type in the browser, the base for kinetic-type experiments",
    "technique": "OpenType/TrueType table parsing to glyph bezier paths, kerning and font serialisation",
    "readme_image": null,
-   "media": {
-    "path": "media/opentypejs__opentype.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5658,10 +5328,7 @@
    "note": "The flexbox implementation behind React Native, usable for laying out UI on canvas, WebGL or anywhere with no DOM",
    "technique": "Standalone CSS flexbox layout algorithm in C++ with WASM/JS bindings",
    "readme_image": null,
-   "media": {
-    "path": "media/react__yoga.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5695,10 +5362,7 @@
    "note": "A large, strict, consistent 24px stroke icon set with design rules and tooling for keeping thousands of icons coherent",
    "technique": "Icon design system with a grid, stroke and cap conventions, SVG optimisation and per-framework package generation",
    "readme_image": "https://lucide.dev/lucide-logo-repo.svg#gh-light-mode-only",
-   "media": {
-    "path": "media/lucide-icons__lucide.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5721,10 +5385,7 @@
    "note": "A SIGGRAPH 2018 material point method solver for snow, sand, jelly and cutting. It includes an 88-line single-file version, and a JS port runs in the browser.",
    "technique": "Moving least squares material point method (MLS-MPM) with particle-to-grid transfer",
    "readme_image": "https://raw.githubusercontent.com/yuanming-hu/public_files/master/graphics/mls-mpm-cpic/water_wheel.gif",
-   "media": {
-    "path": "media/yuanming-hu__taichi_mpm.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5752,10 +5413,7 @@
    "note": "Conway's Life in the browser on an infinite field. Hashlife lets you zoom out and fast-forward huge patterns (breeders, computers) by billions of generations.",
    "technique": "Hashlife: memoised quadtree for exponential time-stepping of cellular automata",
    "readme_image": null,
-   "media": {
-    "path": "media/copy__life.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5781,10 +5439,7 @@
    "note": "Draw intersections and roads in the browser and watch cars queue, change lanes and jam, while the simulator tunes the traffic-light timings.",
    "technique": "Intelligent Driver Model (IDM) car-following plus MOBIL lane-changing",
    "readme_image": null,
-   "media": {
-    "path": "media/volkhin__RoadTrafficSimulator.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5811,10 +5466,7 @@
    "note": "An endless 3D city assembled on the fly from modular blocks, the best-known 3D showcase of wave function collapse.",
    "technique": "3D wave function collapse over modular tiles with backtracking and chunked infinite generation",
    "readme_image": "https://i.imgur.com/vL80izv.jpg",
-   "media": {
-    "path": "media/marian42__wavefunctioncollapse.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5837,10 +5489,7 @@
    "note": "Generates convincing city street maps (main roads, minor roads, parks, coastlines, buildings) step by step in the browser and exports them as SVG or STL.",
    "technique": "Tensor-field-guided streamline road generation",
    "readme_image": "https://raw.githubusercontent.com/ProbableTrain/MapGenerator/master/docs/images/logo.png",
-   "media": {
-    "path": "media/ProbableTrain__MapGenerator.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5890,10 +5539,7 @@
    "note": "Source of watabou's well-known generator of walled medieval towns, with wards, citadels, gates and streets on a map-like plan.",
    "technique": "Voronoi patch subdivision into wards, with wall and street routing and recursive building lot splitting",
    "readme_image": null,
-   "media": {
-    "path": "media/watabou__TownGeneratorOS.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5916,10 +5562,7 @@
    "note": "A fast, good-looking plotter for complex functions (zeta, elliptic functions, the j-invariant, Julia sets) that also computes contour integrals and residues, with slider variables.",
    "technique": "Domain colouring: a user expression is compiled to a GLSL fragment shader, with hue for phase and brightness for magnitude",
    "readme_image": "https://raw.githubusercontent.com/wgxli/complex-function-plotter/master/images/screenshot-1.png",
-   "media": {
-    "path": "media/wgxli__complex-function-plotter.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5943,10 +5586,7 @@
    "note": "A full game played on hyperbolic tilings. It also ships RogueViz, an engine for non-Euclidean visualisations (spherical, Nil, Sol, and more).",
    "technique": "Hyperbolic tilings in the Poincaré and Klein models, with Minkowski-space (hyperboloid) coordinates",
    "readme_image": null,
-   "media": {
-    "path": "media/zenorogue__hyperrogue.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -5970,10 +5610,7 @@
    "note": "The original animated wind map, with flowing particle streamlines over a spinnable globe driven by real GFS weather data.",
    "technique": "Particle advection through a bilinearly interpolated wind vector field on D3 map projections",
    "readme_image": null,
-   "media": {
-    "path": "media/cambecc__earth.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6029,10 +5666,7 @@
    "note": "The WebGL viewer behind RCSB PDB and AlphaFold DB, able to stream and render huge macromolecular structures in the browser.",
    "technique": "GPU impostor rendering of molecular representations with a streaming structure-data pipeline",
    "readme_image": null,
-   "media": {
-    "path": "media/molstar__molstar.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6062,10 +5696,7 @@
    "note": "A configurable sky map with stars, constellations, the Milky Way and moving planets in many projections, including printable wall maps and a current-sky view.",
    "technique": "Celestial GeoJSON rendered through D3 geo projections",
    "readme_image": null,
-   "media": {
-    "path": "media/ofrohn__d3-celestial.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6089,10 +5720,7 @@
    "note": "The original rollback networking library from fighting games; the reference for making online play feel like zero latency",
    "technique": "Rollback netcode: input prediction, speculative execution and state resimulation",
    "readme_image": "https://raw.githubusercontent.com/pond3r/ggpo/master/doc/images/ggpo_header.png",
-   "media": {
-    "path": "media/pond3r__ggpo.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6122,10 +5750,7 @@
    "note": "Much-loved pixel-art roguelike dungeon crawler with procedural levels and hundreds of items",
    "technique": "Procedural dungeon room generation and turn-based roguelike systems",
    "readme_image": null,
-   "media": {
-    "path": "media/00-Evan__shattered-pixel-dungeon.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6175,10 +5800,7 @@
    "note": "Draw walls and watch A*, JPS, Dijkstra, BFS and others explore the grid live",
    "technique": "A*, Jump Point Search and bidirectional search on grids",
    "readme_image": null,
-   "media": {
-    "path": "media/qiao__PathFinding.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6202,10 +5824,7 @@
    "note": "Interactive side-by-side exploration of maze generation algorithms with animated generation and explanations",
    "technique": "Recursive backtracker, Kruskal, Prim, Wilson and Aldous-Broder spanning-tree mazes",
    "readme_image": null,
-   "media": {
-    "path": "media/professor-l__mazes.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6229,10 +5848,7 @@
    "note": "Every matrix multiply of a small GPT drawn as glowing 3D blocks you can fly through, step by step",
    "technique": "WebGL instanced blocks + camera-tour animation driven by real transformer forward-pass values",
    "readme_image": null,
-   "media": {
-    "path": "media/bbycroft__llm-viz.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6262,10 +5878,7 @@
    "note": "Live CNN in the browser with animated convolution, ReLU and softmax views you can click into",
    "technique": "TensorFlow.js model + Svelte/D3 linked overview-to-detail animated transitions",
    "readme_image": "https://i.imgur.com/sCsudVg.png",
-   "media": {
-    "path": "media/poloclub__cnn-explainer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6288,10 +5901,7 @@
    "note": "The classic: train a tiny net live and watch every neuron's decision boundary paint itself",
    "technique": "Hand-rolled backprop in TypeScript + per-neuron heatmap canvases rendered with D3",
    "readme_image": null,
-   "media": {
-    "path": "media/tensorflow__playground.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6315,10 +5925,7 @@
    "note": "Tiny web toy where a 3x3 kernel plus an activation function produces worms, waves and slime — hidden gem",
    "technique": "Neural cellular automata as a WebGL fragment shader: 3x3 convolution then custom activation",
    "readme_image": null,
-   "media": {
-    "path": "media/gameBear__webgl-convolution.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6362,10 +5969,7 @@
    "note": "Pivots and charts millions of streaming rows in the browser at interactive speed",
    "technique": "C++ query engine compiled to WebAssembly feeding a virtualized datagrid and WebGL charts",
    "readme_image": "https://raw.githubusercontent.com/perspective-dev/perspective/master/docs/static/svg/perspective-logo-light.svg?raw=true",
-   "media": {
-    "path": "media/perspective-dev__perspective.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6394,10 +5998,7 @@
    "note": "Brush-and-link across billions of rows with crossfilter speed, straight from a database",
    "technique": "Coordinator that pushes view queries into DuckDB (WASM or server) with pre-aggregated materialized indexes",
    "readme_image": null,
-   "media": {
-    "path": "media/uwdata__mosaic.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6458,10 +6059,7 @@
    "note": "Play the iterated prisoner's dilemma against cartoon strategies — the gold standard explorable",
    "technique": "Pixi.js-driven narrative slides with embedded live game-theory tournaments",
    "readme_image": "https://i.imgur.com/kde760y.png",
-   "media": {
-    "path": "media/ncase__trust.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6488,10 +6086,7 @@
    "note": "Book-length interactive primer — every section has a draggable curve demonstrating the math",
    "technique": "De Casteljau, curve offsetting, arc-length and intersection algorithms with live canvas sketches",
    "readme_image": null,
-   "media": {
-    "path": "media/Pomax__BezierInfo-2.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6515,10 +6110,7 @@
    "note": "Beautifully minimal DSP primer — phasors, sampling, aliasing and the DFT as animated diagrams",
    "technique": "D3 animated phasor and sampling diagrams building up to the discrete Fourier transform",
    "readme_image": "https://raw.githubusercontent.com/jackschaedler/circles-sines-signals/master/preview.png",
-   "media": {
-    "path": "media/jackschaedler__circles-sines-signals.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6542,10 +6134,7 @@
    "note": "Drag shapes around to feel Schelling's segregation model — tiny biases, big patterns",
    "technique": "Schelling agent-based segregation model with drag-and-drop interaction in a narrative page",
    "readme_image": "http://i.imgur.com/NcsRW1q.png",
-   "media": {
-    "path": "media/ncase__polygons.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6569,10 +6158,7 @@
    "note": "npm, PyPI, RubyGems etc. dependency graphs rendered as flyable 3D star galaxies",
    "technique": "ngraph force layout precomputed offline, rendered as WebGL point clouds with fly-through camera",
    "readme_image": "https://raw.githubusercontent.com/wiki/anvaka/pm/images/bower_fly_first.png",
-   "media": {
-    "path": "media/anvaka__pm.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6604,10 +6190,7 @@
    "note": "Simulates and renders force graphs with hundreds of thousands of nodes in real time",
    "technique": "Force-directed layout computed entirely in WebGL shaders (many-body via quadtree textures)",
    "readme_image": "https://assets.cosmograph.app/cosmos-light-theme.svg",
-   "media": {
-    "path": "media/cosmosgl__graph.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6630,10 +6213,7 @@
    "note": "Small, readable, complete offline-first sync system from the Actual Budget author — pure technique",
    "technique": "Hybrid logical clocks + LWW-map CRDT + merkle-tree diffing for sync",
    "readme_image": null,
-   "media": {
-    "path": "media/jlongster__crdt-example-app.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6656,10 +6236,7 @@
    "note": "See the shape of an unknown file (Hilbert maps, byte-trigram clouds), then click straight through to the bytes",
    "technique": "Hilbert-curve byte mapping and 2/3-tuple digraph point clouds for binary classification",
    "readme_image": "https://raw.githubusercontent.com/Battelle/cantordust/master/resources/screenshots/ui.png",
-   "media": {
-    "path": "media/Battelle__cantordust.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6722,10 +6299,7 @@
    "note": "Chain Enigma, ciphers, encodings and hashes as live-updating blocks; changes ripple both directions instantly",
    "technique": "Pipeline of bidirectional encoder bricks recomputed on every keystroke, fully client-side",
    "readme_image": null,
-   "media": {
-    "path": "media/cryptii__cryptii.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6756,10 +6330,7 @@
    "note": "GCHQ's drag-and-drop recipe builder for encoding, crypto, compression and data analysis; hundreds of operations in one static page",
    "technique": "Composable operation 'recipes' serialised into the URL, running entirely in the browser",
    "readme_image": null,
-   "media": {
-    "path": "media/gchq__CyberChef.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6854,10 +6425,7 @@
    "note": "Z80, 6502, AY, video chips and whole C64/CPC/ZX systems, compiled to WebAssembly with visual debuggers you can open in the browser",
    "technique": "Cycle-stepped chip emulation with pin-level interfaces in dependency-free C headers",
    "readme_image": null,
-   "media": {
-    "path": "media/floooh__chips.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6890,10 +6458,7 @@
    "note": "Write assembly or C for Atari 2600, NES, arcade boards and more, with instant emulation and a live Verilog simulator",
    "technique": "In-browser assemblers/compilers wired to JS emulators with live reload and debugging",
    "readme_image": null,
-   "media": {
-    "path": "media/sehugg__8bitworkshop.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6916,10 +6481,7 @@
    "note": "Your repo as a living force-directed tree where contributors fly around zapping files over time",
    "technique": "OpenGL force-directed file tree driven by parsed VCS logs, exportable to video",
    "readme_image": null,
-   "media": {
-    "path": "media/acaudwell__Gource.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6945,10 +6507,7 @@
    "note": "Diffs the syntax tree instead of lines, so reformatting and moved code no longer show up as noise",
    "technique": "Tree-sitter parsing plus Dijkstra shortest-path search over the syntax-tree diff graph",
    "readme_image": "https://raw.githubusercontent.com/Wilfred/difftastic/master/img/wrap_expr.png",
-   "media": {
-    "path": "media/Wilfred__difftastic.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -6986,10 +6545,7 @@
    "note": "The node editor underneath ComfyUI; a full Blueprint-style graph editor drawn in plain Canvas2D",
    "technique": "Dataflow node graph execution with a custom Canvas2D-rendered editor",
    "readme_image": "https://raw.githubusercontent.com/jagenjo/litegraph.js/master/imgs/node_graph_example.png",
-   "media": {
-    "path": "media/jagenjo__litegraph.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7020,10 +6576,7 @@
    "note": "Every letter on a 2D grid is an operator; programs look like ASCII art and play music over MIDI/OSC",
    "technique": "2D esoteric livecoding language driving MIDI/OSC/UDP",
    "readme_image": "https://raw.githubusercontent.com/hundredrabbits/100r.co/master/media/content/characters/orca.hello.png",
-   "media": {
-    "path": "media/hundredrabbits__Orca.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7056,10 +6609,7 @@
    "note": "Winamp's legendary Milkdrop presets, reborn in the browser",
    "technique": "Per-frame/per-pixel preset equations compiled to WebGL 2 shaders with feedback warping",
    "readme_image": "https://raw.githubusercontent.com/jberg/butterchurn/master/preview.png",
-   "media": {
-    "path": "media/jberg__butterchurn.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7082,10 +6632,7 @@
    "note": "A sprawling modular environment you rewire while it plays, with Python livecoding built in",
    "technique": "Modular audio graph with live repatching and embedded Python scripting",
    "readme_image": "https://dev.azure.com/awwbees/BespokeSynth/_apis/build/status/BespokeSynth.BespokeSynth?branchName=main",
-   "media": {
-    "path": "media/BespokeSynth__BespokeSynth.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7108,10 +6655,7 @@
    "note": "Source of a pro-grade wavetable synth famous for its animated, visual UI",
    "technique": "Spectral wavetable warping with GPU-drawn realtime visualizations",
    "readme_image": null,
-   "media": {
-    "path": "media/mtytel__vital.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7134,10 +6678,7 @@
    "note": "Compiles audio graphs into one optimized per-sample callback; has a live playground",
    "technique": "Code generation of per-sample DSP callbacks for Web Audio worklets",
    "readme_image": null,
-   "media": {
-    "path": "media/charlieroberts__genish.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7181,10 +6722,7 @@
    "note": "Firmware that makes palm-sized robot pets walk, trot and do tricks like tiny Boston Dynamics bots",
    "technique": "Quadruped gait generation and servo control on Arduino/ESP32",
    "readme_image": "https://raw.githubusercontent.com/PetoiCamp/NonCodeFiles/master/gif/walk.gif?raw=true",
-   "media": {
-    "path": "media/PetoiCamp__OpenCat-Quadruped-Robot.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7239,10 +6777,7 @@
    "note": "A small networked desk avatar with a web dashboard, poke interface and browser flash tool",
    "technique": "ESP32-C3 firmware plus web-based flashing and device network",
    "readme_image": "https://raw.githubusercontent.com/SeanChangX/QBIT/main/docs/images/Network.png",
-   "media": {
-    "path": "media/SeanChangX__QBIT.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7323,10 +6858,7 @@
    "note": "Why: one instruction, yet it has a standard library, a C compiler and an online IDE",
    "technique": "One-instruction-set computer with macro assembler and C-to-FJ compiler",
    "readme_image": null,
-   "media": {
-    "path": "media/tomhea__flipjump.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7378,10 +6910,7 @@
    "note": "Why: a shader-like programming model where every pixel is a character; gorgeous text-mode demos",
    "technique": "Per-cell main() function rendering animated ASCII to the DOM or canvas",
    "readme_image": null,
-   "media": {
-    "path": "media/ertdfgcvb__play.core.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "seed"
    ],
@@ -7410,53 +6939,6 @@
    },
    "sources": [
     "seed"
-   ],
-   "first_seen": "2026-09-24"
-  },
-  {
-   "repo": "sindresorhus/awesome",
-   "url": "https://github.com/sindresorhus/awesome",
-   "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-   "homepage": "https://sindresorhus.github.io/awesome/",
-   "language": null,
-   "topics": [
-    "awesome",
-    "awesome-list",
-    "lists",
-    "resources",
-    "unicorns"
-   ],
-   "stars": 509571,
-   "pushed": "2026-09-02",
-   "licence": "CC0-1.0",
-   "categories": [
-    "rendering",
-    "simulation",
-    "motion",
-    "game-ai",
-    "design",
-    "audio",
-    "dataviz",
-    "security",
-    "ai-ml"
-   ],
-   "idea": null,
-   "note": "",
-   "technique": null,
-   "readme_image": "https://raw.githubusercontent.com/sindresorhus/awesome/main/media/logo.svg",
-   "media": {
-    "path": "media/sindresorhus__awesome.webp",
-    "kind": "demo"
-   },
-   "sources": [
-    "awesome:terkelg/awesome-creative-coding",
-    "awesome:sjfricke/awesome-webgl",
-    "awesome:ellisonleao/magictools",
-    "awesome:willianjusten/awesome-audio-visualization",
-    "awesome:wbkd/awesome-d3",
-    "awesome:sbilly/awesome-security",
-    "awesome:apsdehal/awesome-ctf",
-    "awesome:josephmisiti/awesome-machine-learning"
    ],
    "first_seen": "2026-09-24"
   },
@@ -7494,10 +6976,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/mrdoob__three.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:terkelg/awesome-creative-coding",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -7543,10 +7022,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://lygia.xyz/imgs/lygia.svg",
-   "media": {
-    "path": "media/patriciogonzalezvivo__lygia.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:terkelg/awesome-creative-coding",
     "topic:webgl",
@@ -7592,10 +7068,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/BabylonJS__Babylon.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:terkelg/awesome-creative-coding",
     "awesome:Calinou/awesome-gamedev",
@@ -7647,10 +7120,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://i.imgur.com/x8rtGr4.gif",
-   "media": {
-    "path": "media/lettier__3d-game-shaders-for-beginners.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:radixzz/awesome-glsl",
     "awesome:ellisonleao/magictools",
@@ -7694,10 +7164,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/pioneerspacesim__pioneer.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:Calinou/awesome-gamedev",
     "awesome:leereilly/games",
@@ -7742,10 +7209,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg",
-   "media": {
-    "path": "media/antvis__L7.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:sshuair/awesome-gis",
     "topic:webgl",
@@ -7790,10 +7254,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/amandaghassaei/gpu-io/main/docs/main-image.jpg",
-   "media": {
-    "path": "media/amandaghassaei__gpu-io.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "topic:threejs",
     "topic:glsl",
@@ -7826,10 +7287,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/kripken__ammo.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:terkelg/awesome-creative-coding",
     "awesome:sjfricke/awesome-webgl",
@@ -7867,10 +7325,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://i.imgur.com/SH7wcas.png",
-   "media": {
-    "path": "media/fogleman__Craft.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:Calinou/awesome-gamedev",
     "awesome:leereilly/games",
@@ -7919,10 +7374,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://repository-images.githubusercontent.com/3925242/a4566200-912a-11ea-984f-c387546a3126",
-   "media": {
-    "path": "media/bkaradzic__bgfx.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:Calinou/awesome-gamedev",
     "awesome:ellisonleao/magictools",
@@ -8017,10 +7469,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/kitao/pyxel/main/docs/images/pyxel_logo_152x64.png",
-   "media": {
-    "path": "media/kitao__pyxel.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:ellisonleao/magictools",
     "topic:webgl",
@@ -8060,10 +7509,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/postspectacular__toxiclibs.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:jasonwebb/morphogenesis-resources",
     "topic:physics-simulation",
@@ -8111,10 +7557,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/playcanvas__engine.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:leereilly/games",
     "topic:webgl",
@@ -8157,10 +7600,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/youtube-popular-videos.png",
-   "media": {
-    "path": "media/bilawalsidhu__gods-eye-view.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "topic:webgl",
     "topic:photogrammetry",
@@ -8209,67 +7649,13 @@
    "note": "",
    "technique": null,
    "readme_image": "https://cloud.githubusercontent.com/assets/674727/24572421/688f7fc0-162d-11e7-8a35-b02bc050c043.jpg",
-   "media": {
-    "path": "media/aframevr__aframe.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "topic:webgl",
     "topic:threejs",
     "topic:game-engine",
     "topic:ecs",
     "starred-by:jasonwebb"
-   ],
-   "first_seen": "2026-09-24"
-  },
-  {
-   "repo": "terkelg/awesome-creative-coding",
-   "url": "https://github.com/terkelg/awesome-creative-coding",
-   "description": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
-   "homepage": null,
-   "language": "HTML",
-   "topics": [
-    "3d-graphics",
-    "art",
-    "awesome",
-    "awesome-list",
-    "computer-graphics",
-    "creative-coding",
-    "data-visualization",
-    "design",
-    "generative-art",
-    "graphics-programming",
-    "information-visualization",
-    "interaction-design",
-    "list",
-    "programming-graphics",
-    "resources",
-    "shaders",
-    "webgl"
-   ],
-   "stars": 15358,
-   "pushed": "2026-07-21",
-   "licence": "unknown",
-   "categories": [
-    "rendering",
-    "procgen",
-    "dataviz",
-    "interaction"
-   ],
-   "idea": null,
-   "note": "",
-   "technique": null,
-   "readme_image": "https://raw.githubusercontent.com/terkelg/awesome-creative-coding/master/cover.png",
-   "media": {
-    "path": "media/terkelg__awesome-creative-coding.webp",
-    "kind": "readme"
-   },
-   "sources": [
-    "topic:webgl",
-    "topic:generative-art",
-    "topic:data-visualization",
-    "topic:creative-coding",
-    "starred-by:mattdesl"
    ],
    "first_seen": "2026-09-24"
   },
@@ -8314,109 +7700,13 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/AsPJT__DungeonTemplateLibrary.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "topic:procedural-generation",
     "topic:generative-art",
     "topic:creative-coding",
     "topic:voxel",
     "topic:roguelike"
-   ],
-   "first_seen": "2026-09-24"
-  },
-  {
-   "repo": "eug/awesome-opengl",
-   "url": "https://github.com/eug/awesome-opengl",
-   "description": "A curated list of awesome OpenGL libraries, debuggers and resources.",
-   "homepage": null,
-   "language": null,
-   "topics": [
-    "awesome",
-    "awesome-list",
-    "computer-graphics",
-    "game-development",
-    "glsl-editors",
-    "graphics-pipeline",
-    "lists",
-    "opengl",
-    "opengl-library",
-    "opengl-tutorial",
-    "video-tutorial"
-   ],
-   "stars": 2444,
-   "pushed": "2026-01-09",
-   "licence": "unknown",
-   "categories": [
-    "rendering",
-    "simulation",
-    "motion",
-    "3d"
-   ],
-   "idea": null,
-   "note": "",
-   "technique": null,
-   "readme_image": "https://rawgit.com/eug/awesome-opengl/master/opengl-logo.svg",
-   "media": {
-    "path": "media/eug__awesome-opengl.webp",
-    "kind": "social"
-   },
-   "sources": [
-    "awesome:terkelg/awesome-creative-coding",
-    "awesome:sjfricke/awesome-webgl",
-    "awesome:radixzz/awesome-glsl",
-    "awesome:mattdesl/graphics-resources"
-   ],
-   "first_seen": "2026-09-24"
-  },
-  {
-   "repo": "ellisonleao/magictools",
-   "url": "https://github.com/ellisonleao/magictools",
-   "description": ":video_game: :pencil: A list of Game Development resources to make magic happen.",
-   "homepage": null,
-   "language": "Markdown",
-   "topics": [
-    "art",
-    "awesome",
-    "awesome-list",
-    "board-games",
-    "curated",
-    "design",
-    "frameworks",
-    "game-design",
-    "game-development",
-    "game-engine",
-    "game-jam",
-    "game-programming",
-    "gamedev",
-    "games",
-    "hacktoberfest",
-    "list"
-   ],
-   "stars": 17358,
-   "pushed": "2026-09-23",
-   "licence": "MIT",
-   "categories": [
-    "rendering",
-    "simulation",
-    "motion",
-    "game-engines"
-   ],
-   "idea": null,
-   "note": "",
-   "technique": null,
-   "readme_image": "https://cdn.rawgit.com/ellisonleao/magictools/7d8012bc/magicbg.jpg",
-   "media": {
-    "path": "media/ellisonleao__magictools.webp",
-    "kind": "readme"
-   },
-   "sources": [
-    "awesome:terkelg/awesome-creative-coding",
-    "awesome:sjfricke/awesome-webgl",
-    "awesome:radixzz/awesome-glsl",
-    "topic:game-engine"
    ],
    "first_seen": "2026-09-24"
   },
@@ -8445,10 +7735,7 @@
    "note": "",
    "technique": null,
    "readme_image": null,
-   "media": {
-    "path": "media/schteppe__p2.js.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:sjfricke/awesome-webgl",
     "awesome:jasonwebb/morphogenesis-resources",
@@ -8540,10 +7827,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/docs/images/terasology-logo.png",
-   "media": {
-    "path": "media/MovingBlocks__Terasology.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:Calinou/awesome-gamedev",
     "awesome:leereilly/games",
@@ -8660,10 +7944,7 @@
    "note": "",
    "technique": null,
    "readme_image": "https://raw.githubusercontent.com/RodZill4/material-maker/master/material_maker/doc/images/screenshot.png",
-   "media": {
-    "path": "media/RodZill4__material-maker.webp",
-    "kind": "demo"
-   },
+   "media": null,
    "sources": [
     "awesome:Calinou/awesome-gamedev",
     "awesome:ellisonleao/magictools",

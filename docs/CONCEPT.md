@@ -6,7 +6,7 @@ It worked, but it was a one-off. This project automates that research and keeps 
 ## Goals
 
 - **See everything.** A wall of screenshots to browse for inspiration, grouped by category.
-- **Keep growing.** A weekly refresh finds new repos without anyone curating.
+- **Keep growing.** A daily refresh (full discovery on Mondays) finds new repos without anyone curating.
 - **Personal.** Public, but built for one reader. Favourites and collections are for you.
 
 Non-goals: licence gatekeeping (licence is a tag, not a filter), ranking for other people,
@@ -75,7 +75,7 @@ Design tooling · Random & wildcard — full list with hints in `data/categories
 | 1 | Seeds → JSON with metadata | scaffolded |
 | 2 | Screenshot capture + WebP thumbnails | scaffolded |
 | 3 | Static grid site on Pages | scaffolded |
-| 4 | Weekly cron + discovery | scaffolded |
+| 4 | Daily cron + Monday discovery | live |
 | 5 | LLM technique lines + categories (`tag.mjs`) | stub |
 | 6 | Hover clips (3s WebM for animated demos) | todo |
 | 7 | Collections ("Cortex ingredients", "CPU opponent AI") in `data/collections.json` | todo |

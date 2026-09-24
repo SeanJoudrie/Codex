@@ -3,6 +3,15 @@
 import { gh, readJSON, writeJSON, repoFromUrl } from './lib.mjs';
 
 const sources = await readJSON('sources.json');
+
+// Runs are daily, but discovery is slow (search rate limits). Rebuild the queue on
+// Mondays, when it runs low, or when forced; otherwise let enrich keep working through it.
+const queued = await readJSON('candidates.json', []);
+const monday = new Date().getUTCDay() === 1;
+if (!monday && !process.env.FORCE_DISCOVER && queued.length >= sources.limits.max_new_per_run) {
+  console.log(`discover: skipped (${queued.length} still queued; full discovery runs on Mondays)`);
+  process.exit(0);
+}
 const index = await readJSON('index.json', { repos: [] });
 // Stub entries (seeded offline, never enriched) don't count as known — they get enriched for real.
 // One failing source must never sink the whole run.

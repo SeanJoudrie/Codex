@@ -1,5 +1,5 @@
 // Step 2 — pull metadata for new candidates and add them to data/index.json.
-import { gh, readJSON, writeJSON, today } from './lib.mjs';
+import { gh, readJSON, writeJSON, today, isLinkCollection } from './lib.mjs';
 
 const sources = await readJSON('sources.json');
 const seeds = await readJSON('seeds.json', { repos: [] });
@@ -28,6 +28,8 @@ for (const c of candidates.slice(0, sources.limits.max_new_per_run)) {
 async function enrichOne(c) {
   const meta = await gh(`/repos/${c.repo}`);
   if (!meta || meta.archived && meta.stargazers_count < sources.limits.min_stars) return false;
+  const seedEntry = seedBy.get(c.repo.toLowerCase());
+  if (!seedEntry && isLinkCollection({ repo: meta.full_name, description: meta.description, topics: meta.topics })) return false;
   const readme = (await gh(`/repos/${c.repo}/readme`, { accept: 'application/vnd.github.raw', raw: true })) ?? '';
   const seed = seedBy.get(c.repo.toLowerCase());
   const stub = index.repos.find((r) => r.stub && r.repo.toLowerCase() === c.repo.toLowerCase());

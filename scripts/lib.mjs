@@ -62,3 +62,12 @@ export function repoFromUrl(href) {
 }
 
 export const today = () => new Date().toISOString().slice(0, 10);
+
+// Link collections (awesome-lists, resource dumps) are sources, not entries.
+const LIST_NAME = /(^|[-_.])(awesome|resources|links|curated|cheat-?sheets?|roadmaps?|interview|books)([-_.]|$)/i;
+const LIST_DESC = /\b(curated list|awesome list|list of (awesome|useful|curated|resources|links)|collection of (links|resources)|a list of)\b/i;
+export function isLinkCollection({ repo, description, topics = [] }) {
+  const name = repo.split('/')[1] ?? '';
+  return LIST_NAME.test(name) || LIST_DESC.test(description ?? '') ||
+    topics.some((t) => t === 'awesome' || t === 'awesome-list' || t === 'lists');
+}

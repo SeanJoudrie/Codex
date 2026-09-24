@@ -2,7 +2,7 @@
 
 A personal, self-refreshing **visual index of GitHub**: animation, shaders, simulations,
 game AI, algorithms, procedural generation, data viz — anything worth stealing an idea from.
-Every repo gets a screenshot. Every Monday it goes looking for more.
+Every repo gets a screenshot. Every day it adds up to 250 more; every Monday it goes looking for new ones.
 
 It's an inspiration library, not a curated recommendation list: everything goes in, the
 licence is shown as a tag, and you decide later what's worth building on.
@@ -22,7 +22,7 @@ discover  →  enrich  →  capture  →  tag  →  build
 | Tag | `scripts/tag.mjs` | *(roadmap)* LLM writes a one-line technique summary and picks categories |
 | Build | `scripts/build.mjs` | Copies `site/`, data and media into `dist/` |
 
-The weekly GitHub Action (`.github/workflows/weekly.yml`) runs all five, commits new data
+The daily GitHub Action (`.github/workflows/weekly.yml`, named "Refresh") runs all five, commits new data
 and screenshots, and deploys the site.
 
 ## Run it locally
@@ -41,7 +41,7 @@ npm run serve                 # open the site
 
 1. Push this folder to a new public repo.
 2. **Settings → Pages → Source: GitHub Actions.**
-3. **Actions → Weekly refresh → Run workflow** for the first fill. After that it runs every Monday.
+3. **Actions → Refresh → Run workflow** for the first fill. After that it runs daily at 09:00 UTC.
 
 ## Files
 

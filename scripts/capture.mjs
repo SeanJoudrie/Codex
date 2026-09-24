@@ -28,8 +28,14 @@ async function save(buffer, repo, animated = false) {
 async function demoShot(url) {
   const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
   try {
-    await page.goto(url, { waitUntil: 'load', timeout: 20_000 });
+    const res = await page.goto(url, { waitUntil: 'load', timeout: 20_000 });
+    if (res && res.status() >= 400) return null;
     await page.waitForTimeout(4_000); // let sims and shaders run a few frames
+    // Reject error pages that come back 200 (SPA 404s, dead GitHub Pages sites, parked domains).
+    const title = await page.title();
+    const text = (await page.evaluate(() => document.body?.innerText ?? '')).trim();
+    const errorish = /\b404\b|not found|page not found|there isn't a github pages site here|domain (is )?for sale|site can.t be reached/i;
+    if (errorish.test(title) || (text.length < 600 && errorish.test(text))) return null;
     const png = await page.screenshot();
     // Reject blank captures (a failed WebGL context is usually one flat colour).
     const { channels } = await sharp(png).stats();
