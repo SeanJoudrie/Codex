@@ -6480,6 +6480,69 @@
    "language": "JavaScript",
    "licence_recorded": "MIT",
    "source": "user-2026-09-25"
+  },
+  {
+   "repo": "Leonxlnx/taste-skill",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Taste Skill: Claude Code skills that push generated frontends away from generic 'AI' looks, incl. an image-to-code skill",
+   "note": "Why: design-taste rules for coding agents; site tasteskill.dev",
+   "technique": "Agent skill files (SKILL.md) with design rules and an image-to-code workflow",
+   "demo": "https://www.tasteskill.dev/",
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "vercel-labs/agent-skills",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Vercel's agent skills, incl. web-design-guidelines for reviewing UI against Vercel's interface rules",
+   "note": "Why: a ready-made UI review checklist for coding agents",
+   "technique": "SKILL.md that audits a page against web interface guidelines",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "VoltAgent/awesome-design-md",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Collection of DESIGN.md files that describe real sites' design systems for coding agents to copy the feel",
+   "note": "Why: gives an agent a concrete design system to follow instead of guessing",
+   "technique": "Markdown design-system specs (colours, type, spacing) per product",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "microsoft/playwright-cli",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Playwright CLI: drive a real browser from the terminal so a coding agent can open, click and screenshot your site",
+   "note": "Why: lets Claude Code check its own frontend work visually",
+   "technique": "Playwright browser automation exposed as CLI commands for agents",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
   }
  ]
 }

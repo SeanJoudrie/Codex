@@ -1,5 +1,44 @@
 [
  {
+  "repo": "microsoft/playwright-cli",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "VoltAgent/awesome-design-md",
+  "categories": [
+   "design",
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "vercel-labs/agent-skills",
+  "categories": [
+   "design",
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "Leonxlnx/taste-skill",
+  "categories": [
+   "design",
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
   "repo": "pgdogdev/pg_raw_parse",
   "categories": [
    "systems"

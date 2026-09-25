@@ -11960,7 +11960,7 @@
    "score": 60,
    "rank": {
     "rendering": 24,
-    "3d": 13,
+    "dataviz": 17,
     "maps": 11
    }
   },
@@ -12170,7 +12170,7 @@
    ],
    "score": 60,
    "rank": {
-    "dataviz": 17
+    "dataviz": 18
    }
   },
   {
@@ -13219,7 +13219,7 @@
    "score": 58,
    "rank": {
     "rendering": 29,
-    "3d": 15,
+    "3d": 14,
     "games": 15
    }
   },
@@ -13322,7 +13322,7 @@
    "score": 58,
    "rank": {
     "rendering": 27,
-    "dataviz": 18
+    "dataviz": 19
    }
   },
   {
@@ -14225,7 +14225,7 @@
    "score": 57,
    "rank": {
     "rendering": 31,
-    "dataviz": 19
+    "dataviz": 20
    }
   },
   {
@@ -15138,7 +15138,7 @@
    "score": 56,
    "rank": {
     "ai-ml": 19,
-    "dataviz": 20,
+    "dataviz": 21,
     "science": 13
    }
   },
@@ -15910,7 +15910,7 @@
    "score": 55,
    "rank": {
     "rendering": 42,
-    "dataviz": 22,
+    "dataviz": 23,
     "maps": 14
    }
   },
@@ -15995,7 +15995,7 @@
    "score": 55,
    "rank": {
     "game-engines": 22,
-    "3d": 16,
+    "3d": 15,
     "games": 22
    }
   },
@@ -16375,7 +16375,7 @@
    "rank": {
     "rendering": 36,
     "interaction": 26,
-    "dataviz": 21
+    "dataviz": 22
    }
   },
   {
@@ -16508,7 +16508,7 @@
    "score": 55,
    "rank": {
     "rendering": 47,
-    "3d": 19
+    "3d": 18
    }
   },
   {
@@ -16651,7 +16651,7 @@
    ],
    "score": 55,
    "rank": {
-    "3d": 18
+    "3d": 17
    }
   },
   {
@@ -17226,7 +17226,7 @@
    "first_seen": "2026-09-24",
    "score": 54,
    "rank": {
-    "dataviz": 25
+    "dataviz": 26
    }
   },
   {
@@ -17263,7 +17263,7 @@
    "first_seen": "2026-09-24",
    "score": 54,
    "rank": {
-    "dataviz": 24
+    "dataviz": 25
    }
   },
   {
@@ -17441,7 +17441,7 @@
    "score": 54,
    "rank": {
     "rendering": 48,
-    "3d": 20
+    "3d": 19
    }
   },
   {
@@ -17881,7 +17881,7 @@
    "score": 54,
    "rank": {
     "ai-ml": 24,
-    "dataviz": 23
+    "dataviz": 24
    }
   },
   {
@@ -18818,7 +18818,7 @@
    "score": 53,
    "rank": {
     "ai-ml": 32,
-    "3d": 21
+    "3d": 20
    }
   },
   {
@@ -19357,7 +19357,7 @@
    "rank": {
     "networks": 18,
     "procgen": 21,
-    "3d": 22
+    "3d": 21
    }
   },
   {
@@ -19635,7 +19635,7 @@
    "first_seen": "2026-09-24",
    "score": 53,
    "rank": {
-    "dataviz": 26
+    "dataviz": 27
    }
   },
   {
@@ -20379,7 +20379,7 @@
    "first_seen": "2026-09-24",
    "score": 52,
    "rank": {
-    "dataviz": 28
+    "dataviz": 29
    }
   },
   {
@@ -20433,7 +20433,7 @@
    "first_seen": "2026-09-24",
    "score": 52,
    "rank": {
-    "dataviz": 29,
+    "dataviz": 30,
     "maps": 21
    }
   },
@@ -20725,7 +20725,7 @@
    "first_seen": "2026-09-24",
    "score": 52,
    "rank": {
-    "dataviz": 27,
+    "dataviz": 28,
     "security": 24
    }
   },
@@ -20767,7 +20767,7 @@
    "score": 52,
    "rank": {
     "hardware": 27,
-    "3d": 23,
+    "3d": 22,
     "maps": 20
    }
   },
@@ -23079,7 +23079,7 @@
    "first_seen": "2026-09-24",
    "score": 51,
    "rank": {
-    "dataviz": 30
+    "dataviz": 31
    }
   },
   {
@@ -23265,7 +23265,7 @@
    ],
    "score": 51,
    "rank": {
-    "dataviz": 31
+    "dataviz": 32
    }
   },
   {
@@ -23768,7 +23768,7 @@
    "score": 50,
    "rank": {
     "rendering": 72,
-    "dataviz": 32,
+    "dataviz": 33,
     "maps": 27
    }
   },
@@ -24316,7 +24316,7 @@
    "first_seen": "2026-09-24",
    "score": 50,
    "rank": {
-    "dataviz": 33
+    "dataviz": 34
    }
   },
   {
@@ -25003,7 +25003,7 @@
    "rank": {
     "procgen": 34,
     "interaction": 37,
-    "3d": 25
+    "3d": 24
    }
   },
   {
@@ -25420,7 +25420,7 @@
    "rank": {
     "audio": 21,
     "procgen": 37,
-    "dataviz": 36
+    "dataviz": 37
    }
   },
   {
@@ -25474,7 +25474,7 @@
    "first_seen": "2026-09-24",
    "score": 49,
    "rank": {
-    "3d": 26,
+    "3d": 25,
     "math": 22
    }
   },
@@ -25846,7 +25846,7 @@
    "first_seen": "2026-09-24",
    "score": 49,
    "rank": {
-    "dataviz": 34
+    "dataviz": 35
    }
   },
   {
@@ -25881,7 +25881,7 @@
    "first_seen": "2026-09-24",
    "score": 49,
    "rank": {
-    "dataviz": 35
+    "dataviz": 36
    }
   },
   {
@@ -25926,7 +25926,7 @@
    "score": 49,
    "rank": {
     "procgen": 32,
-    "3d": 24,
+    "3d": 23,
     "simulation": 68
    }
   },
@@ -27260,7 +27260,7 @@
    "first_seen": "2026-09-24",
    "score": 48,
    "rank": {
-    "dataviz": 37
+    "dataviz": 38
    }
   },
   {
@@ -28211,7 +28211,7 @@
    "rank": {
     "rendering": 91,
     "motion": 32,
-    "3d": 27
+    "3d": 26
    }
   },
   {
@@ -28294,7 +28294,7 @@
    "first_seen": "2026-09-24",
    "score": 47,
    "rank": {
-    "dataviz": 39
+    "dataviz": 40
    }
   },
   {
@@ -28332,7 +28332,7 @@
    "first_seen": "2026-09-24",
    "score": 47,
    "rank": {
-    "dataviz": 38
+    "dataviz": 39
    }
   },
   {
@@ -28543,7 +28543,7 @@
    "score": 47,
    "rank": {
     "devtools": 43,
-    "dataviz": 40
+    "dataviz": 41
    }
   },
   {
@@ -29062,7 +29062,7 @@
    "score": 46,
    "rank": {
     "rendering": 96,
-    "3d": 28
+    "3d": 27
    }
   },
   {
@@ -29712,7 +29712,7 @@
    "first_seen": "2026-09-24",
    "score": 46,
    "rank": {
-    "dataviz": 41
+    "dataviz": 42
    }
   },
   {
@@ -29764,7 +29764,7 @@
    "first_seen": "2026-09-24",
    "score": 46,
    "rank": {
-    "dataviz": 42
+    "dataviz": 43
    }
   },
   {
@@ -30681,7 +30681,7 @@
    "score": 45,
    "rank": {
     "networks": 26,
-    "3d": 30,
+    "3d": 29,
     "games": 53
    }
   },
@@ -30829,7 +30829,7 @@
    "rank": {
     "hardware": 36,
     "ai-ml": 56,
-    "3d": 29
+    "3d": 28
    }
   },
   {
@@ -31233,7 +31233,7 @@
    "first_seen": "2026-09-24",
    "score": 45,
    "rank": {
-    "dataviz": 43
+    "dataviz": 44
    }
   },
   {
@@ -31640,7 +31640,7 @@
    ],
    "score": 45,
    "rank": {
-    "3d": 31
+    "3d": 30
    }
   },
   {
@@ -31744,7 +31744,7 @@
    ],
    "score": 45,
    "rank": {
-    "dataviz": 44
+    "dataviz": 45
    }
   },
   {
@@ -31784,7 +31784,7 @@
    ],
    "score": 45,
    "rank": {
-    "dataviz": 45
+    "dataviz": 46
    }
   },
   {
@@ -32532,7 +32532,7 @@
    "first_seen": "2026-09-24",
    "score": 44,
    "rank": {
-    "dataviz": 47
+    "dataviz": 48
    }
   },
   {
@@ -32574,7 +32574,7 @@
    "first_seen": "2026-09-24",
    "score": 44,
    "rank": {
-    "dataviz": 46
+    "dataviz": 47
    }
   },
   {
@@ -33257,7 +33257,7 @@
    "first_seen": "2026-09-24",
    "score": 43,
    "rank": {
-    "3d": 32,
+    "3d": 31,
     "maps": 39
    }
   },
@@ -33441,7 +33441,7 @@
    "first_seen": "2026-09-24",
    "score": 43,
    "rank": {
-    "dataviz": 48
+    "dataviz": 49
    }
   },
   {
@@ -33629,7 +33629,7 @@
    ],
    "score": 43,
    "rank": {
-    "3d": 33
+    "3d": 32
    }
   },
   {
@@ -34326,7 +34326,7 @@
    "first_seen": "2026-09-24",
    "score": 42,
    "rank": {
-    "dataviz": 51
+    "dataviz": 52
    }
   },
   {
@@ -34362,7 +34362,7 @@
    "first_seen": "2026-09-24",
    "score": 42,
    "rank": {
-    "dataviz": 50
+    "dataviz": 51
    }
   },
   {
@@ -34412,7 +34412,7 @@
    "score": 42,
    "rank": {
     "ai-ml": 65,
-    "dataviz": 49
+    "dataviz": 50
    }
   },
   {
@@ -34623,7 +34623,7 @@
    ],
    "score": 42,
    "rank": {
-    "3d": 34
+    "3d": 33
    }
   },
   {
@@ -34711,7 +34711,7 @@
    "score": 41,
    "rank": {
     "procgen": 55,
-    "3d": 35,
+    "3d": 34,
     "simulation": 101
    }
   },
@@ -35327,7 +35327,7 @@
    "first_seen": "2026-09-24",
    "score": 41,
    "rank": {
-    "dataviz": 52
+    "dataviz": 53
    }
   },
   {
@@ -36037,7 +36037,7 @@
    "first_seen": "2026-09-24",
    "score": 40,
    "rank": {
-    "game-ai": 23
+    "game-ai": 24
    }
   },
   {
@@ -37021,7 +37021,7 @@
    ],
    "score": 40,
    "rank": {
-    "3d": 37
+    "3d": 36
    }
   },
   {
@@ -37088,7 +37088,7 @@
    ],
    "score": 40,
    "rank": {
-    "3d": 36
+    "3d": 35
    }
   },
   {
@@ -37198,7 +37198,7 @@
    "first_seen": "2026-09-24",
    "score": 39,
    "rank": {
-    "game-ai": 24
+    "game-ai": 25
    }
   },
   {
@@ -37572,7 +37572,7 @@
    "first_seen": "2026-09-24",
    "score": 39,
    "rank": {
-    "dataviz": 54
+    "dataviz": 55
    }
   },
   {
@@ -37609,7 +37609,7 @@
    "first_seen": "2026-09-24",
    "score": 39,
    "rank": {
-    "dataviz": 55
+    "dataviz": 56
    }
   },
   {
@@ -37652,7 +37652,7 @@
    "first_seen": "2026-09-24",
    "score": 39,
    "rank": {
-    "dataviz": 53
+    "dataviz": 54
    }
   },
   {
@@ -38204,7 +38204,7 @@
    "score": 38,
    "rank": {
     "algorithms": 17,
-    "game-ai": 25
+    "game-ai": 26
    }
   },
   {
@@ -38258,7 +38258,7 @@
    "first_seen": "2026-09-24",
    "score": 38,
    "rank": {
-    "3d": 38,
+    "3d": 37,
     "maps": 42
    }
   },
@@ -38579,7 +38579,7 @@
    "first_seen": "2026-09-24",
    "score": 38,
    "rank": {
-    "dataviz": 56
+    "dataviz": 57
    }
   },
   {
@@ -39235,7 +39235,7 @@
    "first_seen": "2026-09-24",
    "score": 37,
    "rank": {
-    "dataviz": 57,
+    "dataviz": 58,
     "maps": 43
    }
   },
@@ -39424,7 +39424,7 @@
    "first_seen": "2026-09-24",
    "score": 37,
    "rank": {
-    "dataviz": 58
+    "dataviz": 59
    }
   },
   {
@@ -39880,7 +39880,7 @@
    ],
    "score": 37,
    "rank": {
-    "3d": 39
+    "3d": 38
    }
   },
   {
@@ -40141,7 +40141,7 @@
    "score": 36,
    "rank": {
     "algorithms": 18,
-    "game-ai": 26
+    "game-ai": 27
    }
   },
   {
@@ -40325,7 +40325,7 @@
    "score": 36,
    "rank": {
     "ai-ml": 76,
-    "dataviz": 59
+    "dataviz": 60
    }
   },
   {
@@ -41587,7 +41587,7 @@
    "score": 34,
    "rank": {
     "rendering": 124,
-    "3d": 41
+    "3d": 40
    }
   },
   {
@@ -41629,7 +41629,7 @@
    "score": 34,
    "rank": {
     "procgen": 65,
-    "3d": 40,
+    "3d": 39,
     "simulation": 111
    }
   },
@@ -43584,6 +43584,97 @@
    }
   },
   {
+   "repo": "Leonxlnx/taste-skill",
+   "url": "https://github.com/Leonxlnx/taste-skill",
+   "description": null,
+   "homepage": "https://www.tasteskill.dev/",
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Taste Skill: Claude Code skills that push generated frontends away from generic 'AI' looks, incl. an image-to-code skill",
+   "note": "Why: design-taste rules for coding agents; site tasteskill.dev",
+   "technique": "Agent skill files (SKILL.md) with design rules and an image-to-code workflow",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "design": 61,
+    "devtools": 57
+   }
+  },
+  {
+   "repo": "vercel-labs/agent-skills",
+   "url": "https://github.com/vercel-labs/agent-skills",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Vercel's agent skills, incl. web-design-guidelines for reviewing UI against Vercel's interface rules",
+   "note": "Why: a ready-made UI review checklist for coding agents",
+   "technique": "SKILL.md that audits a page against web interface guidelines",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "design": 62,
+    "devtools": 58
+   }
+  },
+  {
+   "repo": "microsoft/playwright-cli",
+   "url": "https://github.com/microsoft/playwright-cli",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Playwright CLI: drive a real browser from the terminal so a coding agent can open, click and screenshot your site",
+   "note": "Why: lets Claude Code check its own frontend work visually",
+   "technique": "Playwright browser automation exposed as CLI commands for agents",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 59
+   }
+  },
+  {
    "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
    "url": "https://github.com/DavidMcLaughlin208/SlimeMoldPhysarum",
    "description": "Slime Mold Physarum Simulation using OpenFrameworks and GLSL compute shaders to simulate over 1 million particles in real time, dynamically reacting to user input and simulation rules.",
@@ -43648,7 +43739,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "design": 61,
+    "design": 63,
     "game-engines": 138,
     "games": 103
    }
@@ -43744,7 +43835,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "devtools": 57,
+    "devtools": 60,
     "science": 34
    }
   },
@@ -43792,7 +43883,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "3d": 42
+    "3d": 41
    }
   },
   {
@@ -44228,7 +44319,7 @@
    ],
    "score": 31,
    "rank": {
-    "devtools": 58
+    "devtools": 61
    }
   },
   {
@@ -44580,7 +44671,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "devtools": 59
+    "devtools": 62
    }
   },
   {
@@ -44753,7 +44844,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "design": 63,
+    "design": 65,
     "game-engines": 147
    }
   },
@@ -44857,7 +44948,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "design": 62,
+    "design": 64,
     "game-engines": 144
    }
   },
@@ -45634,7 +45725,7 @@
    "first_seen": "2026-09-24",
    "score": 29,
    "rank": {
-    "design": 65,
+    "design": 67,
     "game-engines": 150
    }
   },
@@ -45698,7 +45789,7 @@
    "first_seen": "2026-09-24",
    "score": 29,
    "rank": {
-    "design": 64,
+    "design": 66,
     "game-engines": 149
    }
   },
@@ -46293,7 +46384,7 @@
    "first_seen": "2026-09-24",
    "score": 28,
    "rank": {
-    "design": 67,
+    "design": 69,
     "game-engines": 154,
     "games": 115
    }
@@ -46393,7 +46484,7 @@
    "first_seen": "2026-09-24",
    "score": 28,
    "rank": {
-    "design": 66,
+    "design": 68,
     "game-engines": 153
    }
   },
@@ -46936,7 +47027,7 @@
    "first_seen": "2026-09-24",
    "score": 27,
    "rank": {
-    "design": 68,
+    "design": 70,
     "game-engines": 159
    }
   },
@@ -47311,7 +47402,7 @@
    "first_seen": "2026-09-24",
    "score": 26,
    "rank": {
-    "game-ai": 27
+    "game-ai": 28
    }
   },
   {
@@ -47777,7 +47868,7 @@
    "rank": {
     "rendering": 136,
     "game-engines": 163,
-    "game-ai": 28
+    "game-ai": 29
    }
   },
   {
@@ -48179,7 +48270,7 @@
    "score": 24,
    "rank": {
     "rendering": 141,
-    "devtools": 60
+    "devtools": 63
    }
   },
   {
@@ -48352,7 +48443,7 @@
    "first_seen": "2026-09-24",
    "score": 24,
    "rank": {
-    "dataviz": 61,
+    "dataviz": 62,
     "maps": 52
    }
   },
@@ -48462,7 +48553,7 @@
    "first_seen": "2026-09-24",
    "score": 24,
    "rank": {
-    "design": 69,
+    "design": 71,
     "game-engines": 166
    }
   },
@@ -48500,7 +48591,7 @@
    "first_seen": "2026-09-24",
    "score": 24,
    "rank": {
-    "dataviz": 60
+    "dataviz": 61
    }
   },
   {
@@ -48586,7 +48677,7 @@
    ],
    "score": 24,
    "rank": {
-    "dataviz": 62
+    "dataviz": 63
    }
   },
   {
@@ -48869,7 +48960,7 @@
    "first_seen": "2026-09-24",
    "score": 23,
    "rank": {
-    "design": 70,
+    "design": 72,
     "game-engines": 171
    }
   },
@@ -49010,7 +49101,7 @@
    ],
    "score": 23,
    "rank": {
-    "dataviz": 63
+    "dataviz": 64
    }
   },
   {
@@ -49298,7 +49389,7 @@
    "first_seen": "2026-09-24",
    "score": 22,
    "rank": {
-    "design": 71,
+    "design": 73,
     "game-engines": 173,
     "games": 128
    }
@@ -49459,7 +49550,7 @@
    "score": 21,
    "rank": {
     "rendering": 144,
-    "3d": 43
+    "3d": 42
    }
   },
   {
@@ -49558,7 +49649,7 @@
    "rank": {
     "hardware": 43,
     "simulation": 129,
-    "game-ai": 29
+    "game-ai": 30
    }
   },
   {
@@ -49818,7 +49909,7 @@
    "rank": {
     "rendering": 146,
     "procgen": 80,
-    "dataviz": 64
+    "dataviz": 65
    }
   },
   {
@@ -50268,7 +50359,7 @@
    ],
    "score": 20,
    "rank": {
-    "dataviz": 65
+    "dataviz": 66
    }
   },
   {
@@ -50310,7 +50401,7 @@
    "first_seen": "2026-09-24",
    "score": 19,
    "rank": {
-    "game-ai": 30
+    "game-ai": 31
    }
   },
   {
@@ -50909,7 +51000,7 @@
    "first_seen": "2026-09-24",
    "score": 18,
    "rank": {
-    "design": 72,
+    "design": 74,
     "game-engines": 183
    }
   },
@@ -51070,7 +51161,7 @@
    "first_seen": "2026-09-24",
    "score": 17,
    "rank": {
-    "design": 73,
+    "design": 75,
     "game-engines": 184
    }
   },
@@ -51122,7 +51213,7 @@
    ],
    "score": 17,
    "rank": {
-    "3d": 44
+    "3d": 43
    }
   },
   {
@@ -51888,7 +51979,7 @@
    "first_seen": "2026-09-24",
    "score": 14,
    "rank": {
-    "design": 74,
+    "design": 76,
     "game-engines": 192,
     "retro": 45
    }
@@ -51988,7 +52079,7 @@
    "first_seen": "2026-09-24",
    "score": 13,
    "rank": {
-    "design": 75,
+    "design": 77,
     "game-engines": 198
    }
   },
@@ -52498,7 +52589,7 @@
    ],
    "score": 11,
    "rank": {
-    "dataviz": 66
+    "dataviz": 67
    }
   },
   {
@@ -52772,7 +52863,7 @@
    "first_seen": "2026-09-24",
    "score": 8,
    "rank": {
-    "design": 76,
+    "design": 78,
     "procgen": 86,
     "interaction": 49
    }
@@ -52952,7 +53043,7 @@
    "first_seen": "2026-09-24",
    "score": 3,
    "rank": {
-    "dataviz": 67,
+    "dataviz": 68,
     "maps": 56
    }
   },
@@ -53091,6 +53182,38 @@
    }
   },
   {
+   "repo": "VoltAgent/awesome-design-md",
+   "url": "https://github.com/VoltAgent/awesome-design-md",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "design",
+    "devtools"
+   ],
+   "idea": "Collection of DESIGN.md files that describe real sites' design systems for coding agents to copy the feel",
+   "note": "Why: gives an agent a concrete design system to follow instead of guessing",
+   "technique": "Markdown design-system specs (colours, type, spacing) per product",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "list": true,
+   "score": 2,
+   "rank": {
+    "design": 79,
+    "devtools": 64
+   }
+  },
+  {
    "repo": "mattdesl/graphics-resources",
    "url": "https://github.com/mattdesl/graphics-resources",
    "description": ":memo: a list of graphic programming resources",
@@ -53167,7 +53290,7 @@
    "first_seen": "2026-09-24",
    "score": 0,
    "rank": {
-    "dataviz": 68,
+    "dataviz": 69,
     "maps": 58,
     "science": 39
    }
@@ -53248,7 +53371,7 @@
    "first_seen": "2026-09-24",
    "score": 0,
    "rank": {
-    "design": 77,
+    "design": 80,
     "game-engines": 203
    }
   }
