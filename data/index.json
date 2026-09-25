@@ -43795,6 +43795,101 @@
    }
   },
   {
+   "repo": "greensock/GSAP",
+   "url": "https://github.com/greensock/GSAP",
+   "description": null,
+   "homepage": "https://gsap.com/",
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "motion",
+    "interaction"
+   ],
+   "idea": "GSAP: the industry-standard JavaScript animation library (timelines, ScrollTrigger, SVG morphing)",
+   "note": "Why: behind a huge share of award-winning sites; now free including its former paid plugins",
+   "technique": "Timeline-based tweening engine with scroll-driven plugins",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "interaction": 48,
+    "motion": 41
+   }
+  },
+  {
+   "repo": "tengbao/vanta",
+   "url": "https://github.com/tengbao/vanta",
+   "description": null,
+   "homepage": "https://www.vantajs.com/",
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "motion",
+    "rendering"
+   ],
+   "idea": "Vanta.js: drop-in animated 3D backgrounds (waves, fog, birds, net, globe) in a few lines",
+   "note": "Why: instant eye-catching hero backgrounds built on three.js or p5.js",
+   "technique": "Preset WebGL effects configured with a single call",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "rendering": 129,
+    "motion": 42
+   }
+  },
+  {
+   "repo": "DavidHDev/react-bits",
+   "url": "https://github.com/DavidHDev/react-bits",
+   "description": null,
+   "homepage": "https://reactbits.dev/",
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "unknown",
+   "categories": [
+    "motion",
+    "design",
+    "interaction"
+   ],
+   "idea": "React Bits: a big collection of animated React components, text effects and backgrounds to copy-paste",
+   "note": "Why: ready-made flashy UI pieces with live previews",
+   "technique": "Copy-paste components (CSS, Tailwind, TS variants)",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "design": 63,
+    "interaction": 49,
+    "motion": 43
+   }
+  },
+  {
    "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
    "url": "https://github.com/DavidMcLaughlin208/SlimeMoldPhysarum",
    "description": "Slime Mold Physarum Simulation using OpenFrameworks and GLSL compute shaders to simulate over 1 million particles in real time, dynamically reacting to user input and simulation rules.",
@@ -43859,7 +43954,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "design": 63,
+    "design": 64,
     "game-engines": 138,
     "games": 103
    }
@@ -44034,7 +44129,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "rendering": 129
+    "rendering": 130
    }
   },
   {
@@ -44964,7 +45059,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "design": 65,
+    "design": 66,
     "game-engines": 147
    }
   },
@@ -45068,7 +45163,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "design": 64,
+    "design": 65,
     "game-engines": 144
    }
   },
@@ -45656,7 +45751,7 @@
    "first_seen": "2026-08-18",
    "score": 29,
    "rank": {
-    "rendering": 131
+    "rendering": 132
    }
   },
   {
@@ -45845,7 +45940,7 @@
    "first_seen": "2026-09-24",
    "score": 29,
    "rank": {
-    "design": 67,
+    "design": 68,
     "game-engines": 150
    }
   },
@@ -45909,7 +46004,7 @@
    "first_seen": "2026-09-24",
    "score": 29,
    "rank": {
-    "design": 66,
+    "design": 67,
     "game-engines": 149
    }
   },
@@ -46257,7 +46352,7 @@
    ],
    "score": 29,
    "rank": {
-    "rendering": 130
+    "rendering": 131
    }
   },
   {
@@ -46504,7 +46599,7 @@
    "first_seen": "2026-09-24",
    "score": 28,
    "rank": {
-    "design": 69,
+    "design": 70,
     "game-engines": 154,
     "games": 115
    }
@@ -46604,7 +46699,7 @@
    "first_seen": "2026-09-24",
    "score": 28,
    "rank": {
-    "design": 68,
+    "design": 69,
     "game-engines": 153
    }
   },
@@ -46799,7 +46894,7 @@
    ],
    "score": 28,
    "rank": {
-    "rendering": 132
+    "rendering": 133
    }
   },
   {
@@ -46846,7 +46941,7 @@
    ],
    "score": 28,
    "rank": {
-    "rendering": 133
+    "rendering": 134
    }
   },
   {
@@ -46997,7 +47092,7 @@
    "stub": true,
    "score": 27,
    "rank": {
-    "interaction": 48
+    "interaction": 50
    }
   },
   {
@@ -47147,7 +47242,7 @@
    "first_seen": "2026-09-24",
    "score": 27,
    "rank": {
-    "design": 70,
+    "design": 71,
     "game-engines": 159
    }
   },
@@ -47561,7 +47656,7 @@
    "first_seen": "2026-09-24",
    "score": 26,
    "rank": {
-    "rendering": 134,
+    "rendering": 135,
     "simulation": 125
    }
   },
@@ -47753,7 +47848,7 @@
    ],
    "score": 26,
    "rank": {
-    "rendering": 135
+    "rendering": 136
    }
   },
   {
@@ -47986,7 +48081,7 @@
    "first_seen": "2026-09-24",
    "score": 25,
    "rank": {
-    "rendering": 136,
+    "rendering": 137,
     "game-engines": 163,
     "game-ai": 29
    }
@@ -48022,8 +48117,8 @@
    "first_seen": "2026-09-24",
    "score": 25,
    "rank": {
-    "rendering": 137,
-    "motion": 41,
+    "rendering": 138,
+    "motion": 44,
     "simulation": 126
    }
   },
@@ -48225,7 +48320,7 @@
    ],
    "score": 25,
    "rank": {
-    "rendering": 138
+    "rendering": 139
    }
   },
   {
@@ -48269,7 +48364,7 @@
    ],
    "score": 25,
    "rank": {
-    "rendering": 139
+    "rendering": 140
    }
   },
   {
@@ -48309,7 +48404,7 @@
    ],
    "score": 25,
    "rank": {
-    "rendering": 140
+    "rendering": 141
    }
   },
   {
@@ -48389,7 +48484,7 @@
    "first_seen": "2026-09-24",
    "score": 24,
    "rank": {
-    "rendering": 141,
+    "rendering": 142,
     "devtools": 67
    }
   },
@@ -48673,7 +48768,7 @@
    "first_seen": "2026-09-24",
    "score": 24,
    "rank": {
-    "design": 71,
+    "design": 72,
     "game-engines": 166
    }
   },
@@ -49013,7 +49108,7 @@
    "first_seen": "2026-09-24",
    "score": 23,
    "rank": {
-    "rendering": 142,
+    "rendering": 143,
     "game-engines": 170,
     "games": 126
    }
@@ -49080,7 +49175,7 @@
    "first_seen": "2026-09-24",
    "score": 23,
    "rank": {
-    "design": 72,
+    "design": 73,
     "game-engines": 171
    }
   },
@@ -49509,7 +49604,7 @@
    "first_seen": "2026-09-24",
    "score": 22,
    "rank": {
-    "design": 73,
+    "design": 74,
     "game-engines": 173,
     "games": 128
    }
@@ -49669,7 +49764,7 @@
    "first_seen": "2026-09-24",
    "score": 21,
    "rank": {
-    "rendering": 144,
+    "rendering": 145,
     "3d": 42
    }
   },
@@ -49806,8 +49901,8 @@
    "first_seen": "2026-09-24",
    "score": 21,
    "rank": {
-    "rendering": 143,
-    "motion": 42,
+    "rendering": 144,
+    "motion": 45,
     "simulation": 130
    }
   },
@@ -50027,7 +50122,7 @@
    "list": true,
    "score": 20,
    "rank": {
-    "rendering": 146,
+    "rendering": 147,
     "procgen": 80,
     "dataviz": 65
    }
@@ -50082,8 +50177,8 @@
    "list": true,
    "score": 20,
    "rank": {
-    "rendering": 145,
-    "motion": 43,
+    "rendering": 146,
+    "motion": 46,
     "simulation": 132
    }
   },
@@ -50172,8 +50267,8 @@
    "first_seen": "2026-09-24",
    "score": 20,
    "rank": {
-    "rendering": 147,
-    "motion": 44,
+    "rendering": 148,
+    "motion": 47,
     "simulation": 133
    }
   },
@@ -50212,7 +50307,7 @@
    "first_seen": "2026-09-24",
    "score": 20,
    "rank": {
-    "rendering": 148
+    "rendering": 149
    }
   },
   {
@@ -50402,7 +50497,7 @@
    ],
    "score": 20,
    "rank": {
-    "rendering": 149
+    "rendering": 150
    }
   },
   {
@@ -50617,7 +50712,7 @@
    "first_seen": "2026-09-24",
    "score": 19,
    "rank": {
-    "rendering": 150
+    "rendering": 151
    }
   },
   {
@@ -50902,7 +50997,7 @@
    "first_seen": "2026-09-24",
    "score": 18,
    "rank": {
-    "rendering": 151
+    "rendering": 152
    }
   },
   {
@@ -51120,7 +51215,7 @@
    "first_seen": "2026-09-24",
    "score": 18,
    "rank": {
-    "design": 74,
+    "design": 75,
     "game-engines": 183
    }
   },
@@ -51281,7 +51376,7 @@
    "first_seen": "2026-09-24",
    "score": 17,
    "rank": {
-    "design": 75,
+    "design": 76,
     "game-engines": 184
    }
   },
@@ -52099,7 +52194,7 @@
    "first_seen": "2026-09-24",
    "score": 14,
    "rank": {
-    "design": 76,
+    "design": 77,
     "game-engines": 192,
     "retro": 45
    }
@@ -52199,7 +52294,7 @@
    "first_seen": "2026-09-24",
    "score": 13,
    "rank": {
-    "design": 77,
+    "design": 78,
     "game-engines": 198
    }
   },
@@ -52469,7 +52564,7 @@
    ],
    "score": 12,
    "rank": {
-    "rendering": 152
+    "rendering": 153
    }
   },
   {
@@ -52747,8 +52842,8 @@
    "first_seen": "2026-09-24",
    "score": 10,
    "rank": {
-    "rendering": 153,
-    "motion": 45,
+    "rendering": 154,
+    "motion": 48,
     "simulation": 138
    }
   },
@@ -52886,8 +52981,8 @@
    "first_seen": "2026-09-24",
    "score": 9,
    "rank": {
-    "rendering": 154,
-    "motion": 46,
+    "rendering": 155,
+    "motion": 49,
     "simulation": 139
    }
   },
@@ -52927,7 +53022,7 @@
    "first_seen": "2026-09-24",
    "score": 9,
    "rank": {
-    "rendering": 155
+    "rendering": 156
    }
   },
   {
@@ -52983,9 +53078,9 @@
    "first_seen": "2026-09-24",
    "score": 8,
    "rank": {
-    "design": 78,
+    "design": 79,
     "procgen": 86,
-    "interaction": 49
+    "interaction": 51
    }
   },
   {
@@ -53033,8 +53128,8 @@
    "list": true,
    "score": 7,
    "rank": {
-    "rendering": 156,
-    "motion": 47,
+    "rendering": 157,
+    "motion": 50,
     "simulation": 140
    }
   },
@@ -53296,8 +53391,8 @@
    "first_seen": "2026-09-24",
    "score": 2,
    "rank": {
-    "rendering": 157,
-    "motion": 48,
+    "rendering": 158,
+    "motion": 51,
     "simulation": 141
    }
   },
@@ -53329,7 +53424,7 @@
    "list": true,
    "score": 2,
    "rank": {
-    "design": 79,
+    "design": 80,
     "devtools": 68
    }
   },
@@ -53365,8 +53460,8 @@
    "first_seen": "2026-09-24",
    "score": 0,
    "rank": {
-    "rendering": 159,
-    "motion": 50,
+    "rendering": 160,
+    "motion": 53,
     "simulation": 143
    }
   },
@@ -53456,8 +53551,8 @@
    "first_seen": "2026-09-24",
    "score": 0,
    "rank": {
-    "rendering": 158,
-    "motion": 49,
+    "rendering": 159,
+    "motion": 52,
     "simulation": 142
    }
   },
@@ -53491,7 +53586,7 @@
    "first_seen": "2026-09-24",
    "score": 0,
    "rank": {
-    "design": 80,
+    "design": 81,
     "game-engines": 203
    }
   }

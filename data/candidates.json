@@ -1,5 +1,26 @@
 [
  {
+  "repo": "DavidHDev/react-bits",
+  "categories": [
+   "motion",
+   "design",
+   "interaction"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "greensock/GSAP",
+  "categories": [
+   "motion",
+   "interaction"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
   "repo": "addyosmani/agent-skills",
   "categories": [
    "devtools"

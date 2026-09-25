@@ -6605,6 +6605,55 @@
    "language": null,
    "licence_recorded": "MIT",
    "source": "user-2026-09-25"
+  },
+  {
+   "repo": "greensock/GSAP",
+   "categories": [
+    "motion",
+    "interaction"
+   ],
+   "idea": "GSAP: the industry-standard JavaScript animation library (timelines, ScrollTrigger, SVG morphing)",
+   "note": "Why: behind a huge share of award-winning sites; now free including its former paid plugins",
+   "technique": "Timeline-based tweening engine with scroll-driven plugins",
+   "demo": "https://gsap.com/",
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "tengbao/vanta",
+   "categories": [
+    "motion",
+    "rendering"
+   ],
+   "idea": "Vanta.js: drop-in animated 3D backgrounds (waves, fog, birds, net, globe) in a few lines",
+   "note": "Why: instant eye-catching hero backgrounds built on three.js or p5.js",
+   "technique": "Preset WebGL effects configured with a single call",
+   "demo": "https://www.vantajs.com/",
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "DavidHDev/react-bits",
+   "categories": [
+    "motion",
+    "design",
+    "interaction"
+   ],
+   "idea": "React Bits: a big collection of animated React components, text effects and backgrounds to copy-paste",
+   "note": "Why: ready-made flashy UI pieces with live previews",
+   "technique": "Copy-paste components (CSS, Tailwind, TS variants)",
+   "demo": "https://reactbits.dev/",
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "unknown",
+   "source": "user-2026-09-25"
   }
  ]
 }
