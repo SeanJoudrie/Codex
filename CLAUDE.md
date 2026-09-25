@@ -54,6 +54,12 @@ with no niche is not shown. Numbers come from `data/money.json`: typical price r
 audience willingness to pay and channels, and conversion rates per model. They are rough planning
 figures; keep the page's disclaimer, and update ranges when you learn real competitor prices.
 
+## Before anything launches
+
+Before a project goes public, collects data, sends messages, shows ads or charges money, go through
+`docs/launch-checklist.md` (consent, trackers, age gates, accessibility, AI claims, unsubscribe) and
+tell the user which items apply. Update the project table there when a project's risk changes.
+
 ## Archive rules
 
 - **Never delete a repo** from `data/index.json` or `data/seeds.json`. Weak entries rank last; they don't leave.
