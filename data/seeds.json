@@ -6463,6 +6463,23 @@
     "points": 159,
     "date": "2025-06-12"
    }
+  },
+  {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "categories": [
+    "maps",
+    "rendering",
+    "dataviz"
+   ],
+   "idea": "A spy-satellite style 3D globe of live public data: aircraft, ships, satellites, quakes, fires, cameras and weather, with voice control",
+   "note": "Why: fuses dozens of free public feeds into one CesiumJS globe with cockpit views, FLIR/NVG shader looks and a realtime voice agent; hit #1 on GitHub Trending (Aug 2026)",
+   "technique": "CesiumJS + Google Photorealistic 3D Tiles, interpolated live feeds with dead reckoning, SGP4 satellites, GLSL sensor post-processing, OpenAI Realtime voice tools, server-side key proxy",
+   "demo": null,
+   "wow": 3,
+   "stars": null,
+   "language": "JavaScript",
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
   }
  ]
 }

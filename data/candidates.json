@@ -1,5 +1,16 @@
 [
  {
+  "repo": "bilawalsidhu/gods-eye-view",
+  "categories": [
+   "maps",
+   "rendering",
+   "dataviz"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
   "repo": "GraafHenk/numberwang",
   "categories": [],
   "sources": [
