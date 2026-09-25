@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "repos": {
   "arnegiacomo/fugleramme": [
    {
@@ -25,7 +25,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49783133",
     "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-    "points": 276,
+    "points": 277,
     "date": "2026-09-21"
    },
    {
@@ -271,7 +271,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49800513",
     "title": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
-    "points": 65,
+    "points": 66,
     "date": "2026-09-22"
    },
    {
@@ -877,7 +877,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49663373",
     "title": "GrapheneOS' rewritten Messages app is released",
-    "points": 330,
+    "points": 331,
     "date": "2026-09-11"
    }
   ],
@@ -917,7 +917,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49781862",
     "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
-    "points": 238,
+    "points": 239,
     "date": "2026-09-21"
    }
   ],
@@ -937,7 +937,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49803959",
     "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
-    "points": 236,
+    "points": 237,
     "date": "2026-09-22"
    }
   ],
@@ -1065,7 +1065,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49778162",
     "title": "I turned Jev into a (lousy) chatbot",
-    "points": 175,
+    "points": 177,
     "date": "2026-09-20"
    }
   ],
@@ -1075,7 +1075,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49777106",
     "title": "Laya on Mac M4 CoreML Offline",
-    "points": 175,
+    "points": 176,
     "date": "2026-09-20"
    }
   ],
@@ -1155,7 +1155,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49778022",
     "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
-    "points": 139,
+    "points": 140,
     "date": "2026-09-20"
    }
   ],
@@ -1165,7 +1165,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49824864",
     "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-    "points": 139,
+    "points": 152,
     "date": "2026-09-24"
    }
   ],
@@ -1215,7 +1215,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49807021",
     "title": "Native apps written in TypeScript and CSS",
-    "points": 126,
+    "points": 128,
     "date": "2026-09-22"
    }
   ],
@@ -1339,7 +1339,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49802160",
     "title": "Jev – A curation of Jev demos on X, tools, skills, and integrations",
-    "points": 93,
+    "points": 94,
     "date": "2026-09-22"
    }
   ],
@@ -1750,6 +1750,14 @@
    }
   ],
   "mikejernil/volumetric-render-engine": [
+   {
+    "source": "reddit",
+    "where": "r/GraphicsProgramming",
+    "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1wny8eq/",
+    "title": "IsoValue added to Volumetric Render Engine (Open-source)",
+    "points": 19,
+    "date": "2026-09-23"
+   },
    {
     "source": "reddit",
     "where": "r/GraphicsProgramming",
@@ -3733,6 +3741,14 @@
    {
     "source": "reddit",
     "where": "r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/1woatic/",
+    "title": "The `allocator_api` feature has been stabilized, on track to release in Rust 1.100",
+    "points": 486,
+    "date": "2026-09-23"
+   },
+   {
+    "source": "reddit",
+    "where": "r/rust",
     "url": "https://www.reddit.com/r/rust/comments/1wdwje7/",
     "title": "Bastion of the Turbofish",
     "points": 104,
@@ -4550,6 +4566,14 @@
    }
   ],
   "khlebobul/esp": [
+   {
+    "source": "reddit",
+    "where": "r/esp32",
+    "url": "https://www.reddit.com/r/esp32/comments/1wo1lkj/",
+    "title": "I built an open-source Busy Tag alternative with an ESP32-S3",
+    "points": 33,
+    "date": "2026-09-23"
+   },
    {
     "source": "reddit",
     "where": "r/esp32",
@@ -6825,6 +6849,306 @@
     "title": null,
     "points": 159,
     "date": "2025-06-12"
+   }
+  ],
+  "devdotfast/whiteboard": [
+   {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49833867",
+    "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+    "points": 346,
+    "date": "2026-09-24"
+   }
+  ],
+  "dsummersl/treepeat": [
+   {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49804359",
+    "title": "Show HN: Treepeat – Code similarity detection using Tree-sitter",
+    "points": 59,
+    "date": "2026-09-22"
+   }
+  ],
+  "Parcha-ai/agentrun": [
+   {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49821438",
+    "title": "Show HN: AgentRun: DSL to turn agents into workflows",
+    "points": 44,
+    "date": "2026-09-23"
+   }
+  ],
+  "bertaye/agentic-cuda-optimizer": [
+   {
+    "source": "hn",
+    "where": "Show HN",
+    "url": "https://news.ycombinator.com/item?id=49842596",
+    "title": "Show HN: Agentic CUDA Kernel Optimizer",
+    "points": 25,
+    "date": "2026-09-25"
+   }
+  ],
+  "christianrowlands/wavedigger": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49815370",
+    "title": "WaveDigger: Dig into wireless signals to discover their physical locations",
+    "points": 121,
+    "date": "2026-09-23"
+   }
+  ],
+  "git-bug/git-bug": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49843174",
+    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+    "points": 90,
+    "date": "2026-09-25"
+   }
+  ],
+  "driceroland/Search": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49828120",
+    "title": "Search – A small, fast WebKit browser for macOS",
+    "points": 65,
+    "date": "2026-09-24"
+   }
+  ],
+  "pkimpel/retro-1620": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49809935",
+    "title": "Web-based IBM 1620 emulator and IPL-V from 1963",
+    "points": 52,
+    "date": "2026-09-23"
+   }
+  ],
+  "flegfleg/Paranoia-Sans": [
+   {
+    "source": "lobsters",
+    "where": "Lobsters",
+    "url": "https://lobste.rs/s/uc2ovf",
+    "title": "Paranoia-Sans: A conspiratorial typeface",
+    "points": 10,
+    "date": "2026-09-25"
+   }
+  ],
+  "pshycodr/phosphor-cam": [
+   {
+    "source": "reddit",
+    "where": "r/creativecoding",
+    "url": "https://www.reddit.com/r/creativecoding/comments/1wo05e7/",
+    "title": "Phosphor-Cam:  Real-time camera to ASCII/Dither/Halftone/Voxel renderer, entirely in the browser (Canvas 2D, no WebGL)",
+    "points": 79,
+    "date": "2026-09-23"
+   }
+  ],
+  "GBurgardt/pokemon-emerald-arena": [
+   {
+    "source": "reddit",
+    "where": "r/retrogamedev",
+    "url": "https://www.reddit.com/r/retrogamedev/comments/1woojdu/",
+    "title": "I added real time battles to Pokémon Emerald. Now Mewtwo can lift rocks out of the arena and throw them.",
+    "points": 76,
+    "date": "2026-09-24"
+   }
+  ],
+  "dtm-beep/qwen38-flash-next-mtp-16gb": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wom3fe/",
+    "title": "Qwen 3.8 Flash Next q4_k_m, 130k context, q8 cache on 16GB VRAM ann 64GB RAM, 15-20 t/s on 4080",
+    "points": 58,
+    "date": "2026-09-23"
+   }
+  ],
+  "ickma2311/jev-baselines-eval": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/",
+    "title": "Jev isn't new tech. Its marketing targets people who think AI started with LLMs.",
+    "points": 756,
+    "date": "2026-09-23"
+   }
+  ],
+  "apple-aiml-research/ml-lensvlm": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wodf84/",
+    "title": "apple/LensVLM-9B · Hugging Face",
+    "points": 94,
+    "date": "2026-09-23"
+   }
+  ],
+  "mattcone/depletion-ledger": [
+   {
+    "source": "reddit",
+    "where": "r/dataisbeautiful",
+    "url": "https://www.reddit.com/r/dataisbeautiful/comments/1woaqm5/",
+    "title": "[OC] The world is using more oil than it produces",
+    "points": 133,
+    "date": "2026-09-23"
+   }
+  ],
+  "nbs32k/LocalStranger": [
+   {
+    "source": "reddit",
+    "where": "r/ReverseEngineering",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wo0ein/",
+    "title": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
+    "points": 20,
+    "date": "2026-09-23"
+   }
+  ],
+  "alexdev8930/NoviumOS": [
+   {
+    "source": "reddit",
+    "where": "r/osdev",
+    "url": "https://www.reddit.com/r/osdev/comments/1wokb9a/",
+    "title": "NoviumOS update: Got PMM/VMM and a basic heap allocator running, now working on adding more features to the heap allocator.",
+    "points": 29,
+    "date": "2026-09-23"
+   }
+  ],
+  "aliabdoxd14/myos": [
+   {
+    "source": "reddit",
+    "where": "r/osdev",
+    "url": "https://www.reddit.com/r/osdev/comments/1wo5qup/",
+    "title": "I made my first OS!",
+    "points": 18,
+    "date": "2026-09-23"
+   }
+  ],
+  "stalwartlabs/stalwart": [
+   {
+    "source": "reddit",
+    "where": "r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/1wo15xj/",
+    "title": "hashify v0.3: compile-time perfect hashing, now 4 to 12 times faster than phf",
+    "points": 180,
+    "date": "2026-09-23"
+   }
+  ],
+  "stalwartlabs/hashify": [
+   {
+    "source": "reddit",
+    "where": "r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/1wo15xj/",
+    "title": "hashify v0.3: compile-time perfect hashing, now 4 to 12 times faster than phf",
+    "points": 180,
+    "date": "2026-09-23"
+   }
+  ],
+  "Huseynteymurzade28/pokeductor": [
+   {
+    "source": "reddit",
+    "where": "r/commandline",
+    "url": "https://www.reddit.com/r/commandline/comments/1woks8t/",
+    "title": "Pokeductor – a terminal Pokédex with sprite-rendered evolution chains, type coverage and party analysis (Rust + ratatui)",
+    "points": 205,
+    "date": "2026-09-23"
+   }
+  ],
+  "bilalyazicioglu/tincan-cli": [
+   {
+    "source": "reddit",
+    "where": "r/commandline",
+    "url": "https://www.reddit.com/r/commandline/comments/1wo71ts/",
+    "title": "Tincan – terminal voice chat with no server in the middle",
+    "points": 71,
+    "date": "2026-09-23"
+   }
+  ],
+  "Switchleg1/AMAleg": [
+   {
+    "source": "reddit",
+    "where": "r/esp32",
+    "url": "https://www.reddit.com/r/esp32/comments/1wonnu0/",
+    "title": "My first esp32 project!?",
+    "points": 26,
+    "date": "2026-09-24"
+   }
+  ],
+  "dvucinozd/Pajoniiir": [
+   {
+    "source": "reddit",
+    "where": "r/esp32",
+    "url": "https://www.reddit.com/r/esp32/comments/1wogvhl/",
+    "title": "Pajoniiir – How a $50 DJ Device Idea Grew Into a Standalone System",
+    "points": 87,
+    "date": "2026-09-23"
+   }
+  ],
+  "khlebobul/esp_busy_tag": [
+   {
+    "source": "reddit",
+    "where": "r/esp32",
+    "url": "https://www.reddit.com/r/esp32/comments/1wo1lkj/",
+    "title": "I built an open-source Busy Tag alternative with an ESP32-S3",
+    "points": 33,
+    "date": "2026-09-23"
+   }
+  ],
+  "deeddy/nas-drive-data": [
+   {
+    "source": "reddit",
+    "where": "r/selfhosted",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1wo92wj/",
+    "title": "[ Removed by moderator ]",
+    "points": 87,
+    "date": "2026-09-23"
+   }
+  ],
+  "autobrr/community-feedback": [
+   {
+    "source": "reddit",
+    "where": "r/selfhosted",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1wo2yxg/",
+    "title": "[ Removed by moderator ]",
+    "points": 821,
+    "date": "2026-09-23"
+   }
+  ],
+  "yuzicapp/yuzic": [
+   {
+    "source": "reddit",
+    "where": "r/selfhosted",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1wnxp76/",
+    "title": "[ Removed by moderator ]",
+    "points": 49,
+    "date": "2026-09-23"
+   }
+  ],
+  "eolix/photosuite": [
+   {
+    "source": "reddit",
+    "where": "r/opensource",
+    "url": "https://www.reddit.com/r/opensource/comments/1wod038/",
+    "title": "PhotoSuite: A free, open source Photoshop with the looks and compatibility",
+    "points": 306,
+    "date": "2026-09-23"
+   }
+  ],
+  "Maneek21/Deft": [
+   {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wo4kvl/",
+    "title": "Deft: an open-source, self-hosted workspace for chat, tasks and knowledge—with MCP and experimental sideloadable apps",
+    "points": 60,
+    "date": "2026-09-23"
    }
   ]
  }
