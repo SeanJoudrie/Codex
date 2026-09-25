@@ -43890,6 +43890,39 @@
    }
   },
   {
+   "repo": "latent-spaces/brag",
+   "url": "https://github.com/latent-spaces/brag",
+   "description": null,
+   "homepage": "https://latent-spaces.github.io/brag/",
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "devtools",
+    "motion",
+    "creative-tools"
+   ],
+   "idea": "/brag: a Claude Code skill that turns your project into a short launch video with music, motion and share copy",
+   "note": "Why: one command makes a promo video of what you built (it even animates your logo); /brag-slim runs without extra tools",
+   "technique": "Agent skill driving Hyperframes (HeyGen) or plain HTML motion to render a video",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 64,
+    "motion": 44,
+    "creative-tools": 16
+   }
+  },
+  {
    "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
    "url": "https://github.com/DavidMcLaughlin208/SlimeMoldPhysarum",
    "description": "Slime Mold Physarum Simulation using OpenFrameworks and GLSL compute shaders to simulate over 1 million particles in real time, dynamically reacting to user input and simulation rules.",
@@ -44050,7 +44083,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "devtools": 64,
+    "devtools": 65,
     "science": 34
    }
   },
@@ -44534,7 +44567,7 @@
    ],
    "score": 31,
    "rank": {
-    "devtools": 65
+    "devtools": 66
    }
   },
   {
@@ -44886,7 +44919,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "devtools": 66
+    "devtools": 67
    }
   },
   {
@@ -48118,7 +48151,7 @@
    "score": 25,
    "rank": {
     "rendering": 138,
-    "motion": 44,
+    "motion": 45,
     "simulation": 126
    }
   },
@@ -48485,7 +48518,7 @@
    "score": 24,
    "rank": {
     "rendering": 142,
-    "devtools": 67
+    "devtools": 68
    }
   },
   {
@@ -49902,7 +49935,7 @@
    "score": 21,
    "rank": {
     "rendering": 144,
-    "motion": 45,
+    "motion": 46,
     "simulation": 130
    }
   },
@@ -50178,7 +50211,7 @@
    "score": 20,
    "rank": {
     "rendering": 146,
-    "motion": 46,
+    "motion": 47,
     "simulation": 132
    }
   },
@@ -50268,7 +50301,7 @@
    "score": 20,
    "rank": {
     "rendering": 148,
-    "motion": 47,
+    "motion": 48,
     "simulation": 133
    }
   },
@@ -52843,7 +52876,7 @@
    "score": 10,
    "rank": {
     "rendering": 154,
-    "motion": 48,
+    "motion": 49,
     "simulation": 138
    }
   },
@@ -52982,7 +53015,7 @@
    "score": 9,
    "rank": {
     "rendering": 155,
-    "motion": 49,
+    "motion": 50,
     "simulation": 139
    }
   },
@@ -53129,7 +53162,7 @@
    "score": 7,
    "rank": {
     "rendering": 157,
-    "motion": 50,
+    "motion": 51,
     "simulation": 140
    }
   },
@@ -53392,7 +53425,7 @@
    "score": 2,
    "rank": {
     "rendering": 158,
-    "motion": 51,
+    "motion": 52,
     "simulation": 141
    }
   },
@@ -53425,7 +53458,7 @@
    "score": 2,
    "rank": {
     "design": 80,
-    "devtools": 68
+    "devtools": 69
    }
   },
   {
@@ -53461,7 +53494,7 @@
    "score": 0,
    "rank": {
     "rendering": 160,
-    "motion": 53,
+    "motion": 54,
     "simulation": 143
    }
   },
@@ -53552,7 +53585,7 @@
    "score": 0,
    "rank": {
     "rendering": 159,
-    "motion": 52,
+    "motion": 53,
     "simulation": 142
    }
   },

@@ -1,5 +1,16 @@
 [
  {
+  "repo": "latent-spaces/brag",
+  "categories": [
+   "devtools",
+   "motion",
+   "creative-tools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
   "repo": "DavidHDev/react-bits",
   "categories": [
    "motion",

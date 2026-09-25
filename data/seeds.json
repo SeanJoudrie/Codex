@@ -6654,6 +6654,23 @@
    "language": null,
    "licence_recorded": "unknown",
    "source": "user-2026-09-25"
+  },
+  {
+   "repo": "latent-spaces/brag",
+   "categories": [
+    "devtools",
+    "motion",
+    "creative-tools"
+   ],
+   "idea": "/brag: a Claude Code skill that turns your project into a short launch video with music, motion and share copy",
+   "note": "Why: one command makes a promo video of what you built (it even animates your logo); /brag-slim runs without extra tools",
+   "technique": "Agent skill driving Hyperframes (HeyGen) or plain HTML motion to render a video",
+   "demo": "https://latent-spaces.github.io/brag/",
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
   }
  ]
 }
