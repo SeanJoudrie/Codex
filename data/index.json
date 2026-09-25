@@ -43675,6 +43675,126 @@
    }
   },
   {
+   "repo": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Ponytail: a coding-agent skill that makes Claude write far less code for the same feature",
+   "note": "Why: author measures ~54% less code and ~20% lower cost on real Claude Code sessions",
+   "technique": "Agent skill that pushes minimal, reuse-first edits",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 60
+   }
+  },
+  {
+   "repo": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "devtools",
+    "ai-ml"
+   ],
+   "idea": "OmniRoute: a local AI gateway that routes Claude Code, Cursor etc. through one endpoint to hundreds of model providers, stacking free tiers",
+   "note": "Why: one endpoint, automatic fallback between providers; check each provider's terms before stacking free tiers",
+   "technique": "Local OpenAI-compatible proxy with provider fallback and quota tracking",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 61,
+    "ai-ml": 90
+   }
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "devtools",
+    "ai-ml"
+   ],
+   "idea": "Graphify: /graphify maps a whole project (code, docs, PDFs, media) into a knowledge graph the agent queries instead of grepping",
+   "note": "Why: code is parsed locally with tree-sitter, no LLM needed; every link says if it was read or inferred",
+   "technique": "tree-sitter AST parsing into a traversable graph, no embeddings",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 62,
+    "ai-ml": 91
+   }
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "description": null,
+   "homepage": null,
+   "language": null,
+   "topics": [],
+   "stars": 0,
+   "pushed": null,
+   "licence": "MIT",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Addy Osmani's agent skills: /spec, /plan, /build, /test, /review, /ship commands that make an agent follow a senior engineer's workflow",
+   "note": "Why: packages quality gates for each phase of development",
+   "technique": "Slash commands plus skills mapped to the dev lifecycle",
+   "readme_image": null,
+   "media": null,
+   "sources": [
+    "seed"
+   ],
+   "wow": 2,
+   "first_seen": "2026-09-25",
+   "stub": true,
+   "score": 32,
+   "rank": {
+    "devtools": 63
+   }
+  },
+  {
    "repo": "DavidMcLaughlin208/SlimeMoldPhysarum",
    "url": "https://github.com/DavidMcLaughlin208/SlimeMoldPhysarum",
    "description": "Slime Mold Physarum Simulation using OpenFrameworks and GLSL compute shaders to simulate over 1 million particles in real time, dynamically reacting to user input and simulation rules.",
@@ -43835,7 +43955,7 @@
    "first_seen": "2026-09-24",
    "score": 31,
    "rank": {
-    "devtools": 60,
+    "devtools": 64,
     "science": 34
    }
   },
@@ -44319,7 +44439,7 @@
    ],
    "score": 31,
    "rank": {
-    "devtools": 61
+    "devtools": 65
    }
   },
   {
@@ -44451,7 +44571,7 @@
    ],
    "score": 31,
    "rank": {
-    "ai-ml": 91
+    "ai-ml": 93
    }
   },
   {
@@ -44501,7 +44621,7 @@
    ],
    "score": 31,
    "rank": {
-    "ai-ml": 92
+    "ai-ml": 94
    }
   },
   {
@@ -44541,7 +44661,7 @@
    ],
    "score": 31,
    "rank": {
-    "ai-ml": 90
+    "ai-ml": 92
    }
   },
   {
@@ -44671,7 +44791,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "devtools": 62
+    "devtools": 66
    }
   },
   {
@@ -44915,7 +45035,7 @@
    "first_seen": "2026-09-24",
    "score": 30,
    "rank": {
-    "ai-ml": 93,
+    "ai-ml": 95,
     "maps": 49
    }
   },
@@ -45413,7 +45533,7 @@
    ],
    "score": 30,
    "rank": {
-    "ai-ml": 94
+    "ai-ml": 96
    }
   },
   {
@@ -45625,7 +45745,7 @@
    "first_seen": "2026-09-24",
    "score": 29,
    "rank": {
-    "ai-ml": 95,
+    "ai-ml": 97,
     "maps": 50,
     "security": 53
    }
@@ -46190,7 +46310,7 @@
    ],
    "score": 29,
    "rank": {
-    "ai-ml": 97
+    "ai-ml": 99
    }
   },
   {
@@ -46230,7 +46350,7 @@
    ],
    "score": 29,
    "rank": {
-    "ai-ml": 96
+    "ai-ml": 98
    }
   },
   {
@@ -46806,7 +46926,7 @@
    ],
    "score": 28,
    "rank": {
-    "ai-ml": 98
+    "ai-ml": 100
    }
   },
   {
@@ -47713,7 +47833,7 @@
    ],
    "score": 26,
    "rank": {
-    "ai-ml": 99
+    "ai-ml": 101
    }
   },
   {
@@ -48229,7 +48349,7 @@
    ],
    "score": 25,
    "rank": {
-    "ai-ml": 100
+    "ai-ml": 102
    }
   },
   {
@@ -48270,7 +48390,7 @@
    "score": 24,
    "rank": {
     "rendering": 141,
-    "devtools": 63
+    "devtools": 67
    }
   },
   {
@@ -48631,7 +48751,7 @@
    ],
    "score": 24,
    "rank": {
-    "ai-ml": 101
+    "ai-ml": 103
    }
   },
   {
@@ -49061,7 +49181,7 @@
    ],
    "score": 23,
    "rank": {
-    "ai-ml": 102
+    "ai-ml": 104
    }
   },
   {
@@ -49471,7 +49591,7 @@
    ],
    "score": 22,
    "rank": {
-    "ai-ml": 103
+    "ai-ml": 105
    }
   },
   {
@@ -50659,7 +50779,7 @@
    ],
    "score": 19,
    "rank": {
-    "ai-ml": 104
+    "ai-ml": 106
    }
   },
   {
@@ -50699,7 +50819,7 @@
    ],
    "score": 19,
    "rank": {
-    "ai-ml": 105
+    "ai-ml": 107
    }
   },
   {
@@ -51048,7 +51168,7 @@
    ],
    "score": 18,
    "rank": {
-    "ai-ml": 106
+    "ai-ml": 108
    }
   },
   {
@@ -51333,7 +51453,7 @@
    ],
    "score": 17,
    "rank": {
-    "ai-ml": 107
+    "ai-ml": 109
    }
   },
   {
@@ -51575,7 +51695,7 @@
    ],
    "score": 16,
    "rank": {
-    "ai-ml": 108
+    "ai-ml": 110
    }
   },
   {
@@ -51615,7 +51735,7 @@
    ],
    "score": 16,
    "rank": {
-    "ai-ml": 109
+    "ai-ml": 111
    }
   },
   {
@@ -53210,7 +53330,7 @@
    "score": 2,
    "rank": {
     "design": 79,
-    "devtools": 64
+    "devtools": 68
    }
   },
   {

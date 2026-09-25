@@ -6543,6 +6543,68 @@
    "language": null,
    "licence_recorded": "unknown",
    "source": "user-2026-09-25"
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Ponytail: a coding-agent skill that makes Claude write far less code for the same feature",
+   "note": "Why: author measures ~54% less code and ~20% lower cost on real Claude Code sessions",
+   "technique": "Agent skill that pushes minimal, reuse-first edits",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "diegosouzapw/OmniRoute",
+   "categories": [
+    "devtools",
+    "ai-ml"
+   ],
+   "idea": "OmniRoute: a local AI gateway that routes Claude Code, Cursor etc. through one endpoint to hundreds of model providers, stacking free tiers",
+   "note": "Why: one endpoint, automatic fallback between providers; check each provider's terms before stacking free tiers",
+   "technique": "Local OpenAI-compatible proxy with provider fallback and quota tracking",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "categories": [
+    "devtools",
+    "ai-ml"
+   ],
+   "idea": "Graphify: /graphify maps a whole project (code, docs, PDFs, media) into a knowledge graph the agent queries instead of grepping",
+   "note": "Why: code is parsed locally with tree-sitter, no LLM needed; every link says if it was read or inferred",
+   "technique": "tree-sitter AST parsing into a traversable graph, no embeddings",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "categories": [
+    "devtools"
+   ],
+   "idea": "Addy Osmani's agent skills: /spec, /plan, /build, /test, /review, /ship commands that make an agent follow a senior engineer's workflow",
+   "note": "Why: packages quality gates for each phase of development",
+   "technique": "Slash commands plus skills mapped to the dev lifecycle",
+   "demo": null,
+   "wow": 2,
+   "stars": null,
+   "language": null,
+   "licence_recorded": "MIT",
+   "source": "user-2026-09-25"
   }
  ]
 }

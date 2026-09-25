@@ -1,5 +1,43 @@
 [
  {
+  "repo": "addyosmani/agent-skills",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "Graphify-Labs/graphify",
+  "categories": [
+   "devtools",
+   "ai-ml"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "diegosouzapw/OmniRoute",
+  "categories": [
+   "devtools",
+   "ai-ml"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
+  "repo": "DietrichGebert/ponytail",
+  "categories": [
+   "devtools"
+  ],
+  "sources": [
+   "seed"
+  ]
+ },
+ {
   "repo": "microsoft/playwright-cli",
   "categories": [
    "devtools"
