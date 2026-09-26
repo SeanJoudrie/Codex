@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25",
+ "updated": "2026-09-26",
  "repos": {
   "arnegiacomo/fugleramme": [
    {
@@ -161,7 +161,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49746401",
     "title": "Show HN: Microsoft Office running with Wine on Linux with no virtualization",
-    "points": 96,
+    "points": 97,
     "date": "2026-09-17"
    }
   ],
@@ -783,7 +783,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49743097",
     "title": "Hister: A private search engine for the pages you visit and the files you keep",
-    "points": 740,
+    "points": 741,
     "date": "2026-09-17"
    }
   ],
@@ -917,7 +917,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49781862",
     "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
-    "points": 239,
+    "points": 242,
     "date": "2026-09-21"
    }
   ],
@@ -937,7 +937,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49803959",
     "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
-    "points": 237,
+    "points": 238,
     "date": "2026-09-22"
    }
   ],
@@ -947,7 +947,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49784706",
     "title": "Jev-Leftpad",
-    "points": 233,
+    "points": 234,
     "date": "2026-09-21"
    }
   ],
@@ -1075,7 +1075,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49777106",
     "title": "Laya on Mac M4 CoreML Offline",
-    "points": 176,
+    "points": 177,
     "date": "2026-09-20"
    }
   ],
@@ -1105,7 +1105,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49756671",
     "title": "We made Playwright 2x faster and 80% more token efficient",
-    "points": 153,
+    "points": 155,
     "date": "2026-09-18"
    }
   ],
@@ -1215,7 +1215,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49807021",
     "title": "Native apps written in TypeScript and CSS",
-    "points": 128,
+    "points": 129,
     "date": "2026-09-22"
    }
   ],
@@ -1339,7 +1339,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49802160",
     "title": "Jev – A curation of Jev demos on X, tools, skills, and integrations",
-    "points": 94,
+    "points": 95,
     "date": "2026-09-22"
    }
   ],
@@ -2137,6 +2137,14 @@
    {
     "source": "reddit",
     "where": "r/emulation",
+    "url": "https://www.reddit.com/r/emulation/comments/1wowmdo/",
+    "title": "Silent Hill 2 Remake (PS5/UE5) renders on a 512 MB iGPU - pure HLE PS5 emulator, no firmware needed (KytyPlus)",
+    "points": 446,
+    "date": "2026-09-24"
+   },
+   {
+    "source": "reddit",
+    "where": "r/emulation",
     "url": "https://www.reddit.com/r/emulation/comments/1wf5hn3/",
     "title": "Demon's Souls Remake Hits 30 FPS (unstable) on PC via KyTyPS5 in Record Time!",
     "points": 1139,
@@ -2542,6 +2550,22 @@
    }
   ],
   "ggml-org/llama.cpp": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp1vex/",
+    "title": "vulkan: int8 coopmat1 matmul implementation for AMD RDNA3 and RDNA4 (… · ggml-org/llama.cpp@70c4e15",
+    "points": 42,
+    "date": "2026-09-24"
+   },
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wow7nt/",
+    "title": "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
+    "points": 27,
+    "date": "2026-09-24"
+   },
    {
     "source": "reddit",
     "where": "r/LocalLLaMA",
@@ -5264,6 +5288,14 @@
   "avdept/JellyBoxPlayer": [
    {
     "source": "reddit",
+    "where": "r/selfhosted",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1wp0nxi/",
+    "title": "[ Removed by moderator ]",
+    "points": 171,
+    "date": "2026-09-24"
+   },
+   {
+    "source": "reddit",
     "where": "r/coolgithubprojects",
     "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wg6jyx/",
     "title": "Jellybox app reached 500 stars on github",
@@ -6857,7 +6889,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49833867",
     "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-    "points": 346,
+    "points": 403,
     "date": "2026-09-24"
    }
   ],
@@ -6867,7 +6899,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49804359",
     "title": "Show HN: Treepeat – Code similarity detection using Tree-sitter",
-    "points": 59,
+    "points": 65,
     "date": "2026-09-22"
    }
   ],
@@ -6877,7 +6909,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49821438",
     "title": "Show HN: AgentRun: DSL to turn agents into workflows",
-    "points": 44,
+    "points": 46,
     "date": "2026-09-23"
    }
   ],
@@ -6887,7 +6919,7 @@
     "where": "Show HN",
     "url": "https://news.ycombinator.com/item?id=49842596",
     "title": "Show HN: Agentic CUDA Kernel Optimizer",
-    "points": 25,
+    "points": 33,
     "date": "2026-09-25"
    }
   ],
@@ -6897,7 +6929,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49815370",
     "title": "WaveDigger: Dig into wireless signals to discover their physical locations",
-    "points": 121,
+    "points": 132,
     "date": "2026-09-23"
    }
   ],
@@ -6907,7 +6939,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49843174",
     "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-    "points": 90,
+    "points": 341,
     "date": "2026-09-25"
    }
   ],
@@ -6917,7 +6949,7 @@
     "where": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49828120",
     "title": "Search – A small, fast WebKit browser for macOS",
-    "points": 65,
+    "points": 67,
     "date": "2026-09-24"
    }
   ],
@@ -7149,6 +7181,246 @@
     "title": "Deft: an open-source, self-hosted workspace for chat, tasks and knowledge—with MCP and experimental sideloadable apps",
     "points": 60,
     "date": "2026-09-23"
+   }
+  ],
+  "microsoft/vscode": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49848838",
+    "title": "Bug: Border radius has infected VSCode editor",
+    "points": 77,
+    "date": "2026-09-25"
+   }
+  ],
+  "Avinash-jetwani/jevmem": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49846391",
+    "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+    "points": 61,
+    "date": "2026-09-25"
+   }
+  ],
+  "egma-ai/jev-code-reviewer": [
+   {
+    "source": "hn",
+    "where": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49840300",
+    "title": "Jev Based Code Review",
+    "points": 46,
+    "date": "2026-09-25"
+   }
+  ],
+  "KareelHicks/HarmonicDriveSteam": [
+   {
+    "source": "reddit",
+    "where": "r/godot",
+    "url": "https://www.reddit.com/r/godot/comments/1wpb9rw/",
+    "title": "I made my Godot rythm game open-source",
+    "points": 18,
+    "date": "2026-09-24"
+   }
+  ],
+  "Coder787-source/KytyPlus": [
+   {
+    "source": "reddit",
+    "where": "r/emulation",
+    "url": "https://www.reddit.com/r/emulation/comments/1wowmdo/",
+    "title": "Silent Hill 2 Remake (PS5/UE5) renders on a 512 MB iGPU - pure HLE PS5 emulator, no firmware needed (KytyPlus)",
+    "points": 446,
+    "date": "2026-09-24"
+   }
+  ],
+  "hadrizi/gbemu": [
+   {
+    "source": "reddit",
+    "where": "r/EmuDev",
+    "url": "https://www.reddit.com/r/EmuDev/comments/1wpfpwv/",
+    "title": "GameBoy emulator in pure C (unfinished)",
+    "points": 30,
+    "date": "2026-09-24"
+   }
+  ],
+  "rupeshs/laya-openvino": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/",
+    "title": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
+    "points": 69,
+    "date": "2026-09-25"
+   }
+  ],
+  "rupeshs/flappy-laya-openvino-cpu": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/",
+    "title": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
+    "points": 69,
+    "date": "2026-09-25"
+   }
+  ],
+  "FreedomIntelligence/HuatuoGPT-3": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpaxud/",
+    "title": "FreedomIntelligence/HuatuoGPT-3-27B · Hugging Face",
+    "points": 36,
+    "date": "2026-09-24"
+   }
+  ],
+  "Niko1221/Strata": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp7zyb/",
+    "title": "Qwen3.8-Flash-Next on 12GB VRAM - 65 tokens per second",
+    "points": 235,
+    "date": "2026-09-24"
+   }
+  ],
+  "Dyluhn/R9V": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2hqk/",
+    "title": "R9V Update: Created and adopted KVA projections based on Deepseek V4.1 Flash + HySparse2/MiMo-V3 for Qwen3.8 Flash Next. This is a game changer for models that don't natively implement it. 1.45-1.85x speedup in prefill to 3k+ at a small deficit to perplexity. [2x R9700, 128GB DDR5]",
+    "points": 51,
+    "date": "2026-09-24"
+   }
+  ],
+  "lemonade-sdk/mac-amdgpu": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/",
+    "title": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
+    "points": 31,
+    "date": "2026-09-24"
+   }
+  ],
+  "Geramy/LSE": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/",
+    "title": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
+    "points": 31,
+    "date": "2026-09-24"
+   }
+  ],
+  "Contrastive-LM/CLM": [
+   {
+    "source": "reddit",
+    "where": "r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/",
+    "title": "JEV almost dead: CLM vs JEV",
+    "points": 410,
+    "date": "2026-09-24"
+   }
+  ],
+  "statsbomb/open-data": [
+   {
+    "source": "reddit",
+    "where": "r/dataisbeautiful",
+    "url": "https://www.reddit.com/r/dataisbeautiful/comments/1wovqj2/",
+    "title": "[OC] Serie A gained four minutes of actual football—without making matches longer",
+    "points": 34,
+    "date": "2026-09-24"
+   }
+  ],
+  "BenjaminGor/Intro_to_ODE_sol_err": [
+   {
+    "source": "reddit",
+    "where": "r/math",
+    "url": "https://www.reddit.com/r/math/comments/1wp0vch/",
+    "title": "Happily announce that my new ODEs textbook has been released!",
+    "points": 2318,
+    "date": "2026-09-24"
+   }
+  ],
+  "Just-Antonio/airmedia-share": [
+   {
+    "source": "reddit",
+    "where": "r/ReverseEngineering",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wpj2vp/",
+    "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
+    "points": 22,
+    "date": "2026-09-25"
+   }
+  ],
+  "ackxolotl/csveee": [
+   {
+    "source": "reddit",
+    "where": "r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/1wp1esi/",
+    "title": "Fast CSV parsing in Rust",
+    "points": 60,
+    "date": "2026-09-24"
+   }
+  ],
+  "joe-scotto/scottokeebs": [
+   {
+    "source": "reddit",
+    "where": "r/arduino",
+    "url": "https://www.reddit.com/r/arduino/comments/1wp8xnp/",
+    "title": "My newest free-to-build handwired keyboard, the Scotto26!",
+    "points": 20,
+    "date": "2026-09-24"
+   }
+  ],
+  "juananzzz/resonus": [
+   {
+    "source": "reddit",
+    "where": "r/esp32",
+    "url": "https://www.reddit.com/r/esp32/comments/1wowmcp/",
+    "title": "Gave my ESP32 BT remote army a custom music app fork to allow them to co-exist, and add even more visual ways to experience music",
+    "points": 112,
+    "date": "2026-09-24"
+   }
+  ],
+  "Pronexsteam/deviload": [
+   {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wpb9wa/",
+    "title": "I built Deviload, a free yt-dlp desktop app with a timeline video editor and phone transfer (Rust + Tauri)",
+    "points": 53,
+    "date": "2026-09-24"
+   }
+  ],
+  "PerdangaSoftware/Perdanga11": [
+   {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wp6gw2/",
+    "title": "Perdanga11 - native C++ replacement for the Windows 11 Start Menu. Exe size: ~4 MB.",
+    "points": 23,
+    "date": "2026-09-24"
+   }
+  ],
+  "GlitchAwakened/Favnyr": [
+   {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wouy37/",
+    "title": "Favnyr : a local file browser with multi views,tabs & much more",
+    "points": 33,
+    "date": "2026-09-24"
+   }
+  ],
+  "kitao/pyxel": [
+   {
+    "source": "reddit",
+    "where": "r/coolgithubprojects",
+    "url": "https://www.reddit.com/r/coolgithubprojects/comments/1wos52v/",
+    "title": "I've spent 8 years building Pyxel, a retro game engine for Python",
+    "points": 133,
+    "date": "2026-09-24"
    }
   ]
  }
